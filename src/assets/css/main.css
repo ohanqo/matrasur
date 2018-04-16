@@ -18,7 +18,8 @@
 
 .navbar-toggler {
   border: none;
-  background: transparent !important; }
+  background: transparent !important;
+  outline: none; }
   .navbar-toggler .navbar-toggler--bar__top {
     transform: rotate(45deg);
     transform-origin: 10% 10%; }
