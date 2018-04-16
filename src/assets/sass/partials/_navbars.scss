@@ -1,9 +1,19 @@
 .navbar { box-shadow: 0 0 8px rgba(0,0,0,.2); }
+.navbar-nav {
+  margin: auto;
+  .nav-item {
+    margin: 0 1vw;
+  }
+}
 .navbar-brand {
   min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .navbar-brand--img {
   height: 8vh;
+  width: 20vw;
 }
 .navbar-toggler--bar {
   width: 22px;
@@ -17,7 +27,7 @@
 .navbar-toggler {
   border: none;
   background: transparent !important;
-  outline: none;
+  outline: none !important;
   .navbar-toggler--bar__top {
     transform: rotate(45deg);
     transform-origin: 10% 10%;
@@ -45,5 +55,23 @@
     }
     &:focus, &.focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .form-control {
+    width: 80%;
+  }
+  .navbar--button {
+    margin: auto;
+  }
+  .navbar-brand--img {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-brand--img {
+    width: 40vw;
   }
 }
