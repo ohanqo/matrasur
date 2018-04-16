@@ -21,7 +21,7 @@ export default class Navbar extends Component {
                             <Link className={this.props.active === "application" ? "active nav-link" : "nav-link"} to="/applications">Domaines d'applications</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className={this.props.active === "machine" ? "active nav-link" : "nav-link"} to="/machines">Nos machines</Link>
+                            <Link className={this.props.active === "machines" ? "active nav-link" : "nav-link"} to="/machines">Nos machines</Link>
                         </li>
                         <li className="nav-item">
                             <Link className={this.props.active === "entreprise" ? "active nav-link" : "nav-link"} to="/entreprise">L'entreprise</Link>
