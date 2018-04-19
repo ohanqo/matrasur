@@ -237,3 +237,34 @@ body {
     opacity: 0; }
   100% {
     opacity: 0; } }
+
+.o-cardsbanner {
+  height: 50vh;
+  width: 100vw;
+  top: 80vh;
+  position: absolute;
+  text-align: left;
+  z-index: 2; }
+  .o-cardsbanner .m-card {
+    width: 25vw;
+    height: inherit;
+    display: inline-block;
+    padding: 1%;
+    color: #eee; }
+    .o-cardsbanner .m-card__title {
+      padding: 5% 0;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 2vh; }
+    .o-cardsbanner .m-card:nth-child(1) {
+      background-size: cover;
+      background-image: url("../img/cardsbanner/ibazur.jpg"); }
+    .o-cardsbanner .m-card:nth-child(2) {
+      background-size: cover;
+      background-image: url("../img/cardsbanner/projection.jpg"); }
+    .o-cardsbanner .m-card:nth-child(3) {
+      background-size: cover;
+      background-image: url("../img/cardsbanner/machine.jpg"); }
+    .o-cardsbanner .m-card:nth-child(4) {
+      background-size: cover;
+      background-image: url("../img/cardsbanner/plane.jpg"); }
