@@ -1,2 +1,9 @@
-@import 'variables';
-@import 'partials/navbars';
+@import 'mixins/prefix';
+@import 'mixins/keyframes';
+@import 'mixins/animation';
+
+@import 'base/variables';
+@import 'base/modifiers';
+@import 'layouts/global';
+@import 'components/navbars';
+@import 'components/slider';

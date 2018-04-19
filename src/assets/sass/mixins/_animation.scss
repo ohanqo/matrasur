@@ -1,0 +1,22 @@
+@mixin sliderAnimation() {
+  0% {
+    opacity: 0;
+    //@include prefix(animation-timing-function, ease-out, webkit ms moz);
+  }
+  11.11% {
+    opacity: 1;
+    //@include prefix(animation-timing-function, ease-in, webkit ms moz);
+  }
+  33.33% {
+    opacity: 1;
+    //@include prefix(animation-timing-function, ease-in, webkit ms moz);
+  }
+  44.44% {
+    opacity: 0;
+    //@include prefix(animation-timing-function, ease-out, webkit ms moz);
+  }
+  100% {
+    opacity: 0;
+    //@include prefix(animation-timing-function, ease-out, webkit ms moz);
+  }
+}
