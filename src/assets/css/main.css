@@ -239,32 +239,56 @@ body {
     opacity: 0; } }
 
 .o-cardsbanner {
-  height: 50vh;
-  width: 100vw;
-  top: 80vh;
   position: absolute;
-  text-align: left;
+  top: 80vh;
+  height: auto;
+  color: #eee;
   z-index: 2; }
-  .o-cardsbanner .m-card {
-    width: 25vw;
-    height: inherit;
-    display: inline-block;
-    padding: 1%;
-    color: #eee; }
-    .o-cardsbanner .m-card__title {
-      padding: 5% 0;
-      text-transform: uppercase;
-      font-weight: 600;
-      font-size: 2vh; }
-    .o-cardsbanner .m-card:nth-child(1) {
-      background-size: cover;
-      background-image: url("../img/cardsbanner/ibazur.jpg"); }
-    .o-cardsbanner .m-card:nth-child(2) {
-      background-size: cover;
-      background-image: url("../img/cardsbanner/projection.jpg"); }
-    .o-cardsbanner .m-card:nth-child(3) {
-      background-size: cover;
-      background-image: url("../img/cardsbanner/machine.jpg"); }
-    .o-cardsbanner .m-card:nth-child(4) {
-      background-size: cover;
-      background-image: url("../img/cardsbanner/plane.jpg"); }
+  .o-cardsbanner .o-banner {
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+    height: inherit; }
+    .o-cardsbanner .o-banner .m-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 25vw;
+      height: 50vh;
+      flex-grow: 1; }
+      .o-cardsbanner .o-banner .m-card__title {
+        flex-grow: 0.33;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-transform: uppercase; }
+      .o-cardsbanner .o-banner .m-card__content {
+        flex-grow: 0.33;
+        font-weight: 200; }
+      .o-cardsbanner .o-banner .m-card__button {
+        font-size: 1.2rem;
+        color: #eee;
+        background: #00aeef;
+        border-radius: 2rem; }
+      @media screen and (max-width: 992px) {
+        .o-cardsbanner .o-banner .m-card {
+          width: 50vw; } }
+      @media screen and (min-width: 992px) {
+        .o-cardsbanner .o-banner .m-card:hover {
+          height: 60vh;
+          border-radius: 0.5rem;
+          transform: translateY(-5vh);
+          background: linear-gradient(to bottom, #0067af, #000) !important;
+          transition-duration: .2s;
+          transition-timing-function: ease-out; } }
+      .o-cardsbanner .o-banner .m-card:nth-child(1) {
+        background-size: cover;
+        background-image: url("../img/cardsbanner/ibazur.jpg"); }
+      .o-cardsbanner .o-banner .m-card:nth-child(2) {
+        background-size: cover;
+        background-image: url("../img/cardsbanner/projection.jpg"); }
+      .o-cardsbanner .o-banner .m-card:nth-child(3) {
+        background-size: cover;
+        background-image: url("../img/cardsbanner/machine.jpg"); }
+      .o-cardsbanner .o-banner .m-card:nth-child(4) {
+        background-size: cover;
+        background-image: url("../img/cardsbanner/plane.jpg"); }

@@ -2,28 +2,57 @@
 $bg__images: "../img/cardsbanner/ibazur.jpg", "../img/cardsbanner/projection.jpg", "../img/cardsbanner/machine.jpg", "../img/cardsbanner/plane.jpg";
 
 .o-cardsbanner {
-  height: 50vh;
-  width: 100vw;
-  top: 80vh;
   position: absolute;
-  text-align: left;
+  top: 80vh;
+  height: auto;
+  color: $white__cloud;
   z-index: 2;
-  & .m-card {
-    width: 25vw;
+  & .o-banner {
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
     height: inherit;
-    display: inline-block;
-    padding: 1%;
-    color: $white__cloud;
-    &__title {
-      padding: 5% 0;
-      text-transform: uppercase;
-      font-weight: 600;
-      font-size: 2vh;
-    }
-    @for $i from 1 through length($bg__images) {
-      &:nth-child(#{$i}) {
-        background-size: cover;
-        background-image: url(nth($bg__images, $i));
+    & .m-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 25vw;
+      height: 50vh;
+      flex-grow: 1;
+      &__title {
+        flex-grow: 0.33;
+        font-size: $font-title__small;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      &__content {
+        flex-grow: 0.33;
+        font-weight: 200;
+      }
+      &__button {
+        font-size: $font-title__small;
+        color: $white__cloud;
+        background: #00aeef;
+        border-radius: 2rem;
+      }
+      @include media-max($lg) {
+        width: 50vw;
+      }
+      @include media-min($lg) {
+        &:hover {
+          height: 60vh;
+          border-radius: 0.5rem;
+          transform: translateY(-5vh);
+          background: linear-gradient(to bottom, #0067af, #000) !important;
+          transition-duration: .2s;
+          transition-timing-function: ease-out;
+        }
+      }
+      @for $i from 1 through length($bg__images) {
+        &:nth-child(#{$i}) {
+          background-size: cover;
+          background-image: url(nth($bg__images, $i));
+        }
       }
     }
   }
