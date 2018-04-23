@@ -1,2 +1,14 @@
-.-big { font-size: $font__big; }
-.-white { color: $white__cloud; }
+.-big { font-size: $font--big; }
+.-white { color: $white--cloud; }
+.-bg--blue { background-color: $blue--light; }
+.-bg--white { background-color: #eee; }
+
+
+.-f {
+  &w { width: 100vw; }
+  &h { height: 100vh;}
+}
+
+.-slanted {
+  clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+}

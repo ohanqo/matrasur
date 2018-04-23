@@ -1,0 +1,16 @@
+.m-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__bg {
+    background-size: cover;
+    background-image: url("../img/controle.jpg");
+  }
+  &__content {
+    &--title {
+      right: 10vw;
+      padding: 5% 0;
+      font-size: $font--big;
+    }
+  }
+}

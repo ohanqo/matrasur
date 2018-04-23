@@ -6,6 +6,21 @@
 .-white {
   color: #eee; }
 
+.-bg--blue {
+  background-color: #4682b4; }
+
+.-bg--white {
+  background-color: #eee; }
+
+.-fw {
+  width: 100vw; }
+
+.-fh {
+  height: 100vh; }
+
+.-slanted {
+  clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%); }
+
 body {
   background: #202020; }
 
@@ -18,6 +33,31 @@ body {
   margin: auto; }
   .navbar-nav .nav-item {
     margin: 0 1vw; }
+    .navbar-nav .nav-item .nav-link {
+      color: #eee; }
+      .navbar-nav .nav-item .nav-link:hover {
+        color: #0067af; }
+  .navbar-nav .dropdown-menu {
+    top: auto;
+    left: auto; }
+    .navbar-nav .dropdown-menu::before {
+      border-bottom: 9px solid rgba(0, 0, 0, 0.2);
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent;
+      content: "";
+      display: inline-block;
+      left: 50%;
+      position: absolute;
+      top: -8px; }
+    .navbar-nav .dropdown-menu::after {
+      border-bottom: 8px solid #FFFFFF;
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent;
+      content: "";
+      display: inline-block;
+      left: 50%;
+      position: absolute;
+      top: -7px; }
 
 .navbar-brand {
   min-height: 10vh;
@@ -33,7 +73,7 @@ body {
   width: 22px;
   height: 2px;
   display: block;
-  background-color: #444;
+  background-color: #eee;
   transition: all 0.2s;
   margin-top: 4px;
   border-radius: 2rem; }
@@ -239,9 +279,9 @@ body {
     opacity: 0; } }
 
 .o-cardsbanner {
-  position: absolute;
-  top: 80vh;
-  height: auto;
+  position: relative;
+  top: -10vh;
+  height: 45vh;
   color: #eee;
   z-index: 2; }
   .o-cardsbanner .o-banner {
@@ -292,3 +332,15 @@ body {
       .o-cardsbanner .o-banner .m-card:nth-child(4) {
         background-size: cover;
         background-image: url("../img/cardsbanner/plane.jpg"); }
+
+.m-box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .m-box__bg {
+    background-size: cover;
+    background-image: url("../img/controle.jpg"); }
+  .m-box__content--title {
+    right: 10vw;
+    padding: 5% 0;
+    font-size: 7vh; }

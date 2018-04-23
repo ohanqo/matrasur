@@ -19,6 +19,30 @@ export default class Home extends Component {
                     <p className="a-subtitle">Ponderum nec nullas arta lapsantibus ponderum et nullas ad nostri plantis consternuntur eos dumos vertices.</p>
                 </div>
                 <Cardsbanner/>
+                <div className="m-box m-box__bg -slanted -fh -fw -bg--blue">
+                    <div className="m-box__content container -white text-center">
+                        <div className="m-box__content--title">Notre histoire</div>
+                        <div className="m-box__content--text text-justify">
+                            Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius, quod idem adipisci uterque non posset. Quod si qui longius in amicitia provecti essent, tamen saepe labefactari, si in honoris contentionem incidissent; pestem enim nullam maiorem esse amicitiis quam in plerisque pecuniae cupiditatem, in optimis quibusque honoris certamen et gloriae; ex quo inimicitias maximas saepe inter amicissimos exstitisse.
+                        </div>
+                    </div>
+                </div>
+                <div className="m-box -slanted -fh -fw">
+                    <div className="m-box__content container -white text-center">
+                        <div className="m-box__content--title">Notre triple vocation</div>
+                        <div className="m-box__content--text text-justify">
+                            Matrasur Composites est à la fois distributeur, constructeur et intégrateur de systèmes dans une variété de process couvrant la projection, la coulée/injection RTM, la projection PU, le thermoformage, parmi d’autres. Epaulée par un bureau d’études et d’ingénierie, Matrasur Composites est en mesure de proposer des solutions manuelles, en automatique ou robotisées.
+                        </div>
+                    </div>
+                </div>
+                <div className="m-box -bg--white -fh -fw">
+                    <div className="m-box__content container text-center">
+                        <div className="m-box__content--title">Notre triple vocation</div>
+                        <div className="m-box__content--text text-justify">
+                            Matrasur Composites est à la fois distributeur, constructeur et intégrateur de systèmes dans une variété de process couvrant la projection, la coulée/injection RTM, la projection PU, le thermoformage, parmi d’autres. Epaulée par un bureau d’études et d’ingénierie, Matrasur Composites est en mesure de proposer des solutions manuelles, en automatique ou robotisées.
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }

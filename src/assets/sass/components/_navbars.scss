@@ -1,12 +1,42 @@
 .navbar {
   background: linear-gradient(to bottom, #202020, rgba(0, 0, 0, 0.22));
-  box-shadow: $shadow__soft;
+  box-shadow: $shadow--soft;
   z-index: 10;
 }
 .navbar-nav {
   margin: auto;
   .nav-item {
     margin: 0 1vw;
+    & .nav-link {
+      color: $white--cloud;
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+  .dropdown-menu {
+    top: auto;
+    left: auto;
+    &::before {
+      border-bottom: 9px solid rgba(0, 0, 0, 0.2);
+      border-left: 9px solid rgba(0, 0, 0, 0);
+      border-right: 9px solid rgba(0, 0, 0, 0);
+      content: "";
+      display: inline-block;
+      left: 50%;
+      position: absolute;
+      top: -8px;
+    }
+    &::after {
+      border-bottom: 8px solid #FFFFFF;
+      border-left: 9px solid rgba(0, 0, 0, 0);
+      border-right: 9px solid rgba(0, 0, 0, 0);
+      content: "";
+      display: inline-block;
+      left: 50%;
+      position: absolute;
+      top: -7px;
+    }
   }
 }
 .navbar-brand {
@@ -23,7 +53,7 @@
   width: 22px;
   height: 2px;
   display: block;
-  background-color: #444;
+  background-color: $white--cloud;
   transition: all 0.2s;
   margin-top: 4px;
   border-radius: 2rem;
@@ -69,7 +99,7 @@
     border-radius: 0;
     &:focus {
       background: transparent;
-      color: $white__cloud;
+      color: $white--cloud;
       outline: none;
       box-shadow: none;
     }

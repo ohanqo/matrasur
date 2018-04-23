@@ -2,10 +2,10 @@
 $bg__images: "../img/cardsbanner/ibazur.jpg", "../img/cardsbanner/projection.jpg", "../img/cardsbanner/machine.jpg", "../img/cardsbanner/plane.jpg";
 
 .o-cardsbanner {
-  position: absolute;
-  top: 80vh;
-  height: auto;
-  color: $white__cloud;
+  position: relative;
+  top: -10vh;
+  height: 45vh;
+  color: $white--cloud;
   z-index: 2;
   & .o-banner {
     display: flex;
@@ -21,7 +21,7 @@ $bg__images: "../img/cardsbanner/ibazur.jpg", "../img/cardsbanner/projection.jpg
       flex-grow: 1;
       &__title {
         flex-grow: 0.33;
-        font-size: $font-title__small;
+        font-size: $font-title--small;
         font-weight: 600;
         text-transform: uppercase;
       }
@@ -30,8 +30,8 @@ $bg__images: "../img/cardsbanner/ibazur.jpg", "../img/cardsbanner/projection.jpg
         font-weight: 200;
       }
       &__button {
-        font-size: $font-title__small;
-        color: $white__cloud;
+        font-size: $font-title--small;
+        color: $white--cloud;
         background: #00aeef;
         border-radius: 2rem;
       }
