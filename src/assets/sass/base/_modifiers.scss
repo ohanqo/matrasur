@@ -3,12 +3,15 @@
 .-bg--blue { background-color: $blue--light; }
 .-bg--white { background-color: #eee; }
 
-
 .-f {
   &w { width: 100vw; }
-  &h { height: 100vh;}
+  &h { min-height: 100vh;}
+}
+.-h {
+  &w { width: 50vw; }
+  &h { min-height: 50vh; }
 }
 
 .-slanted {
-  clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }

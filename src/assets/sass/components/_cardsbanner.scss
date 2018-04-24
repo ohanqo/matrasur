@@ -7,6 +7,9 @@ $bg__images: "../img/cardsbanner/ibazur.jpg", "../img/cardsbanner/projection.jpg
   height: 45vh;
   color: $white--cloud;
   z-index: 2;
+  @include media-max($lg) {
+    height: auto;
+  }
   & .o-banner {
     display: flex;
     align-items: stretch;

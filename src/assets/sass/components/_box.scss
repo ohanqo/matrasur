@@ -12,5 +12,9 @@
       padding: 5% 0;
       font-size: $font--big;
     }
+    &--text {
+      font-size: $font--md;
+      font-weight: $fontweight--md;
+    }
   }
 }

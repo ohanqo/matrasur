@@ -16,10 +16,16 @@
   width: 100vw; }
 
 .-fh {
-  height: 100vh; }
+  min-height: 100vh; }
+
+.-hw {
+  width: 50vw; }
+
+.-hh {
+  min-height: 50vh; }
 
 .-slanted {
-  clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%); }
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%); }
 
 body {
   background: #202020; }
@@ -284,6 +290,9 @@ body {
   height: 45vh;
   color: #eee;
   z-index: 2; }
+  @media screen and (max-width: 992px) {
+    .o-cardsbanner {
+      height: auto; } }
   .o-cardsbanner .o-banner {
     display: flex;
     align-items: stretch;
@@ -344,3 +353,70 @@ body {
     right: 10vw;
     padding: 5% 0;
     font-size: 7vh; }
+  .m-box__content--text {
+    font-size: 2vw;
+    font-weight: 300; }
+
+.m-contact {
+  display: flex;
+  align-items: center; }
+  .m-contact__title {
+    width: 100%;
+    font-size: 7vh;
+    padding: 5% 0; }
+  .m-contact__columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+  .m-contact__column {
+    display: flex;
+    flex-grow: 0.5;
+    flex-direction: column;
+    font-size: 2vw; }
+    .m-contact__column--title {
+      font-weight: 600;
+      padding-bottom: 5%; }
+
+.m-map {
+  display: flex; }
+  .m-map__frame {
+    filter: hue-rotate(200deg); }
+
+.o-footer__columns {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap; }
+
+.o-footer__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 32vw;
+  padding: 5%; }
+  @media screen and (max-width: 992px) {
+    .o-footer__column {
+      width: 100vw; } }
+  .o-footer__column--img, .o-footer__column--tel, .o-footer__column--mail, .o-footer__column--social {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-grow: .25;
+    flex-basis: 100%; }
+  .o-footer__column--img {
+    height: 20vh; }
+  .o-footer__column--social {
+    height: 5vh;
+    justify-content: center; }
+  .o-footer__column--tel, .o-footer__column--mail {
+    align-items: center; }
+  .o-footer__column > ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 3%;
+    border-left: 2px solid #4682b4;
+    font-weight: 300; }
+  .o-footer__column--title {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 1%; }
