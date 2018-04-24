@@ -1,0 +1,47 @@
+.o-footer {
+    &__columns {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+    &__column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 32vw;        
+        padding: 5%;
+        @include media-max($lg) {
+            width: 100vw;
+        }
+        &--img, &--tel, &--mail, &--social {
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+            flex-grow: .25;
+            flex-basis: 100%;
+        }
+        &--img {
+            height: 20vh;
+        }
+        &--social {
+            height: 5vh;
+            justify-content: center;
+        }
+        &--tel, &--mail {
+            align-items: center;
+        }
+        & > ul {
+            list-style: none;
+            padding: 0;
+            padding-left: 3%;
+            border-left: 2px solid $blue--light;
+            font-weight: $fontweight--md;
+        }
+        &--title {
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+            padding-bottom: 1%;
+        }
+    }
+}
