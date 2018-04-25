@@ -1,24 +1,24 @@
 .m-contact {
+  display: flex;
+  align-items: center;
+  &__title {
+    width: 100%;
+    font-size: $font--big;
+    padding: 5% 0;
+  }
+  &__columns {
     display: flex;
-    align-items: center;
-    &__title {
-        width: 100%;
-        font-size: $font--big;
-        padding: 5% 0;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  &__column {
+    display: flex;
+    flex-grow: 0.5;
+    flex-direction: column;
+    font-size: $font--md;
+    &--title {
+      font-weight: 600;
+      padding-bottom: 5%;
     }
-    &__columns {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    }
-    &__column {
-        display: flex;
-        flex-grow: 0.5;
-        flex-direction: column;
-        font-size: $font--md;     
-        &--title {
-            font-weight: 600;
-            padding-bottom: 5%;
-        }
-    }
+  }
 }

@@ -12,7 +12,7 @@ import Machines from "./pages/Machine";
 import Entreprise from "./pages/Entreprise";
 import NotFound from "./pages/NotFound";
 
-import "./assets/css/main.css"; 
+import "./assets/css/main.css";
 
 class App extends Component {
   render() {

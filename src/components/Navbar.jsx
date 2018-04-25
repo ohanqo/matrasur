@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-//import { FormattedMessage } from 'react-intl';
 
 import { connect } from "react-redux";
 import { setLocale } from "../actions/locale";
@@ -9,7 +8,6 @@ import PropTypes from "prop-types";
 import Matrasur from "../assets/img/matrasur.svg";
 
 class Navbar extends Component {
-
   toggleLanguage() {
     this.props.setLocale("en");
   }
@@ -40,14 +38,12 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             <li className="nav-item dropdown">
-              {/*<Link className={this.props.active === "application" ? "active nav-link dropdown-toggle" : "nav-link dropdown-toggle"} to="/applications">Domaines d'applications</Link>*/}
               <a
                 className="nav-link dropdown-toggle"
                 role="button"
                 data-toggle="dropdown"
                 aria-expanded="false"
               >
-                {/*<FormattedMessage id="nav.menu-1" defaultMessage="Domaines d'applications"/>*/}
                 Domaines d'applications
               </a>
               <div className="dropdown-menu">
@@ -56,7 +52,6 @@ class Navbar extends Component {
               </div>
             </li>
             <li className="nav-item">
-              {/*<Link className={this.props.active === "procedes" ? "active nav-link dropdown-toggle" : "nav-link dropdown-toggle"} to="/procedes">Procédés</Link>*/}
               <a
                 className="nav-link dropdown-toggle"
                 role="button"
@@ -71,7 +66,6 @@ class Navbar extends Component {
               </div>
             </li>
             <li className="nav-item">
-              {/*<Link className={this.props.active === "matiere" ? "active nav-link dropdown-toggle" : "nav-link dropdown-toggle"} to="/matieres">Matières premières</Link>*/}
               <a
                 className="nav-link dropdown-toggle"
                 role="button"
@@ -86,7 +80,6 @@ class Navbar extends Component {
               </div>
             </li>
             <li className="nav-item">
-              {/*<Link className={this.props.active === "machines" ? "active nav-link dropdown-toggle" : "nav-link dropdown-toggle"} to="/machines">Nos machines</Link>*/}
               <a
                 className="nav-link dropdown-toggle"
                 role="button"
@@ -133,11 +126,5 @@ class Navbar extends Component {
 Navbar.propTypes = {
   setLocale: PropTypes.func.isRequired
 };
-
-/* function mapStateToProps(state) {
-  return {
-    lang: state.locale.lang
-  };
-} */
 
 export default connect(null, { setLocale })(Navbar);

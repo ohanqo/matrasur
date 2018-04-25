@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import { connect } from "react-redux";
 import { FormattedMessage } from "react-intl";
-//import PropTypes from 'prop-types';
 
 import Navbar from "../components/Navbar";
 import Cardsbanner from "../components/Cardsbanner";
@@ -119,15 +118,4 @@ class Home extends Component {
   }
 }
 
-/* Home.propTypes = {
-  lang: PropTypes.string.isRequired
-} */
-
-/* function mapStateToProps(state) {
-  return {
-    lang: state.locale.lang
-  };
-} */
-
 export default connect(null)(Home);
-

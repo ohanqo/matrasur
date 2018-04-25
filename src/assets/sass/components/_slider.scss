@@ -1,6 +1,7 @@
 /* Images slider */
 
-$images: "../img/machines__aero.jpg", "../img/airplane.jpg", "../img/machines__simulation.jpg";
+$images: "../img/machines__aero.jpg", "../img/airplane.jpg",
+  "../img/machines__simulation.jpg";
 .a-shadow {
   z-index: 1;
   height: 100vh;
@@ -19,7 +20,9 @@ $images: "../img/machines__aero.jpg", "../img/airplane.jpg", "../img/machines__s
     left: 0;
     z-index: 0;
   }
-  & li { list-style: none; }
+  & li {
+    list-style: none;
+  }
   & li span {
     width: 100vw;
     height: 100vh;
@@ -31,14 +34,24 @@ $images: "../img/machines__aero.jpg", "../img/airplane.jpg", "../img/machines__s
     background-position: 50% 50%;
     opacity: 0;
     z-index: 0;
-    @include prefix(animation, sliderAnimation 12s linear infinite 0s, webkit moz o)
+    @include prefix(
+      animation,
+      sliderAnimation 12s linear infinite 0s,
+      webkit moz o
+    );
   }
   @for $i from 1 through length($images) {
     & li:nth-child(#{$i}) span {
       background-image: url(nth($images, $i));
-      @if($i == 1) { @include prefix(animation-delay, 0s, webkit moz o); }
-      @if($i == 2) { @include prefix(animation-delay, 4s, webkit moz o); }
-      @if($i == 3) { @include prefix(animation-delay, 8s, webkit moz o); }
+      @if ($i == 1) {
+        @include prefix(animation-delay, 0s, webkit moz o);
+      }
+      @if ($i == 2) {
+        @include prefix(animation-delay, 4s, webkit moz o);
+      }
+      @if ($i == 3) {
+        @include prefix(animation-delay, 8s, webkit moz o);
+      }
     }
   }
 }
@@ -49,7 +62,7 @@ $images: "../img/machines__aero.jpg", "../img/airplane.jpg", "../img/machines__s
   position: absolute;
   display: flex;
   flex-direction: column;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   transform: translateY(-45%);
   z-index: 2;
   & .a-title {

@@ -218,7 +218,7 @@ body {
   position: absolute;
   display: flex;
   flex-direction: column;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   transform: translateY(-45%);
   z-index: 2; }
   .m-slideshow__content .a-title {
@@ -340,7 +340,7 @@ body {
           border-radius: 0.5rem;
           transform: translateY(-5vh);
           background: linear-gradient(to bottom, #0067af, #000) !important;
-          transition-duration: .2s;
+          transition-duration: 0.2s;
           transition-timing-function: ease-out; } }
       .o-cardsbanner .o-banner .m-card:nth-child(1) {
         background-size: cover;
@@ -414,7 +414,7 @@ body {
     display: flex;
     justify-items: center;
     justify-content: center;
-    flex-grow: .25;
+    flex-grow: 0.25;
     flex-basis: 100%; }
   .o-footer__column--img {
     height: 20vh; }
@@ -431,5 +431,5 @@ body {
     font-weight: 300; }
   .o-footer__column--title {
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     padding-bottom: 1%; }

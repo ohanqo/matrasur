@@ -1,5 +1,6 @@
-
-$bg__images: "../img/cardsbanner/ibazur.jpg", "../img/cardsbanner/projection.jpg", "../img/cardsbanner/machine.jpg", "../img/cardsbanner/plane.jpg";
+$bg__images: "../img/cardsbanner/ibazur.jpg",
+  "../img/cardsbanner/projection.jpg", "../img/cardsbanner/machine.jpg",
+  "../img/cardsbanner/plane.jpg";
 
 .o-cardsbanner {
   position: relative;
@@ -47,7 +48,7 @@ $bg__images: "../img/cardsbanner/ibazur.jpg", "../img/cardsbanner/projection.jpg
           border-radius: 0.5rem;
           transform: translateY(-5vh);
           background: linear-gradient(to bottom, #0067af, #000) !important;
-          transition-duration: .2s;
+          transition-duration: 0.2s;
           transition-timing-function: ease-out;
         }
       }
