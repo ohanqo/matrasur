@@ -5,7 +5,7 @@ export const localeSet = lang => ({
   lang
 }) ;
 
-export const setLocale = lang => (dispatch) => {
+export const setLocale = lang => dispatch => {
   localStorage.applang = lang;
   dispatch(localeSet(lang))
 };

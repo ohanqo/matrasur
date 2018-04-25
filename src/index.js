@@ -5,16 +5,25 @@ import registerServiceWorker from "./registerServiceWorker";
 
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
+import { composeWithDevTools } from "redux-devtools-extension";
 import thunk from "redux-thunk";
 import { addLocaleData } from "react-intl";
 import fr from "react-intl/locale-data/fr";
 import en from "react-intl/locale-data/en";
 import reducer from "./rootReducer";
+//import { localeSet } from "./actions/locale";
 
-addLocaleData(fr);
 addLocaleData(en);
+addLocaleData(fr);
 
-const store = createStore(reducer, applyMiddleware(thunk))
+const store = createStore(
+  reducer,
+  composeWithDevTools(applyMiddleware(thunk))
+);
+
+/* if (localStorage.applang) {
+  store.dispatch(localeSet(localStorage.applang));
+} */
 
 ReactDOM.render(
   <Provider store={store}>

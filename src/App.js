@@ -4,7 +4,7 @@ import { IntlProvider } from "react-intl";
 
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
-import messages from "./messages";
+import msg from "./messages";
 
 import Home from "./pages/Home";
 import Application from "./pages/Application";
@@ -12,13 +12,13 @@ import Machines from "./pages/Machine";
 import Entreprise from "./pages/Entreprise";
 import NotFound from "./pages/NotFound";
 
-import "./assets/css/main.css";
+import "./assets/css/main.css"; 
 
 class App extends Component {
   render() {
-    const { lang } = this.props;
+    let { lang } = this.props;
     return (
-      <IntlProvider locale={lang} messages={messages[lang]}>
+      <IntlProvider locale={lang} messages={msg[lang]}>
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -35,12 +35,12 @@ class App extends Component {
 
 App.propTypes = {
   lang: PropTypes.string.isRequired
-}
+};
 
 function mapStateToProps(state) {
   return {
     lang: state.locale.lang
-  }
+  };
 }
 
 export default connect(mapStateToProps)(App);

@@ -4,11 +4,16 @@ import { Link } from "react-router-dom";
 
 import { connect } from "react-redux";
 import { setLocale } from "../actions/locale";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 import Matrasur from "../assets/img/matrasur.svg";
 
 class Navbar extends Component {
+
+  toggleLanguage() {
+    this.props.setLocale("en");
+  }
+
   render() {
     return (
       <nav className="navbar navbar-expand-lg fixed-top">
@@ -95,24 +100,30 @@ class Navbar extends Component {
                 <a className="dropdown-item">Lorem ipsum</a>
               </div>
             </li>
+            <li className="nav-item">
+              <form className="form-inline my-2 my-lg-0 m-searchbar">
+                <input
+                  className="form-control mr-sm-2 m-searchbar__input"
+                  type="search"
+                  placeholder="Rechercher"
+                />
+                <button
+                  className="btn btn-outline-dark my-2 my-sm-0 m-button m-searchbar__button"
+                  type="submit"
+                >
+                  <i className="fas fa-search" />
+                </button>
+              </form>
+            </li>
+            <li className="nav-item">
+              <div className="a-lang">
+                <a
+                  className="nav-link a-lang__text"
+                  onClick={() => this.toggleLanguage()}>
+                </a>
+              </div>
+            </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0 m-searchbar">
-            <input
-              className="form-control mr-sm-2 m-searchbar__input"
-              type="search"
-              placeholder="Rechercher"
-            />
-            <button
-              className="btn btn-outline-dark my-2 my-sm-0 m-button m-searchbar__button"
-              type="submit"
-            >
-              <i className="fas fa-search" />
-            </button>
-          </form>
-          <div className="m-buttons -circle">
-            <button className="m-buttons__button--fra" onClick={() => this.props.setLocale("en")}></button>
-            {/*<button className="m-buttons__button--eng"></button>*/}
-          </div>
         </div>
       </nav>
     );
@@ -121,12 +132,12 @@ class Navbar extends Component {
 
 Navbar.propTypes = {
   setLocale: PropTypes.func.isRequired
-}
+};
 
-function mapStateToProps(state) {
+/* function mapStateToProps(state) {
   return {
     lang: state.locale.lang
-  }
-}
+  };
+} */
 
-export default connect(mapStateToProps, { setLocale })(Navbar);
+export default connect(null, { setLocale })(Navbar);

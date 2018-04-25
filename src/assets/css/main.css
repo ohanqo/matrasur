@@ -42,8 +42,18 @@ body {
   margin: auto; }
   .navbar-nav .nav-item {
     margin: 0 1vw; }
+    .navbar-nav .nav-item .a-lang .a-lang__text {
+      font-weight: 200;
+      float: left; }
+      .navbar-nav .nav-item .a-lang .a-lang__text:before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url("../img/flags/en-gb.svg"); }
     .navbar-nav .nav-item .nav-link {
-      color: #eee; }
+      color: #eee;
+      cursor: pointer; }
       .navbar-nav .nav-item .nav-link:hover {
         color: #0067af; }
   .navbar-nav .dropdown-menu {
@@ -59,7 +69,7 @@ body {
       position: absolute;
       top: -8px; }
     .navbar-nav .dropdown-menu::after {
-      border-bottom: 8px solid #FFFFFF;
+      border-bottom: 8px solid #ffffff;
       border-left: 9px solid transparent;
       border-right: 9px solid transparent;
       content: "";
@@ -121,7 +131,7 @@ body {
 .m-searchbar__input {
   background: transparent;
   border: none;
-  border-bottom: 2px solid #D6D6D8;
+  border-bottom: 2px solid #d6d6d8;
   border-radius: 0; }
   .m-searchbar__input:focus {
     background: transparent;
@@ -423,17 +433,3 @@ body {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     padding-bottom: 1%; }
-
-.m-buttons {
-  width: 3vw; }
-  .m-buttons__button--fra {
-    width: inherit;
-    height: 5vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
-    background-position-y: center;
-    background-image: url("../img/flags/icon--fra.png");
-    cursor: pointer; }
-  .m-buttons__button--eng {
-    background-image: url("../img/flags/icon--eng.png"); }
