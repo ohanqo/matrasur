@@ -27,6 +27,9 @@
 .-slanted {
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%); }
 
+.-circle {
+  border-radius: 50%; }
+
 body {
   background: #202020; }
 
@@ -420,3 +423,17 @@ body {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     padding-bottom: 1%; }
+
+.m-buttons {
+  width: 3vw; }
+  .m-buttons__button--fra {
+    width: inherit;
+    height: 5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position-y: center;
+    background-image: url("../img/flags/icon--fra.png");
+    cursor: pointer; }
+  .m-buttons__button--eng {
+    background-image: url("../img/flags/icon--eng.png"); }

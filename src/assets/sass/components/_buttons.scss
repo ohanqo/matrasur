@@ -1,0 +1,18 @@
+.m-buttons {
+  width: 3vw;
+  &__button {
+    &--fra {
+      width: inherit;
+      height: 5vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-position-y: center;
+      background-image: url("../img/flags/icon--fra.png");
+      cursor: pointer;
+    }
+    &--eng {
+      background-image: url("../img/flags/icon--eng.png");
+    }
+  }
+}
