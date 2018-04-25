@@ -9,7 +9,8 @@ import Matrasur from "../assets/img/matrasur.svg";
 
 class Navbar extends Component {
   toggleLanguage() {
-    this.props.setLocale("en");
+    let { lang } = this.props;
+    lang === "en" ? this.props.setLocale("fr") : this.props.setLocale("en");
   }
 
   render() {
@@ -127,4 +128,10 @@ Navbar.propTypes = {
   setLocale: PropTypes.func.isRequired
 };
 
-export default connect(null, { setLocale })(Navbar);
+function mapStateToProps(state) {
+  return {
+    lang: state.locale.lang
+  };
+}
+
+export default connect(mapStateToProps, { setLocale })(Navbar);
