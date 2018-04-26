@@ -1,6 +1,6 @@
 .m-map {
   display: flex;
   &__frame {
-    filter: hue-rotate(200deg);
+    filter: grayscale(100)
   }
 }

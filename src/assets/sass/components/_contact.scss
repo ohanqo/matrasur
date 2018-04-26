@@ -1,24 +1,55 @@
 .m-contact {
-  display: flex;
-  align-items: center;
-  &__title {
-    width: 100%;
-    font-size: $font--big;
-    padding: 5% 0;
-  }
-  &__columns {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-  }
-  &__column {
-    display: flex;
-    flex-grow: 0.5;
-    flex-direction: column;
-    font-size: $font--md;
-    &--title {
-      font-weight: 600;
-      padding-bottom: 5%;
+  &__shortcut {
+    display: block;
+    &:hover {
+      opacity: .8;
     }
+  }
+  &__cards {
+    padding: 2.5%;  
+  }
+  &__card {
+    padding: 0;
+  }
+  &__image {
+    height: 45vh;
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+    &:after {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      opacity: .6;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: all .25s ease;
+    }
+  }
+  &__title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: $white--cloud;  
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    position: absolute;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  &__subtitle {
+    color: $blue--light;
   }
 }

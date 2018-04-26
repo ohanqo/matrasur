@@ -9,12 +9,23 @@
   &__content {
     &--title {
       right: 10vw;
-      padding: 5% 0;
+      padding-bottom: 5%;
       font-size: $font--big;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 4px;
     }
     &--text {
       font-size: $font--md;
-      font-weight: $fontweight--md;
+      font-weight: $fontweight--sm;
     }
+  }
+  .a-sep {
+    border-radius: 0;
+    background: #eee;
+    max-width: 8vw;
+  }
+  .right {
+    margin-left: auto;
   }
 }

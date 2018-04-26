@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { connect } from "react-redux";
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 
 import Navbar from "../components/Navbar";
 import Cardsbanner from "../components/Cardsbanner";
@@ -42,8 +42,13 @@ class Home extends Component {
         </div>
         <Cardsbanner />
         <div className="m-box m-box__bg -slanted -fh -fw -bg--blue">
-          <div className="m-box__content container -white text-center">
-            <div className="m-box__content--title">Notre histoire</div>
+          <div className="m-box__content container -white">
+            <div className="m-box__content--title">
+              <h2>
+                <span className="a-sep" />
+                <br />Notre histoire
+              </h2>
+            </div>
             <div className="m-box__content--text text-justify">
               Sin autem ad adulescentiam perduxissent, dirimi tamen interdum
               contentione vel uxoriae condicionis vel commodi alicuius, quod
@@ -57,8 +62,13 @@ class Home extends Component {
           </div>
         </div>
         <div className="m-box -fh -fw">
-          <div className="m-box__content container -white text-center">
-            <div className="m-box__content--title">Notre triple vocation</div>
+          <div className="m-box__content container -white text-right">
+            <div className="m-box__content--title">
+              <h2>
+                <span className="a-sep right" />
+                <br />Notre triple vocation
+              </h2>
+            </div>
             <div className="m-box__content--text text-justify">
               Matrasur Composites est à la fois distributeur, constructeur et
               intégrateur de systèmes dans une variété de process couvrant la
@@ -69,37 +79,102 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="m-contact -fh -fw -bg--white">
-          <div className="container text-center">
-            <div className="m-contact__title">Pour nous contacter</div>
-            <div className="m-contact__columns">
-              <div className="m-contact__column">
-                <div className="m-contact__column--title">
-                  Service commercial
-                </div>
-                <div className="m-contact__column--text">
-                  <i className="fas fa-phone" /> +33 1 61 61 65 65
-                </div>
-                <div className="m-contact__column--text">
-                  <i className="fas fa-fax" /> +33 1 61 61 65 66
-                </div>
-                <div className="m-contact__column--text">
-                  <i className="fas fa-envelope" /> info@matrasurcomposites.com
-                </div>
+        <hr />
+        <div className="m-contact -fh -fw">
+          <div className="m-contact__container container">
+            <div className="m-box__content--title -white">
+              <h2>Contactez nous</h2>
+            </div>
+            <div className="m-contact__cards row">
+              <div className="m-contact__card col-sm-12 col-md-6">
+                <a href="" className="m-contact__shortcut">
+                  <div className="m-contact__image">
+                    <FormattedHTMLMessage
+                      id="contact.img-1"
+                      defaultMessage="Img"
+                    />
+                  </div>
+                  <div className="m-contact__content">
+                    <div className="m-contact__title">
+                      <FormattedMessage
+                        id="contact.title-1"
+                        defaultMessage="Img"
+                      />
+                    </div>
+                    <div className="m-contact__subtitle">
+                      <FormattedHTMLMessage
+                        id="contact.subtitle-1"
+                        defaultMessage="+33 1 61 61 65 65 <br/> info@matrasurcomposites.com"
+                      />
+                    </div>
+                    <div className="m-contact__button" />
+                  </div>
+                </a>
               </div>
-              <div className="m-contact__column">
-                <div className="m-contact__column--title">
-                  Service après-ventes
-                </div>
-                <div className="m-contact__column--text">
-                  <i className="fas fa-phone" /> +33 1 61 61 65 67
-                </div>
-                <div className="m-contact__column--text">
-                  <i className="fas fa-fax" /> +33 1 61 61 65 66
-                </div>
-                <div className="m-contact__column--text">
-                  <i className="fas fa-envelope" /> sav@matrasurcomposites.com
-                </div>
+              <div className="m-contact__card col-sm-12 col-md-6">
+                <a href="" className="m-contact__shortcut">
+                  <div className="m-contact__image">
+                    <FormattedHTMLMessage
+                      id="contact.img-2"
+                      defaultMessage="Img"
+                    />
+                  </div>
+                  <div className="m-contact__content">
+                    <div className="m-contact__title">
+                      <FormattedMessage
+                        id="contact.title-2"
+                        defaultMessage="Img"
+                      />
+                    </div>
+                    <div className="m-contact__subtitle">
+                      <FormattedHTMLMessage
+                        id="contact.subtitle-2"
+                        defaultMessage="+33 1 61 61 65 67 <br/> sav@matrasurcomposites.com"
+                      />
+                    </div>
+                    <div className="m-contact__button" />
+                  </div>
+                </a>
+              </div>
+              <div className="m-contact__card col-sm-12 col-md-6">
+                <a href="" className="m-contact__shortcut">
+                  <div className="m-contact__image">
+                    <FormattedHTMLMessage
+                      id="contact.img-3"
+                      defaultMessage="Img"
+                    />
+                  </div>
+                  <div className="m-contact__content">
+                    <div className="m-contact__title">
+                      <FormattedMessage
+                        id="contact.title-3"
+                        defaultMessage="Img"
+                      />
+                    </div>
+                    <div className="m-contact__subtitle" />
+                    <div className="m-contact__button" />
+                  </div>
+                </a>
+              </div>
+              <div className="m-contact__card col-sm-12 col-md-6">
+                <a href="" className="m-contact__shortcut">
+                  <div className="m-contact__image">
+                    <FormattedHTMLMessage
+                      id="contact.img-4"
+                      defaultMessage="Img"
+                    />
+                  </div>
+                  <div className="m-contact__content">
+                    <div className="m-contact__title">
+                      <FormattedMessage
+                        id="contact.title-4"
+                        defaultMessage="Img"
+                      />
+                    </div>
+                    <div className="m-contact__subtitle" />
+                    <div className="m-contact__button" />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
