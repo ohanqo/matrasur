@@ -10,7 +10,15 @@ import Matrasur from "../assets/img/matrasur.svg";
 class Navbar extends Component {
   toggleLanguage() {
     let { lang } = this.props;
-    lang === "en" ? this.props.setLocale("fr") : this.props.setLocale("en");
+    if (lang === "en") {
+      this.props.setLocale("fr");
+      document.getElementById("flag").classList.remove("fr-fr");
+      document.getElementById("flag").classList.add("en-gb");
+    } else {
+      this.props.setLocale("en");
+      document.getElementById("flag").classList.remove("en-gb");
+      document.getElementById("flag").classList.add("fr-fr");
+    }
   }
 
   render() {
@@ -112,9 +120,10 @@ class Navbar extends Component {
             <li className="nav-item">
               <div className="a-lang">
                 <a
-                  className="nav-link a-lang__text"
-                  onClick={() => this.toggleLanguage()}>
-                </a>
+                  id="flag"
+                  className="nav-link a-lang__text en-gb"
+                  onClick={() => this.toggleLanguage()}
+                />
               </div>
             </li>
           </ul>

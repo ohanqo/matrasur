@@ -42,12 +42,18 @@ body {
   margin: auto; }
   .navbar-nav .nav-item {
     margin: 0 1vw; }
-    .navbar-nav .nav-item .a-lang .a-lang__text {
-      font-weight: 200;
-      float: left; }
-      .navbar-nav .nav-item .a-lang .a-lang__text:before {
-        content: "";
-        display: inline-block;
+    .navbar-nav .nav-item .a-lang {
+      display: flex;
+      align-items: center;
+      height: 100%; }
+      .navbar-nav .nav-item .a-lang .a-lang__text {
+        font-weight: 200;
+        float: left; }
+      .navbar-nav .nav-item .a-lang .fr-fr {
+        width: 20px;
+        height: 20px;
+        background-image: url("../img/flags/fr-fr.svg"); }
+      .navbar-nav .nav-item .a-lang .en-gb {
         width: 20px;
         height: 20px;
         background-image: url("../img/flags/en-gb.svg"); }

@@ -8,16 +8,22 @@
   .nav-item {
     margin: 0 1vw;
     & .a-lang {
+      display: flex;
+      align-items: center;
+      height: 100%;
       & .a-lang__text {
         font-weight: $fontweight--sm;
         float: left;
-        &:before {
-          content: "";
-          display: inline-block;
-          width: 20px;
-          height: 20px;
-          background-image: url("../img/flags/en-gb.svg");
-        }
+      }
+      & .fr-fr {
+        width: 20px;
+        height: 20px;
+        background-image: url("../img/flags/fr-fr.svg");
+      }
+      & .en-gb {
+        width: 20px;
+        height: 20px;
+        background-image: url("../img/flags/en-gb.svg");
       }
     }
     & .nav-link {
