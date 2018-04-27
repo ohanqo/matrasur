@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 
@@ -193,4 +193,4 @@ class Home extends Component {
   }
 }
 
-export default connect(null)(Home);
+export default withRouter(connect(null)(Home));

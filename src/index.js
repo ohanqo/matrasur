@@ -6,6 +6,7 @@ import registerServiceWorker from "./registerServiceWorker";
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
+import { BrowserRouter, Route} from "react-router-dom";
 import { addLocaleData } from "react-intl";
 import fr from "react-intl/locale-data/fr";
 import en from "react-intl/locale-data/en";
@@ -19,7 +20,9 @@ const store = createStore(reducer, composeWithDevTools(applyMiddleware(thunk)));
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <BrowserRouter>
+      <Route component={App}/>
+    </BrowserRouter>
   </Provider>,
   document.getElementById("root")
 );

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, withRouter } from "react-router-dom";
 import { IntlProvider } from "react-intl";
 
 import { connect } from "react-redux";
@@ -22,7 +22,7 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/applications" component={Application} />
+            <Route path="/application/:domain" component={Application} />
             <Route path="/machines" component={Machines} />
             <Route path="/entreprise" component={Entreprise} />
             <Route component={NotFound} />
@@ -43,4 +43,4 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(mapStateToProps)(App);
+export default withRouter(connect(mapStateToProps)(App));

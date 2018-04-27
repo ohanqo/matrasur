@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 
 import { connect } from "react-redux";
 import { setLocale } from "../actions/locale";
+import { FormattedMessage } from "react-intl";
 import PropTypes from "prop-types";
 
 import Matrasur from "../assets/img/matrasur.svg";
@@ -53,11 +54,24 @@ class Navbar extends Component {
                 data-toggle="dropdown"
                 aria-expanded="false"
               >
-                Domaines d'applications
+                <FormattedMessage
+                  id="navbar.item-1.title"
+                  defaultMessage="Item 1"
+                />
               </a>
               <div className="dropdown-menu">
-                <a className="dropdown-item">Lorem ipsum</a>
-                <a className="dropdown-item">Lorem ipsum</a>
+                <Link className="dropdown-item" to="/application/aeronautics">
+                  <FormattedMessage
+                    id="navbar.item-1.subitem-1"
+                    defaultMessage="Item 1 Subitem 1"
+                  />
+                </Link>
+                <Link className="dropdown-item" to="/application/frigorific">
+                  <FormattedMessage
+                    id="navbar.item-1.subitem-2"
+                    defaultMessage="Item 1 Subitem 1"
+                  />
+                </Link>
               </div>
             </li>
             <li className="nav-item">
@@ -67,11 +81,24 @@ class Navbar extends Component {
                 data-toggle="dropdown"
                 aria-expanded="false"
               >
-                Procédés
+                <FormattedMessage
+                  id="navbar.item-2.title"
+                  defaultMessage="Item 2"
+                />
               </a>
               <div className="dropdown-menu">
-                <a className="dropdown-item">Lorem ipsum</a>
-                <a className="dropdown-item">Lorem ipsum</a>
+                <a className="dropdown-item">
+                  <FormattedMessage
+                    id="navbar.item-2.subitem-1"
+                    defaultMessage="Item 1"
+                  />
+                </a>
+                <a className="dropdown-item">
+                  <FormattedMessage
+                    id="navbar.item-2.subitem-2"
+                    defaultMessage="Item 1"
+                  />
+                </a>
               </div>
             </li>
             <li className="nav-item">
@@ -81,11 +108,24 @@ class Navbar extends Component {
                 data-toggle="dropdown"
                 aria-expanded="false"
               >
-                Matières premières
+                <FormattedMessage
+                  id="navbar.item-3.title"
+                  defaultMessage="Item 3"
+                />
               </a>
               <div className="dropdown-menu">
-                <a className="dropdown-item">Lorem ipsum</a>
-                <a className="dropdown-item">Lorem ipsum</a>
+                <a className="dropdown-item">
+                  <FormattedMessage
+                    id="navbar.item-3.subitem-1"
+                    defaultMessage="Item 1"
+                  />
+                </a>
+                <a className="dropdown-item">
+                  <FormattedMessage
+                    id="navbar.item-3.subitem-2"
+                    defaultMessage="Item 2"
+                  />
+                </a>
               </div>
             </li>
             <li className="nav-item">
@@ -95,11 +135,24 @@ class Navbar extends Component {
                 data-toggle="dropdown"
                 aria-expanded="false"
               >
-                Nos machines
+                <FormattedMessage
+                  id="navbar.item-4.title"
+                  defaultMessage="Item 2"
+                />
               </a>
               <div className="dropdown-menu">
-                <a className="dropdown-item">Lorem ipsum</a>
-                <a className="dropdown-item">Lorem ipsum</a>
+                <a className="dropdown-item">
+                  <FormattedMessage
+                    id="navbar.item-4.subitem-1"
+                    defaultMessage="Item 2"
+                  />
+                </a>
+                <a className="dropdown-item">
+                <FormattedMessage
+                  id="navbar.item-4.subitem-2"
+                  defaultMessage="Item 2"
+                />
+                </a>
               </div>
             </li>
             <li className="nav-item">
@@ -122,7 +175,9 @@ class Navbar extends Component {
                 <a
                   id="flag"
                   className="nav-link a-lang__text en-gb"
-                  onClick={() => this.toggleLanguage()}>
+                  onClick={() => this.toggleLanguage()}
+                >
+                  {""}
                 </a>
               </div>
             </li>
@@ -143,4 +198,4 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(mapStateToProps, { setLocale })(Navbar);
+export default withRouter(connect(mapStateToProps, { setLocale })(Navbar));

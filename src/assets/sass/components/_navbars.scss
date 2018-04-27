@@ -5,6 +5,9 @@
 }
 .navbar-nav {
   margin: auto;
+  @include media-min($lg) {
+    align-items: center;
+  }
   .nav-item {
     margin: 0 1vw;
     & .a-lang {
@@ -31,6 +34,9 @@
       cursor: pointer;
       &:hover {
         color: $blue;
+      }
+      @include media-min($lg) {
+        font-size: 1vw;
       }
     }
   }
@@ -137,7 +143,11 @@
     border: none;
   }
 }
-
+.form-control {
+  @include media-min($lg) {
+    font-size: 1vw;
+  }
+}
 @media (max-width: 575.98px) {
   .form-control {
     width: 80%;
@@ -153,5 +163,8 @@
 @media (max-width: 991.98px) {
   .a-brand__img {
     width: 40vw;
+  }
+  .form-inline {
+    padding-bottom: 5%;
   }
 }
