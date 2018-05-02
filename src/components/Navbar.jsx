@@ -16,13 +16,15 @@ class Navbar extends Component {
     this.state = {
       data: messages[Object.keys(messages)[0]],
       items: [],
-      subitems: []
+      subitems: [],
+      links: {}
     };
   }
 
   componentWillMount() {
     var items = [];
     var subitems = [];
+    var links = {};
 
     for (var key in this.state.data) {
       if (this.state.data.hasOwnProperty(key)) {
@@ -32,14 +34,18 @@ class Navbar extends Component {
           items.push(key);
           for (var item in this.state.data) {
             if (item.includes(key.slice(0, -6)) && item.includes(".sub")) {
-              subitems.push(item);
+              if (!item.includes(".link")) {
+                subitems.push(item);            
+              }
             }
           }
+        } else if (key.includes("navbar") && key.includes(".link")) {
+          links[key] = this.state.data[key];
         }
       }
     }
-
-    this.setState({ items: items, subitems: subitems });
+    this.setState({ items: items, subitems: subitems, links: links });
+    
   }
 
   toggleLanguage() {
@@ -56,17 +62,15 @@ class Navbar extends Component {
   }
 
   displayNavItems() {
-    console.log(this.state.items);
-
     return this.state.items.map(item => {
-      console.log("Dans la loop -->", item);
       var hisSubitems = [];
       this.state.subitems.forEach(function(subitem) {
-        if (subitem.includes(item.slice(0, -6))) {
+        var itemWithoutTitle = item.slice(0, -6)
+        if (subitem.includes(itemWithoutTitle)) {
           hisSubitems.push(subitem);
         }
       });
-      return <NavItem key={item} title={item} subitems={hisSubitems} />;
+      return <NavItem key={item} title={item} subitems={hisSubitems} links={this.state.links}  />;
     });
   }
 
@@ -144,7 +148,8 @@ class NavItem extends Component {
     super(props);
     this.state = {
       title: props.title,
-      subitems: props.subitems
+      subitems: props.subitems,
+      links: props.links
     };
   }
 
@@ -160,14 +165,16 @@ class NavItem extends Component {
 
   renderSubitems() {
     return this.state.subitems.map(subitem => {
+      var link = (typeof this.state.links[subitem+".link"] !== "undefined") ? this.state.links[subitem+".link"] : "/";
+      console.log(link)
       return (
-        <a className="dropdown-item" key={"a-" + subitem}>
+      <Link className="dropdown-item" key={"a-" + subitem} to={link}>
           <FormattedMessage
             key={subitem}
             id={subitem}
             defaultMessage=" ! Subitem non-valide"
           />
-        </a>
+      </Link>
       );
     });
   }

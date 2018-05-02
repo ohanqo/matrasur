@@ -5,7 +5,9 @@ export default {
      */
     "navbar.item-1.title": "Domaines d'applications",
     "navbar.item-1.subitem-1": "Aéronautique",
+    "navbar.item-1.subitem-1.link": "/application/aeronautics",    
     "navbar.item-1.subitem-2": "Frigorifique",
+    "navbar.item-1.subitem-2.link": "/application/frigorific",
 
     "navbar.item-2.title": "Procédés",
     "navbar.item-2.subitem-1": "Projection",
