@@ -4,7 +4,7 @@ import { IntlProvider } from "react-intl";
 
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
-import msg from "./messages";
+import msg from "./data/messages";
 
 import Home from "./pages/Home";
 import Application from "./pages/Application";

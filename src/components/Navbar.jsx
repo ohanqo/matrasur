@@ -7,8 +7,41 @@ import { FormattedMessage } from "react-intl";
 import PropTypes from "prop-types";
 
 import Matrasur from "../assets/img/matrasur.svg";
+import messages from "../data/messages";
 
 class Navbar extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      data: messages[Object.keys(messages)[0]],
+      items: [],
+      subitems: []
+    };
+  }
+
+  componentWillMount() {
+    var items = [];
+    var subitems = [];
+
+    for (var key in this.state.data) {
+      if (this.state.data.hasOwnProperty(key)) {
+        //console.log(key + " -> " + this.state.data[key]);
+        if (key.includes("navbar") && key.includes("title")) {
+          //console.log(key.slice(0, -6))
+          items.push(key);
+          for (var item in this.state.data) {
+            if (item.includes(key.slice(0, -6)) && item.includes(".sub")) {
+              subitems.push(item);
+            }
+          }
+        }
+      }
+    }
+
+    this.setState({ items: items, subitems: subitems });
+  }
+
   toggleLanguage() {
     let { lang } = this.props;
     if (lang === "en") {
@@ -22,7 +55,23 @@ class Navbar extends Component {
     }
   }
 
+  displayNavItems() {
+    console.log(this.state.items);
+
+    return this.state.items.map(item => {
+      console.log("Dans la loop -->", item);
+      var hisSubitems = [];
+      this.state.subitems.forEach(function(subitem) {
+        if (subitem.includes(item.slice(0, -6))) {
+          hisSubitems.push(subitem);
+        }
+      });
+      return <NavItem key={item} title={item} subitems={hisSubitems} />;
+    });
+  }
+
   render() {
+    //console.log(messages[Object.keys(messages)[0]])
     return (
       <nav className="navbar navbar-expand-lg fixed-top">
         <Link className="navbar-brand" to="/">
@@ -47,120 +96,12 @@ class Navbar extends Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                role="button"
-                data-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <FormattedMessage
-                  id="navbar.item-1.title"
-                  defaultMessage="Item 1"
-                />
-              </a>
-              <div className="dropdown-menu">
-                <Link className="dropdown-item" to="/application/aeronautics">
-                  <FormattedMessage
-                    id="navbar.item-1.subitem-1"
-                    defaultMessage="Item 1 Subitem 1"
-                  />
-                </Link>
-                <Link className="dropdown-item" to="/application/frigorific">
-                  <FormattedMessage
-                    id="navbar.item-1.subitem-2"
-                    defaultMessage="Item 1 Subitem 1"
-                  />
-                </Link>
-              </div>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link dropdown-toggle"
-                role="button"
-                data-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <FormattedMessage
-                  id="navbar.item-2.title"
-                  defaultMessage="Item 2"
-                />
-              </a>
-              <div className="dropdown-menu">
-                <a className="dropdown-item">
-                  <FormattedMessage
-                    id="navbar.item-2.subitem-1"
-                    defaultMessage="Item 1"
-                  />
-                </a>
-                <a className="dropdown-item">
-                  <FormattedMessage
-                    id="navbar.item-2.subitem-2"
-                    defaultMessage="Item 1"
-                  />
-                </a>
-              </div>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link dropdown-toggle"
-                role="button"
-                data-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <FormattedMessage
-                  id="navbar.item-3.title"
-                  defaultMessage="Item 3"
-                />
-              </a>
-              <div className="dropdown-menu">
-                <a className="dropdown-item">
-                  <FormattedMessage
-                    id="navbar.item-3.subitem-1"
-                    defaultMessage="Item 1"
-                  />
-                </a>
-                <a className="dropdown-item">
-                  <FormattedMessage
-                    id="navbar.item-3.subitem-2"
-                    defaultMessage="Item 2"
-                  />
-                </a>
-              </div>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link dropdown-toggle"
-                role="button"
-                data-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <FormattedMessage
-                  id="navbar.item-4.title"
-                  defaultMessage="Item 2"
-                />
-              </a>
-              <div className="dropdown-menu">
-                <a className="dropdown-item">
-                  <FormattedMessage
-                    id="navbar.item-4.subitem-1"
-                    defaultMessage="Item 2"
-                  />
-                </a>
-                <a className="dropdown-item">
-                <FormattedMessage
-                  id="navbar.item-4.subitem-2"
-                  defaultMessage="Item 2"
-                />
-                </a>
-              </div>
-            </li>
+            {this.displayNavItems()}
             <li className="nav-item">
               <form className="form-inline my-2 my-lg-0 m-searchbar">
                 <input
-                  className="form-control mr-sm-2 m-searchbar__input"
                   type="search"
-                  placeholder="Rechercher"
+                  className="form-control mr-sm-2 m-searchbar__input"
                 />
                 <button
                   className="btn btn-outline-dark my-2 my-sm-0 m-button m-searchbar__button"
@@ -196,6 +137,56 @@ function mapStateToProps(state) {
   return {
     lang: state.locale.lang
   };
+}
+
+class NavItem extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      title: props.title,
+      subitems: props.subitems
+    };
+  }
+
+  renderTitle() {
+    return (
+      <FormattedMessage
+        key={this.state.title}
+        id={this.state.title}
+        defaultMessage=" ! Titre non-valide"
+      />
+    );
+  }
+
+  renderSubitems() {
+    return this.state.subitems.map(subitem => {
+      return (
+        <a className="dropdown-item" key={"a-" + subitem}>
+          <FormattedMessage
+            key={subitem}
+            id={subitem}
+            defaultMessage=" ! Subitem non-valide"
+          />
+        </a>
+      );
+    });
+  }
+
+  render() {
+    return (
+      <li className="nav-item">
+        <a
+          className="nav-link dropdown-toggle"
+          role="button"
+          data-toggle="dropdown"
+          aria-expanded="false"
+        >
+          {this.renderTitle()}
+        </a>
+        <div className="dropdown-menu">{this.renderSubitems()}</div>
+      </li>
+    );
+  }
 }
 
 export default withRouter(connect(mapStateToProps, { setLocale })(Navbar));

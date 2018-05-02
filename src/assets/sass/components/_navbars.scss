@@ -43,6 +43,9 @@
   .dropdown-menu {
     top: auto;
     left: auto;
+    & .dropdown-item {
+      text-align: center;
+    }
     &::before {
       border-bottom: 9px solid rgba(0, 0, 0, 0.2);
       border-left: 9px solid rgba(0, 0, 0, 0);
