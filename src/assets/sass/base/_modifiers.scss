@@ -4,11 +4,16 @@
 .-white {
   color: $white--cloud;
 }
-.-bg--blue {
-  background-color: $blue--light;
-}
-.-bg--white {
-  background-color: #eee;
+.-bg-- {
+  &blue {
+    background-color: $blue--light;
+  }
+  &white {
+    background-color: $white--cloud;
+  }
+  &black {
+    background-color: black;
+  }
 }
 
 .-f {
@@ -25,6 +30,22 @@
   }
   &h {
     min-height: 50vh;
+  }
+}
+
+.-p {
+  &-10 {
+    padding: 10%;
+  }
+  &t {
+    &-10 {
+      padding-top: 10%;
+    }
+  }
+  &b {
+    &-10 {
+      padding-bottom: 10%;
+    }
   }
 }
 

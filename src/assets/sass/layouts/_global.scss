@@ -1,5 +1,6 @@
 html, body {
   overflow: scroll;
+  text-rendering: optimizeLegibility
 }
 body { background: $black--flat; }
 hr {

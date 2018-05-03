@@ -108,9 +108,11 @@
     }
     .a-bar__middle {
       opacity: 1;
+      width: 75%;
     }
     .a-bar__bottom {
       transform: rotate(0);
+      width: 50%;
     }
   }
 }

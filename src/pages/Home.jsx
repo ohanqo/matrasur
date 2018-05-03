@@ -24,7 +24,7 @@ class Home extends Component {
             <span />
           </li>
         </ul>
-        <div className="m-slideshow__content -white">
+        <section className="m-slideshow__content -white">
           <div>
             <h2 className="a-title -big">
               <FormattedMessage
@@ -39,9 +39,9 @@ class Home extends Component {
             Ponderum nec nullas arta lapsantibus ponderum et nullas ad nostri
             plantis consternuntur eos dumos vertices.
           </p>
-        </div>
+        </section>
         <Cardsbanner />
-        <div className="m-box m-box__bg -slanted -fh -fw -bg--blue">
+        <section className="m-box m-box__bg -slanted -fh -fw -bg--blue">
           <div className="m-box__content container -white">
             <div className="m-box__content--title">
               <h2>
@@ -60,9 +60,9 @@ class Home extends Component {
               saepe inter amicissimos exstitisse.
             </div>
           </div>
-        </div>
-        <div className="m-box -fh -fw">
-          <div className="m-box__content container -white text-right">
+        </section>
+        <section className="m-box -fh -fw">
+          <div className="m-box__content container -white text-right -pb-10">
             <div className="m-box__content--title">
               <h2>
                 <span className="a-sep right" />
@@ -78,10 +78,44 @@ class Home extends Component {
               solutions manuelles, en automatique ou robotisées.
             </div>
           </div>
-        </div>
-        <hr />
-        <div className="m-contact -fh -fw">
-          <div className="m-contact__container container">
+        </section>
+        <section className="m-box -fh -fw -bg--white">
+          {/*
+          <div className="m-box__content container text-center">
+            <div className="m-box__content--title font-italic">
+              <h2>Ce que nous fournissons</h2>
+            </div>
+          </div>
+          */}
+          <div className="m-box__grids -fw">
+            <div className="item -bg--blue" />
+            <div className="item">
+              <div className="item__box box-child">
+                <div className="item__box--text -p-10">
+                  <h4>Lorem, ipsum.</h4>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="item__box box-child--reverse">
+                <div className="item__box--text -p-10">
+                  <h4>Lorem, ipsum.</h4>
+                </div>
+              </div>
+            </div>
+            <div className="item -bg--blue" />
+            <div className="item -bg--blue" />
+            <div className="item">
+              <div className="item__box box-child">
+                <div className="item__box--text -p-10">
+                  <h4>Lorem, ipsum.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="m-contact -fh -fw">
+          <div className="m-contact__container container -pt-10 -pb-10">
             <div className="m-box__content--title -white">
               <h2>Contactez nous</h2>
             </div>
@@ -178,15 +212,15 @@ class Home extends Component {
               </div>
             </div>
           </div>
-        </div>
-        <div className="m-map">
+        </section>
+        <section className="m-map">
           <iframe
             title="Matrasur sur Google Maps"
             className="m-map__frame -hh -fw"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2640.0650562825963!2d2.451039355819703!3d48.57030276982973!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ed9c60e674cbbcd!2sMatrasur+Composites!5e0!3m2!1sfr!2sfr!4v1411396527839"
             frameBorder="0"
           />"
-        </div>
+        </section>
         <Footer />
       </div>
     );
