@@ -1,30 +1,67 @@
+/*
+ *  Width
+ */
+
 @mixin media-min($_min-width) {
   @media screen and (min-width: $_min-width) {
-    &{ @content; }
+    & {
+      @content;
+    }
   }
 }
 
 @mixin media-max($_max-width) {
   @media screen and (max-width: $_max-width) {
-    &{ @content; }
+    & {
+      @content;
+    }
   }
 }
 
 @mixin media-minmax($_min-width, $_max-width) {
   @media screen and (min-width: $_min-width) and (max-width: $_max-width) {
-    &{ @content; }
+    & {
+      @content;
+    }
   }
 }
 
+/*
+ *  Height
+ */
 
 @mixin media-minHeight($_min-height) {
   @media screen and (min-height: $_min-height) {
-    &{ @content; }
+    & {
+      @content;
+    }
   }
 }
 
 @mixin media-maxHeight($_max-height) {
-  @media screen and (max-width: $_max-height) {
-    &{ @content; }
+  @media screen and (max-height: $_max-height) {
+    & {
+      @content;
+    }
+  }
+}
+
+/*
+ *  Width and height
+ */
+
+@mixin media-minWidthAndHeight($_min-width, $_min-height) {
+  @media screen and (min-width: $_min-width) and (min-height: $_min-height) {
+    & {
+      @content;
+    }
+  }
+}
+
+@mixin media-maxWidthAndHeight($_max-width, $_max-height) {
+  @media screen and (max-width: $_max-width) and (max-height: $_max-height) {
+    & {
+      @content;
+    }
   }
 }

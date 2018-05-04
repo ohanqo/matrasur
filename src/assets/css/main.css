@@ -2630,6 +2630,15 @@ input[type="button"].btn-block {
     .collapsing {
       transition: none; } }
 
+/*
+ *  Width
+ */
+/*
+ *  Height
+ */
+/*
+ *  Width and height
+ */
 /* font-family: 'Raleway', sans-serif; */
 .-big {
   font-size: 3.5vw; }
@@ -2981,10 +2990,10 @@ hr {
 .o-cardsbanner {
   position: relative;
   top: -10vh;
-  min-height: 45vh;
+  height: 45vh;
   color: #eee;
   z-index: 2; }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-height: 576px) {
     .o-cardsbanner {
       height: auto; } }
   .o-cardsbanner .o-banner {

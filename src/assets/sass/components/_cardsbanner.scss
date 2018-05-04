@@ -5,11 +5,12 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
 .o-cardsbanner {
   position: relative;
   top: -10vh;
-  min-height: 45vh;
+  height: 45vh;
   color: $white--cloud;
   z-index: 2;
-  @include media-max($xl) {
+  @include media-maxHeight($sm) {
     height: auto;
+
   }
   & .o-banner {
     display: flex;
