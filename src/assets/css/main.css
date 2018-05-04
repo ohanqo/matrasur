@@ -3101,15 +3101,18 @@ hr {
     margin-left: auto; }
 
 .m-contact__shortcut {
-  display: block; }
+  display: block;
+  transition: all 0.2s ease-in-out; }
   .m-contact__shortcut:hover {
-    opacity: .8; }
+    opacity: .8;
+    transform: scale3d(1.1, 1.1, 1); }
 
 .m-contact__cards {
   padding: 2.5%; }
 
 .m-contact__card {
-  padding: 0; }
+  padding: 0;
+  overflow: hidden; }
 
 .m-contact__image {
   height: 45vh; }
