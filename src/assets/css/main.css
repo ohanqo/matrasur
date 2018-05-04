@@ -2706,7 +2706,7 @@ hr {
   z-index: 10; }
 
 .navbar-nav {
-  margin: auto; }
+  margin-left: auto; }
   @media screen and (min-width: 992px) {
     .navbar-nav {
       align-items: center; } }
@@ -2728,6 +2728,9 @@ hr {
         height: 20px;
         background-image: url("../img/flags/en-gb.svg"); }
     .navbar-nav .nav-item .nav-link {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
       color: #eee;
       cursor: pointer; }
       .navbar-nav .nav-item .nav-link:hover {

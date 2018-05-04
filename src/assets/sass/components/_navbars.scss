@@ -4,7 +4,7 @@
   z-index: 10;
 }
 .navbar-nav {
-  margin: auto;
+  margin-left: auto;
   @include media-min($lg) {
     align-items: center;
   }
@@ -30,6 +30,9 @@
       }
     }
     & .nav-link {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
       color: $white--cloud;
       cursor: pointer;
       &:hover {

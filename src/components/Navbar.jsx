@@ -35,7 +35,7 @@ class Navbar extends Component {
           for (var item in this.state.data) {
             if (item.includes(key.slice(0, -6)) && item.includes(".sub")) {
               if (!item.includes(".link")) {
-                subitems.push(item);            
+                subitems.push(item);
               }
             }
           }
@@ -45,7 +45,6 @@ class Navbar extends Component {
       }
     }
     this.setState({ items: items, subitems: subitems, links: links });
-    
   }
 
   toggleLanguage() {
@@ -65,12 +64,19 @@ class Navbar extends Component {
     return this.state.items.map(item => {
       var hisSubitems = [];
       this.state.subitems.forEach(function(subitem) {
-        var itemWithoutTitle = item.slice(0, -6)
+        var itemWithoutTitle = item.slice(0, -6);
         if (subitem.includes(itemWithoutTitle)) {
           hisSubitems.push(subitem);
         }
       });
-      return <NavItem key={item} title={item} subitems={hisSubitems} links={this.state.links}  />;
+      return (
+        <NavItem
+          key={item}
+          title={item}
+          subitems={hisSubitems}
+          links={this.state.links}
+        />
+      );
     });
   }
 
@@ -102,18 +108,9 @@ class Navbar extends Component {
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             {this.displayNavItems()}
             <li className="nav-item">
-              <form className="form-inline my-2 my-lg-0 m-searchbar">
-                <input
-                  type="search"
-                  className="form-control mr-sm-2 m-searchbar__input"
-                />
-                <button
-                  className="btn btn-outline-dark my-2 my-sm-0 m-button m-searchbar__button"
-                  type="submit"
-                >
-                  <i className="fas fa-search" />
-                </button>
-              </form>
+              <button className="btn btn-outline-dark my-2 my-sm-0 m-button m-searchbar__button">
+                <i className="fas fa-search" />
+              </button>
             </li>
             <li className="nav-item">
               <div className="a-lang">
@@ -165,16 +162,19 @@ class NavItem extends Component {
 
   renderSubitems() {
     return this.state.subitems.map(subitem => {
-      var link = (typeof this.state.links[subitem+".link"] !== "undefined") ? this.state.links[subitem+".link"] : "/";
-      console.log(link)
+      var link =
+        typeof this.state.links[subitem + ".link"] !== "undefined"
+          ? this.state.links[subitem + ".link"]
+          : "/";
+      console.log(link);
       return (
-      <Link className="dropdown-item" key={"a-" + subitem} to={link}>
+        <Link className="dropdown-item" key={"a-" + subitem} to={link}>
           <FormattedMessage
             key={subitem}
             id={subitem}
             defaultMessage=" ! Subitem non-valide"
           />
-      </Link>
+        </Link>
       );
     });
   }
