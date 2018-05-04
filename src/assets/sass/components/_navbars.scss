@@ -4,7 +4,7 @@
   z-index: 10;
 }
 .navbar-nav {
-  margin: auto;
+  margin-left: auto;
   @include media-min($lg) {
     align-items: center;
   }
@@ -30,6 +30,8 @@
       }
     }
     & .nav-link {
+      font-family: 'Poppins', sans-serif; 
+      text-transform: uppercase;
       color: $white--cloud;
       cursor: pointer;
       &:hover {
