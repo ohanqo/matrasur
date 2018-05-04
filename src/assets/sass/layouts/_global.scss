@@ -1,10 +1,16 @@
-html, body {
+html,
+body {
   overflow: scroll;
-  text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility;
+  background: $black--flat;
 }
-body { background: $black--flat; }
+body {
+  background-image: url("../img/bg/bg.png");
+  background-attachment: fixed;
+
+}
 hr {
   width: 25%;
-  border-top: 1px solid rgba(255,255,255,.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 5% 0;
 }

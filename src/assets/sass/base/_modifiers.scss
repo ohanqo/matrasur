@@ -1,5 +1,8 @@
 .-big {
   font-size: $font--big;
+  @include media-max($lg) {
+    font-size: 5vh;
+  }
 }
 .-white {
   color: $white--cloud;

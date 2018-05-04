@@ -73,6 +73,7 @@ $images: "../img/machines__aero.jpg", "../img/airplane.jpg",
 .a-sep {
   height: 1vh;
   width: auto;
+  min-height: 6px;
   display: block;
   margin: 5% 5% 10% 1%;
   background: linear-gradient(to right, #0078e0, #00aeef);

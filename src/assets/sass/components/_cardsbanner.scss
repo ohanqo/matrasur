@@ -5,10 +5,10 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
 .o-cardsbanner {
   position: relative;
   top: -10vh;
-  height: 45vh;
+  min-height: 45vh;
   color: $white--cloud;
   z-index: 2;
-  @include media-max($lg) {
+  @include media-max($xl) {
     height: auto;
   }
   & .o-banner {
@@ -21,7 +21,7 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
       flex-direction: column;
       justify-content: center;
       width: 25vw;
-      height: 50vh;
+      min-height: 50vh;
       flex-grow: 1;
       &__title {
         flex-grow: 0.33;
@@ -32,6 +32,10 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
       &__content {
         flex-grow: 0.33;
         font-weight: 200;
+
+        @include media-max($md) {
+          padding: 5% 0;
+        }
       }
       &__button {
         font-size: $font-title--small;
@@ -39,19 +43,15 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
         background: #00aeef;
         border-radius: 2rem;
       }
-      @include media-max($md) {
-        height: auto;
-      }
       @include media-max($sm) {
         width: 100vw;
-        
       }
       @include media-max($lg) {
         width: 50vw;
       }
       @include media-min($lg) {
         &:hover {
-          height: 60vh;
+          min-height: 60vh;
           border-radius: 0.5rem;
           transform: translateY(-5vh);
           background: linear-gradient(to bottom, #0067af, #000) !important;

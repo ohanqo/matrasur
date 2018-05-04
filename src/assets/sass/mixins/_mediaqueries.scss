@@ -15,3 +15,16 @@
     &{ @content; }
   }
 }
+
+
+@mixin media-minHeight($_min-height) {
+  @media screen and (min-height: $_min-height) {
+    &{ @content; }
+  }
+}
+
+@mixin media-maxHeight($_max-height) {
+  @media screen and (max-width: $_max-height) {
+    &{ @content; }
+  }
+}

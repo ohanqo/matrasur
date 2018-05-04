@@ -20,3 +20,13 @@
     //@include prefix(animation-timing-function, ease-out, webkit ms moz);
   }
 }
+
+@mixin scroll() {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}

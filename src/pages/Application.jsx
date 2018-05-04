@@ -26,7 +26,23 @@ class Application extends Component {
     return (
       <div>
         <Navbar active="application" />
-        <h2 className="-white">{this.state.domain}</h2>
+        {/*<h2 className="-white">{this.state.domain}</h2>*/}
+        <section className="o-topPage">
+          <span className="o-topPage__left" />
+          <div className="o-topPage__right">
+            <div className="o-topPage__summary">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel et
+                sapiente beatae eveniet, odio consequuntur minima eaque? Magnam
+                veniam recusandae ex dolorem explicabo nobis ut.
+              </p>
+            </div>
+            <a href="/" className="o-topPage__nextStep">
+              <img src="/assets/img/misc/next-step-b.png" alt="Descendre jusqu'à la prochaine section."/>
+            </a>
+          </div>
+          <h1 className="o-topPage__domain">{this.state.domain}</h1>
+        </section>
       </div>
     );
   }
