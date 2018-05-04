@@ -2866,6 +2866,8 @@ hr {
     z-index: 0; }
   .m-slideshow li {
     list-style: none; }
+  .m-slideshow li:first-child {
+    animation: zoom 6s 1; }
   .m-slideshow li span {
     width: 100vw;
     height: 100vh;
@@ -2987,6 +2989,36 @@ hr {
   100% {
     opacity: 0; } }
 
+@-webkit-keyframes zoom {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.1); } }
+
+@-moz-keyframes zoom {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.1); } }
+
+@-ms-keyframes zoom {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.1); } }
+
+@-o-keyframes zoom {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.1); } }
+
+@keyframes zoom {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.1); } }
+
 .o-cardsbanner {
   position: relative;
   top: -10vh;
@@ -2994,6 +3026,9 @@ hr {
   color: #eee;
   z-index: 2; }
   @media screen and (max-height: 576px) {
+    .o-cardsbanner {
+      height: auto; } }
+  @media screen and (max-width: 992px) {
     .o-cardsbanner {
       height: auto; } }
   .o-cardsbanner .o-banner {

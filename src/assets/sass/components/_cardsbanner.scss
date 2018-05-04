@@ -10,7 +10,9 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
   z-index: 2;
   @include media-maxHeight($sm) {
     height: auto;
-
+  }
+  @include media-max($lg) {
+    height: auto;
   }
   & .o-banner {
     display: flex;

@@ -23,6 +23,9 @@ $images: "../img/machines__aero.jpg", "../img/airplane.jpg",
   & li {
     list-style: none;
   }
+  & li:first-child {
+    animation: zoom 6s 1;
+  }
   & li span {
     width: 100vw;
     height: 100vh;
@@ -86,4 +89,8 @@ $images: "../img/machines__aero.jpg", "../img/airplane.jpg",
 }
 @include keyframes(sliderAnimation) {
   @include sliderAnimation();
+}
+
+@include keyframes(zoom) {
+  @include zoom();
 }
