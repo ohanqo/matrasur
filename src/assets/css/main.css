@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,600");
-@import url("https://fonts.googleapis.com/css?family=Poppins");
 *,
 *::before,
 *::after {
@@ -2641,7 +2640,6 @@ input[type="button"].btn-block {
  *  Width and height
  */
 /* font-family: 'Raleway', sans-serif; */
-/* font-family: 'Poppins', sans-serif; */
 .-big {
   font-size: 3.5vw; }
   @media screen and (max-width: 992px) {
@@ -2730,7 +2728,8 @@ hr {
         height: 20px;
         background-image: url("../img/flags/en-gb.svg"); }
     .navbar-nav .nav-item .nav-link {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 900;
       text-transform: uppercase;
       color: #eee;
       cursor: pointer; }
