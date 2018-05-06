@@ -3,7 +3,6 @@
     display: block;
     transition: all 0.2s ease-in-out;    
     &:hover {
-      opacity: .8;
       transform: scale3d(1.1,1.1,1);
     }
   }

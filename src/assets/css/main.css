@@ -2996,31 +2996,31 @@ hr {
   0% {
     transform: scale(1); }
   100% {
-    transform: scale(1.1); } }
+    transform: scale(1.05); } }
 
 @-moz-keyframes zoom {
   0% {
     transform: scale(1); }
   100% {
-    transform: scale(1.1); } }
+    transform: scale(1.05); } }
 
 @-ms-keyframes zoom {
   0% {
     transform: scale(1); }
   100% {
-    transform: scale(1.1); } }
+    transform: scale(1.05); } }
 
 @-o-keyframes zoom {
   0% {
     transform: scale(1); }
   100% {
-    transform: scale(1.1); } }
+    transform: scale(1.05); } }
 
 @keyframes zoom {
   0% {
     transform: scale(1); }
   100% {
-    transform: scale(1.1); } }
+    transform: scale(1.05); } }
 
 .o-cardsbanner {
   position: relative;
@@ -3142,7 +3142,6 @@ hr {
   display: block;
   transition: all 0.2s ease-in-out; }
   .m-contact__shortcut:hover {
-    opacity: .8;
     transform: scale3d(1.1, 1.1, 1); }
 
 .m-contact__cards {

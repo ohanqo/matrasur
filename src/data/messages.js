@@ -20,6 +20,9 @@ export default {
     "navbar.item-4.title": "Nos machines",
     "navbar.item-4.subitem-1": "Gamme MATRAFOAM",
     "navbar.item-4.subitem-2": "Gamme MATRACOAT",
+    "navbar.item-4.subitem-3": "Gamme MATRACOAT",
+
+    "navbar.item-5.title": "Formation",
 
     "navbar.inputsearch": "Rechercher",
     /**
@@ -71,6 +74,8 @@ export default {
     "navbar.item-4.title": "Our machines",
     "navbar.item-4.subitem-1": "Range MATRAFOAM",
     "navbar.item-4.subitem-2": "Range MATRACOAT",
+
+    "navbar.item-5.title": "Formation",    
 
     "navbar.inputsearch": "Search",
 
