@@ -2656,7 +2656,7 @@ input[type="button"].btn-block {
   background-color: #eee; }
 
 .-bg--black {
-  background-color: black; }
+  background-color: black !important; }
 
 .-fw {
   width: 100vw; }
@@ -2701,8 +2701,9 @@ hr {
   padding: 5% 0; }
 
 .navbar {
-  background: linear-gradient(to bottom, #202020, rgba(0, 0, 0, 0.22));
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, #202020, rgba(0, 0, 0, 0.22));
+  transition: background-color 1s ease-in-out;
   z-index: 10; }
 
 .navbar-nav {

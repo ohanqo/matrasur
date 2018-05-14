@@ -21,6 +21,10 @@ class Navbar extends Component {
     };
   }
 
+  componentDidMount() {
+    this.toggleBackgroundOnScroll();
+  }
+
   componentWillMount() {
     var items = [];
     var subitems = [];
@@ -45,6 +49,15 @@ class Navbar extends Component {
       }
     }
     this.setState({ items: items, subitems: subitems, links: links });
+  }
+
+  toggleBackgroundOnScroll() {
+    window.onscroll = function() {
+      var nav = document.getElementsByClassName("navbar")[0];
+      this.pageYOffset > nav.offsetHeight
+        ? nav.classList.add("-bg--black")
+        : nav.classList.remove("-bg--black");
+    };
   }
 
   toggleLanguage() {
