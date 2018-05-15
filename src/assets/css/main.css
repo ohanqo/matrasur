@@ -2685,6 +2685,23 @@ input[type="button"].btn-block {
 .-circle {
   border-radius: 50%; }
 
+.-hoverUnderline {
+  position: relative; }
+  .-hoverUnderline::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #4682b4;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out; }
+  .-hoverUnderline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left; }
+
 html,
 body {
   overflow: scroll;
@@ -2700,6 +2717,9 @@ hr {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 5% 0; }
 
+::selection {
+  background: #4682b4; }
+
 .navbar {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to bottom, #202020, rgba(0, 0, 0, 0.22));
@@ -2711,6 +2731,8 @@ hr {
   @media screen and (min-width: 992px) {
     .navbar-nav {
       align-items: center; } }
+  .navbar-nav:hover .nav-link:not(:hover) {
+    opacity: .5; }
   .navbar-nav .nav-item {
     margin: 0 1vw; }
     .navbar-nav .nav-item .a-lang {
@@ -2728,14 +2750,17 @@ hr {
         width: 20px;
         height: 20px;
         background-image: url("../img/flags/en-gb.svg"); }
+    .navbar-nav .nav-item .dropdown-toggle::after {
+      display: none; }
     .navbar-nav .nav-item .nav-link {
       font-family: 'Raleway', sans-serif;
       font-weight: 900;
       text-transform: uppercase;
       color: #eee;
-      cursor: pointer; }
+      cursor: pointer;
+      transition: opacity .3s; }
       .navbar-nav .nav-item .nav-link:hover {
-        color: #0067af; }
+        color: #4682b4; }
       @media screen and (min-width: 992px) {
         .navbar-nav .nav-item .nav-link {
           font-size: 1vw; } }
@@ -2764,7 +2789,8 @@ hr {
       top: -7px; }
 
 .navbar-brand {
-  min-height: 10vh;
+  padding: 0;
+  min-height: 8vh;
   align-items: center;
   justify-content: center;
   display: flex; }
@@ -3236,90 +3262,87 @@ hr {
       font-family: "Raleway", sans-serif;
       padding-bottom: 1%; }
 
-.o-topPage {
-  width: 100vw;
-  height: 100vh;
+.hero {
+  font-family: 'Raleway', sans-serif;
   overflow: hidden;
-  background-color: #eee; }
-  .o-topPage__left {
-    width: 35vw;
-    height: inherit;
-    display: inline-block;
-    background-image: url("../img/applicationPages/aerospace/aerospace.jpeg");
-    background-size: cover; }
-    .o-topPage__left:after {
-      content: "";
-      width: inherit;
-      height: inherit;
-      background-color: #46B;
-      opacity: .2;
-      position: absolute;
-      left: 0;
-      top: 0; }
-  .o-topPage__right {
-    width: 65vw;
-    height: inherit;
-    display: inline-block; }
-  .o-topPage__summary {
-    position: absolute;
-    top: 70vh;
-    padding: 0 5%;
-    text-align: right; }
-  .o-topPage__domain {
-    position: absolute;
-    top: 50vh;
-    left: 35vw;
-    transform: translate(-50%, -50%);
-    padding: 0 1%;
-    font-size: 10vw;
-    text-transform: capitalize;
-    color: white;
-    mix-blend-mode: multiply;
-    background: linear-gradient(to right, #16222a, #3a6073); }
-  .o-topPage__nextStep {
+  z-index: 1; }
+  .hero__image {
+    width: 100vw;
+    height: 100vh;
+    animation: zoom 8s;
+    animation-fill-mode: forwards; }
+  .hero__content {
+    position: fixed;
+    left: 20vw;
+    top: 25vh;
+    max-width: 35vw;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column; }
+    .hero__content > * {
+      padding-bottom: 5%; }
+  .hero__title {
+    font-size: 3.5vw;
+    font-weight: 200; }
+  .hero__subtitle {
+    text-align: justify; }
+  .hero__menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-width: 40vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center; }
-    .o-topPage__nextStep > img {
-      -webkit-animation: scroll 5s linear infinite 0s;
-      -moz-animation: scroll 5s linear infinite 0s;
-      -o-animation: scroll 5s linear infinite 0s;
-      animation: scroll 5s linear infinite 0s; }
-    @media screen and (max-width: 576px) {
-      .o-topPage__nextStep {
-        display: none; } }
+    list-style: none;
+    text-align: center;
+    border-top-left-radius: 3px;
+    padding: 0;
+    margin: 0; }
+  .hero__button {
+    color: #eee;
+    box-shadow: 0px 1px 5px -2px #000000;
+    background-color: transparent;
+    border-radius: 28px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    padding: 16px 31px;
+    text-decoration: none;
+    align-self: center; }
 
-@-webkit-keyframes scroll {
-  0% {
-    opacity: 1; }
-  100% {
-    opacity: 0;
-    transform: translateY(30px); } }
+.appSection {
+  position: relative;
+  z-index: 2; }
 
-@-moz-keyframes scroll {
+@-webkit-keyframes zoom {
   0% {
-    opacity: 1; }
+    transform: scale(1); }
   100% {
-    opacity: 0;
-    transform: translateY(30px); } }
+    transform: scale(1.05); } }
 
-@-ms-keyframes scroll {
+@-moz-keyframes zoom {
   0% {
-    opacity: 1; }
+    transform: scale(1); }
   100% {
-    opacity: 0;
-    transform: translateY(30px); } }
+    transform: scale(1.05); } }
 
-@-o-keyframes scroll {
+@-ms-keyframes zoom {
   0% {
-    opacity: 1; }
+    transform: scale(1); }
   100% {
-    opacity: 0;
-    transform: translateY(30px); } }
+    transform: scale(1.05); } }
 
-@keyframes scroll {
+@-o-keyframes zoom {
   0% {
-    opacity: 1; }
+    transform: scale(1); }
   100% {
-    opacity: 0;
-    transform: translateY(30px); } }
+    transform: scale(1.05); } }
+
+@keyframes zoom {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.05); } }

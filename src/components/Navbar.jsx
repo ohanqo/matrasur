@@ -32,9 +32,7 @@ class Navbar extends Component {
 
     for (var key in this.state.data) {
       if (this.state.data.hasOwnProperty(key)) {
-        //console.log(key + " -> " + this.state.data[key]);
         if (key.includes("navbar") && key.includes("title")) {
-          //console.log(key.slice(0, -6))
           items.push(key);
           for (var item in this.state.data) {
             if (item.includes(key.slice(0, -6)) && item.includes(".sub")) {
@@ -94,7 +92,6 @@ class Navbar extends Component {
   }
 
   render() {
-    //console.log(messages[Object.keys(messages)[0]])
     return (
       <nav className="navbar navbar-expand-lg fixed-top">
         <Link className="navbar-brand" to="/">
@@ -159,7 +156,8 @@ class NavItem extends Component {
     this.state = {
       title: props.title,
       subitems: props.subitems,
-      links: props.links
+      links: props.links,
+      open: false
     };
   }
 
@@ -179,7 +177,6 @@ class NavItem extends Component {
         typeof this.state.links[subitem + ".link"] !== "undefined"
           ? this.state.links[subitem + ".link"]
           : "/";
-      console.log(link);
       return (
         <Link className="dropdown-item" key={"a-" + subitem} to={link}>
           <FormattedMessage

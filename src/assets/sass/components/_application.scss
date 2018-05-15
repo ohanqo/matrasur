@@ -1,0 +1,74 @@
+.hero {
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+  z-index: 1;
+  
+  &__image {
+    width: 100vw;
+    height: 100vh;
+    animation: zoom 8s;
+    animation-fill-mode: forwards;
+  }
+  &__content {
+    position: fixed;
+    left: 20vw;
+    top: 25vh;
+    max-width: 35vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    & > * {
+      padding-bottom: 5%;
+    }
+  }
+  &__title {
+    font-size: $font--big;
+    font-weight: $fontweight--sm;
+  }
+  &__subtitle {
+    text-align: justify;
+  }
+  &__menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-width: 40vw;
+    height: 20vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    list-style: none;
+    text-align: center;
+    border-top-left-radius: 3px;
+
+    padding: 0;
+    margin: 0;
+  }
+  &__button {
+    color: $white--cloud;
+    box-shadow: 0px 1px 5px -2px #000000;
+    background-color:transparent;
+    border-radius:28px;
+    border:2px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    padding:16px 31px;
+    text-decoration:none;
+    align-self: center;
+  
+  }
+}
+
+.appSection {
+  position: relative;
+  z-index: 2;
+}
+
+@include keyframes(zoom) {
+  @include zoom();
+}

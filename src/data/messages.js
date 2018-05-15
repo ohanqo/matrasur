@@ -5,7 +5,7 @@ export default {
      */
     "navbar.item-1.title": "Domaines d'applications",
     "navbar.item-1.subitem-1": "Aéronautique",
-    "navbar.item-1.subitem-1.link": "/application/aerospace",    
+    "navbar.item-1.subitem-1.link": "/application/aerospace",
     "navbar.item-1.subitem-2": "Frigorifique",
     "navbar.item-1.subitem-2.link": "/application/refrigeration",
 
@@ -30,9 +30,9 @@ export default {
      */
     "slideshow.title": "Version française",
     /**
-     * 
+     *
      */
-    
+
     /**
      * Contact
      */
@@ -53,7 +53,33 @@ export default {
     "contact.subtitle-1":
       "<i class='fas fa-phone'></i> +33 1 61 61 65 65 <br/> <i class='fas fa-envelope'></i> info@matrasurcomposites.com",
     "contact.subtitle-2":
-      "<i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com"
+      "<i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com",
+
+    /**
+     * Pages Application
+     */
+
+    /* Début Aerospace */
+    "application.aerospace.title": "Domaine de l'aviation",
+    "application.aerospace.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "application.aerospace.button": "En savoir plus",
+
+    "application.aerospace.section-1.name": "Description",
+    "application.aerospace.section-2.name": "Procédés recommandés",
+    "application.aerospace.section-3.name": "Lorem, ipsum.",
+
+    /* Fin Aerospace */
+    /* Début Frigorific */
+    "application.frigorific.title": "Domaine du froid",   
+    "application.frigorific.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "application.frigorific.button": "En savoir plus",
+
+    "application.frigorific.section-1.name": "Description",
+    "application.frigorific.section-2.name": "Procédés recommandés",
+    "application.frigorific.section-3.name": "Lorem, ipsum."
+    /* Fin Frigorific */
   },
   en: {
     /**
@@ -75,7 +101,7 @@ export default {
     "navbar.item-4.subitem-1": "Range MATRAFOAM",
     "navbar.item-4.subitem-2": "Range MATRACOAT",
 
-    "navbar.item-5.title": "Formation",    
+    "navbar.item-5.title": "Formation",
 
     "navbar.inputsearch": "Search",
 
@@ -103,6 +129,26 @@ export default {
     "contact.subtitle-1":
       "<i class='fas fa-phone'></i> +33 1 61 61 65 65 <br/> <i class='fas fa-envelope'></i> info@matrasurcomposites.com",
     "contact.subtitle-2":
-      "<i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com"
+      "<i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com",
+
+    "application.aerospace.title": "Aerospace sector",
+    "application.aerospace.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "application.aerospace.button": "Learn more",
+
+    "application.aerospace.section-1.name": "Description",
+    "application.aerospace.section-2.name": "Recommended Procedures",
+    "application.aerospace.section-3.name": "Lorem, ipsum.",
+
+    /* Début Frigorific */
+    "application.frigorific.title": "Domaine du froid",
+    "application.frigorific.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "application.frigorific.button": "En savoir plus",
+
+    "application.frigorific.section-1.name": "Description",
+    "application.frigorific.section-2.name": "Procédés recommandés",
+    "application.frigorific.section-3.name": "Lorem, ipsum."
+    /* Fin Frigorific */
   }
 };

@@ -1,15 +1,48 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
+import { withRouter, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
+import { FormattedMessage } from "react-intl";
 
 import Navbar from "../components/Navbar";
+
+import messages from "../data/messages";
 
 class Application extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
+      data: messages[Object.keys(messages)[0]],
       domain: this.props.match.params.domain
     };
+
+    var JSONapplications = [];
+    for (var key in this.state.data) {
+      if (this.state.data.hasOwnProperty(key)) {
+        if (key.includes("application") && key.includes(".title")) {
+          var extractedApplication = key.split(".")[1];
+          if (!(extractedApplication in JSONapplications)) {
+            JSONapplications.push(extractedApplication);
+          }
+        }
+      }
+    }
+
+    //We get the names of the sections and we pass them to the Hero component
+    var JSONdomainSections = [];
+    for (var k in this.state.data) {
+      if (this.state.data.hasOwnProperty(k)) {
+        if (k.includes(this.state.domain) && k.includes(".name")) {
+          JSONdomainSections.push(k);
+        }
+      }
+    }
+
+    this.state = {
+      applications: JSONapplications,
+      domainSections: JSONdomainSections
+    };
+    console.log(JSONapplications);
   }
 
   static getDerivedStateFromProps(nextProps, prevState) {
@@ -23,29 +56,71 @@ class Application extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <Navbar active="application" />
-        {/*<h2 className="-white">{this.state.domain}</h2>*/}
-        <section className="o-topPage">
-          <span className="o-topPage__left" />
-          <div className="o-topPage__right">
-            <div className="o-topPage__summary">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel et
-                sapiente beatae eveniet, odio consequuntur minima eaque? Magnam
-                veniam recusandae ex dolorem explicabo nobis ut.
-              </p>
-            </div>
-            <a href="/" className="o-topPage__nextStep">
-              <img src="/assets/img/misc/next-step-b.png" alt="Descendre jusqu'à la prochaine section."/>
-            </a>
-          </div>
-          <h1 className="o-topPage__domain">{this.state.domain}</h1>
-        </section>
-      </div>
-    );
+    if (this.state.applications.includes(this.state.domain)) {
+      return (
+        <div>
+          <Navbar active="application" />
+          <Hero
+            title={"application." + this.state.domain + ".title"}
+            subtitle={"application." + this.state.domain + ".subtitle"}
+            button={"application." + this.state.domain + ".button"}
+            sections={this.state.domainSections}
+          />
+          <FirstSection />
+        </div>
+      );
+    } else {
+      return <Redirect to="/" />;
+    }
   }
 }
+
+const Hero = props => {
+  return (
+    <section className="hero -fw -fh">
+      <img
+        src="/assets/img/applicationPages/aerospace/aerospace.jpeg"
+        alt="Background"
+        className="hero__image"
+      />
+      <div className="hero__content -white">
+        <h2 className="hero__title">
+          <FormattedMessage
+            id={props.title}
+            defaultMessage=" ! JSON Non valide"
+          />
+        </h2>
+        <p className="hero__subtitle">
+          <FormattedMessage
+            id={props.subtitle}
+            defaultMessage=" ! JSON Non valide"
+          />
+        </p>
+        <button className="hero__button">
+          <FormattedMessage
+            id={props.button}
+            defaultMessage=" ! JSON Non valide"
+          />
+        </button>
+      </div>
+      <ul className="hero__menu -bg--white">
+        {props.sections.map(section => {
+          return (
+            <li className="-hoverUnderline">
+              <FormattedMessage
+                id={section}
+                defaultMessage=" ! JSON Non valide"
+              />
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  );
+};
+
+const FirstSection = props => {
+  return <section className="appSection -fw -fh -bg--white" />;
+};
 
 export default withRouter(connect()(Application));
