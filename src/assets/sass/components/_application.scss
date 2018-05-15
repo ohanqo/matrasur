@@ -23,10 +23,16 @@
     & > * {
       padding-bottom: 5%;
     }
+    @include media-max($lg) {
+      max-width: 70vw;
+    }
   }
   &__title {
     font-size: $font--big;
     font-weight: $fontweight--sm;
+    @include media-max($lg) {
+      font-size: 4vh;
+    }
   }
   &__subtitle {
     text-align: justify;
@@ -48,6 +54,12 @@
 
     padding: 0;
     margin: 0;
+
+    @include media-max($lg) {
+      z-index: 3;
+      width: 100vw;
+      border-top-right-radius: 3px;
+    }
   }
   &__button {
     color: $white--cloud;

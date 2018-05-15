@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withRouter, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 
 import Navbar from "../components/Navbar";
 
@@ -64,6 +64,7 @@ class Application extends Component {
             title={"application." + this.state.domain + ".title"}
             subtitle={"application." + this.state.domain + ".subtitle"}
             button={"application." + this.state.domain + ".button"}
+            image={"application." + this.state.domain + ".image"}
             sections={this.state.domainSections}
           />
           <FirstSection />
@@ -78,10 +79,9 @@ class Application extends Component {
 const Hero = props => {
   return (
     <section className="hero -fw -fh">
-      <img
-        src="/assets/img/applicationPages/aerospace/aerospace.jpeg"
-        alt="Background"
-        className="hero__image"
+      <FormattedHTMLMessage
+        id={props.image}
+        defaultMessage="! JSON Non valide"
       />
       <div className="hero__content -white">
         <h2 className="hero__title">
@@ -106,7 +106,7 @@ const Hero = props => {
       <ul className="hero__menu -bg--white">
         {props.sections.map(section => {
           return (
-            <li className="-hoverUnderline">
+            <li className="-hoverUnderline" key={section}>
               <FormattedMessage
                 id={section}
                 defaultMessage=" ! JSON Non valide"
