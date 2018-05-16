@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { withRouter, Redirect } from "react-router-dom";
-import { connect } from "react-redux";
+import { Redirect } from "react-router-dom";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 
 import Navbar from "../components/Navbar";
@@ -15,7 +14,9 @@ class Application extends Component {
       data: messages[Object.keys(messages)[0]],
       domain: this.props.match.params.domain
     };
+  }
 
+  fetchApplication() {
     var JSONapplications = [];
     for (var key in this.state.data) {
       if (this.state.data.hasOwnProperty(key)) {
@@ -27,8 +28,10 @@ class Application extends Component {
         }
       }
     }
+    return JSONapplications;
+  }
 
-    //We get the names of the sections and we pass them to the Hero component
+  fetchDomainSections() {
     var JSONdomainSections = [];
     for (var k in this.state.data) {
       if (this.state.data.hasOwnProperty(k)) {
@@ -37,16 +40,23 @@ class Application extends Component {
         }
       }
     }
+    return JSONdomainSections;
+  }
 
-    this.state = {
-      applications: JSONapplications,
-      domainSections: JSONdomainSections
-    };
-    console.log(JSONapplications);
+  fetchDomainSectionsItems() {
+    var JSONdomainSectionsItems = [];
+    for (var k in this.state.data) {
+      if (this.state.data.hasOwnProperty(k)) {
+        if (k.includes(this.state.domain) && k.includes(".item")) {
+          JSONdomainSectionsItems.push(k);
+        }
+      }
+    }
+    return JSONdomainSectionsItems;
   }
 
   static getDerivedStateFromProps(nextProps, prevState) {
-    if (nextProps.match.params) {
+    if (nextProps.match.params !== prevState.domain) {
       return {
         domain: nextProps.match.params.domain
       };
@@ -56,7 +66,12 @@ class Application extends Component {
   }
 
   render() {
-    if (this.state.applications.includes(this.state.domain)) {
+    var applications = this.fetchApplication();
+    var domainSections = this.fetchDomainSections();
+    var domainSectionsItems = this.fetchDomainSectionsItems();
+
+
+    if (applications.includes(this.state.domain)) {
       return (
         <div>
           <Navbar active="application" />
@@ -65,9 +80,9 @@ class Application extends Component {
             subtitle={"application." + this.state.domain + ".subtitle"}
             button={"application." + this.state.domain + ".button"}
             image={"application." + this.state.domain + ".image"}
-            sections={this.state.domainSections}
+            sections={domainSections}
           />
-          <FirstSection />
+          <FirstSection items={domainSectionsItems} />
         </div>
       );
     } else {
@@ -120,7 +135,30 @@ const Hero = props => {
 };
 
 const FirstSection = props => {
-  return <section className="appSection -fw -fh -bg--white" />;
+  var fstSectionItems = props.items.filter(item => {
+    return item.includes(".section-1.");
+  });
+  return (
+    <section className="appSection firstSection -fw -fh -bg--white">
+      {fstSectionItems.map(item => {
+        if (item.includes(".image")) {
+          return (
+            <FormattedHTMLMessage
+              id={item}
+              key={item}
+              defaultMessage=" ! JSON Non valide"
+            />
+          );
+        } else {
+          return (
+            <p className="firstSection__text" key={item}>
+              <FormattedMessage id={item} defaultMessage=" ! JSON Non valide" />
+            </p>
+          );
+        }
+      })}
+    </section>
+  );
 };
 
-export default withRouter(connect()(Application));
+export default Application;

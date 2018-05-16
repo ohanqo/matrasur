@@ -2742,11 +2742,11 @@ hr {
       .navbar-nav .nav-item .a-lang .a-lang__text {
         font-weight: 200;
         float: left; }
-      .navbar-nav .nav-item .a-lang .fr-fr {
+      .navbar-nav .nav-item .a-lang .fr {
         width: 20px;
         height: 20px;
         background-image: url("../img/flags/fr-fr.svg"); }
-      .navbar-nav .nav-item .a-lang .en-gb {
+      .navbar-nav .nav-item .a-lang .en {
         width: 20px;
         height: 20px;
         background-image: url("../img/flags/en-gb.svg"); }
@@ -3284,7 +3284,11 @@ hr {
       padding-bottom: 5%; }
     @media screen and (max-width: 992px) {
       .hero__content {
-        max-width: 70vw; } }
+        max-width: 100vw;
+        left: 0;
+        top: 50%;
+        padding: 5%;
+        transform: translateY(-50%); } }
   .hero__title {
     font-size: 3.5vw;
     font-weight: 200; }
@@ -3309,6 +3313,7 @@ hr {
     margin: 0; }
     @media screen and (max-width: 992px) {
       .hero__menu {
+        position: relative;
         z-index: 3;
         width: 100vw;
         border-top-right-radius: 3px; } }
@@ -3327,6 +3332,23 @@ hr {
 .appSection {
   position: relative;
   z-index: 2; }
+
+.firstSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+  align-items: center;
+  overflow: hidden; }
+  .firstSection > span, .firstSection > p {
+    width: 50vw; }
+    @media screen and (max-width: 992px) {
+      .firstSection > span, .firstSection > p {
+        width: 100vw; } }
+    .firstSection > span > *, .firstSection > p > * {
+      width: inherit; }
+  .firstSection > p {
+    padding: 0 5%; }
 
 @-webkit-keyframes zoom {
   0% {

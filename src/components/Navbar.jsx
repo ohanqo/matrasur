@@ -126,10 +126,9 @@ class Navbar extends Component {
               <div className="a-lang">
                 <a
                   id="flag"
-                  className="nav-link a-lang__text en-gb"
+                  className={(this.props.lang === "fr" ? "en" : "fr") + " nav-link a-lang__text"}
                   onClick={() => this.toggleLanguage()}
                 >
-                  {""}
                 </a>
               </div>
             </li>
