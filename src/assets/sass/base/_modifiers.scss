@@ -17,6 +17,9 @@
   &black {
     background-color: black !important;
   }
+  &grey {
+    background-color: $grey--light;
+  }
 }
 
 .-f {
@@ -62,6 +65,9 @@
 
 .-hoverUnderline {
   position: relative;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 900;
   &::after {
     content: '';
     width: 100%;

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Footer extends Component {
   render() {
     return (
-      <div className="o-footer -fw -hh">
+      <div className="o-footer -fw -hh -bg--black">
         <div className="o-footer__columns -white">
           <div className="o-footer__column">
             <div className="o-footer__column--img">

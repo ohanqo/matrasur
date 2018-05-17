@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
+import { Redirect, Link } from "react-router-dom";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 import messages from "../data/messages";
 
@@ -55,6 +56,18 @@ class Application extends Component {
     return JSONdomainSectionsItems;
   }
 
+  fetchLinks() {
+    var links = {};
+    for (var k in this.state.data) {
+      if (this.state.data.hasOwnProperty(k)) {
+        if (k.includes(this.state.domain) && k.includes(".link")) {
+          links[k] = this.state.data[k];
+        }
+      }
+    }
+    return links;
+  }
+
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.match.params !== prevState.domain) {
       return {
@@ -69,7 +82,7 @@ class Application extends Component {
     var applications = this.fetchApplication();
     var domainSections = this.fetchDomainSections();
     var domainSectionsItems = this.fetchDomainSectionsItems();
-
+    var links = this.fetchLinks();
 
     if (applications.includes(this.state.domain)) {
       return (
@@ -83,6 +96,8 @@ class Application extends Component {
             sections={domainSections}
           />
           <FirstSection items={domainSectionsItems} />
+          <SecondSection items={domainSectionsItems} links={links} />
+          <Footer />
         </div>
       );
     } else {
@@ -157,6 +172,59 @@ const FirstSection = props => {
           );
         }
       })}
+    </section>
+  );
+};
+
+const SecondSection = props => {
+  var SecondSectionItems = props.items.filter(item => {
+    return item.includes(".section-2.");
+  });
+  return (
+    <section className="appSection secondSection -fw -fh -bg--white">
+      <div className="secondSection__wrapper container">
+        <div className="row">
+          {SecondSectionItems.map(item => {
+            if (item.includes(".title")) {
+              return (
+                <h4 className="secondSection__title col-md-12" key={item}>
+                  <FormattedMessage
+                    id={item}
+                    defaultMessage=" ! JSON Non valide"
+                  />
+                </h4>
+              );
+            } else if (item.includes(".text")) {
+              var rootItem = item.slice(0, -5);
+              console.log(props);
+              var link =
+                typeof props.links[rootItem + ".link"] !== "undefined"
+                  ? props.links[rootItem + ".link"]
+                  : "/";
+              return (
+                <Link className="secondSection__card col" to={link} key={item}>
+                  <div className="secondSection__image">
+                    <FormattedHTMLMessage
+                      id={rootItem + ".image"}
+                      key={rootItem + ".image"}
+                      defaultMessage=" ! JSON Non valide"
+                    />
+                  </div>
+                  <div className="secondSection__text">
+                    <FormattedMessage
+                      id={item}
+                      key={item}
+                      defaultMessage=" ! JSON Non valide"
+                    />
+                  </div>
+                </Link>
+              );
+            } else {
+              return null;
+            }
+          })}
+        </div>
+      </div>
     </section>
   );
 };

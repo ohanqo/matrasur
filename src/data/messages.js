@@ -8,6 +8,8 @@ export default {
     "navbar.item-1.subitem-1.link": "/application/aerospace",
     "navbar.item-1.subitem-2": "Réfrigeration",
     "navbar.item-1.subitem-2.link": "/application/refrigeration",
+    "navbar.item-1.subitem-3": "Aquatiques",
+    "navbar.item-1.subitem-3.link": "/application/watery",
 
     "navbar.item-2.title": "Procédés",
     "navbar.item-2.subitem-1": "Projection",
@@ -20,9 +22,8 @@ export default {
     "navbar.item-4.title": "Nos machines",
     "navbar.item-4.subitem-1": "Gamme MATRAFOAM",
     "navbar.item-4.subitem-2": "Gamme MATRACOAT",
-    "navbar.item-4.subitem-3": "Gamme MATRACOAT",
 
-    "navbar.item-5.title": "Formation",
+    "navbar.item-5.title": "Autre",
 
     "navbar.inputsearch": "Rechercher",
     /**
@@ -64,34 +65,73 @@ export default {
     "application.aerospace.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "application.aerospace.button": "En savoir plus",
-    "application.aerospace.image": "<img src='/assets/img/applicationPages/aerospace/aerospace.jpeg' alt='Background' class='hero__image'/>",
+    "application.aerospace.image":
+      "<img src='/assets/img/applicationPages/aerospace/aerospace.jpeg' alt='Background' class='hero__image'/>",
 
     "application.aerospace.section-1.name": "Description",
-    "application.aerospace.section-1.item-1.image": "<img src='/assets/img/applicationPages/aerospace/machines__simulation.jpg' alt='Machine 3D Logiciel modélisation' />",
-    "application.aerospace.section-1.item-1.text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-1.item-2.text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",    
-    "application.aerospace.section-1.item-2.image": "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Turbine d'avion />",    
+    "application.aerospace.section-1.item-1.image":
+      "<img src='/assets/img/applicationPages/aerospace/machines__simulation.jpg' alt='Machine 3D Logiciel modélisation' />",
+    "application.aerospace.section-1.item-1.text":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-1.item-2.text":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-1.item-2.image":
+      "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Turbine d'avion />",
 
     "application.aerospace.section-2.name": "Procédés recommandés",
-    "application.aerospace.section-2.item-1.text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",    
-    "application.aerospace.section-2.item-1.image": "<img src='/assets/img/applicationPages/aerospace/machines__simulation.jpg' alt='Machine 3D Logiciel modélisation' />",
-    "application.aerospace.section-2.item-2.text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",    
-    "application.aerospace.section-2.item-2.image": "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Turbine d'avion />",
+    "application.aerospace.section-2.item-1.title":
+      "Les procédés que nous recommandons",
+    "application.aerospace.section-2.item-1.text": "Procédés numero 1",
+    "application.aerospace.section-2.item-1.image":
+      "<img src='https://picsum.photos/200/300/?random' alt='Procédés numero 1' />",
+    "application.aerospace.section-2.item-1.link": "/process/nomprocedure",
+
+    "application.aerospace.section-2.item-2.text": "Procédés numero 2",
+    "application.aerospace.section-2.item-2.image":
+      "<img src='https://picsum.photos/200/300/?random' alt='Procédés numero 2' />",
+    "application.aerospace.section-2.item-2.link": "/process/nomprocedure",
+    "application.aerospace.section-2.item-3.text": "Procédés numero 3",
+    "application.aerospace.section-2.item-3.image":
+      "<img src='https://picsum.photos/200/300/?random' alt='Procédés numero 3' />",
+    "application.aerospace.section-2.item-3.link": "/process/nomprocedure",
 
     "application.aerospace.section-3.name": "Lorem, ipsum.",
 
     /* Fin Aerospace */
+
     /* Début refrigeration */
-    "application.refrigeration.title": "Domaine du froid",   
+    "application.refrigeration.title": "Domaine du froid",
     "application.refrigeration.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "application.refrigeration.button": "En savoir plus",
-    "application.refrigeration.image": "<img src='/assets/img/applicationPages/refrigeration/refrigerated.jpg' alt='Background' class='hero__image'/>",    
+    "application.refrigeration.image":
+      "<img src='/assets/img/applicationPages/refrigeration/refrigerated.jpg' alt='Background' class='hero__image'/>",
 
     "application.refrigeration.section-1.name": "Description",
     "application.refrigeration.section-2.name": "Procédés recommandés",
-    "application.refrigeration.section-3.name": "Lorem, ipsum."
+    "application.refrigeration.section-3.name": "Lorem, ipsum.",
     /* Fin refrigeration */
+
+    /**
+     * Début Aquatique
+     */
+    "application.watery.title": "Application aquatique",
+    "application.watery.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "application.watery.button": "En savoir plus",
+    "application.watery.image":
+      "<img src='/assets/img/applicationPages/watery/watery.jpg' alt='Background' class='hero__image'/>",
+
+    "application.watery.section-1.name": "Description",
+    "application.watery.section-2.name": "Procédés recommandés",
+    "application.watery.section-3.name": "Lorem, ipsum."
+    /**
+     * Fin Aquatique
+     */
+
+    /**
+     * Fin pages Application
+     */
   },
   en: {
     /**
@@ -102,6 +142,8 @@ export default {
     "navbar.item-1.subitem-1.link": "/application/aerospace",
     "navbar.item-1.subitem-2": "Refrigeration",
     "navbar.item-1.subitem-2.link": "/application/refrigeration",
+    "navbar.item-1.subitem-3": "Watery",
+    "navbar.item-1.subitem-3.link": "/application/watery",
 
     "navbar.item-2.title": "Processes",
     "navbar.item-2.subitem-1": "Projection",
@@ -115,7 +157,7 @@ export default {
     "navbar.item-4.subitem-1": "Range MATRAFOAM",
     "navbar.item-4.subitem-2": "Range MATRACOAT",
 
-    "navbar.item-5.title": "Formation",
+    "navbar.item-5.title": "Other",
 
     "navbar.inputsearch": "Search",
 
@@ -136,6 +178,7 @@ export default {
       "<img src='/assets/img/contact/contact-4.jpg' alt='Image 4 du contact'/>",
 
     "contact.title-1": "Commercial service",
+
     "contact.title-2": "After-sales service",
     "contact.title-3": "Lorem ipsum",
     "contact.title-4": "Lorem ipsum",
@@ -145,35 +188,88 @@ export default {
     "contact.subtitle-2":
       "<i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com",
 
+    /**
+     * Début pages Application
+     */
+
+    /**
+     * Début Aerospace
+     */
     "application.aerospace.title": "Aerospace sector",
     "application.aerospace.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "application.aerospace.button": "Learn more",
-    "application.aerospace.image": "<img src='/assets/img/applicationPages/aerospace/aerospace.jpeg' alt='Background' class='hero__image'/>",
+    "application.aerospace.image":
+      "<img src='/assets/img/applicationPages/aerospace/aerospace.jpeg' alt='Background' class='hero__image'/>",
 
     "application.aerospace.section-1.name": "Description",
-    "application.aerospace.section-1.item-1.image": "<img src='/assets/img/applicationPages/aerospace/machines__simulation.jpg' alt='Machine 3D Logiciel modélisation' />",
-    "application.aerospace.section-1.item-1.text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-1.item-2.text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",    
-    "application.aerospace.section-1.item-2.image": "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Turbine d'avion />",
-    
-    "application.aerospace.section-2.name": "Recommanded Procedures",
-    "application.aerospace.section-2.item-1.text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",    
-    "application.aerospace.section-2.item-1.image": "<img src='/assets/img/applicationPages/aerospace/machines__simulation.jpg' alt='Machine 3D Logiciel modélisation' />",
-    "application.aerospace.section-2.item-2.text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",    
-    "application.aerospace.section-2.item-2.image": "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Turbine d'avion />",
+    "application.aerospace.section-1.item-1.image":
+      "<img src='/assets/img/applicationPages/aerospace/machines__simulation.jpg' alt='Machine 3D Logiciel modélisation' />",
+    "application.aerospace.section-1.item-1.text":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-1.item-2.text":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-1.item-2.image":
+      "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Turbine d'avion />",
+
+    "application.aerospace.section-2.name": "Recommended Procedures",
+    "application.aerospace.section-2.item-1.title":
+      "The processes we recommend",
+    "application.aerospace.section-2.item-1.text": "Procedures number 1",
+    "application.aerospace.section-2.item-1.image":
+      "<img src='https://picsum.photos/200/300/?random' alt='Procedures number 1' />",
+    "application.aerospace.section-2.item-1.link": "/process/nomprocedure",
+    "application.aerospace.section-2.item-2.text": "Procedures number 2",
+    "application.aerospace.section-2.item-2.image":
+      "<img src='https://picsum.photos/200/300/?random' alt='Procedures number 2' />",
+    "application.aerospace.section-2.item-2.link": "/process/nomprocedure",
+    "application.aerospace.section-2.item-3.text": "Procedures number 3",
+    "application.aerospace.section-2.item-3.image":
+      "<img src='https://picsum.photos/200/300/?random' alt='Procedures number 3' />",
+    "application.aerospace.section-2.item-3.link": "/process/nomprocedure",
 
     "application.aerospace.section-3.name": "Lorem, ipsum.",
+    /**
+     * Fin Aerospace
+     */
 
-    /* Début refrigeration */
-    "application.refrigeration.title": "Domaine du froid",
+    /**
+     * Debut refrigeration
+     */
+    "application.refrigeration.title": "Refrigeration Sector",
     "application.refrigeration.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "application.refrigeration.button": "En savoir plus",
+    "application.refrigeration.button": "Learn More",
+    "application.refrigeration.image":
+      "<img src='/assets/img/applicationPages/refrigeration/refrigerated.jpg' alt='Background' class='hero__image'/>",
 
     "application.refrigeration.section-1.name": "Description",
-    "application.refrigeration.section-2.name": "Procédés recommandés",
-    "application.refrigeration.section-3.name": "Lorem, ipsum."
-    /* Fin refrigeration */
+    "application.refrigeration.section-2.name": "Recommended Procedures",
+    "application.refrigeration.section-3.name": "Lorem, ipsum.",
+    /**
+     * Fin refrigeration
+     */
+
+    /**
+     * Début Aquatique
+     */
+    "application.watery.title": "Watery Sector",
+    "application.watery.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "application.watery.button": "Learn More",
+    "application.watery.image":
+      "<img src='/assets/img/applicationPages/watery/watery.jpg' alt='Background' class='hero__image'/>",
+
+    "application.watery.section-1.name": "Description",
+    "application.watery.section-2.name": "Recommended Procedures",
+    "application.watery.section-3.name": "Lorem, ipsum."
+
+    /**
+     * Fin Aquatique
+     */
+
+    /**
+     * Fin pages Application
+     */
   }
 };

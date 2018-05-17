@@ -2658,6 +2658,9 @@ input[type="button"].btn-block {
 .-bg--black {
   background-color: black !important; }
 
+.-bg--grey {
+  background-color: #f1f2f5; }
+
 .-fw {
   width: 100vw; }
 
@@ -2686,7 +2689,10 @@ input[type="button"].btn-block {
   border-radius: 50%; }
 
 .-hoverUnderline {
-  position: relative; }
+  position: relative;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 900; }
   .-hoverUnderline::after {
     content: '';
     width: 100%;
@@ -2701,6 +2707,9 @@ input[type="button"].btn-block {
   .-hoverUnderline:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left; }
+
+* {
+  font-family: 'Raleway', sans-serif; }
 
 html,
 body {
@@ -3223,6 +3232,7 @@ hr {
     filter: grayscale(100); }
 
 .o-footer {
+  position: relative;
   overflow: hidden; }
   .o-footer__columns {
     height: inherit;
@@ -3263,12 +3273,14 @@ hr {
       padding-bottom: 1%; }
 
 .hero {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   overflow: hidden;
-  z-index: 1; }
+  z-index: 1;
+  background-color: #0067af; }
   .hero__image {
     width: 100vw;
     height: 100vh;
+    opacity: 0.7;
     animation: zoom 8s;
     animation-fill-mode: forwards; }
   .hero__content {
@@ -3340,15 +3352,37 @@ hr {
   align-content: space-between;
   align-items: center;
   overflow: hidden; }
-  .firstSection > span, .firstSection > p {
+  .firstSection > span,
+  .firstSection > p {
     width: 50vw; }
     @media screen and (max-width: 992px) {
-      .firstSection > span, .firstSection > p {
+      .firstSection > span,
+      .firstSection > p {
         width: 100vw; } }
-    .firstSection > span > *, .firstSection > p > * {
+    .firstSection > span > *,
+    .firstSection > p > * {
       width: inherit; }
   .firstSection > p {
     padding: 0 5%; }
+
+.secondSection {
+  display: flex;
+  align-items: center; }
+  .secondSection__title {
+    padding: 5% 0; }
+  .secondSection__card {
+    text-align: center; }
+  .secondSection__image {
+    filter: blur(0.75px); }
+    .secondSection__image > span > img {
+      width: 100%; }
+  .secondSection__text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #eee;
+    font-size: 1.5rem; }
 
 @-webkit-keyframes zoom {
   0% {
