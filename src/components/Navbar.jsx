@@ -9,6 +9,8 @@ import PropTypes from "prop-types";
 import Matrasur from "../assets/img/matrasur.svg";
 import messages from "../data/messages";
 
+import Searchbox from "./Searchbox";
+
 class Navbar extends Component {
   constructor(props) {
     super(props);
@@ -118,9 +120,7 @@ class Navbar extends Component {
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             {this.displayNavItems()}
             <li className="nav-item">
-              <button className="btn btn-outline-dark my-2 my-sm-0 m-button m-searchbar__button">
-                <i className="fas fa-search" />
-              </button>
+              <Searchbox />
             </li>
             <li className="nav-item">
               <div className="a-lang">

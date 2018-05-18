@@ -126,9 +126,13 @@
   }
 
   &__image {
-    filter: blur(0.75px);
     & > span > img {
       width: 100%;
+      filter: blur(0.75px);
+
+      &:hover {
+        opacity: 0.9;
+      }
     }
   }
 

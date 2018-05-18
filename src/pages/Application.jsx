@@ -97,6 +97,7 @@ class Application extends Component {
           />
           <FirstSection items={domainSectionsItems} />
           <SecondSection items={domainSectionsItems} links={links} />
+          <ThirdSection />
           <Footer />
         </div>
       );
@@ -133,7 +134,7 @@ const Hero = props => {
           />
         </button>
       </div>
-      <ul className="hero__menu -bg--white">
+      <ul className="hero__menu -bg--grey">
         {props.sections.map(section => {
           return (
             <li className="-hoverUnderline" key={section}>
@@ -154,7 +155,7 @@ const FirstSection = props => {
     return item.includes(".section-1.");
   });
   return (
-    <section className="appSection firstSection -fw -fh -bg--white">
+    <section className="appSection firstSection -fw -fh -bg--grey">
       {fstSectionItems.map(item => {
         if (item.includes(".image")) {
           return (
@@ -228,5 +229,13 @@ const SecondSection = props => {
     </section>
   );
 };
+
+const ThirdSection = props => {
+  return(
+    <section className="appSection -fw -fh -bg--grey">
+
+    </section>
+  )
+}
 
 export default Application;

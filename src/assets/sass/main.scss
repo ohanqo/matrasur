@@ -17,6 +17,7 @@
 @import 'vendor/bootstrap/position';
 @import 'vendor/bootstrap/buttons';
 @import 'vendor/bootstrap/transitions';
+@import 'vendor/bootstrap/modal';
 
 @import 'mixins/prefix';
 @import 'mixins/keyframes';
@@ -34,3 +35,4 @@
 @import 'components/map';
 @import 'components/footer';
 @import 'components/application';
+@import 'components/searchbox';

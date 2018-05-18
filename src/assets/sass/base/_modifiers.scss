@@ -12,7 +12,7 @@
     background-color: $blue--light;
   }
   &white {
-    background-color: $white--cloud;
+    background-color: #fff;
   }
   &black {
     background-color: black !important;
@@ -61,6 +61,10 @@
 
 .-circle {
   border-radius: 50%;
+}
+
+.-displayNone {
+  display: none !important;
 }
 
 .-hoverUnderline {
