@@ -10,7 +10,7 @@ $bottomRadius: 4px;
     transform: translateX(-50%);
     min-width: 50vw;
     min-height: 20vh;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: rgba(255, 255, 255, 0.7);
     border-bottom-left-radius: $bottomRadius;
     border-bottom-right-radius: $bottomRadius;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
@@ -19,7 +19,7 @@ $bottomRadius: 4px;
       width: 100%;
       min-height: 10vh;
 
-      border: none;      
+      border: none;
       background: transparent;
       font-style: italic;
       font-size: 1.3em;
@@ -30,13 +30,31 @@ $bottomRadius: 4px;
   & > .modal {
     display: block;
     opacity: 1;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.5);
 
     & > .modal-dialog {
       padding-top: 10vh;
+
+      & .modal-body {
+        max-height: 60vh;
+        overflow: scroll;
+        & > a {
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+      & .modal-header > input {
+        width: 100%;
+      }
     }
 
-    & .close, & #searchInput, & .close:focus, & #searchInput:focus {
+    & .close,
+    & #searchInput,
+    & .close:focus,
+    & #searchInput:focus {
       background: transparent;
       border: none;
       outline: none;

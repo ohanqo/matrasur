@@ -13,16 +13,23 @@ export default {
 
     "navbar.item-2.title": "Procédés",
     "navbar.item-2.subitem-1": "Projection",
+    "navbar.item-2.subitem-1.link": "/processes/projection",
     "navbar.item-2.subitem-2": "Injection",
+    "navbar.item-2.subitem-2.link": "/processes/injection",
 
     "navbar.item-3.title": "Matières premières",
     "navbar.item-3.subitem-1": "Polyuréthanes",
+    "navbar.item-3.subitem-1.link": "/materials/polyurethane",
     "navbar.item-3.subitem-2": "Mastic",
+    "navbar.item-3.subitem-2.link": "/materials/putty",
     "navbar.item-3.subitem-3": "Résines",
+    "navbar.item-3.subitem-3.link": "/materials/resins",
 
     "navbar.item-4.title": "Nos machines",
     "navbar.item-4.subitem-1": "Gamme MATRAFOAM",
+    "navbar.item-4.subitem-1.link": "/machines/matrafoam",
     "navbar.item-4.subitem-2": "Gamme MATRACOAT",
+    "navbar.item-4.subitem-2.link": "/materials/matracoat",
 
     "navbar.item-5.title": "Autre",
     "navbar.item-5.subitem-1": "Formation",
@@ -159,16 +166,23 @@ export default {
 
     "navbar.item-2.title": "Processes",
     "navbar.item-2.subitem-1": "Projection",
+    "navbar.item-2.subitem-1.link": "/processes/projection",
     "navbar.item-2.subitem-2": "Injection",
+    "navbar.item-2.subitem-2.link": "/processes/injection",
 
     "navbar.item-3.title": "Raw materials",
     "navbar.item-3.subitem-1": "Polyurethanes",
+    "navbar.item-3.subitem-1.link": "/materials/polyurethane",
     "navbar.item-3.subitem-2": "Putty",
+    "navbar.item-3.subitem-2.link": "/materials/putty",
     "navbar.item-3.subitem-3": "Resins",
+    "navbar.item-3.subitem-3.link": "/materials/resins",
 
     "navbar.item-4.title": "Our machines",
     "navbar.item-4.subitem-1": "Range MATRAFOAM",
+    "navbar.item-4.subitem-1.link": "/machines/matrafoam",
     "navbar.item-4.subitem-2": "Range MATRACOAT",
+    "navbar.item-4.subitem-2.link": "/materials/matracoat",
 
     "navbar.item-5.title": "Other",
     "navbar.item-5.subitem-1": "Formation",

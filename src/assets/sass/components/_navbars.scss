@@ -9,7 +9,9 @@
   @include media-min($lg) {
     align-items: center;
   }
-
+  @include media-max($lg) {
+    text-align: center;
+  }
   &:hover .nav-link:not(:hover) {
     opacity: .5;
   }
@@ -23,6 +25,9 @@
       & .a-lang__text {
         font-weight: $fontweight--sm;
         float: left;
+        @include media-max($lg) {
+          margin: auto;
+        }      
       }
       & .fr {
         width: 20px;

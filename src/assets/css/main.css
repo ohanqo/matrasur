@@ -2856,6 +2856,9 @@ hr {
   @media screen and (min-width: 992px) {
     .navbar-nav {
       align-items: center; } }
+  @media screen and (max-width: 992px) {
+    .navbar-nav {
+      text-align: center; } }
   .navbar-nav:hover .nav-link:not(:hover) {
     opacity: .5; }
   .navbar-nav .nav-item {
@@ -2867,6 +2870,9 @@ hr {
       .navbar-nav .nav-item .a-lang .a-lang__text {
         font-weight: 200;
         float: left; }
+        @media screen and (max-width: 992px) {
+          .navbar-nav .nav-item .a-lang .a-lang__text {
+            margin: auto; } }
       .navbar-nav .nav-item .a-lang .fr {
         width: 20px;
         height: 20px;
@@ -3560,7 +3566,20 @@ hr {
   background: rgba(0, 0, 0, 0.5); }
   .searchbox > .modal > .modal-dialog {
     padding-top: 10vh; }
-  .searchbox > .modal .close, .searchbox > .modal #searchInput, .searchbox > .modal .close:focus, .searchbox > .modal #searchInput:focus {
+    .searchbox > .modal > .modal-dialog .modal-body {
+      max-height: 60vh;
+      overflow: scroll; }
+      .searchbox > .modal > .modal-dialog .modal-body > a {
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+    .searchbox > .modal > .modal-dialog .modal-header > input {
+      width: 100%; }
+  .searchbox > .modal .close,
+  .searchbox > .modal #searchInput,
+  .searchbox > .modal .close:focus,
+  .searchbox > .modal #searchInput:focus {
     background: transparent;
     border: none;
     outline: none; }
