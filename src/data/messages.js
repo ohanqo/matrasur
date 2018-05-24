@@ -38,13 +38,35 @@ export default {
     "navbar.item-5.subitem-2.link": "/other/recruitment",
 
     /**
+     * début footer
+     */
+
+    "footer.image":
+      "<img src='/assets/img/matrasur--square.svg' alt='Logo de la société Matrasur Composites'/>",
+    "footer.tel": "+33 1 61 61 65 65",
+    "footer.mail": "info@matrasurcomposites.com",
+    "footer.social.icon-1":
+      "<img src='/assets/img/icon/youtube.svg' alt='Chaîne YouTube Matrasur Composites'/>",
+    "footer.social.icon-1.link":
+      "https://www.youtube.com/user/MatrasurComposites",
+    "footer.social.icon-2":
+      "<img src='/assets/img/icon/facebook.svg' alt='Page Facebook Matrasur Composites'/>",
+    "footer.social.icon-2.link": "https://www.facebook.com/matrasurcomposites/",
+
+    // Les liens dans le footer viennent de la navbar.
+
+    /**
+     * fin footer
+     */
+
+    /**
      * Slideshow
      */
     "slideshow.title": "Version française",
     /**
      *
      */
-    
+
     /**
      * Contact
      */
@@ -143,13 +165,91 @@ export default {
 
     "application.marine.section-1.name": "Description",
     "application.marine.section-2.name": "Procédés recommandés",
-    "application.marine.section-3.name": "Lorem, ipsum."
+    "application.marine.section-3.name": "Lorem, ipsum.",
     /**
      * Fin Marine
      */
 
     /**
      * Fin pages Application
+     */
+
+    /**
+     * début pages processes
+     */
+
+    /**
+     * début projection
+     */
+
+    "processes.projection.title": "Procédé de projection",
+    "processes.projection.subtitle":
+      "Depuis une trentaine d’années, Matrasur Composites met sur le marché tous les systèmes de mise en œuvre de projection. Associant à chaque produit la technologie la plus adaptée, une vaste gamme de machines de projection est proposée, couvrant les besoins les plus variés.",
+    "processes.projection.image":
+      "<img src='/assets/img/applicationPages/marine/marine.jpg' alt='Background' class='hero__image'/>",
+    "processes.projection.section-1.name": "Projection de gelcoat",
+    "processes.projection.section-1.text":
+      "Fine et unique membrane de protection du stratifié, le gelcoat mérite toutes les attentions lors de son application. Nos machines couvrent les conditions d’application de projection de gelcoat les plus variées : petites, moyennes, grandes pièces, projection de plusieurs couleurs, travail en cabine ou sur chantier, application en manuel, automatique et robotique.",
+    "processes.projection.section-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-2.name": "Projection de résine",
+    "processes.projection.section-2.text":
+      "Les techniques de mélange en tête basse pression et les toutes dernières technologies de buse respectent l’opérateur et l’environnement, et apportent une productivité tout à fait spectaculaire. Matrasur Composites vous propose un large panel de machines de projection de résine adaptées aux tailles de pièces à réaliser et à la variété des résines disponibles sur le marché.",
+    "processes.projection.section-2.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    /**
+     * fin projection
+     */
+
+    /**
+     * début injection
+     */
+
+    "processes.injection.title": "Procédé d'injection",
+    "processes.injection.subtitle":
+      "Précurseur des techniques basse pression associées aux mélanges statiques ou dynamiques, Matrasur Composites offre des nombreuses configurations de machines pour chaque application",
+    "processes.injection.image":
+      "<img src='https://source.unsplash.com/random/?mountain' alt='Background' class='hero__image'/>",
+    "processes.injection.section-1.name": "Machines d'injection RTM",
+    "processes.injection.section-1.text":
+      "De l’abréviation anglaise Resin Transfer Moulding, RTM est une technologie de transformation par injection basse pression. Assurant une cadence de production élevée, cette technique de moule fermé présente un rapport efficacité/coût des plus intéressants. Matrasur Composites intègre toute son expérience et l’évolution des technologies les plus récentes d'injection pour la mise en ouvre de vos projets RTM. Nos solutions prennent en compte les impératifs des pièces à fabriquer et l’environnement de production garantissant un succès rapide.",
+    "processes.injection.section-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    /**
+     * fin injection
+     */
+
+    /**
+     * fin pages processes
+     */
+
+    /**
+     * début pages materials
+     */
+
+    /**
+     * début résines
+     */
+
+    "materials.resins.title": "Les résines",
+    "materials.resins.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "materials.resins.image":
+      "<img src='https://source.unsplash.com/random/' alt='Background' class='hero__image'/>",
+    "materials.resins.section-1.name": "Résines époxy",
+    "materials.resins.section-1.text":
+      "Les résines époxy offrent une incroyable diversité et voient leur usage tourné vers des fabrications particulières en perpétuelle évolution.",
+    "materials.resins.section-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>"
+
+    /**
+     * fin résines
+     */
+
+    /**
+     * fin pages materials
      */
   },
   en: {
@@ -161,7 +261,7 @@ export default {
     "navbar.item-1.subitem-1.link": "/application/aerospace",
     "navbar.item-1.subitem-2": "Refrigeration",
     "navbar.item-1.subitem-2.link": "/application/refrigeration",
-    "navbar.item-1.subitem-3": "marine",
+    "navbar.item-1.subitem-3": "Marine",
     "navbar.item-1.subitem-3.link": "/application/marine",
 
     "navbar.item-2.title": "Processes",
@@ -189,6 +289,26 @@ export default {
     "navbar.item-5.subitem-1.link": "/other/formation",
     "navbar.item-5.subitem-2": "Recruitment",
     "navbar.item-5.subitem-2.link": "/other/recruitment",
+
+    /**
+     * début footer
+     */
+
+    "footer.image":
+      "<img src='/assets/img/matrasur--square.svg' alt='Logo de la société Matrasur Composites'/>",
+    "footer.tel": "+33 1 61 61 65 65",
+    "footer.mail": "info@matrasurcomposites.com",
+    "footer.social.icon-1":
+      "<img src='/assets/img/icon/youtube.svg' alt='Chaîne YouTube Matrasur Composites'/>",
+    "footer.social.icon-1.link":
+      "https://www.youtube.com/user/MatrasurComposites",
+    "footer.social.icon-2":
+      "<img src='/assets/img/icon/facebook.svg' alt='Page Facebook Matrasur Composites'/>",
+    "footer.social.icon-2.link": "https://www.facebook.com/matrasurcomposites/",
+
+    /**
+     * fin footer
+     */
 
     /**
      * Slideshow
@@ -290,7 +410,7 @@ export default {
     /**
      * Début Marine
      */
-    "application.marine.title": "marine Sector",
+    "application.marine.title": "Marine Sector",
     "application.marine.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "application.marine.button": "Learn More",
@@ -299,7 +419,7 @@ export default {
 
     "application.marine.section-1.name": "Description",
     "application.marine.section-2.name": "Recommended Procedures",
-    "application.marine.section-3.name": "Lorem, ipsum."
+    "application.marine.section-3.name": "Lorem, ipsum.",
 
     /**
      * Fin Marine
@@ -307,6 +427,83 @@ export default {
 
     /**
      * Fin pages Application
+     */
+
+    /**
+     * début pages process
+     */
+
+    /**
+     * début projection
+     */
+
+    "processes.projection.title": "Projection method",
+    "processes.projection.subtitle":
+      "During the last 30 years Matrasur Composites has supplied the market with high-quality, reliable, equipment for a remarkable number of applications.",
+    "processes.projection.image":
+      "<img src='/assets/img/applicationPages/marine/marine.jpg' alt='Background' class='hero__image'/>",
+    "processes.projection.section-1.name": "Gelcoat spraying",
+    "processes.projection.section-1.text":
+      "This thin and unique layer of laminate deserves special attention when being applied. Our machine range covers a large variety of configurations to match your needs: small, medium and large part size outputs, single or multiple color configurations, interior or on site applications, manual or automated systems, including robotics.",
+    "processes.projection.section-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-2.name": "Projection de résine",
+    "processes.projection.section-2.text":
+      "Low pressure spray-up technology with head mixture and the latest nozzle technologies are certainly the most performing and operator-friendly equipment for this application. Matrasur Composites offers machines with a wide variety of ratios that are compatible with the majority of resins present in the market.",
+    "processes.projection.section-2.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    /**
+     * fin projection
+     */
+
+    /**
+     * début injection
+     */
+
+    "processes.injection.title": "Injection method",
+    "processes.injection.subtitle":
+      "Matrasur Composites offers a comprehensive range of units covering a variety of injection/casting applications. Leader in low pressure techniques associated with static or dynamic mixture, Matrasur Composites offers multiple configurations for each of these applications. Contact us to determine the machine that suits your specifications (material, output range, etc).",
+    "processes.injection.image":
+      "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Background' class='hero__image'/>",
+    "processes.injection.section-1.name": "RTM injection machines",
+    "processes.injection.section-1.text":
+      "Abbreviation of Resin transfer Molding, RTM is a closed mould technology of low pressure injection. Allowing to reach high production rates, this technology provides one of the most interesting cost/efficiency ratios. Matrasur Composites incorporates its know-how and experience in the development and implementation of RTM projects. Our stand-alone machines and turn-key RTM systems take into account the requirements of the parts to be manufactured and the environement of the workshop for a successful installation. Matrasur Composites is able to offer RTM solutions that are adapted to your specific needs, including full automated lines when quantities are high enough.",
+    "processes.injection.section-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    /**
+     * fin injection
+     */
+
+    /**
+     * fin pages process
+     */
+
+    /**
+     * début pages materials
+     */
+
+    /**
+     * début résines
+     */
+
+    "materials.resins.title": "Resins",
+    "materials.resins.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "materials.resins.image":
+      "<img src='https://source.unsplash.com/random/' alt='Background' class='hero__image'/>",
+    "materials.resins.section-1.name": "Epoxy resins",
+    "materials.resins.section-1.text":
+      "Epoxy resins are of a great diversity and their application fields evolve constanly.",
+    "materials.resins.section-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>"
+
+    /**
+     * fin résines
+     */
+
+    /**
+     * fin pages materials
      */
   }
 };

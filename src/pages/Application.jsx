@@ -70,6 +70,7 @@ class Application extends Component {
 
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.match.params !== prevState.domain) {
+      window.scrollTo(0,0);
       return {
         domain: nextProps.match.params.domain
       };

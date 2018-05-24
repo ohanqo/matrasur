@@ -70,7 +70,6 @@
 .-hoverUnderline {
   position: relative;
   text-transform: uppercase;
-  font-style: italic;
   font-weight: 900;
   &::after {
     content: '';
@@ -91,4 +90,13 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+}
+
+.-fade--in {
+  animation: fade--in .3s;
+  animation-fill-mode: forwards;
+}
+
+@include keyframes(fade--in) {
+  @include fade--in();
 }

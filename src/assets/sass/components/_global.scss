@@ -1,0 +1,54 @@
+.global {
+  &__header {
+    position: absolute;
+    bottom: 0;
+
+    max-height: 50vh;
+    min-height: 30vh;
+
+    background-color: $black--flat;
+    color: $white--cloud;
+
+    padding: 2.5% 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & > h2 {
+      text-transform: uppercase;
+      font-weight: 600;
+      padding-bottom: 2.5%;
+      margin: 0;
+    }
+  }
+  &__section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0;
+    & > span {
+      width: 30%;
+      & > img {
+        width: 100%;
+      }
+    }
+    &:nth-child(even) {
+      background-color: $white--cloud;
+    }
+    &:nth-child(odd) {
+      background-color: $grey--light;
+    }
+  }
+  &__text {
+    width: 60%;
+    & > h4 {
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    & > p {
+      text-align: justify;
+      padding-top: 2.5%;
+    }
+  }
+}

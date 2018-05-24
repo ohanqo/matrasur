@@ -50,25 +50,32 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    min-width: 40vw;
-    height: 20vh;
+    width: 50vw;
+    height: 25vh;
 
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
 
     list-style: none;
     text-align: center;
     border-top-left-radius: 3px;
 
-    padding: 0;
+    padding: 5% 1% 1% 31%;
     margin: 0;
+
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);
+    
 
     @include media-max($lg) {
       position: relative;
       z-index: 3;
       width: 100vw;
       border-top-right-radius: 3px;
+      clip-path: none;
+      align-items: center;
+      padding: 0;
     }
   }
   &__button {

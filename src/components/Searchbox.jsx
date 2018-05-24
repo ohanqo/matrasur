@@ -31,7 +31,7 @@ class Searchbox extends Component {
     const userLanguage = this.props.lang;
     const messagesOfHisLanguage = messages[userLanguage];
 
-    if (userValue.length > 0 && userValue !== "" && userValue !== " ") {
+    if (userValue.length > 2 && userValue !== "" && userValue !== " ") {
       for (var key in messagesOfHisLanguage) {
         if (messagesOfHisLanguage.hasOwnProperty(key)) {
           if (
@@ -76,7 +76,7 @@ const Searchform = props => {
         <i className="fas fa-search" />
       </button>
       <div
-        className={(props.open ? "" : "-displayNone ") + "modal"}
+        className={(props.open ? "-fade--in " : "-displayNone ") + "modal"}
         tabIndex="-1"
         role="dialog"
         aria-labelledby="exampleModalLabel"
@@ -89,7 +89,7 @@ const Searchform = props => {
                 type="text"
                 id="searchInput"
                 className="modal-title"
-                placeholder="..."
+                placeholder="Search"
                 onChange={props.search}
               />
               <button
@@ -104,7 +104,6 @@ const Searchform = props => {
             </div>
             <div className="modal-body">
               {Object.keys(props.matches).map((key, index) => {
-                console.log(index);
                 var keyValue = props.matches[key];
                 if (
                   !(
@@ -127,8 +126,16 @@ const Searchform = props => {
                     );
                   } else {
                     // Si les éléments sont dans la page d'acceuil on redirige
-                    if (key.includes("contact.") || key.includes("slideshow.")) {
-                      return <Link key={index} to="/">{key.value}</Link>;
+                    if (
+                      key.includes("contact.") ||
+                      key.includes("slideshow.") ||
+                      key.includes("footer.")
+                    ) {
+                      return (
+                        <Link key={index} to="/">
+                          {key.value}
+                        </Link>
+                      );
                     } else {
                       // On extrait le lien depuis la clé
                       const splitedKey = key.split(".", 2);

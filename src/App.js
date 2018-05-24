@@ -8,6 +8,7 @@ import msg from "./data/messages";
 
 import Home from "./pages/Home";
 import Application from "./pages/Application";
+import Global from "./pages/Global";
 import Machines from "./pages/Machine";
 import Entreprise from "./pages/Entreprise";
 import NotFound from "./pages/NotFound";
@@ -23,6 +24,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/application/:domain" component={Application} />
+            <Route path="/:domain/:param" component={Global} />
             <Route path="/machines" component={Machines} />
             <Route path="/entreprise" component={Entreprise} />
             <Route component={NotFound} />

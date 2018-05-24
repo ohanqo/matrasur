@@ -8,6 +8,9 @@ import Cardsbanner from "../components/Cardsbanner";
 import Footer from "../components/Footer";
 
 class Home extends Component {
+  componentWillMount() {
+    window.scrollTo(0,0);
+  }
   render() {
     return (
       <div className="o-home">

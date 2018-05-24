@@ -49,7 +49,7 @@
       text-transform: uppercase;
       color: $white--cloud;
       cursor: pointer;
-      transition: opacity .3s;
+      transition: all .3s;
       &:hover {
         color: $blue--light;
       }
@@ -163,8 +163,12 @@
       box-shadow: none;
     }
   }
-  &__button {
+  &__button, &__button:hover, &__button:active {
     border: none;
+    border-color: transparent !important;
+    background: transparent;
+    background-color: transparent !important;
+    box-shadow: none;
   }
 }
 .form-control {
@@ -180,13 +184,13 @@
     margin: auto;
   }
   .a-brand__img {
-    width: 50vw;
+    width: 50vw !important;
   }
 }
 
 @media (max-width: 991.98px) {
   .a-brand__img {
-    width: 40vw;
+    width: 30vw;
   }
   .form-inline {
     padding-bottom: 5%;
