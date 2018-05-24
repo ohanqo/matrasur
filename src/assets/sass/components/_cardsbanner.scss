@@ -6,7 +6,7 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
   position: relative;
   top: -10vh;
   height: 45vh;
-  color: $white--cloud;
+  color: $white;
   z-index: 2;
   @include media-maxHeight($sm) {
     height: auto;
@@ -45,8 +45,8 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
         max-width: 50%;
         margin: auto;
         font-size: $font-title--small;
-        color: $white--cloud;
-        background: #00aeef;
+        color: $white;
+        background: $pale;
         border-radius: 2rem;
       }
       @include media-max($sm) {
@@ -60,7 +60,7 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
           min-height: 60vh;
           border-radius: 0.5rem;
           transform: translateY(-5vh);
-          background: linear-gradient(to bottom, #0067af, #000) !important;
+          background: linear-gradient(to bottom, $blue--dark, $black) !important;
           transition-duration: 0.2s;
           transition-timing-function: ease-out;
         }

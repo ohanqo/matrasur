@@ -2760,19 +2760,19 @@ input[type="button"].btn-block {
       font-size: 5vh; } }
 
 .-white {
-  color: #eee; }
+  color: #F1F2F5; }
 
 .-bg--blue {
-  background-color: #4682b4; }
+  background-color: #7DC4FF; }
 
 .-bg--white {
-  background-color: #fff; }
+  background-color: #ffffff; }
 
 .-bg--black {
-  background-color: black !important; }
+  background-color: #000000 !important; }
 
 .-bg--grey {
-  background-color: #f1f2f5; }
+  background-color: #F1F2F5; }
 
 .-fw {
   width: 100vw; }
@@ -2815,7 +2815,7 @@ input[type="button"].btn-block {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #4682b4;
+    background-color: #7DC4FF;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out; }
@@ -2906,11 +2906,11 @@ hr {
   padding: 5% 0; }
 
 ::selection {
-  background: #4682b4; }
+  background: #4682B4; }
 
 .navbar {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(to bottom, #202020, rgba(0, 0, 0, 0.22));
+  background: linear-gradient(to bottom, #222222, rgba(0, 0, 0, 0.22));
   transition: background-color 1s ease-in-out;
   z-index: 10; }
 
@@ -2950,11 +2950,11 @@ hr {
       font-family: 'Raleway', sans-serif;
       font-weight: 900;
       text-transform: uppercase;
-      color: #eee;
+      color: #F1F2F5;
       cursor: pointer;
       transition: all .3s; }
       .navbar-nav .nav-item .nav-link:hover {
-        color: #4682b4; }
+        color: #7DC4FF; }
       @media screen and (min-width: 992px) {
         .navbar-nav .nav-item .nav-link {
           font-size: 1vw; } }
@@ -2997,7 +2997,7 @@ hr {
   width: 22px;
   height: 2px;
   display: block;
-  background-color: #eee;
+  background-color: #F1F2F5;
   transition: all 0.2s;
   margin-top: 4px;
   border-radius: 2rem; }
@@ -3024,25 +3024,25 @@ hr {
     width: 50%; }
 
 .m-button {
-  color: #0067af;
+  color: #4682B4;
   background-color: transparent;
   background-image: none;
-  border-color: #0067af; }
+  border-color: #4682B4; }
   .m-button:hover {
-    color: #fff;
-    background-color: #0067af;
-    border-color: #0067af; }
+    color: #F1F2F5;
+    background-color: #4682B4;
+    border-color: #4682B4; }
   .m-button:focus, .m-button.focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
 
 .m-searchbar__input {
   background: transparent;
   border: none;
-  border-bottom: 2px solid #d6d6d8;
+  border-bottom: 2px solid #D6D6D6;
   border-radius: 0; }
   .m-searchbar__input:focus {
     background: transparent;
-    color: #eee;
+    color: #F1F2F5;
     outline: none;
     box-shadow: none; }
 
@@ -3102,7 +3102,7 @@ hr {
     position: absolute;
     top: 0;
     left: 0;
-    color: white;
+    color: #ffffff;
     background-size: cover;
     background-position: 50% 50%;
     opacity: 0;
@@ -3150,7 +3150,7 @@ hr {
   min-height: 6px;
   display: block;
   margin: 5% 5% 10% 1%;
-  background: linear-gradient(to right, #0078e0, #00aeef);
+  background: linear-gradient(to right, #226E9C, #6AC7FF);
   border-radius: 2rem;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); }
 
@@ -3251,7 +3251,7 @@ hr {
   position: relative;
   top: -10vh;
   height: 45vh;
-  color: #eee;
+  color: #F1F2F5;
   z-index: 2; }
   @media screen and (max-height: 576px) {
     .o-cardsbanner {
@@ -3287,8 +3287,8 @@ hr {
         max-width: 50%;
         margin: auto;
         font-size: 1.2rem;
-        color: #eee;
-        background: #00aeef;
+        color: #F1F2F5;
+        background: #4AADE9;
         border-radius: 2rem; }
       @media screen and (max-width: 576px) {
         .o-cardsbanner .o-banner .m-card {
@@ -3301,7 +3301,7 @@ hr {
           min-height: 60vh;
           border-radius: 0.5rem;
           transform: translateY(-5vh);
-          background: linear-gradient(to bottom, #0067af, #000) !important;
+          background: linear-gradient(to bottom, #1E4667, #222222) !important;
           transition-duration: 0.2s;
           transition-timing-function: ease-out; } }
       .o-cardsbanner .o-banner .m-card:nth-child(1) {
@@ -3331,9 +3331,11 @@ hr {
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 4px; }
+    .m-box__content--title h2 {
+      font-weight: 700; }
   .m-box__content--text {
     font-size: 2vw;
-    font-weight: 200; }
+    font-weight: 300; }
     @media screen and (max-width: 768px) {
       .m-box__content--text {
         font-size: 2vh;
@@ -3354,14 +3356,14 @@ hr {
       .m-box__grids .item:nth-child(odd) {
         justify-content: flex-end; }
       .m-box__grids .item__box {
-        border: 5px solid #4682b4; }
+        border: 5px solid #7DC4FF; }
         .m-box__grids .item__box .box-child {
           border-left: none; }
           .m-box__grids .item__box .box-child--reverse {
             border-right: none; }
   .m-box .a-sep {
     border-radius: 0;
-    background: #eee;
+    background: #F1F2F5;
     max-width: 8vw; }
   .m-box .right {
     margin-left: auto; }
@@ -3388,7 +3390,7 @@ hr {
     content: '';
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: #000000;
     opacity: .6;
     position: absolute;
     left: 0;
@@ -3399,7 +3401,7 @@ hr {
   font-size: 20px;
   font-weight: 600;
   font-family: 'Raleway', sans-serif;
-  color: #eee;
+  color: #F1F2F5;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
@@ -3416,7 +3418,7 @@ hr {
   text-align: center; }
 
 .m-contact__subtitle {
-  color: #4682b4; }
+  color: #7DC4FF; }
 
 .m-map {
   display: flex; }
@@ -3426,11 +3428,11 @@ hr {
 .footer {
   position: relative; }
   .footer a {
-    color: #4682b4;
+    color: #7DC4FF;
     transition: all .3s; }
     .footer a:hover {
       text-decoration: none;
-      color: #f1f2f5; }
+      color: #777777; }
   .footer__elements {
     display: flex;
     flex-flow: row wrap;
@@ -3473,7 +3475,7 @@ hr {
   .footer__map {
     list-style: none;
     width: 20vw;
-    margin-bottom: 5%; }
+    margin-top: 5%; }
     @media screen and (max-width: 992px) {
       .footer__map {
         width: 33vw;
@@ -3488,7 +3490,7 @@ hr {
   font-family: "Raleway", sans-serif;
   overflow: hidden;
   z-index: 1;
-  background-color: #0067af; }
+  background-color: #4682B4; }
   .hero__image {
     width: 100vw;
     height: 100vh;
@@ -3547,7 +3549,7 @@ hr {
         align-items: center;
         padding: 0; } }
   .hero__button {
-    color: #eee;
+    color: #F1F2F5;
     box-shadow: 0px 1px 5px -2px #000000;
     background-color: transparent;
     border-radius: 28px;
@@ -3599,7 +3601,7 @@ hr {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    color: #eee;
+    color: #F1F2F5;
     font-size: 1.5rem; }
 
 @-webkit-keyframes zoom {
@@ -3687,7 +3689,7 @@ hr {
   max-height: 50vh;
   min-height: 30vh;
   background-color: #222222;
-  color: #eee;
+  color: #F1F2F5;
   padding: 2.5% 5%;
   display: flex;
   flex-direction: column;
@@ -3708,9 +3710,9 @@ hr {
     .global__section > span > img {
       width: 100%; }
   .global__section:nth-child(even) {
-    background-color: #eee; }
+    background-color: #F1F2F5; }
   .global__section:nth-child(odd) {
-    background-color: #f1f2f5; }
+    background-color: #ffffff; }
 
 .global__text {
   width: 60%; }

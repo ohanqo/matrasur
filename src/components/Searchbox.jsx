@@ -89,7 +89,7 @@ const Searchform = props => {
                 type="text"
                 id="searchInput"
                 className="modal-title"
-                placeholder="Search"
+                placeholder="🔍"
                 onChange={props.search}
               />
               <button
@@ -114,7 +114,6 @@ const Searchform = props => {
                     key.includes("contact.subtitle")
                   )
                 ) {
-                  // Navbar si subitem on redirige vers le lien de celui ci
                   if (key.includes(".subitem") && key.includes("navbar")) {
                     return (
                       <Link
@@ -125,7 +124,6 @@ const Searchform = props => {
                       </Link>
                     );
                   } else {
-                    // Si les éléments sont dans la page d'acceuil on redirige
                     if (
                       key.includes("contact.") ||
                       key.includes("slideshow.") ||
@@ -137,7 +135,6 @@ const Searchform = props => {
                         </Link>
                       );
                     } else {
-                      // On extrait le lien depuis la clé
                       const splitedKey = key.split(".", 2);
                       if (splitedKey !== undefined && splitedKey.length === 2) {
                         const link = "/" + splitedKey[0] + "/" + splitedKey[1];

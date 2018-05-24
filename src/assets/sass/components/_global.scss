@@ -6,8 +6,8 @@
     max-height: 50vh;
     min-height: 30vh;
 
-    background-color: $black--flat;
-    color: $white--cloud;
+    background-color: $black;
+    color: $white;
 
     padding: 2.5% 5%;
 
@@ -34,10 +34,10 @@
       }
     }
     &:nth-child(even) {
-      background-color: $white--cloud;
+      background-color: $white;
     }
     &:nth-child(odd) {
-      background-color: $grey--light;
+      background-color: $white--light;
     }
   }
   &__text {

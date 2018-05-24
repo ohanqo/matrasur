@@ -60,6 +60,16 @@ export default {
      */
 
     /**
+     * début Searchbox
+     */
+
+    "searchbox.placeholder": "Que recherchez-vous ?",
+
+    /**
+     * fin searchbox
+     */
+
+    /**
      * Slideshow
      */
     "slideshow.title": "Version française",
@@ -314,6 +324,17 @@ export default {
      * Slideshow
      */
     "slideshow.title": "English version",
+
+    /**
+     * début Searchbox
+     */
+
+    "searchbox.placeholder": "What are you looking for ?",
+
+    /**
+     * fin searchbox
+     */
+
     /**
      * Contact
      */

@@ -5,7 +5,7 @@
     transition: all .3s;
     &:hover {
       text-decoration: none;
-      color: $grey--light;
+      color: $black--light;
     }
   }
   &__elements {
@@ -59,7 +59,7 @@
   &__map {
     list-style: none;
     width: 20vw;
-    margin-bottom: 5%;
+    margin-top: 5%;
     @include media-max($lg) {
       width: 33vw;
       text-align: center;

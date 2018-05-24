@@ -14,10 +14,14 @@
       display: inline-block;
       text-transform: uppercase;
       letter-spacing: 4px;
+
+      & h2 {
+        font-weight: $fontweight--xl;              
+      }
     }
     &--text {
       font-size: $font--md;
-      font-weight: $fontweight--sm;
+      font-weight: $fontweight--md;
 
       @include media-max($md) {
         font-size: 2vh;
@@ -64,7 +68,7 @@
   }
   .a-sep {
     border-radius: 0;
-    background: #eee;
+    background: $white;
     max-width: 8vw;
   }
   .right {

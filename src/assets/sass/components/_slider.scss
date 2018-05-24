@@ -32,7 +32,7 @@ $images: "../img/machines__aero.jpg", "../img/airplane.jpg",
     position: absolute;
     top: 0;
     left: 0;
-    color: white;
+    color: $white--light;
     background-size: cover;
     background-position: 50% 50%;
     opacity: 0;
@@ -79,7 +79,7 @@ $images: "../img/machines__aero.jpg", "../img/airplane.jpg",
   min-height: 6px;
   display: block;
   margin: 5% 5% 10% 1%;
-  background: linear-gradient(to right, #0078e0, #00aeef);
+  background: linear-gradient(to right, $pale--dark, $pale--light);
   border-radius: 2rem;
   box-shadow: $shadow--soft;
   

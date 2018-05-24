@@ -198,7 +198,6 @@ const SecondSection = props => {
               );
             } else if (item.includes(".text")) {
               var rootItem = item.slice(0, -5);
-              console.log(props);
               var link =
                 typeof props.links[rootItem + ".link"] !== "undefined"
                   ? props.links[rootItem + ".link"]

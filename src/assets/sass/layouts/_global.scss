@@ -6,7 +6,7 @@ html,
 body {
   overflow: scroll;
   text-rendering: optimizeLegibility;
-  background: $black--flat;
+  background: $black;
 }
 body {
   background-image: url("../img/bg/bg.png");
@@ -20,5 +20,5 @@ hr {
 }
 
 ::selection {
-  background: $blue--light;
+  background: $blue;
 }

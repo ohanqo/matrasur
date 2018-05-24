@@ -5,20 +5,20 @@
   }
 }
 .-white {
-  color: $white--cloud;
+  color: $white;
 }
 .-bg-- {
   &blue {
     background-color: $blue--light;
   }
   &white {
-    background-color: #fff;
+    background-color: $white--light;
   }
   &black {
-    background-color: black !important;
+    background-color: $black--dark !important;
   }
   &grey {
-    background-color: $grey--light;
+    background-color: $white;
   }
 }
 
