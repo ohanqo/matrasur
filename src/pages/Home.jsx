@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 class Home extends Component {
   componentWillMount() {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
   }
   render() {
     return (
@@ -32,15 +32,17 @@ class Home extends Component {
             <h2 className="a-title -big">
               <FormattedMessage
                 id="slideshow.title"
-                defaultMessage="Message par défaut"
+                defaultMessage="!JSON non valide"
               />
               <br />
               <span className="a-sep" />
             </h2>
           </div>
           <p className="a-subtitle">
-            Ponderum nec nullas arta lapsantibus ponderum et nullas ad nostri
-            plantis consternuntur eos dumos vertices.
+            <FormattedMessage
+              id="slideshow.subtitle"
+              defaultMessage="!JSON non valide"
+            />
           </p>
         </section>
         <Cardsbanner />
@@ -49,18 +51,18 @@ class Home extends Component {
             <div className="m-box__content--title">
               <h2>
                 <span className="a-sep" />
-                <br />Notre histoire
+                <br />
+                <FormattedMessage
+                  id="home.section-1.title"
+                  defaultMessage="!JSON non valide"
+                />
               </h2>
             </div>
             <div className="m-box__content--text text-justify">
-              Sin autem ad adulescentiam perduxissent, dirimi tamen interdum
-              contentione vel uxoriae condicionis vel commodi alicuius, quod
-              idem adipisci uterque non posset. Quod si qui longius in amicitia
-              provecti essent, tamen saepe labefactari, si in honoris
-              contentionem incidissent; pestem enim nullam maiorem esse
-              amicitiis quam in plerisque pecuniae cupiditatem, in optimis
-              quibusque honoris certamen et gloriae; ex quo inimicitias maximas
-              saepe inter amicissimos exstitisse.
+              <FormattedMessage
+                id="home.section-1.text"
+                defaultMessage="!JSON non valide"
+              />
             </div>
           </div>
         </section>
@@ -69,49 +71,74 @@ class Home extends Component {
             <div className="m-box__content--title">
               <h2>
                 <span className="a-sep right" />
-                <br />Notre triple vocation
+                <br />
+                <FormattedMessage
+                  id="home.section-2.title"
+                  defaultMessage="!JSON non valide"
+                />
               </h2>
             </div>
             <div className="m-box__content--text text-justify">
-              Matrasur Composites est à la fois distributeur, constructeur et
-              intégrateur de systèmes dans une variété de process couvrant la
-              projection, la coulée/injection RTM, la projection PU, le
-              thermoformage, parmi d’autres. Epaulée par un bureau d’études et
-              d’ingénierie, Matrasur Composites est en mesure de proposer des
-              solutions manuelles, en automatique ou robotisées.
+              <FormattedMessage
+                id="home.section-2.text"
+                defaultMessage="!JSON non valide"
+              />
             </div>
           </div>
         </section>
         <section className="m-box -fh -fw -bg--white">
-          {/*
-          <div className="m-box__content container text-center">
-            <div className="m-box__content--title font-italic">
-              <h2>Ce que nous fournissons</h2>
-            </div>
-          </div>
-          */}
           <div className="m-box__grids -fw">
-            <div className="item -bg--blue" />
+            <div className="item -bg--blue">
+              <FormattedHTMLMessage
+                id="home.grid-1.image"
+                defaultMessage="!JSON non valide"
+              />
+            </div>
             <div className="item">
               <div className="item__box box-child">
                 <div className="item__box--text -p-10">
-                  <h4>Lorem, ipsum.</h4>
+                  <h4>
+                    <FormattedMessage
+                      id="home.grid-1.text"
+                      defaultMessage="!JSON non valide"
+                    />
+                  </h4>
                 </div>
               </div>
             </div>
             <div className="item">
               <div className="item__box box-child--reverse">
                 <div className="item__box--text -p-10">
-                  <h4>Lorem, ipsum.</h4>
+                  <h4>
+                    <FormattedMessage
+                      id="home.grid-2.text"
+                      defaultMessage="!JSON non valide"
+                    />
+                  </h4>
                 </div>
               </div>
             </div>
-            <div className="item -bg--blue" />
-            <div className="item -bg--blue" />
+            <div className="item -bg--blue">
+              <FormattedHTMLMessage
+                id="home.grid-2.image"
+                defaultMessage="!JSON non valide"
+              />
+            </div>
+            <div className="item -bg--blue">
+              <FormattedHTMLMessage
+                id="home.grid-3.image"
+                defaultMessage="!JSON non valide"
+              />
+            </div>
             <div className="item">
               <div className="item__box box-child">
                 <div className="item__box--text -p-10">
-                  <h4>Lorem, ipsum.</h4>
+                  <h4>
+                    <FormattedMessage
+                      id="home.grid-3.text"
+                      defaultMessage="!JSON non valide"
+                    />
+                  </h4>
                 </div>
               </div>
             </div>
@@ -120,7 +147,7 @@ class Home extends Component {
         <section className="m-contact -fh -fw">
           <div className="m-contact__container container -pt-10 -pb-10">
             <div className="m-box__content--title -white">
-              <h2>Contactez nous</h2>
+              <h2><FormattedMessage id="contact.title" defaultMessage="!JSON non valide" /></h2>
             </div>
             <div className="m-contact__cards row">
               <div className="m-contact__card col-sm-12 col-md-6">

@@ -36,7 +36,8 @@ export default {
     "navbar.item-5.subitem-1.link": "/other/formation",
     "navbar.item-5.subitem-2": "Recrutement",
     "navbar.item-5.subitem-2.link": "/other/recruitment",
-
+    "navbar.item-5.subitem-3": "Documentation",
+    "navbar.item-5.subitem-3.link": "/other/documentation",
     /**
      * début footer
      */
@@ -60,26 +61,78 @@ export default {
      */
 
     /**
-     * début Searchbox
-     */
-
-    "searchbox.placeholder": "Que recherchez-vous ?",
-
-    /**
-     * fin searchbox
-     */
-
-    /**
-     * Slideshow
+     * début slideshow
      */
     "slideshow.title": "Version française",
+    "slideshow.subtitle":
+      "Ponderum nec nullas arta lapsantibus ponderum et nullas ad nostriplantis consternuntur eos dumos vertices.",
+
     /**
-     *
+     * fin slideshow
+     */
+
+    /**
+     * début home
+     */
+
+    // début Cards
+
+    "home.card-1.title": "Omnem defensio omnem existimatis.",
+    "home.card-1.text":
+      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur, Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
+    "home.card-1.button": "Lorem ipsum",
+    "home.card-1.link": "/processes/projection",
+
+    "home.card-2.title": "Omnem defensio omnem existimatis.",
+    "home.card-2.text":
+      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
+    "home.card-2.button": "Lorem ipsum",
+    "home.card-2.link": "/processes/projection",
+
+    "home.card-3.title": "Omnem defensio omnem existimatis.",
+    "home.card-3.text":
+      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
+    "home.card-3.button": "Lorem ipsum",
+    "home.card-3.link": "/processes/projection",
+
+    "home.card-4.title": "Omnem defensio omnem existimatis.",
+    "home.card-4.text":
+      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
+    "home.card-4.button": "Lorem ipsum",
+    "home.card-4.link": "/processes/projection",
+
+    // fin Cards
+
+    "home.section-1.title": "Notre histoire",
+    "home.section-1.text":
+      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius, quod idem adipisci uterque non posset. Quod si qui longius in amicitia provecti essent, tamen saepe labefactari, si in honoris contentionem incidissent; pestem enim nullam maiorem esse amicitiis quam in plerisque pecuniae cupiditatem, in optimis quibusque honoris certamen et gloriae; ex quo inimicitias maximas saepe inter amicissimos exstitisse.",
+
+    "home.section-2.title": "Notre triple vocation",
+    "home.section-2.text":
+      "Matrasur Composites est à la fois distributeur, constructeur et intégrateur de systèmes dans une variété de process couvrant la projection, la coulée/injection RTM, la projection PU, le thermoformage, parmi d’autres. Epaulée par un bureau d’études et d’ingénierie, Matrasur Composites est en mesure de proposer des solutions manuelles, en automatique ou robotisées.",
+
+    "home.grid-1.text":
+      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+    "home.grid-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image 1'/>",
+    "home.grid-2.text":
+      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+    "home.grid-2.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image 2'/>",
+
+    "home.grid-3.text":
+      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+    "home.grid-3.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image 3'/>",
+
+    /**
+     * fin home
      */
 
     /**
      * Contact
      */
+    "contact.title": "Contactez nous",
     "contact.img-1":
       "<img src='/assets/img/contact/contact-1.jpg' alt='Image 1 du contact'/>",
     "contact.img-2":
@@ -208,6 +261,13 @@ export default {
     "processes.projection.section-2.image":
       "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
 
+    "processes.projection.section-3.name.darker": "Ce que nous vous proposons",
+    "processes.projection.section-3.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quas ducimus ad natus praesentium voluptatem nostrum velit distinctio modi rem debitis quod aliquid non vero perspiciatis illum at molestias perferendis quia, voluptatibus dignissimos. Labore, quam exercitationem autem dolorem deserunt ratione.",
+    "processes.projection.section-4.name.darker": "Ce que nous vous proposons",
+    "processes.projection.section-4.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quas ducimus ad natus praesentium voluptatem nostrum velit distinctio modi rem debitis quod aliquid non vero perspiciatis illum at molestias perferendis quia, voluptatibus dignissimos. Labore, quam exercitationem autem dolorem deserunt ratione.",
+
     /**
      * fin projection
      */
@@ -252,7 +312,7 @@ export default {
     "materials.resins.section-1.text":
       "Les résines époxy offrent une incroyable diversité et voient leur usage tourné vers des fabrications particulières en perpétuelle évolution.",
     "materials.resins.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>"
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
 
     /**
      * fin résines
@@ -260,6 +320,65 @@ export default {
 
     /**
      * fin pages materials
+     */
+
+    /**
+     * début other/documentation
+     */
+    "other.documentation.title": "Besoin d'informations ?",
+    "other.documentation.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "other.documentation.image":
+      "<img src='/assets/img/documentation/documentation.jpg' alt='Documentation'/>",
+    "other.documentation.section-1.title": "À propos de la société",
+    "other.documentation.section-1.item-1.name": "Brochure de la société",
+    "other.documentation.section-1.item-1.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-1.item-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-1.item-1.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
+
+    "other.documentation.section-1.item-2.name": "Brochure de la société",
+    "other.documentation.section-1.item-2.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-1.item-2.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-1.item-2.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
+    "other.documentation.section-1.item-3.name": "Brochure de la société",
+    "other.documentation.section-1.item-3.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-1.item-3.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-1.item-3.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
+    "other.documentation.section-1.item-4.name": "Brochure de la société",
+    "other.documentation.section-1.item-4.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-1.item-4.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-1.item-4.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
+
+    "other.documentation.section-2.title": "À propos de la société",
+    "other.documentation.section-2.item-1.name": "Brochure de la société",
+    "other.documentation.section-2.item-1.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-2.item-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-2.item-1.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
+    "other.documentation.section-2.item-2.name": "Brochure de la société",
+    "other.documentation.section-2.item-2.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-2.item-2.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-2.item-2.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf"
+
+    /**
+     * fin other/documentation
      */
   },
   en: {
@@ -299,6 +418,8 @@ export default {
     "navbar.item-5.subitem-1.link": "/other/formation",
     "navbar.item-5.subitem-2": "Recruitment",
     "navbar.item-5.subitem-2.link": "/other/recruitment",
+    "navbar.item-5.subitem-3": "Documentation",
+    "navbar.item-5.subitem-3.link": "/other/documentation",
 
     /**
      * début footer
@@ -321,23 +442,76 @@ export default {
      */
 
     /**
-     * Slideshow
+     * début slideshow
      */
     "slideshow.title": "English version",
+    "slideshow.subtitle":
+      "Ponderum nec nullas arta lapsantibus ponderum et nullas ad nostriplantis consternuntur eos dumos vertices.",
 
     /**
-     * début Searchbox
+     * fin slideshow
      */
 
-    "searchbox.placeholder": "What are you looking for ?",
-
     /**
-     * fin searchbox
+     * début home
+     */
+
+    // début Cards
+
+    "home.card-1.title": "Omnem defensio omnem existimatis.",
+    "home.card-1.text":
+      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
+    "home.card-1.button": "Lorem ipsum",
+    "home.card-1.link": "/processes/projection",
+
+    "home.card-2.title": "Omnem defensio omnem existimatis.",
+    "home.card-2.text":
+      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
+    "home.card-2.button": "Lorem ipsum",
+    "home.card-2.link": "/processes/projection",
+
+    "home.card-3.title": "Omnem defensio omnem existimatis.",
+    "home.card-3.text":
+      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
+    "home.card-3.button": "Lorem ipsum",
+    "home.card-3.link": "/processes/projection",
+
+    "home.card-4.title": "Omnem defensio omnem existimatis.",
+    "home.card-4.text":
+      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
+    "home.card-4.button": "Lorem ipsum",
+    "home.card-4.link": "/processes/projection",
+
+    // fin Cards
+
+    "home.section-1.title": "Our story",
+    "home.section-1.text":
+      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius, quod idem adipisci uterque non posset. Quod si qui longius in amicitia provecti essent, tamen saepe labefactari, si in honoris contentionem incidissent; pestem enim nullam maiorem esse amicitiis quam in plerisque pecuniae cupiditatem, in optimis quibusque honoris certamen et gloriae; ex quo inimicitias maximas saepe inter amicissimos exstitisse.",
+
+    "home.section-2.title": "A triple vocation",
+    "home.section-2.text":
+      "Matrasur Composites is a distributor, systems integrator and manufacturer for equipment in a variety of application processes including spray-up (polyester & PU resins, gelcoat, epoxy) , injection and cast (RTM, infusion, polyconcrete) and robotic solutions for part spray-up, trimming, finishing. Backed up by its own Design Office and Engineers, Matrasur Composites offers different levels of technology : manual equipment, semi automated or fully automated systems.",
+
+    "home.grid-1.text":
+      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+    "home.grid-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image 1'/>",
+    "home.grid-2.text":
+      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+    "home.grid-2.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image 2'/>",
+    "home.grid-3.text":
+      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+    "home.grid-3.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image 3'/>",
+    /**
+     * fin home
      */
 
     /**
      * Contact
      */
+    "contact.title": "Contact us",
     "contact.img-1":
       "<img src='/assets/img/contact/contact-1.jpg' alt='Image 1 du contact'/>",
     "contact.img-2":
@@ -473,6 +647,11 @@ export default {
       "Low pressure spray-up technology with head mixture and the latest nozzle technologies are certainly the most performing and operator-friendly equipment for this application. Matrasur Composites offers machines with a wide variety of ratios that are compatible with the majority of resins present in the market.",
     "processes.projection.section-2.image":
       "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    "processes.projection.section-3.name.darker": "What we can do for you",
+    "processes.projection.section-3.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quas ducimus ad natus praesentium voluptatem nostrum velit distinctio modi rem debitis quod aliquid non vero perspiciatis illum at molestias perferendis quia, voluptatibus dignissimos. Labore, quam exercitationem autem dolorem deserunt ratione.",
+
     /**
      * fin projection
      */
@@ -517,7 +696,7 @@ export default {
     "materials.resins.section-1.text":
       "Epoxy resins are of a great diversity and their application fields evolve constanly.",
     "materials.resins.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>"
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
 
     /**
      * fin résines
@@ -525,6 +704,64 @@ export default {
 
     /**
      * fin pages materials
+     */
+
+    /**
+     * début other/documentation
+     */
+    "other.documentation.title": "Need information ?",
+    "other.documentation.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "other.documentation.image":
+      "<img src='/assets/img/documentation/documentation.jpg' alt='Documentation'/>",
+    "other.documentation.section-1.title": "About the society",
+    "other.documentation.section-1.item-1.name": "Company brochure",
+    "other.documentation.section-1.item-1.description":
+      "Here you will find all the information about Matrasur Composites",
+    "other.documentation.section-1.item-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-1.item-1.link":
+      "matrasur_company_brochure_en_fr.pdf",
+
+    "other.documentation.section-1.item-2.name": "Brochure de la société",
+    "other.documentation.section-1.item-2.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-1.item-2.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-1.item-2.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
+    "other.documentation.section-1.item-3.name": "Brochure de la société",
+    "other.documentation.section-1.item-3.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-1.item-3.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-1.item-3.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
+    "other.documentation.section-1.item-4.name": "Brochure de la société",
+    "other.documentation.section-1.item-4.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-1.item-4.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-1.item-4.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
+
+    "other.documentation.section-2.title": "À propos de la société",
+    "other.documentation.section-2.item-1.name": "Brochure de la société",
+    "other.documentation.section-2.item-1.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-2.item-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-2.item-1.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
+    "other.documentation.section-2.item-2.name": "Brochure de la société",
+    "other.documentation.section-2.item-2.description":
+      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+    "other.documentation.section-2.item-2.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+    "other.documentation.section-2.item-2.link":
+      "/documentation/matrasur_company_brochure_en_fr.pdf"
+    /**
+     * fin other/documentation
      */
   }
 };

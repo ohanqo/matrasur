@@ -21,6 +21,10 @@
       padding-bottom: 2.5%;
       margin: 0;
     }
+    & > h2, & p {
+      border-left: 5px solid $pale--light;
+      padding-left: 2.5%;
+    }
   }
   &__section {
     display: flex;
@@ -34,10 +38,10 @@
       }
     }
     &:nth-child(even) {
-      background-color: $white;
+      background-color: $white--light;
     }
     &:nth-child(odd) {
-      background-color: $white--light;
+      background-color: $white;
     }
   }
   &__text {
@@ -49,6 +53,28 @@
     & > p {
       text-align: justify;
       padding-top: 2.5%;
+    }
+  }
+  &__sections {
+    &--darker {
+      background-color: $white--light;
+      & .container {
+        padding: 5%;
+        margin-top: 5%;    
+        margin-bottom: 5%;    
+        background-color: $white--dark;
+      }
+      & section {
+        background-color: $white--dark;
+        &:nth-child(odd) {
+          padding-bottom: 5%;
+        }
+        & h4 {
+          font-weight: 600;
+          text-transform: uppercase;
+          margin-bottom: 5%;
+        }
+      }
     }
   }
 }

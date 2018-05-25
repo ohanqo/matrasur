@@ -26,6 +26,10 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
       width: 25vw;
       min-height: 50vh;
       flex-grow: 1;
+      overflow: hidden;
+      & > a {
+        text-align: center;
+      }
       &__title {
         flex-grow: 0.33;
         font-size: $font-title--small;
@@ -36,15 +40,22 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
       &__content {
         flex-grow: 0.33;
         font-weight: 200;
+        overflow: hidden;
+        text-align: justify;
 
         @include media-max($md) {
           padding: 5% 0;
+        }
+        @include media-min($lg) {
+          max-height: 20vh;
+          margin-bottom: 5%;
+          text-overflow: hidden;
         }
       }
       &__button {
         max-width: 50%;
         margin: auto;
-        font-size: $font-title--small;
+        font-size: 1.2vw;
         color: $white;
         background: $pale;
         border-radius: 2rem;
@@ -60,9 +71,18 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
           min-height: 60vh;
           border-radius: 0.5rem;
           transform: translateY(-5vh);
-          background: linear-gradient(to bottom, $blue--dark, $black) !important;
+          background: linear-gradient(
+            to bottom,
+            $blue--dark,
+            $black
+          ) !important;
           transition-duration: 0.2s;
           transition-timing-function: ease-out;
+
+          & .m-card__content {
+            height: auto;
+            max-height: none;
+          }
         }
       }
       @for $i from 1 through length($bg__images) {

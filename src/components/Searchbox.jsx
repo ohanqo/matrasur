@@ -90,6 +90,7 @@ const Searchform = props => {
                 id="searchInput"
                 className="modal-title"
                 placeholder="🔍"
+                autoComplete="off"
                 onChange={props.search}
               />
               <button
@@ -127,7 +128,8 @@ const Searchform = props => {
                     if (
                       key.includes("contact.") ||
                       key.includes("slideshow.") ||
-                      key.includes("footer.")
+                      key.includes("footer.") ||
+                      key.includes("home")
                     ) {
                       return (
                         <Link key={index} to="/">

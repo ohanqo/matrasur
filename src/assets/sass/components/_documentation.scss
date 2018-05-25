@@ -1,0 +1,94 @@
+.hero {
+  &__image--doc {
+    & img {
+      width: 100vw;
+      height: 100vh;
+    }
+    &:after {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: $black--dark;
+      opacity: .6;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+  &__content--doc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align: center;
+
+    padding: 0 15%;
+    & h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      padding-bottom: 5%;
+      letter-spacing: 2px;
+    }
+    & p {
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.doc {
+  &__section {
+    background-color: $white--light;
+    height: auto;
+    & > h2 {
+      padding: 5%;
+    }
+    &:nth-child(odd) {
+      background-color: $white;
+    }
+  }
+  &__cards--doc {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    & > * {
+      margin-bottom: 5%;
+    }
+  }
+  &__card--doc {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column wrap;
+    width: 30vw;
+    min-height: 40vh;
+    background-color: $black;
+    & img {
+      width: 100%;
+    }
+    & > span {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background-color: $black--dark;
+      opacity: .6;
+      left: 0;
+      top: 0;
+    }
+  }
+  &__cardContent {
+    position: absolute;
+    width: inherit;
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+    & > h4 {
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+  }
+}

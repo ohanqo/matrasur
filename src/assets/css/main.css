@@ -3270,7 +3270,10 @@ hr {
       justify-content: center;
       width: 25vw;
       min-height: 50vh;
-      flex-grow: 1; }
+      flex-grow: 1;
+      overflow: hidden; }
+      .o-cardsbanner .o-banner .m-card > a {
+        text-align: center; }
       .o-cardsbanner .o-banner .m-card__title {
         flex-grow: 0.33;
         font-size: 1.2rem;
@@ -3279,14 +3282,21 @@ hr {
         padding-top: 5%; }
       .o-cardsbanner .o-banner .m-card__content {
         flex-grow: 0.33;
-        font-weight: 200; }
+        font-weight: 200;
+        overflow: hidden;
+        text-align: justify; }
         @media screen and (max-width: 768px) {
           .o-cardsbanner .o-banner .m-card__content {
             padding: 5% 0; } }
+        @media screen and (min-width: 992px) {
+          .o-cardsbanner .o-banner .m-card__content {
+            max-height: 20vh;
+            margin-bottom: 5%;
+            text-overflow: hidden; } }
       .o-cardsbanner .o-banner .m-card__button {
         max-width: 50%;
         margin: auto;
-        font-size: 1.2rem;
+        font-size: 1.2vw;
         color: #F1F2F5;
         background: #4AADE9;
         border-radius: 2rem; }
@@ -3303,7 +3313,10 @@ hr {
           transform: translateY(-5vh);
           background: linear-gradient(to bottom, #1E4667, #222222) !important;
           transition-duration: 0.2s;
-          transition-timing-function: ease-out; } }
+          transition-timing-function: ease-out; }
+          .o-cardsbanner .o-banner .m-card:hover .m-card__content {
+            height: auto;
+            max-height: none; } }
       .o-cardsbanner .o-banner .m-card:nth-child(1) {
         background-size: cover;
         background-image: url("../img/cardsbanner/ibazur.jpg"); }
@@ -3347,20 +3360,22 @@ hr {
       width: 50vw;
       height: 45vh;
       display: flex;
-      align-items: center; }
-      .m-box__grids .item:nth-child(1), .m-box__grids .item:nth-child(4), .m-box__grids .item:nth-child(5) {
-        background-image: url(https://loremflickr.com/320/240);
-        background-size: cover; }
+      align-items: center;
+      overflow: hidden; }
       .m-box__grids .item:nth-child(even) {
         justify-content: flex-start; }
       .m-box__grids .item:nth-child(odd) {
         justify-content: flex-end; }
+      .m-box__grids .item:nth-child(2), .m-box__grids .item:nth-child(6) {
+        padding-right: 2.5%; }
+      .m-box__grids .item:nth-child(3) {
+        padding-left: 2.5%; }
       .m-box__grids .item__box {
         border: 5px solid #7DC4FF; }
-        .m-box__grids .item__box .box-child {
-          border-left: none; }
-          .m-box__grids .item__box .box-child--reverse {
-            border-right: none; }
+      .m-box__grids .item .box-child {
+        border-left: none; }
+        .m-box__grids .item .box-child--reverse {
+          border-right: none; }
   .m-box .a-sep {
     border-radius: 0;
     background: #F1F2F5;
@@ -3461,6 +3476,8 @@ hr {
     text-align: center; }
     .footer__img > span > img {
       width: 20%; }
+  .footer__tel > a > span {
+    font-family: sans-serif; }
   .footer__social {
     display: flex;
     flex-flow: row wrap;
@@ -3482,6 +3499,9 @@ hr {
         text-align: center; } }
   .footer__links {
     padding-left: 5%; }
+    @media screen and (max-width: 992px) {
+      .footer__links {
+        padding-left: 0; } }
   .footer__title {
     text-transform: uppercase;
     font-weight: 600; }
@@ -3699,6 +3719,9 @@ hr {
     font-weight: 600;
     padding-bottom: 2.5%;
     margin: 0; }
+  .global__header > h2, .global__header p {
+    border-left: 5px solid #6AC7FF;
+    padding-left: 2.5%; }
 
 .global__section {
   display: flex;
@@ -3710,9 +3733,9 @@ hr {
     .global__section > span > img {
       width: 100%; }
   .global__section:nth-child(even) {
-    background-color: #F1F2F5; }
-  .global__section:nth-child(odd) {
     background-color: #ffffff; }
+  .global__section:nth-child(odd) {
+    background-color: #F1F2F5; }
 
 .global__text {
   width: 60%; }
@@ -3722,3 +3745,96 @@ hr {
   .global__text > p {
     text-align: justify;
     padding-top: 2.5%; }
+
+.global__sections--darker {
+  background-color: #ffffff; }
+  .global__sections--darker .container {
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #D6D6D6; }
+  .global__sections--darker section {
+    background-color: #D6D6D6; }
+    .global__sections--darker section:nth-child(odd) {
+      padding-bottom: 5%; }
+    .global__sections--darker section h4 {
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 5%; }
+
+.hero__image--doc img {
+  width: 100vw;
+  height: 100vh; }
+
+.hero__image--doc:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: .6;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.hero__content--doc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  text-align: center;
+  padding: 0 15%; }
+  .hero__content--doc h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 5%;
+    letter-spacing: 2px; }
+  .hero__content--doc p {
+    letter-spacing: 1px; }
+
+.doc__section {
+  background-color: #ffffff;
+  height: auto; }
+  .doc__section > h2 {
+    padding: 5%; }
+  .doc__section:nth-child(odd) {
+    background-color: #F1F2F5; }
+
+.doc__cards--doc {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+  .doc__cards--doc > * {
+    margin-bottom: 5%; }
+
+.doc__card--doc {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  width: 30vw;
+  min-height: 40vh;
+  background-color: #222222; }
+  .doc__card--doc img {
+    width: 100%; }
+  .doc__card--doc > span {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .6;
+    left: 0;
+    top: 0; }
+
+.doc__cardContent {
+  position: absolute;
+  width: inherit;
+  display: flex;
+  flex-flow: column wrap;
+  color: white; }
+  .doc__cardContent > h4 {
+    text-transform: uppercase;
+    font-weight: 600; }

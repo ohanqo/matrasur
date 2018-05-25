@@ -43,6 +43,11 @@
       width: 20%;
     }
   }
+  &__tel {
+    & > a > span {
+      font-family: sans-serif;
+    }
+  }
   &__social {
     display: flex;
     flex-flow: row wrap;
@@ -67,6 +72,9 @@
   }
   &__links {
     padding-left: 5%;
+    @include media-max($lg) {
+      padding-left: 0;
+    }
   }
   &__title {
     text-transform: uppercase;

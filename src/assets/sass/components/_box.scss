@@ -16,7 +16,7 @@
       letter-spacing: 4px;
 
       & h2 {
-        font-weight: $fontweight--xl;              
+        font-weight: $fontweight--xl;
       }
     }
     &--text {
@@ -25,7 +25,7 @@
 
       @include media-max($md) {
         font-size: 2vh;
-        font-weight: $fontweight--md;        
+        font-weight: $fontweight--md;
       }
     }
   }
@@ -38,13 +38,7 @@
       height: 45vh;
       display: flex;
       align-items: center;
-
-      &:nth-child(1),
-      &:nth-child(4),
-      &:nth-child(5) {
-        background-image: url(https://loremflickr.com/320/240);
-        background-size: cover;
-      }
+      overflow: hidden;
 
       &:nth-child(even) {
         justify-content: flex-start;
@@ -54,14 +48,20 @@
         justify-content: flex-end;
       }
 
+      &:nth-child(2), &:nth-child(6) {
+        padding-right: 2.5%;
+      }
+      &:nth-child(3) {
+        padding-left: 2.5%;
+      }
+
       &__box {
         border: 5px solid $blue--light;
-
-        & .box-child {
-          border-left: none;
-          &--reverse {
-            border-right: none;
-          }
+      }
+      & .box-child {
+        border-left: none;
+        &--reverse {
+          border-right: none;
         }
       }
     }

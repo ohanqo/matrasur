@@ -52,7 +52,7 @@ export default class Global extends Component {
       return <Redirect to="/" />;
     } else {
       return (
-        <div className="global">
+        <div className="global -bg--white">
           <Navbar />
           <section className="hero -fw -fh">
             <FormattedHTMLMessage
@@ -102,6 +102,35 @@ export default class Global extends Component {
                 );
               } else return null;
             })}
+          </section>
+          <section className="global__sections--darker">
+            <div className="global__wrapper--darker container">
+              {Object.keys(this.state.items).map((item, index) => {
+                if (item.endsWith(".darker") && item.includes(".name")) {
+                  return (
+                    <section
+                      className="global__section--darker"
+                      key={index}
+                    >
+                      <div className="global__text--darker">
+                        <h4>
+                          <FormattedMessage
+                            id={item}
+                            defaultMessage="!JSON non-valide"
+                          />
+                        </h4>
+                        <p>
+                          <FormattedMessage
+                            id={item.replace("name", "text")}
+                            defaultMessage="!JSON non-valide"
+                          />
+                        </p>
+                      </div>
+                    </section>
+                  );
+                } else return null;
+              })}
+            </div>
           </section>
           <Footer />
         </div>
