@@ -68,10 +68,17 @@
     @include media-max($lg) {
       width: 33vw;
       text-align: center;
+      padding: 0;
+    }
+    @include media-max($md) {
+      width: 50vw;
+      padding: 0;
     }
   }
   &__links {
+    list-style: none;
     padding-left: 5%;
+    word-break: break-all;
     @include media-max($lg) {
       padding-left: 0;
     }

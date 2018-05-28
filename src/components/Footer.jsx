@@ -39,9 +39,12 @@ export default class Footer extends Component {
             </div>
             <div className="footer__social">
               {Object.keys(this.state.data).map((item, index) => {
-                if (item.startsWith("footer.social.icon") && !item.endsWith(".link")) {
+                if (
+                  item.startsWith("footer.social.icon") &&
+                  !item.endsWith(".link")
+                ) {
                   return (
-                    <a href={this.state.data[item + ".link"]} key={index} >
+                    <a href={this.state.data[item + ".link"]} key={index}>
                       <FormattedHTMLMessage
                         id={item}
                         defaultMessage="!JSON non valide"
@@ -76,20 +79,20 @@ export default class Footer extends Component {
                         defaultMessage="!JSON non valide"
                       />
                     </li>
-                    <div className="footer__links">
+                    <ul className="footer__links">
                       {Object.keys(links).map((i, n) => {
                         return (
-                          <Link to={links[i]} key={n}>
-                            <li>
+                          <li key={n}>
+                            <Link to={links[i]}>
                               <FormattedMessage
                                 id={i.substring(0, i.length - 5)}
                                 defaultMessage="!JSON non valide"
                               />
-                            </li>
-                          </Link>
+                            </Link>
+                          </li>
                         );
                       })}
-                    </div>
+                    </ul>
                   </ul>
                 );
               }

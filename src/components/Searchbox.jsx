@@ -133,7 +133,7 @@ const Searchform = props => {
                     ) {
                       return (
                         <Link key={index} to="/">
-                          {key.value}
+                          {keyValue}
                         </Link>
                       );
                     } else {

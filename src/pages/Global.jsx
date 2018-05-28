@@ -78,12 +78,16 @@ export default class Global extends Component {
             {Object.keys(this.state.items).map((item, index) => {
               if (item.endsWith(".name")) {
                 const sectionItem = item.substr(0, item.length - 5);
+                const hasImage =
+                  sectionItem + ".image" in this.state.items ? true : false;
                 return (
                   <section className="global__section -fw -hh" key={index}>
-                    <FormattedHTMLMessage
-                      id={sectionItem + ".image"}
-                      defaultMessage="!JSON non-valide"
-                    />
+                    {hasImage && (
+                      <FormattedHTMLMessage
+                        id={sectionItem + ".image"}
+                        defaultMessage="!JSON non-valide"
+                      />
+                    )}
                     <div className="global__text">
                       <h4>
                         <FormattedMessage
@@ -108,10 +112,7 @@ export default class Global extends Component {
               {Object.keys(this.state.items).map((item, index) => {
                 if (item.endsWith(".darker") && item.includes(".name")) {
                   return (
-                    <section
-                      className="global__section--darker"
-                      key={index}
-                    >
+                    <section className="global__section--darker" key={index}>
                       <div className="global__text--darker">
                         <h4>
                           <FormattedMessage

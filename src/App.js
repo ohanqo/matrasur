@@ -7,7 +7,6 @@ import PropTypes from "prop-types";
 import msg from "./data/messages";
 
 import Home from "./pages/Home";
-import Application from "./pages/Application";
 import Global from "./pages/Global";
 import Machines from "./pages/Machine";
 import Entreprise from "./pages/Entreprise";
@@ -24,7 +23,6 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/application/:domain" component={Application} />
             <Route path="/other/documentation" component={Documentation} />
             <Route path="/:domain/:param" component={Global} />
             <Route path="/machines" component={Machines} />

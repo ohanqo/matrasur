@@ -144,13 +144,15 @@ export default {
 
     "contact.title-1": "Service commercial",
     "contact.title-2": "Service après-vente",
-    "contact.title-3": "Lorem ipsum",
+    "contact.title-3": "Conact international",
     "contact.title-4": "Lorem ipsum",
 
     "contact.subtitle-1":
-      "<i class='fas fa-phone'></i> +33 1 61 61 65 65 <br/> <i class='fas fa-envelope'></i> info@matrasurcomposites.com",
+      "<a href='mailto:info@matrasurcomposites.com'><i class='fas fa-phone'></i> +33 1 61 61 65 65 <br/> <i class='fas fa-envelope'></i> info@matrasurcomposites.com</a>",
     "contact.subtitle-2":
-      "<i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com",
+      "<a href='mailto:sav@matrasurcomposites.com'><i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com</a>",
+    "contact.subtitle-3":
+      "<a href='/other/international'>Voir nos contacts</a>",
 
     /**
      * Pages Application
@@ -159,39 +161,25 @@ export default {
     /* Début Aerospace */
     "application.aerospace.title": "Domaine de l'aviation",
     "application.aerospace.subtitle":
-      "Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "application.aerospace.button": "En savoir plus",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "application.aerospace.image":
       "<img src='/assets/img/applicationPages/aerospace/aerospace.jpeg' alt='Background' class='hero__image'/>",
 
     "application.aerospace.section-1.name": "Description",
-    "application.aerospace.section-1.item-1.image":
-      "<img src='/assets/img/applicationPages/aerospace/machines__simulation.jpg' alt='Machine 3D Logiciel modélisation' />",
-    "application.aerospace.section-1.item-1.text":
+    "application.aerospace.section-1.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-1.item-2.text":
+    "application.aerospace.section-1.image": "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
+    
+    "application.aerospace.section-2.name": "Procédures recommandées",
+    "application.aerospace.section-2.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-1.item-2.image":
-      "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Turbine d'avion />",
+    "application.aerospace.section-2.image": "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
 
-    "application.aerospace.section-2.name": "Procédés recommandés",
-    "application.aerospace.section-2.item-1.title":
-      "Les procédés que nous recommandons",
-    "application.aerospace.section-2.item-1.text": "Procédés numero 1",
-    "application.aerospace.section-2.item-1.image":
-      "<img src='https://picsum.photos/200/300/?random' alt='Procédés numero 1' />",
-    "application.aerospace.section-2.item-1.link": "/process/nomprocedure",
+    "application.aerospace.section-3.name.darker": "Procedures numéro 1",
+    "application.aerospace.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
-    "application.aerospace.section-2.item-2.text": "Procédés numero 2",
-    "application.aerospace.section-2.item-2.image":
-      "<img src='https://picsum.photos/200/300/?random' alt='Procédés numero 2' />",
-    "application.aerospace.section-2.item-2.link": "/process/nomprocedure",
-    "application.aerospace.section-2.item-3.text": "Procédés numero 3",
-    "application.aerospace.section-2.item-3.image":
-      "<img src='https://picsum.photos/200/300/?random' alt='Procédés numero 3' />",
-    "application.aerospace.section-2.item-3.link": "/process/nomprocedure",
-
-    "application.aerospace.section-3.name": "Lorem, ipsum.",
+    "application.aerospace.section-4.name.darker": "Procedures numéro 2",
+    "application.aerospace.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     /* Fin Aerospace */
 
@@ -199,36 +187,53 @@ export default {
     "application.refrigeration.title": "Domaine du froid",
     "application.refrigeration.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "application.refrigeration.button": "En savoir plus",
     "application.refrigeration.image":
-      "<img src='/assets/img/applicationPages/refrigeration/refrigerated.jpg' alt='Background' class='hero__image'/>",
+      "<img src='/assets/img/applicationPages/refrigeration/refrigeration.jpg' alt='Background' class='hero__image'/>",
 
     "application.refrigeration.section-1.name": "Description",
-    "application.refrigeration.section-1.item-1.image":
-      "<img src='/assets/img/applicationPages/aerospace/machines__simulation.jpg' alt='Machine 3D Logiciel modélisation' />",
-    "application.refrigeration.section-1.item-1.text":
+    "application.refrigeration.section-1.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-1.item-2.text":
+    "application.refrigeration.section-1.image": "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+    
+    "application.refrigeration.section-2.name": "Procédures recommandées",
+    "application.refrigeration.section-2.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-1.item-2.image":
-      "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Turbine d'avion />",
-    "application.refrigeration.section-2.name": "Procédés recommandés",
-    "application.refrigeration.section-3.name": "Lorem, ipsum.",
+    "application.refrigeration.section-2.image": "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+
+    "application.refrigeration.section-3.name.darker": "Procedures numéro 1",
+    "application.refrigeration.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+
+    "application.refrigeration.section-4.name.darker": "Procedures numéro 2",
+    "application.refrigeration.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+
     /* Fin refrigeration */
 
     /**
      * Début Marine
      */
-    "application.marine.title": "Application Marine",
+    "application.marine.title": "Domaine Maritime",
     "application.marine.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "application.marine.button": "En savoir plus",
     "application.marine.image":
       "<img src='/assets/img/applicationPages/marine/marine.jpg' alt='Background' class='hero__image'/>",
 
     "application.marine.section-1.name": "Description",
-    "application.marine.section-2.name": "Procédés recommandés",
-    "application.marine.section-3.name": "Lorem, ipsum.",
+    "application.marine.section-1.text":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.marine.section-1.image": "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+    
+    "application.marine.section-2.name": "Procédures recommandées",
+    "application.marine.section-2.text":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.marine.section-2.image": "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+
+    "application.marine.section-3.name.darker": "Procedures numéro 1",
+    "application.marine.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+
+    "application.marine.section-4.name.darker": "Procedures numéro 2",
+    "application.marine.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+
+
     /**
      * Fin Marine
      */
@@ -323,7 +328,41 @@ export default {
      */
 
     /**
-     * début other/documentation
+     * début other
+     */
+    /**
+     * début formation
+     */
+    "other.formation.title": "La formation chez Matrasur Composites",
+    "other.formation.subtitle":
+      "Matrasur Composites partage avec ses clients son savoir-faire et ses trente années d’expérience dans les composites. Les procédés de transformation offrent une telle diversité que certains choix techniques se transforment en véritables défis. Partant du principe qu’une bonne formation vaut souvent mieux qu’un long discours, Matrasur composites s’est organisé dans cette spécialité du transfert de savoir en offrant à ses clients un service de formation structuré.",
+    "other.formation.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc' class='hero__image'/>",
+    "other.formation.section-1.name": "Datadocké",
+    "other.formation.section-1.text":
+      "La société Matrasur Composites est référencée et certifiée par la plateforme Datadock. Datadock est une base de données unique référençant tous les organismes de formation.",
+    "other.formation.section-1.image":
+      "<img src='/assets/img/formation/datadock.jpg' alt='Image section'/>",
+    "other.formation.section-2.name": "Formation des opérateurs",
+    "other.formation.section-2.text":
+      "Pour une conduite sereine des machines, assurant un rendement maximal ainsi que la longévité de l’équipement.",
+    "other.formation.section-3.name": "Formation à la maintenance",
+    "other.formation.section-3.text":
+      "Pour un entretien sécurisé et des coûts d'exploitation maitrisés.",
+    "other.formation.section-4.name":
+      "Formation des services méthodes des ateliers",
+    "other.formation.section-4.text":
+      "Ce volet particulier permet d’ouvrir de nouveaux horizons technologiques aux services méthodes, en élargissant leur point de vue sur les moyens pour optimiser la production.",
+    "other.formation.section-5.name": "Formation professionnelle",
+    "other.formation.section-5.text":
+      "Auprès de centres de formation tels que des lycées techniques, facilitant ainsi l’apprentissage des techniques et de procédés variés. Matrasur Composites est agréé organisme de formation professionnelle (N° de formateur:119 104 28191). Cette qualification permet à Matrasur Composites de dispenser des programmes complets de formation à sa clientèle dans le cadre de la formation professionnelle continue.",
+
+    /**
+     * fin formation
+     */
+    /**
+     * début documentation
+     * Cette page a une structure différente des autres
      */
     "other.documentation.title": "Besoin d'informations ?",
     "other.documentation.subtitle":
@@ -378,7 +417,10 @@ export default {
       "/documentation/matrasur_company_brochure_en_fr.pdf"
 
     /**
-     * fin other/documentation
+     * fin documentation
+     */
+    /**
+     * fin other
      */
   },
   en: {
@@ -524,14 +566,15 @@ export default {
     "contact.title-1": "Commercial service",
 
     "contact.title-2": "After-sales service",
-    "contact.title-3": "Lorem ipsum",
+    "contact.title-3": "International contact",
     "contact.title-4": "Lorem ipsum",
 
     "contact.subtitle-1":
-      "<i class='fas fa-phone'></i> +33 1 61 61 65 65 <br/> <i class='fas fa-envelope'></i> info@matrasurcomposites.com",
+      "<a href='mailto:info@matrasurcomposites.com'><i class='fas fa-phone'></i> +33 1 61 61 65 65 <br/> <i class='fas fa-envelope'></i> info@matrasurcomposites.com</a>",
     "contact.subtitle-2":
-      "<i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com",
-
+      "<a href='mailto:sav@matrasurcomposites.com'><i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com</a>",
+    "contact.subtitle-3":
+      "<a href='/other/international'>See our contacts</a>",
     /**
      * Début pages Application
      */
@@ -542,37 +585,25 @@ export default {
     "application.aerospace.title": "Aerospace sector",
     "application.aerospace.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "application.aerospace.button": "Learn more",
     "application.aerospace.image":
       "<img src='/assets/img/applicationPages/aerospace/aerospace.jpeg' alt='Background' class='hero__image'/>",
 
     "application.aerospace.section-1.name": "Description",
-    "application.aerospace.section-1.item-1.image":
-      "<img src='/assets/img/applicationPages/aerospace/machines__simulation.jpg' alt='Machine 3D Logiciel modélisation' />",
-    "application.aerospace.section-1.item-1.text":
+    "application.aerospace.section-1.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-1.item-2.text":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-1.item-2.image":
-      "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Turbine d'avion />",
-
+    "application.aerospace.section-1.image": "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
+    
     "application.aerospace.section-2.name": "Recommended Procedures",
-    "application.aerospace.section-2.item-1.title":
-      "The processes we recommend",
-    "application.aerospace.section-2.item-1.text": "Procedures number 1",
-    "application.aerospace.section-2.item-1.image":
-      "<img src='https://picsum.photos/200/300/?random' alt='Procedures number 1' />",
-    "application.aerospace.section-2.item-1.link": "/process/nomprocedure",
-    "application.aerospace.section-2.item-2.text": "Procedures number 2",
-    "application.aerospace.section-2.item-2.image":
-      "<img src='https://picsum.photos/200/300/?random' alt='Procedures number 2' />",
-    "application.aerospace.section-2.item-2.link": "/process/nomprocedure",
-    "application.aerospace.section-2.item-3.text": "Procedures number 3",
-    "application.aerospace.section-2.item-3.image":
-      "<img src='https://picsum.photos/200/300/?random' alt='Procedures number 3' />",
-    "application.aerospace.section-2.item-3.link": "/process/nomprocedure",
+    "application.aerospace.section-2.text":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-2.image": "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
 
-    "application.aerospace.section-3.name": "Lorem, ipsum.",
+    "application.aerospace.section-3.name.darker": "Procedures number 1",
+    "application.aerospace.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+
+    "application.aerospace.section-4.name.darker": "Procedures number 2",
+    "application.aerospace.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+
     /**
      * Fin Aerospace
      */
@@ -580,24 +611,28 @@ export default {
     /**
      * Debut refrigeration
      */
-    "application.refrigeration.title": "Refrigeration Sector",
+    "application.refrigeration.title": "Refrigeration sector",
     "application.refrigeration.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "application.refrigeration.button": "Learn More",
     "application.refrigeration.image":
-      "<img src='/assets/img/applicationPages/refrigeration/refrigerated.jpg' alt='Background' class='hero__image'/>",
+      "<img src='/assets/img/applicationPages/refrigeration/refrigeration.jpg' alt='Background' class='hero__image'/>",
 
     "application.refrigeration.section-1.name": "Description",
-    "application.refrigeration.section-1.item-1.image":
-      "<img src='/assets/img/applicationPages/aerospace/machines__simulation.jpg' alt='Machine 3D Logiciel modélisation' />",
-    "application.refrigeration.section-1.item-1.text":
+    "application.refrigeration.section-1.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-1.item-2.text":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-1.item-2.image":
-      "<img src='/assets/img/applicationPages/aerospace/airplane.jpg' alt='Turbine d'avion />",
+    "application.refrigeration.section-1.image": "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+    
     "application.refrigeration.section-2.name": "Recommended Procedures",
-    "application.refrigeration.section-3.name": "Lorem, ipsum.",
+    "application.refrigeration.section-2.text":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.refrigeration.section-2.image": "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+
+    "application.refrigeration.section-3.name.darker": "Procedures number 1",
+    "application.refrigeration.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+
+    "application.refrigeration.section-4.name.darker": "Procedures number 2",
+    "application.refrigeration.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+
     /**
      * Fin refrigeration
      */
@@ -605,16 +640,27 @@ export default {
     /**
      * Début Marine
      */
-    "application.marine.title": "Marine Sector",
+    "application.marine.title": "Marine sector",
     "application.marine.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "application.marine.button": "Learn More",
     "application.marine.image":
       "<img src='/assets/img/applicationPages/marine/marine.jpg' alt='Background' class='hero__image'/>",
 
     "application.marine.section-1.name": "Description",
+    "application.marine.section-1.text":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.marine.section-1.image": "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+    
     "application.marine.section-2.name": "Recommended Procedures",
-    "application.marine.section-3.name": "Lorem, ipsum.",
+    "application.marine.section-2.text":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.marine.section-2.image": "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+
+    "application.marine.section-3.name.darker": "Procedures number 1",
+    "application.marine.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+
+    "application.marine.section-4.name.darker": "Procedures number 2",
+    "application.marine.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     /**
      * Fin Marine
@@ -707,7 +753,46 @@ export default {
      */
 
     /**
-     * début other/documentation
+     * début other
+     */
+    /**
+     * début formation
+     */
+    /**
+     * début formation
+     */
+    "other.formation.title": "Training at Matrasur Composites",
+    "other.formation.subtitle":
+      "Matrasur Composites partage avec ses clients son savoir-faire et ses trente années d’expérience dans les composites. Les procédés de transformation offrent une telle diversité que certains choix techniques se transforment en véritables défis. Partant du principe qu’une bonne formation vaut souvent mieux qu’un long discours, Matrasur composites s’est organisé dans cette spécialité du transfert de savoir en offrant à ses clients un service de formation structuré.",
+    "other.formation.image":
+      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc' class='hero__image'/>",
+    "other.formation.section-1.name": "Datadocké",
+    "other.formation.section-1.text":
+      "La société Matrasur Composites est référencée et certifiée par la plateforme Datadock. Datadock est une base de données unique référençant tous les organismes de formation.",
+    "other.formation.section-1.image":
+      "<img src='/assets/img/formation/datadock.jpg' alt='Image section'/>",
+    "other.formation.section-2.name": "Formation des opérateurs",
+    "other.formation.section-2.text":
+      "Pour une conduite sereine des machines, assurant un rendement maximal ainsi que la longévité de l’équipement.",
+    "other.formation.section-3.name": "Formation à la maintenance",
+    "other.formation.section-3.text":
+      "Pour un entretien sécurisé et des coûts d'exploitation maitrisés.",
+    "other.formation.section-4.name":
+      "Formation des services méthodes des ateliers",
+    "other.formation.section-4.text":
+      "Ce volet particulier permet d’ouvrir de nouveaux horizons technologiques aux services méthodes, en élargissant leur point de vue sur les moyens pour optimiser la production.",
+    "other.formation.section-5.name": "Formation professionnelle",
+    "other.formation.section-5.text":
+      "Auprès de centres de formation tels que des lycées techniques, facilitant ainsi l’apprentissage des techniques et de procédés variés. Matrasur Composites est agréé organisme de formation professionnelle (N° de formateur:119 104 28191). Cette qualification permet à Matrasur Composites de dispenser des programmes complets de formation à sa clientèle dans le cadre de la formation professionnelle continue.",
+    /**
+     * fin formation
+     */
+    /**
+     * fin formation
+     */
+
+    /**
+     * début documentation
      */
     "other.documentation.title": "Need information ?",
     "other.documentation.subtitle":
@@ -761,7 +846,10 @@ export default {
     "other.documentation.section-2.item-2.link":
       "/documentation/matrasur_company_brochure_en_fr.pdf"
     /**
-     * fin other/documentation
+     * fin documentation
+     */
+    /**
+     * fin other
      */
   }
 };

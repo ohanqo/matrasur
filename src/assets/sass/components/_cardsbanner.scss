@@ -1,6 +1,6 @@
-$bg__images: "../img/cardsbanner/ibazur.jpg",
-  "../img/cardsbanner/projection.jpg", "../img/cardsbanner/machine.jpg",
-  "../img/cardsbanner/plane.jpg";
+$bg__images: "../img/cardsbanner/card-1.jpg",
+  "../img/cardsbanner/card-2.jpg", "../img/cardsbanner/card-3.jpg",
+  "../img/cardsbanner/card-4.jpg";
 
 .o-cardsbanner {
   position: relative;
@@ -41,7 +41,6 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
         flex-grow: 0.33;
         font-weight: 200;
         overflow: hidden;
-        text-align: justify;
 
         @include media-max($md) {
           padding: 5% 0;
@@ -55,7 +54,7 @@ $bg__images: "../img/cardsbanner/ibazur.jpg",
       &__button {
         max-width: 50%;
         margin: auto;
-        font-size: 1.2vw;
+        font-size: 1rem;
         color: $white;
         background: $pale;
         border-radius: 2rem;

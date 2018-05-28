@@ -24,8 +24,7 @@
       font-weight: $fontweight--md;
 
       @include media-max($md) {
-        font-size: 2vh;
-        font-weight: $fontweight--md;
+        font-size: 16px;
       }
     }
   }

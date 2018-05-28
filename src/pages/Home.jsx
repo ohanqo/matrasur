@@ -147,7 +147,12 @@ class Home extends Component {
         <section className="m-contact -fh -fw">
           <div className="m-contact__container container -pt-10 -pb-10">
             <div className="m-box__content--title -white">
-              <h2><FormattedMessage id="contact.title" defaultMessage="!JSON non valide" /></h2>
+              <h2>
+                <FormattedMessage
+                  id="contact.title"
+                  defaultMessage="!JSON non valide"
+                />
+              </h2>
             </div>
             <div className="m-contact__cards row">
               <div className="m-contact__card col-sm-12 col-md-6">
@@ -171,7 +176,6 @@ class Home extends Component {
                         defaultMessage="+33 1 61 61 65 65 <br/> info@matrasurcomposites.com"
                       />
                     </div>
-                    <div className="m-contact__button" />
                   </div>
                 </a>
               </div>
@@ -196,7 +200,6 @@ class Home extends Component {
                         defaultMessage="+33 1 61 61 65 67 <br/> sav@matrasurcomposites.com"
                       />
                     </div>
-                    <div className="m-contact__button" />
                   </div>
                 </a>
               </div>
@@ -215,8 +218,12 @@ class Home extends Component {
                         defaultMessage="Img"
                       />
                     </div>
-                    <div className="m-contact__subtitle" />
-                    <div className="m-contact__button" />
+                    <div className="m-contact__subtitle">
+                      <FormattedHTMLMessage
+                        id="contact.subtitle-3"
+                        defaultMessage="!JSON non valide"
+                      />
+                    </div>
                   </div>
                 </a>
               </div>
@@ -236,7 +243,6 @@ class Home extends Component {
                       />
                     </div>
                     <div className="m-contact__subtitle" />
-                    <div className="m-contact__button" />
                   </div>
                 </a>
               </div>

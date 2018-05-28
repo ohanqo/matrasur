@@ -3112,19 +3112,19 @@ hr {
     -o-animation: sliderAnimation 12s linear infinite 0s;
     animation: sliderAnimation 12s linear infinite 0s; }
   .m-slideshow li:nth-child(1) span {
-    background-image: url("../img/machines__aero.jpg");
+    background-image: url("../img/slider/slider-1.jpg");
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -o-animation-delay: 0s;
     animation-delay: 0s; }
   .m-slideshow li:nth-child(2) span {
-    background-image: url("../img/airplane.jpg");
+    background-image: url("../img/slider/slider-2.jpg");
     -webkit-animation-delay: 4s;
     -moz-animation-delay: 4s;
     -o-animation-delay: 4s;
     animation-delay: 4s; }
   .m-slideshow li:nth-child(3) span {
-    background-image: url("../img/machines__simulation.jpg");
+    background-image: url("../img/slider/slider-3.jpg");
     -webkit-animation-delay: 8s;
     -moz-animation-delay: 8s;
     -o-animation-delay: 8s;
@@ -3283,8 +3283,7 @@ hr {
       .o-cardsbanner .o-banner .m-card__content {
         flex-grow: 0.33;
         font-weight: 200;
-        overflow: hidden;
-        text-align: justify; }
+        overflow: hidden; }
         @media screen and (max-width: 768px) {
           .o-cardsbanner .o-banner .m-card__content {
             padding: 5% 0; } }
@@ -3296,7 +3295,7 @@ hr {
       .o-cardsbanner .o-banner .m-card__button {
         max-width: 50%;
         margin: auto;
-        font-size: 1.2vw;
+        font-size: 1rem;
         color: #F1F2F5;
         background: #4AADE9;
         border-radius: 2rem; }
@@ -3319,16 +3318,16 @@ hr {
             max-height: none; } }
       .o-cardsbanner .o-banner .m-card:nth-child(1) {
         background-size: cover;
-        background-image: url("../img/cardsbanner/ibazur.jpg"); }
+        background-image: url("../img/cardsbanner/card-1.jpg"); }
       .o-cardsbanner .o-banner .m-card:nth-child(2) {
         background-size: cover;
-        background-image: url("../img/cardsbanner/projection.jpg"); }
+        background-image: url("../img/cardsbanner/card-2.jpg"); }
       .o-cardsbanner .o-banner .m-card:nth-child(3) {
         background-size: cover;
-        background-image: url("../img/cardsbanner/machine.jpg"); }
+        background-image: url("../img/cardsbanner/card-3.jpg"); }
       .o-cardsbanner .o-banner .m-card:nth-child(4) {
         background-size: cover;
-        background-image: url("../img/cardsbanner/plane.jpg"); }
+        background-image: url("../img/cardsbanner/card-4.jpg"); }
 
 .m-box {
   display: flex;
@@ -3351,8 +3350,7 @@ hr {
     font-weight: 300; }
     @media screen and (max-width: 768px) {
       .m-box__content--text {
-        font-size: 2vh;
-        font-weight: 300; } }
+        font-size: 16px; } }
   .m-box__grids {
     display: flex;
     flex-flow: row wrap; }
@@ -3496,9 +3494,16 @@ hr {
     @media screen and (max-width: 992px) {
       .footer__map {
         width: 33vw;
-        text-align: center; } }
+        text-align: center;
+        padding: 0; } }
+    @media screen and (max-width: 768px) {
+      .footer__map {
+        width: 50vw;
+        padding: 0; } }
   .footer__links {
-    padding-left: 5%; }
+    list-style: none;
+    padding-left: 5%;
+    word-break: break-all; }
     @media screen and (max-width: 992px) {
       .footer__links {
         padding-left: 0; } }
@@ -3761,6 +3766,9 @@ hr {
       font-weight: 600;
       text-transform: uppercase;
       margin-bottom: 5%; }
+
+.global__wrapper--darker:empty {
+  display: none; }
 
 .hero__image--doc img {
   width: 100vw;
