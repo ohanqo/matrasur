@@ -48,11 +48,11 @@ export default {
     "footer.mail": "info@matrasurcomposites.com",
     "footer.social.icon-1":
       "<img src='/assets/img/icon/youtube.svg' alt='Chaîne YouTube Matrasur Composites'/>",
-    "footer.social.icon-1.link":
+    "footer.social.icon-1.url":
       "https://www.youtube.com/user/MatrasurComposites",
     "footer.social.icon-2":
       "<img src='/assets/img/icon/facebook.svg' alt='Page Facebook Matrasur Composites'/>",
-    "footer.social.icon-2.link": "https://www.facebook.com/matrasurcomposites/",
+    "footer.social.icon-2.url": "https://www.facebook.com/matrasurcomposites/",
 
     // Les liens dans le footer viennent de la navbar.
 
@@ -473,11 +473,11 @@ export default {
     "footer.mail": "info@matrasurcomposites.com",
     "footer.social.icon-1":
       "<img src='/assets/img/icon/youtube.svg' alt='Chaîne YouTube Matrasur Composites'/>",
-    "footer.social.icon-1.link":
+    "footer.social.icon-1.url":
       "https://www.youtube.com/user/MatrasurComposites",
     "footer.social.icon-2":
       "<img src='/assets/img/icon/facebook.svg' alt='Page Facebook Matrasur Composites'/>",
-    "footer.social.icon-2.link": "https://www.facebook.com/matrasurcomposites/",
+    "footer.social.icon-2.url": "https://www.facebook.com/matrasurcomposites/",
 
     /**
      * fin footer

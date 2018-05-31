@@ -112,7 +112,8 @@ const Searchform = props => {
                     key.includes(".image") ||
                     key.includes(".img") ||
                     (key.includes("navbar") && key.includes(".title")) ||
-                    key.includes("contact.subtitle")
+                    key.includes("contact.subtitle") ||
+                    (key.startsWith("footer.social.icon") && !key.endsWith(".url"))
                   )
                 ) {
                   if (key.includes(".subitem") && key.includes("navbar")) {

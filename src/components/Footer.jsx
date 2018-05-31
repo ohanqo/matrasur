@@ -41,10 +41,10 @@ export default class Footer extends Component {
               {Object.keys(this.state.data).map((item, index) => {
                 if (
                   item.startsWith("footer.social.icon") &&
-                  !item.endsWith(".link")
+                  !item.endsWith(".url")
                 ) {
                   return (
-                    <a href={this.state.data[item + ".link"]} key={index}>
+                    <a href={this.state.data[item + ".url"]} key={index}>
                       <FormattedHTMLMessage
                         id={item}
                         defaultMessage="!JSON non valide"

@@ -67,6 +67,12 @@
     width: 30vw;
     min-height: 40vh;
     background-color: $black;
+    transition: all 0.2s ease;
+    &:hover {
+      box-shadow: 0 30px 30px rgba(0,0,0,.2);
+      transform: translate(0,-10px);
+      transition-delay: 0s !important;
+    }
     & img {
       width: 100%;
     }

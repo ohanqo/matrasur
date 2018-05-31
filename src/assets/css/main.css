@@ -3825,7 +3825,12 @@ hr {
   flex-flow: column wrap;
   width: 30vw;
   min-height: 40vh;
-  background-color: #222222; }
+  background-color: #222222;
+  transition: all 0.2s ease; }
+  .doc__card--doc:hover {
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+    transform: translate(0, -10px);
+    transition-delay: 0s !important; }
   .doc__card--doc img {
     width: 100%; }
   .doc__card--doc > span {
