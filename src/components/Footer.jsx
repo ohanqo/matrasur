@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FormattedHTMLMessage, FormattedMessage } from "react-intl";
+import LazyLoad from "react-lazyload";
 import messages from "../data/messages";
 
 export default class Footer extends Component {
@@ -14,10 +15,12 @@ export default class Footer extends Component {
         <div className="footer__elements -white">
           <div className="footer__element--30">
             <div className="footer__img">
-              <FormattedHTMLMessage
-                id="footer.image"
-                defaultMessage="!JSON non valide"
-              />
+              <LazyLoad height={200}>
+                <FormattedHTMLMessage
+                  id="footer.image"
+                  defaultMessage="!JSON non valide"
+                />
+              </LazyLoad>
             </div>
             <div className="footer__tel">
               <a
@@ -44,12 +47,14 @@ export default class Footer extends Component {
                   !item.endsWith(".url")
                 ) {
                   return (
-                    <a href={this.state.data[item + ".url"]} key={index}>
-                      <FormattedHTMLMessage
-                        id={item}
-                        defaultMessage="!JSON non valide"
-                      />
-                    </a>
+                    <LazyLoad height={200} key={index}>
+                      <a href={this.state.data[item + ".url"]}>
+                        <FormattedHTMLMessage
+                          id={item}
+                          defaultMessage="!JSON non valide"
+                        />
+                      </a>
+                    </LazyLoad>
                   );
                 }
                 return null;
@@ -79,20 +84,18 @@ export default class Footer extends Component {
                         defaultMessage="!JSON non valide"
                       />
                     </li>
-                    <ul className="footer__links">
-                      {Object.keys(links).map((i, n) => {
-                        return (
-                          <li key={n}>
-                            <Link to={links[i]}>
-                              <FormattedMessage
-                                id={i.substring(0, i.length - 5)}
-                                defaultMessage="!JSON non valide"
-                              />
-                            </Link>
-                          </li>
-                        );
-                      })}
-                    </ul>
+                    {Object.keys(links).map((i, n) => {
+                      return (
+                        <li key={n} className="footer__links">
+                          <Link to={links[i]}>
+                            <FormattedMessage
+                              id={i.substring(0, i.length - 5)}
+                              defaultMessage="!JSON non valide"
+                            />
+                          </Link>
+                        </li>
+                      );
+                    })}
                   </ul>
                 );
               }

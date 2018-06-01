@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
+import LazyLoad from "react-lazyload";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -18,6 +19,7 @@ export default class Global extends Component {
 
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.match.params !== prevState.param) {
+      window.scrollTo(0, 0);
       const slash = "/";
       const period = ".";
       const path = nextProps.location.pathname.trim();
@@ -83,10 +85,12 @@ export default class Global extends Component {
                 return (
                   <section className="global__section -fw -hh" key={index}>
                     {hasImage && (
-                      <FormattedHTMLMessage
-                        id={sectionItem + ".image"}
-                        defaultMessage="!JSON non-valide"
-                      />
+                      <LazyLoad height={200}>
+                        <FormattedHTMLMessage
+                          id={sectionItem + ".image"}
+                          defaultMessage="!JSON non-valide"
+                        />
+                      </LazyLoad>
                     )}
                     <div className="global__text">
                       <h4>

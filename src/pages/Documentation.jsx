@@ -1,5 +1,6 @@
 import React from "react";
 import { FormattedHTMLMessage, FormattedMessage } from "react-intl";
+import LazyLoad from "react-lazyload";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -55,7 +56,12 @@ const Documentation = props => {
                     return (
                       <a href={data[i.replace("name", "link")]} key={e}>
                         <div className="doc__card--doc">
-                          <FormattedHTMLMessage id={i.replace("name", "image")} defaultMessage="!JSON non valide" />
+                          <LazyLoad height={200}>
+                            <FormattedHTMLMessage
+                              id={i.replace("name", "image")}
+                              defaultMessage="!JSON non valide"
+                            />
+                          </LazyLoad>
                           <div className="doc__cardContent">
                             <h4>
                               <FormattedMessage

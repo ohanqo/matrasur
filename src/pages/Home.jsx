@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
+import LazyLoad from "react-lazyload";
 
 import Navbar from "../components/Navbar";
 import Cardsbanner from "../components/Cardsbanner";
@@ -46,26 +47,28 @@ class Home extends Component {
           </p>
         </section>
         <Cardsbanner />
-        <section className="m-box m-box__bg -slanted -fh -fw -bg--blue">
-          <div className="m-box__content container -white">
-            <div className="m-box__content--title">
-              <h2>
-                <span className="a-sep" />
-                <br />
+        <LazyLoad height={200}>
+          <section className="m-box m-box__bg -slanted -fh -fw -bg--blue">
+            <div className="m-box__content container -white">
+              <div className="m-box__content--title">
+                <h2>
+                  <span className="a-sep" />
+                  <br />
+                  <FormattedMessage
+                    id="home.section-1.title"
+                    defaultMessage="!JSON non valide"
+                  />
+                </h2>
+              </div>
+              <div className="m-box__content--text text-justify">
                 <FormattedMessage
-                  id="home.section-1.title"
+                  id="home.section-1.text"
                   defaultMessage="!JSON non valide"
                 />
-              </h2>
+              </div>
             </div>
-            <div className="m-box__content--text text-justify">
-              <FormattedMessage
-                id="home.section-1.text"
-                defaultMessage="!JSON non valide"
-              />
-            </div>
-          </div>
-        </section>
+          </section>
+        </LazyLoad>
         <section className="m-box -fh -fw">
           <div className="m-box__content container -white text-right -pb-10">
             <div className="m-box__content--title">
@@ -89,10 +92,12 @@ class Home extends Component {
         <section className="m-box -fh -fw -bg--white">
           <div className="m-box__grids -fw">
             <div className="item -bg--blue">
-              <FormattedHTMLMessage
-                id="home.grid-1.image"
-                defaultMessage="!JSON non valide"
-              />
+              <LazyLoad height={200}>
+                <FormattedHTMLMessage
+                  id="home.grid-1.image"
+                  defaultMessage="!JSON non valide"
+                />
+              </LazyLoad>
             </div>
             <div className="item">
               <div className="item__box box-child">
@@ -119,16 +124,20 @@ class Home extends Component {
               </div>
             </div>
             <div className="item -bg--blue">
-              <FormattedHTMLMessage
-                id="home.grid-2.image"
-                defaultMessage="!JSON non valide"
-              />
+              <LazyLoad height={200}>
+                <FormattedHTMLMessage
+                  id="home.grid-2.image"
+                  defaultMessage="!JSON non valide"
+                />
+              </LazyLoad>
             </div>
             <div className="item -bg--blue">
-              <FormattedHTMLMessage
-                id="home.grid-3.image"
-                defaultMessage="!JSON non valide"
-              />
+              <LazyLoad height={200}>
+                <FormattedHTMLMessage
+                  id="home.grid-3.image"
+                  defaultMessage="!JSON non valide"
+                />
+              </LazyLoad>
             </div>
             <div className="item">
               <div className="item__box box-child">
@@ -158,10 +167,12 @@ class Home extends Component {
               <div className="m-contact__card col-sm-12 col-md-6">
                 <a href="" className="m-contact__shortcut">
                   <div className="m-contact__image">
-                    <FormattedHTMLMessage
-                      id="contact.img-1"
-                      defaultMessage="Img"
-                    />
+                    <LazyLoad height={200}>
+                      <FormattedHTMLMessage
+                        id="contact.img-1"
+                        defaultMessage="Img"
+                      />
+                    </LazyLoad>
                   </div>
                   <div className="m-contact__content">
                     <div className="m-contact__title">
@@ -171,10 +182,12 @@ class Home extends Component {
                       />
                     </div>
                     <div className="m-contact__subtitle">
-                      <FormattedHTMLMessage
-                        id="contact.subtitle-1"
-                        defaultMessage="+33 1 61 61 65 65 <br/> info@matrasurcomposites.com"
-                      />
+                      <LazyLoad height={200}>
+                        <FormattedHTMLMessage
+                          id="contact.subtitle-1"
+                          defaultMessage="+33 1 61 61 65 65 <br/> info@matrasurcomposites.com"
+                        />
+                      </LazyLoad>
                     </div>
                   </div>
                 </a>
@@ -182,10 +195,12 @@ class Home extends Component {
               <div className="m-contact__card col-sm-12 col-md-6">
                 <a href="" className="m-contact__shortcut">
                   <div className="m-contact__image">
-                    <FormattedHTMLMessage
-                      id="contact.img-2"
-                      defaultMessage="Img"
-                    />
+                    <LazyLoad height={200}>
+                      <FormattedHTMLMessage
+                        id="contact.img-2"
+                        defaultMessage="Img"
+                      />
+                    </LazyLoad>
                   </div>
                   <div className="m-contact__content">
                     <div className="m-contact__title">
@@ -195,10 +210,12 @@ class Home extends Component {
                       />
                     </div>
                     <div className="m-contact__subtitle">
-                      <FormattedHTMLMessage
-                        id="contact.subtitle-2"
-                        defaultMessage="+33 1 61 61 65 67 <br/> sav@matrasurcomposites.com"
-                      />
+                      <LazyLoad height={200}>
+                        <FormattedHTMLMessage
+                          id="contact.subtitle-2"
+                          defaultMessage="+33 1 61 61 65 67 <br/> sav@matrasurcomposites.com"
+                        />
+                      </LazyLoad>
                     </div>
                   </div>
                 </a>
@@ -206,10 +223,12 @@ class Home extends Component {
               <div className="m-contact__card col-sm-12 col-md-6">
                 <a href="" className="m-contact__shortcut">
                   <div className="m-contact__image">
-                    <FormattedHTMLMessage
-                      id="contact.img-3"
-                      defaultMessage="Img"
-                    />
+                    <LazyLoad height={200}>
+                      <FormattedHTMLMessage
+                        id="contact.img-3"
+                        defaultMessage="Img"
+                      />
+                    </LazyLoad>
                   </div>
                   <div className="m-contact__content">
                     <div className="m-contact__title">
@@ -219,10 +238,12 @@ class Home extends Component {
                       />
                     </div>
                     <div className="m-contact__subtitle">
-                      <FormattedHTMLMessage
-                        id="contact.subtitle-3"
-                        defaultMessage="!JSON non valide"
-                      />
+                      <LazyLoad height={200}>
+                        <FormattedHTMLMessage
+                          id="contact.subtitle-3"
+                          defaultMessage="!JSON non valide"
+                        />
+                      </LazyLoad>
                     </div>
                   </div>
                 </a>
@@ -230,10 +251,12 @@ class Home extends Component {
               <div className="m-contact__card col-sm-12 col-md-6">
                 <a href="" className="m-contact__shortcut">
                   <div className="m-contact__image">
-                    <FormattedHTMLMessage
-                      id="contact.img-4"
-                      defaultMessage="Img"
-                    />
+                    <LazyLoad height={200}>
+                      <FormattedHTMLMessage
+                        id="contact.img-4"
+                        defaultMessage="Img"
+                      />
+                    </LazyLoad>
                   </div>
                   <div className="m-contact__content">
                     <div className="m-contact__title">
@@ -250,12 +273,14 @@ class Home extends Component {
           </div>
         </section>
         <section className="m-map">
-          <iframe
-            title="Matrasur sur Google Maps"
-            className="m-map__frame -hh -fw"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2640.0650562825963!2d2.451039355819703!3d48.57030276982973!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ed9c60e674cbbcd!2sMatrasur+Composites!5e0!3m2!1sfr!2sfr!4v1411396527839"
-            frameBorder="0"
-          />"
+          <LazyLoad height={200}>
+            <iframe
+              title="Matrasur sur Google Maps"
+              className="m-map__frame -hh -fw"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2640.0650562825963!2d2.451039355819703!3d48.57030276982973!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ed9c60e674cbbcd!2sMatrasur+Composites!5e0!3m2!1sfr!2sfr!4v1411396527839"
+              frameBorder="0"
+            />
+          </LazyLoad>
         </section>
         <Footer />
       </div>
