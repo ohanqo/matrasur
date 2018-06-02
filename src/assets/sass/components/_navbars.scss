@@ -1,6 +1,5 @@
 .navbar {
-  box-shadow: $shadow--soft;  
-  background: linear-gradient(to bottom, $black, rgba(0, 0, 0, 0.22));
+  background: transparent;
   transition: background-color 1s ease-in-out; 
   z-index: 10;
 }

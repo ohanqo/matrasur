@@ -2904,11 +2904,10 @@ hr {
   padding: 5% 0; }
 
 ::selection {
-  background: #4682B4; }
+  background: #006EB9; }
 
 .navbar {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(to bottom, #222222, rgba(0, 0, 0, 0.22));
+  background: transparent;
   transition: background-color 1s ease-in-out;
   z-index: 10; }
 
@@ -3022,14 +3021,14 @@ hr {
     width: 50%; }
 
 .m-button {
-  color: #4682B4;
+  color: #006EB9;
   background-color: transparent;
   background-image: none;
-  border-color: #4682B4; }
+  border-color: #006EB9; }
   .m-button:hover {
     color: #F1F2F5;
-    background-color: #4682B4;
-    border-color: #4682B4; }
+    background-color: #006EB9;
+    border-color: #006EB9; }
   .m-button:focus, .m-button.focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
 
@@ -3076,6 +3075,8 @@ hr {
   width: 100vw;
   position: absolute;
   background: linear-gradient(to bottom, black, transparent); }
+  .a-shadow--50 {
+    height: 50vh; }
 
 .m-slideshow {
   height: 90vh;
@@ -3513,7 +3514,7 @@ hr {
   font-family: "Raleway", sans-serif;
   overflow: hidden;
   z-index: 1;
-  background-color: #4682B4; }
+  background-color: #006EB9; }
   .hero__image {
     width: 100vw;
     height: 100vh;

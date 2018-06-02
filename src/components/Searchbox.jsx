@@ -89,7 +89,7 @@ const Searchform = props => {
                 type="text"
                 id="searchInput"
                 className="modal-title"
-                placeholder="🔍"
+                placeholder=">"
                 autoComplete="off"
                 onChange={props.search}
               />

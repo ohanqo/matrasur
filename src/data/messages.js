@@ -144,7 +144,7 @@ export default {
 
     "contact.title-1": "Service commercial",
     "contact.title-2": "Service après-vente",
-    "contact.title-3": "Conact international",
+    "contact.title-3": "Contact international",
     "contact.title-4": "Lorem ipsum",
 
     "contact.subtitle-1":
