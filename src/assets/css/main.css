@@ -2960,24 +2960,26 @@ hr {
     left: auto; }
     .navbar-nav .dropdown-menu .dropdown-item {
       text-align: center; }
-    .navbar-nav .dropdown-menu::before {
-      border-bottom: 9px solid rgba(0, 0, 0, 0.2);
-      border-left: 9px solid transparent;
-      border-right: 9px solid transparent;
-      content: "";
-      display: inline-block;
-      left: 50%;
-      position: absolute;
-      top: -8px; }
-    .navbar-nav .dropdown-menu::after {
-      border-bottom: 8px solid #ffffff;
-      border-left: 9px solid transparent;
-      border-right: 9px solid transparent;
-      content: "";
-      display: inline-block;
-      left: 50%;
-      position: absolute;
-      top: -7px; }
+    @media screen and (min-width: 992px) {
+      .navbar-nav .dropdown-menu::before {
+        border-bottom: 9px solid rgba(0, 0, 0, 0.2);
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        content: "";
+        display: inline-block;
+        left: 50%;
+        position: absolute;
+        top: -8px; } }
+    @media screen and (min-width: 992px) {
+      .navbar-nav .dropdown-menu::after {
+        border-bottom: 8px solid #ffffff;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        content: "";
+        display: inline-block;
+        left: 50%;
+        position: absolute;
+        top: -7px; } }
 
 .navbar-brand {
   padding: 0;
