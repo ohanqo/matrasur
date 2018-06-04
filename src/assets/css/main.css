@@ -3834,6 +3834,7 @@ hr {
   flex-flow: column wrap;
   width: 30vw;
   min-height: 40vh;
+  min-width: 240px;
   background-color: #222222;
   transition: all 0.2s ease; }
   .doc__card--doc:hover {
@@ -3856,7 +3857,8 @@ hr {
   width: inherit;
   display: flex;
   flex-flow: column wrap;
-  color: white; }
+  color: white;
+  padding: 10px; }
   .doc__cardContent > h4 {
     text-transform: uppercase;
     font-weight: 600; }

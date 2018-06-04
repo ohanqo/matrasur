@@ -66,6 +66,7 @@
     flex-flow: column wrap;
     width: 30vw;
     min-height: 40vh;
+    min-width: 240px;
     background-color: $black;
     transition: all 0.2s ease;
     &:hover {
@@ -92,6 +93,7 @@
     display: flex;
     flex-flow: column wrap;
     color: white;
+    padding: 10px;
     & > h4 {
       text-transform: uppercase;
       font-weight: 600;
