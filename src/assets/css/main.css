@@ -2957,9 +2957,15 @@ hr {
           font-size: 1vw; } }
   .navbar-nav .dropdown-menu {
     top: auto;
-    left: auto; }
+    left: auto;
+    animation: fade--in .2s; }
     .navbar-nav .dropdown-menu .dropdown-item {
       text-align: center; }
+      .navbar-nav .dropdown-menu .dropdown-item:hover {
+        background-color: inherit; }
+      .navbar-nav .dropdown-menu .dropdown-item:hover > span {
+        border-bottom: 2px solid;
+        transition: border .2s ease-in-out; }
     @media screen and (min-width: 992px) {
       .navbar-nav .dropdown-menu::before {
         border-bottom: 9px solid rgba(0, 0, 0, 0.2);
@@ -3349,6 +3355,8 @@ hr {
   .m-box__content--text {
     font-size: 2vw;
     font-weight: 300; }
+    .m-box__content--text > * {
+      font-family: -apple-system, system-ui, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif; }
     @media screen and (max-width: 768px) {
       .m-box__content--text {
         font-size: 16px; } }

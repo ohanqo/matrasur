@@ -60,8 +60,16 @@
   .dropdown-menu {
     top: auto;
     left: auto;
+    animation: fade--in .2s;
     & .dropdown-item {
       text-align: center;
+      &:hover {
+        background-color: inherit;
+      }
+      &:hover > span {
+        border-bottom: 2px solid;
+        transition: border .2s ease-in-out;
+      }
     }
     &::before {
       @include media-min($lg) {
