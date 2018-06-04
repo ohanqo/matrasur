@@ -29,6 +29,10 @@
     text-align: center;
 
     padding: 0 15%;
+    @include media-max($sm) {
+      padding: 0 5%;
+    }
+    overflow: hidden;
     & h1 {
       text-transform: uppercase;
       font-weight: 600;

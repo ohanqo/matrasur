@@ -56,6 +56,13 @@
         padding-left: 2.5%;
       }
 
+      @include media-max($sm) {
+        width: 100vw;
+        &:nth-child(1), &:nth-child(4), &:nth-child(5) {
+          display: none;
+        }
+      }
+
       &__box {
         border: 5px solid $blue--light;
       }

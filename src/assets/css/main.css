@@ -3303,7 +3303,6 @@ hr {
             margin-bottom: 5%;
             text-overflow: hidden; } }
       .o-cardsbanner .o-banner .m-card__button {
-        max-width: 50%;
         margin: auto;
         font-size: 1rem;
         color: #F1F2F5;
@@ -3380,6 +3379,11 @@ hr {
         padding-right: 2.5%; }
       .m-box__grids .item:nth-child(3) {
         padding-left: 2.5%; }
+      @media screen and (max-width: 576px) {
+        .m-box__grids .item {
+          width: 100vw; }
+          .m-box__grids .item:nth-child(1), .m-box__grids .item:nth-child(4), .m-box__grids .item:nth-child(5) {
+            display: none; } }
       .m-box__grids .item__box {
         border: 5px solid #7DC4FF; }
       .m-box__grids .item .box-child {
@@ -3492,7 +3496,8 @@ hr {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    min-width: 160px; }
     .footer__social img {
       width: 6vw;
       height: 6vh; }
@@ -3723,7 +3728,6 @@ hr {
 .global__header {
   position: absolute;
   bottom: 0;
-  max-height: 50vh;
   min-height: 30vh;
   background-color: #222222;
   color: #F1F2F5;
@@ -3807,7 +3811,11 @@ hr {
   align-items: center;
   flex-flow: column nowrap;
   text-align: center;
-  padding: 0 15%; }
+  padding: 0 15%;
+  overflow: hidden; }
+  @media screen and (max-width: 576px) {
+    .hero__content--doc {
+      padding: 0 5%; } }
   .hero__content--doc h1 {
     text-transform: uppercase;
     font-weight: 600;
