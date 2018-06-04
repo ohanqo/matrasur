@@ -2910,6 +2910,9 @@ hr {
   background: transparent;
   transition: background-color 1s ease-in-out;
   z-index: 10; }
+  @media screen and (max-width: 992px) {
+    .navbar {
+      background-color: #000000; } }
 
 .navbar-nav {
   margin-left: auto; }
