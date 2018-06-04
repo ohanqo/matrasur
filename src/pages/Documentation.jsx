@@ -11,7 +11,7 @@ const Documentation = props => {
   const data = messages[Object.keys(messages)[0]];
   window.scrollTo(0, 0);
   return (
-    <div className="documentation">
+    <div className="documentation animated fadeIn">
       <Navbar />
       <section className="hero--doc -fh -fw -white">
         <div className="hero__image--doc">

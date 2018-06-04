@@ -14,7 +14,7 @@ class Home extends Component {
   }
   render() {
     return (
-      <div className="o-home">
+      <div className="o-home animated fadeIn">
         <Navbar active="home" />
         <span className="a-shadow" />
         <ul className="m-slideshow">
@@ -50,7 +50,7 @@ class Home extends Component {
         <LazyLoad height={200}>
           <section className="m-box m-box__bg -slanted -fh -fw -bg--blue">
             <div className="m-box__content container -white">
-              <div className="m-box__content--title">
+              <div className="m-box__content--title animated slideInLeft">
                 <h2>
                   <span className="a-sep" />
                   <br />
@@ -60,7 +60,7 @@ class Home extends Component {
                   />
                 </h2>
               </div>
-              <div className="m-box__content--text text-justify">
+              <div className="m-box__content--text text-justify animated slideInLeft">
                 <FormattedMessage
                   id="home.section-1.text"
                   defaultMessage="!JSON non valide"
