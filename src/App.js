@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Global from "./pages/Global";
 import NotFound from "./pages/NotFound";
 import Documentation from "./pages/Documentation";
+import International from "./pages/International";
 
 import "./assets/css/main.css";
 
@@ -22,6 +23,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/other/documentation" component={Documentation} />
+            <Route path="/other/international" component={International} />                        
             <Route path="/:domain/:param" component={Global} />
             <Route component={NotFound} />
           </Switch>

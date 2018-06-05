@@ -3786,11 +3786,11 @@ hr {
 .global__wrapper--darker:empty {
   display: none; }
 
-.hero__image--doc img {
+.hero__image--alternative img {
   width: 100vw;
   height: 100vh; }
 
-.hero__image--doc:after {
+.hero__image--alternative:after {
   content: '';
   width: 100%;
   height: 100%;
@@ -3800,7 +3800,7 @@ hr {
   left: 0;
   top: 0; }
 
-.hero__content--doc {
+.hero__content--alternative {
   position: absolute;
   top: 0;
   left: 0;
@@ -3814,14 +3814,14 @@ hr {
   padding: 0 15%;
   overflow: hidden; }
   @media screen and (max-width: 576px) {
-    .hero__content--doc {
+    .hero__content--alternative {
       padding: 0 5%; } }
-  .hero__content--doc h1 {
+  .hero__content--alternative h1 {
     text-transform: uppercase;
     font-weight: 600;
     padding-bottom: 5%;
     letter-spacing: 2px; }
-  .hero__content--doc p {
+  .hero__content--alternative p {
     letter-spacing: 1px; }
 
 .doc__section {

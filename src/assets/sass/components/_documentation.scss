@@ -1,5 +1,5 @@
 .hero {
-  &__image--doc {
+  &__image--alternative {
     & img {
       width: 100vw;
       height: 100vh;
@@ -15,7 +15,7 @@
       top: 0;
     }
   }
-  &__content--doc {
+  &__content--alternative {
     position: absolute;
     top: 0;
     left: 0;

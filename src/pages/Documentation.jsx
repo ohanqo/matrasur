@@ -14,14 +14,14 @@ const Documentation = props => {
     <div className="documentation animated fadeIn">
       <Navbar />
       <span className="a-shadow a-shadow--50" style={{zIndex: "0"}}></span>
-      <section className="hero--doc -fh -fw -white">
-        <div className="hero__image--doc">
+      <section className="hero--alternative -fh -fw -white">
+        <div className="hero__image--alternative">
           <FormattedHTMLMessage
             id="other.documentation.image"
             defaultMessage="!JSON non valide"
           />
         </div>
-        <div className="hero__content--doc">
+        <div className="hero__content--alternative">
           <h1>
             <FormattedMessage
               id="other.documentation.title"

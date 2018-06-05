@@ -38,6 +38,8 @@ export default {
     "navbar.item-5.subitem-2.link": "/other/recruitment",
     "navbar.item-5.subitem-3": "Documentation",
     "navbar.item-5.subitem-3.link": "/other/documentation",
+    "navbar.item-5.subitem-4": "Contacts internationals",
+    "navbar.item-5.subitem-4.link": "/other/international",
     /**
      * début footer
      */
@@ -168,18 +170,22 @@ export default {
     "application.aerospace.section-1.name": "Description",
     "application.aerospace.section-1.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-1.image": "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
-    
+    "application.aerospace.section-1.image":
+      "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
+
     "application.aerospace.section-2.name": "Procédures recommandées",
     "application.aerospace.section-2.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-2.image": "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
+    "application.aerospace.section-2.image":
+      "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
 
     "application.aerospace.section-3.name.darker": "Procedures numéro 1",
-    "application.aerospace.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-3.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     "application.aerospace.section-4.name.darker": "Procedures numéro 2",
-    "application.aerospace.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-4.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     /* Fin Aerospace */
 
@@ -193,18 +199,22 @@ export default {
     "application.refrigeration.section-1.name": "Description",
     "application.refrigeration.section-1.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-1.image": "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
-    
+    "application.refrigeration.section-1.image":
+      "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+
     "application.refrigeration.section-2.name": "Procédures recommandées",
     "application.refrigeration.section-2.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-2.image": "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+    "application.refrigeration.section-2.image":
+      "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
 
     "application.refrigeration.section-3.name.darker": "Procedures numéro 1",
-    "application.refrigeration.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.refrigeration.section-3.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     "application.refrigeration.section-4.name.darker": "Procedures numéro 2",
-    "application.refrigeration.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.refrigeration.section-4.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     /* Fin refrigeration */
 
@@ -220,19 +230,22 @@ export default {
     "application.marine.section-1.name": "Description",
     "application.marine.section-1.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.marine.section-1.image": "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
-    
+    "application.marine.section-1.image":
+      "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+
     "application.marine.section-2.name": "Procédures recommandées",
     "application.marine.section-2.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.marine.section-2.image": "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+    "application.marine.section-2.image":
+      "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
 
     "application.marine.section-3.name.darker": "Procedures numéro 1",
-    "application.marine.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.marine.section-3.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     "application.marine.section-4.name.darker": "Procedures numéro 2",
-    "application.marine.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-
+    "application.marine.section-4.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     /**
      * Fin Marine
@@ -414,10 +427,22 @@ export default {
     "other.documentation.section-2.item-2.image":
       "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
     "other.documentation.section-2.item-2.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf"
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
 
     /**
      * fin documentation
+     */
+
+    /**
+     * début contact international
+     */
+    "other.international.title": "Nos contacts à travers le monde",
+    "other.international.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "other.international.image":
+      "<img src='https://source.unsplash.com/random/?contacts' alt='International'/>"
+    /**
+     * fin contact international
      */
     /**
      * fin other
@@ -462,6 +487,8 @@ export default {
     "navbar.item-5.subitem-2.link": "/other/recruitment",
     "navbar.item-5.subitem-3": "Documentation",
     "navbar.item-5.subitem-3.link": "/other/documentation",
+    "navbar.item-5.subitem-4": "International contacts",
+    "navbar.item-5.subitem-4.link": "/other/international",
 
     /**
      * début footer
@@ -573,8 +600,7 @@ export default {
       "<a href='mailto:info@matrasurcomposites.com'><i class='fas fa-phone'></i> +33 1 61 61 65 65 <br/> <i class='fas fa-envelope'></i> info@matrasurcomposites.com</a>",
     "contact.subtitle-2":
       "<a href='mailto:sav@matrasurcomposites.com'><i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com</a>",
-    "contact.subtitle-3":
-      "<a href='/other/international'>See our contacts</a>",
+    "contact.subtitle-3": "<a href='/other/international'>See our contacts</a>",
     /**
      * Début pages Application
      */
@@ -591,18 +617,22 @@ export default {
     "application.aerospace.section-1.name": "Description",
     "application.aerospace.section-1.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-1.image": "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
-    
+    "application.aerospace.section-1.image":
+      "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
+
     "application.aerospace.section-2.name": "Recommended Procedures",
     "application.aerospace.section-2.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-2.image": "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
+    "application.aerospace.section-2.image":
+      "<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
 
     "application.aerospace.section-3.name.darker": "Procedures number 1",
-    "application.aerospace.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-3.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     "application.aerospace.section-4.name.darker": "Procedures number 2",
-    "application.aerospace.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-4.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     /**
      * Fin Aerospace
@@ -620,18 +650,22 @@ export default {
     "application.refrigeration.section-1.name": "Description",
     "application.refrigeration.section-1.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-1.image": "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
-    
+    "application.refrigeration.section-1.image":
+      "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+
     "application.refrigeration.section-2.name": "Recommended Procedures",
     "application.refrigeration.section-2.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-2.image": "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+    "application.refrigeration.section-2.image":
+      "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
 
     "application.refrigeration.section-3.name.darker": "Procedures number 1",
-    "application.refrigeration.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.refrigeration.section-3.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     "application.refrigeration.section-4.name.darker": "Procedures number 2",
-    "application.refrigeration.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.refrigeration.section-4.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     /**
      * Fin refrigeration
@@ -649,18 +683,22 @@ export default {
     "application.marine.section-1.name": "Description",
     "application.marine.section-1.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.marine.section-1.image": "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
-    
+    "application.marine.section-1.image":
+      "<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+
     "application.marine.section-2.name": "Recommended Procedures",
     "application.marine.section-2.text":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.marine.section-2.image": "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+    "application.marine.section-2.image":
+      "<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
 
     "application.marine.section-3.name.darker": "Procedures number 1",
-    "application.marine.section-3.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.marine.section-3.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     "application.marine.section-4.name.darker": "Procedures number 2",
-    "application.marine.section-4.text.darker": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.marine.section-4.text.darker":
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
 
     /**
      * Fin Marine
@@ -808,45 +846,56 @@ export default {
     "other.documentation.section-1.item-1.link":
       "matrasur_company_brochure_en_fr.pdf",
 
-    "other.documentation.section-1.item-2.name": "Brochure de la société",
+    "other.documentation.section-1.item-2.name": "About the society",
     "other.documentation.section-1.item-2.description":
-      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+      "Here you will find all the information about Matrasur Composites",
     "other.documentation.section-1.item-2.image":
       "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
     "other.documentation.section-1.item-2.link":
       "/documentation/matrasur_company_brochure_en_fr.pdf",
-    "other.documentation.section-1.item-3.name": "Brochure de la société",
+    "other.documentation.section-1.item-3.name": "About the society",
     "other.documentation.section-1.item-3.description":
-      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+      "Here you will find all the information about Matrasur Composites",
     "other.documentation.section-1.item-3.image":
       "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
     "other.documentation.section-1.item-3.link":
       "/documentation/matrasur_company_brochure_en_fr.pdf",
-    "other.documentation.section-1.item-4.name": "Brochure de la société",
+    "other.documentation.section-1.item-4.name": "About the society",
     "other.documentation.section-1.item-4.description":
-      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+      "Here you will find all the information about Matrasur Composites",
     "other.documentation.section-1.item-4.image":
       "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
     "other.documentation.section-1.item-4.link":
       "/documentation/matrasur_company_brochure_en_fr.pdf",
 
     "other.documentation.section-2.title": "À propos de la société",
-    "other.documentation.section-2.item-1.name": "Brochure de la société",
+    "other.documentation.section-2.item-1.name": "About the society",
     "other.documentation.section-2.item-1.description":
-      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+      "Here you will find all the information about Matrasur Composites",
     "other.documentation.section-2.item-1.image":
       "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
     "other.documentation.section-2.item-1.link":
       "/documentation/matrasur_company_brochure_en_fr.pdf",
-    "other.documentation.section-2.item-2.name": "Brochure de la société",
+    "other.documentation.section-2.item-2.name": "About the society",
     "other.documentation.section-2.item-2.description":
-      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+      "Here you will find all the information about Matrasur Composites",
     "other.documentation.section-2.item-2.image":
       "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
     "other.documentation.section-2.item-2.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf"
+      "/documentation/matrasur_company_brochure_en_fr.pdf",
     /**
      * fin documentation
+     */
+    /**
+     * début contact international
+     */
+    "other.international.title": "Our contacts around the world",
+    "other.international.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "other.international.image":
+      "<img src='https://source.unsplash.com/random/?contacts' alt='International'/>"
+    /**
+     * fin contact international
      */
     /**
      * fin other

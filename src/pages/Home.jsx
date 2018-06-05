@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 import LazyLoad from "react-lazyload";
@@ -102,7 +102,7 @@ class Home extends Component {
             <div className="item">
               <div className="item__box box-child">
                 <div className="item__box--text -p-10">
-                  <h4>
+                  <h4 className="animated slideInRight">
                     <FormattedMessage
                       id="home.grid-1.text"
                       defaultMessage="!JSON non valide"
@@ -114,7 +114,7 @@ class Home extends Component {
             <div className="item">
               <div className="item__box box-child--reverse">
                 <div className="item__box--text -p-10">
-                  <h4>
+                  <h4 className="animated slideInLeft">
                     <FormattedMessage
                       id="home.grid-2.text"
                       defaultMessage="!JSON non valide"
@@ -142,7 +142,7 @@ class Home extends Component {
             <div className="item">
               <div className="item__box box-child">
                 <div className="item__box--text -p-10">
-                  <h4>
+                  <h4 className="animated slideInRight">
                     <FormattedMessage
                       id="home.grid-3.text"
                       defaultMessage="!JSON non valide"
@@ -221,7 +221,7 @@ class Home extends Component {
                 </a>
               </div>
               <div className="m-contact__card col-sm-12 col-md-6">
-                <a href="" className="m-contact__shortcut">
+                <Link to="other/international" className="m-contact__shortcut">
                   <div className="m-contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
@@ -246,7 +246,7 @@ class Home extends Component {
                       </LazyLoad>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="m-contact__card col-sm-12 col-md-6">
                 <a href="" className="m-contact__shortcut">
