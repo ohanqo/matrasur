@@ -56,7 +56,7 @@ export default class Global extends Component {
       return (
         <div className="global -bg--white animated fadeIn">
           <Navbar />
-          <span className="a-shadow a-shadow--50"></span>
+          <span className="shadow shadow--50"></span>
           <section className="hero -fw -fh">
             <FormattedHTMLMessage
               id={this.state.itemsRoot + ".image"}

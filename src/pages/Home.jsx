@@ -14,10 +14,10 @@ class Home extends Component {
   }
   render() {
     return (
-      <div className="o-home animated fadeIn">
-        <Navbar active="home" />
-        <span className="a-shadow" />
-        <ul className="m-slideshow">
+      <div className="home animated fadeIn">
+        <Navbar />
+        <span className="shadow" />
+        <ul className="slideshow">
           <li>
             <span />
           </li>
@@ -28,18 +28,18 @@ class Home extends Component {
             <span />
           </li>
         </ul>
-        <section className="m-slideshow__content -white">
+        <section className="slideshow__content -white">
           <div>
-            <h2 className="a-title -big">
+            <h2 className="slideshow__title -big">
               <FormattedMessage
                 id="slideshow.title"
                 defaultMessage="!JSON non valide"
               />
               <br />
-              <span className="a-sep" />
+              <span className="separator" />
             </h2>
           </div>
-          <p className="a-subtitle">
+          <p className="slideshow__subtitle">
             <FormattedMessage
               id="slideshow.subtitle"
               defaultMessage="!JSON non valide"
@@ -48,11 +48,11 @@ class Home extends Component {
         </section>
         <Cardsbanner />
         <LazyLoad height={200}>
-          <section className="m-box m-box__bg -slanted -fh -fw -bg--blue">
-            <div className="m-box__content container -white">
-              <div className="m-box__content--title animated slideInLeft">
+          <section className="box box--bg -slanted -fh -fw -bg--blue">
+            <div className="box__content container -white">
+              <div className="box__title animated slideInLeft">
                 <h2>
-                  <span className="a-sep" />
+                  <span className="separator" />
                   <br />
                   <FormattedMessage
                     id="home.section-1.title"
@@ -60,7 +60,7 @@ class Home extends Component {
                   />
                 </h2>
               </div>
-              <div className="m-box__content--text text-justify animated slideInLeft">
+              <div className="box__text text-justify animated slideInLeft">
                 <FormattedMessage
                   id="home.section-1.text"
                   defaultMessage="!JSON non valide"
@@ -69,11 +69,11 @@ class Home extends Component {
             </div>
           </section>
         </LazyLoad>
-        <section className="m-box -fh -fw">
-          <div className="m-box__content container -white text-right -pb-10">
-            <div className="m-box__content--title">
+        <section className="box -fh -fw">
+          <div className="box__content container -white text-right -pb-10">
+            <div className="box__title">
               <h2>
-                <span className="a-sep right" />
+                <span className="separator right" />
                 <br />
                 <FormattedMessage
                   id="home.section-2.title"
@@ -81,7 +81,7 @@ class Home extends Component {
                 />
               </h2>
             </div>
-            <div className="m-box__content--text text-justify">
+            <div className="box__text text-justify">
               <FormattedMessage
                 id="home.section-2.text"
                 defaultMessage="!JSON non valide"
@@ -89,9 +89,9 @@ class Home extends Component {
             </div>
           </div>
         </section>
-        <section className="m-box -fh -fw -bg--white">
-          <div className="m-box__grids -fw">
-            <div className="item -bg--blue">
+        <section className="box -fh -fw -bg--white">
+          <div className="box__grids -fw">
+            <div className="box__grid -bg--blue">
               <LazyLoad height={200}>
                 <FormattedHTMLMessage
                   id="home.grid-1.image"
@@ -99,31 +99,27 @@ class Home extends Component {
                 />
               </LazyLoad>
             </div>
-            <div className="item">
-              <div className="item__box box-child">
-                <div className="item__box--text -p-10">
-                  <h4 className="animated slideInRight">
-                    <FormattedMessage
-                      id="home.grid-1.text"
-                      defaultMessage="!JSON non valide"
-                    />
-                  </h4>
-                </div>
+            <div className="box__grid">
+              <div className="box__border box__border--noleft -p-10">
+                <h4 className="animated slideInRight">
+                  <FormattedMessage
+                    id="home.grid-1.text"
+                    defaultMessage="!JSON non valide"
+                  />
+                </h4>
               </div>
             </div>
-            <div className="item">
-              <div className="item__box box-child--reverse">
-                <div className="item__box--text -p-10">
-                  <h4 className="animated slideInLeft">
-                    <FormattedMessage
-                      id="home.grid-2.text"
-                      defaultMessage="!JSON non valide"
-                    />
-                  </h4>
-                </div>
+            <div className="box__grid">
+              <div className="box__border box__border--noright -p-10">
+                <h4 className="animated slideInLeft">
+                  <FormattedMessage
+                    id="home.grid-2.text"
+                    defaultMessage="!JSON non valide"
+                  />
+                </h4>
               </div>
             </div>
-            <div className="item -bg--blue">
+            <div className="box__grid -bg--blue">
               <LazyLoad height={200}>
                 <FormattedHTMLMessage
                   id="home.grid-2.image"
@@ -131,7 +127,7 @@ class Home extends Component {
                 />
               </LazyLoad>
             </div>
-            <div className="item -bg--blue">
+            <div className="box__grid -bg--blue">
               <LazyLoad height={200}>
                 <FormattedHTMLMessage
                   id="home.grid-3.image"
@@ -139,23 +135,21 @@ class Home extends Component {
                 />
               </LazyLoad>
             </div>
-            <div className="item">
-              <div className="item__box box-child">
-                <div className="item__box--text -p-10">
-                  <h4 className="animated slideInRight">
-                    <FormattedMessage
-                      id="home.grid-3.text"
-                      defaultMessage="!JSON non valide"
-                    />
-                  </h4>
-                </div>
+            <div className="box__grid">
+              <div className="box__border box__border--noleft -p-10">
+                <h4 className="animated slideInRight">
+                  <FormattedMessage
+                    id="home.grid-3.text"
+                    defaultMessage="!JSON non valide"
+                  />
+                </h4>
               </div>
             </div>
           </div>
         </section>
-        <section className="m-contact -fh -fw">
-          <div className="m-contact__container container -pt-10 -pb-10">
-            <div className="m-box__content--title -white">
+        <section className="contact -fh -fw">
+          <div className="contact__container container -pt-10 -pb-10">
+            <div className="box__title -white">
               <h2>
                 <FormattedMessage
                   id="contact.title"
@@ -163,10 +157,10 @@ class Home extends Component {
                 />
               </h2>
             </div>
-            <div className="m-contact__cards row">
-              <div className="m-contact__card col-sm-12 col-md-6">
-                <div href="" className="m-contact__shortcut">
-                  <div className="m-contact__image">
+            <div className="contact__cards row">
+              <div className="contact__card col-sm-12 col-md-6">
+                <div href="" className="contact__shortcut">
+                  <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
                         id="contact.img-1"
@@ -174,14 +168,14 @@ class Home extends Component {
                       />
                     </LazyLoad>
                   </div>
-                  <div className="m-contact__content">
-                    <div className="m-contact__title">
+                  <div className="contact__content">
+                    <div className="contact__title">
                       <FormattedMessage
                         id="contact.title-1"
                         defaultMessage="Img"
                       />
                     </div>
-                    <div className="m-contact__subtitle">
+                    <div className="contact__subtitle">
                       <LazyLoad height={200}>
                         <FormattedHTMLMessage
                           id="contact.subtitle-1"
@@ -192,9 +186,9 @@ class Home extends Component {
                   </div>
                 </div>
               </div>
-              <div className="m-contact__card col-sm-12 col-md-6">
-                <div href="" className="m-contact__shortcut">
-                  <div className="m-contact__image">
+              <div className="contact__card col-sm-12 col-md-6">
+                <div href="" className="contact__shortcut">
+                  <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
                         id="contact.img-2"
@@ -202,14 +196,14 @@ class Home extends Component {
                       />
                     </LazyLoad>
                   </div>
-                  <div className="m-contact__content">
-                    <div className="m-contact__title">
+                  <div className="contact__content">
+                    <div className="contact__title">
                       <FormattedMessage
                         id="contact.title-2"
                         defaultMessage="Img"
                       />
                     </div>
-                    <div className="m-contact__subtitle">
+                    <div className="contact__subtitle">
                       <LazyLoad height={200}>
                         <FormattedHTMLMessage
                           id="contact.subtitle-2"
@@ -220,9 +214,9 @@ class Home extends Component {
                   </div>
                 </div>
               </div>
-              <div className="m-contact__card col-sm-12 col-md-6">
-                <Link to="other/international" className="m-contact__shortcut">
-                  <div className="m-contact__image">
+              <div className="contact__card col-sm-12 col-md-6">
+                <Link to="other/international" className="contact__shortcut">
+                  <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
                         id="contact.img-3"
@@ -230,14 +224,14 @@ class Home extends Component {
                       />
                     </LazyLoad>
                   </div>
-                  <div className="m-contact__content">
-                    <div className="m-contact__title">
+                  <div className="contact__content">
+                    <div className="contact__title">
                       <FormattedMessage
                         id="contact.title-3"
                         defaultMessage="Img"
                       />
                     </div>
-                    <div className="m-contact__subtitle">
+                    <div className="contact__subtitle">
                       <LazyLoad height={200}>
                         <FormattedHTMLMessage
                           id="contact.subtitle-3"
@@ -248,9 +242,9 @@ class Home extends Component {
                   </div>
                 </Link>
               </div>
-              <div className="m-contact__card col-sm-12 col-md-6">
-                <div href="" className="m-contact__shortcut">
-                  <div className="m-contact__image">
+              <div className="contact__card col-sm-12 col-md-6">
+                <div href="" className="contact__shortcut">
+                  <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
                         id="contact.img-4"
@@ -258,25 +252,25 @@ class Home extends Component {
                       />
                     </LazyLoad>
                   </div>
-                  <div className="m-contact__content">
-                    <div className="m-contact__title">
+                  <div className="contact__content">
+                    <div className="contact__title">
                       <FormattedMessage
                         id="contact.title-4"
                         defaultMessage="Img"
                       />
                     </div>
-                    <div className="m-contact__subtitle" />
+                    <div className="contact__subtitle" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="m-map">
+        <section className="map">
           <LazyLoad height={200}>
             <iframe
               title="Matrasur sur Google Maps"
-              className="m-map__frame -hh -fw"
+              className="map__frame -hh -fw"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2640.0650562825963!2d2.451039355819703!3d48.57030276982973!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ed9c60e674cbbcd!2sMatrasur+Composites!5e0!3m2!1sfr!2sfr!4v1411396527839"
               frameBorder="0"
             />

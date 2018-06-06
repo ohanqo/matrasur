@@ -2,7 +2,7 @@
 
 $images: "../img/slider/slider-1.jpg", "../img/slider/slider-2.jpg",
   "../img/slider/slider-3.jpg";
-.a-shadow {
+.shadow {
   z-index: 1;
   height: 100vh;
   width: 100vw;
@@ -12,7 +12,7 @@ $images: "../img/slider/slider-1.jpg", "../img/slider/slider-2.jpg",
     height: 50vh;
   }
 }
-.m-slideshow {
+.slideshow {
   height: 90vh;
   padding: 0;
   @include prefix(background-size, cover, webkit moz o);
@@ -60,23 +60,23 @@ $images: "../img/slider/slider-1.jpg", "../img/slider/slider-2.jpg",
       }
     }
   }
-}
-.m-slideshow__content {
-  top: 45vh;
-  padding-left: 10vw;
-  padding-right: 30vw;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  font-family: "Raleway", sans-serif;
-  transform: translateY(-45%);
-  z-index: 2;
-  & .a-title {
+  &__content {
+    top: 45vh;
+    padding-left: 10vw;
+    padding-right: 30vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    transform: translateY(-45%);
+    z-index: 2;
+  }
+  &__title {
     display: inline-block;
     font-weight: 600;
   }
 }
-.a-sep {
+.separator {
   height: 1vh;
   width: auto;
   min-height: 6px;
@@ -87,7 +87,7 @@ $images: "../img/slider/slider-1.jpg", "../img/slider/slider-2.jpg",
   box-shadow: $shadow--soft;
   
 }
-.a-subtitle {
+.slideshow__subtitle {
   font-size: 3vh;
 }
 @include keyframes(sliderAnimation) {

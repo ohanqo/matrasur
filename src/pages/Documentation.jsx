@@ -13,7 +13,7 @@ const Documentation = props => {
   return (
     <div className="documentation animated fadeIn">
       <Navbar />
-      <span className="a-shadow a-shadow--50" style={{zIndex: "0"}}></span>
+      <span className="shadow shadow--50" style={{zIndex: "0"}}></span>
       <section className="hero--alternative -fh -fw -white">
         <div className="hero__image--alternative">
           <FormattedHTMLMessage
