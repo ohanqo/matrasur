@@ -3434,6 +3434,13 @@ hr {
   text-transform: uppercase;
   letter-spacing: 2px; }
 
+.m-contact__subtitle a {
+  color: #6AC7FF;
+  transition: color .2s ease-in-out; }
+  .m-contact__subtitle a:hover {
+    color: #F1F2F5;
+    text-decoration: none; }
+
 .m-contact__content {
   display: flex;
   justify-content: center;
@@ -3445,9 +3452,6 @@ hr {
   width: 100%;
   height: 100%;
   text-align: center; }
-
-.m-contact__subtitle {
-  color: #7DC4FF; }
 
 .m-map {
   display: flex; }

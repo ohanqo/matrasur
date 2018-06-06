@@ -165,7 +165,7 @@ class Home extends Component {
             </div>
             <div className="m-contact__cards row">
               <div className="m-contact__card col-sm-12 col-md-6">
-                <a href="" className="m-contact__shortcut">
+                <div href="" className="m-contact__shortcut">
                   <div className="m-contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
@@ -190,10 +190,10 @@ class Home extends Component {
                       </LazyLoad>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
               <div className="m-contact__card col-sm-12 col-md-6">
-                <a href="" className="m-contact__shortcut">
+                <div href="" className="m-contact__shortcut">
                   <div className="m-contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
@@ -218,7 +218,7 @@ class Home extends Component {
                       </LazyLoad>
                     </div>
                   </div>
-                </a>
+                </div>
               </div>
               <div className="m-contact__card col-sm-12 col-md-6">
                 <Link to="other/international" className="m-contact__shortcut">
@@ -249,7 +249,7 @@ class Home extends Component {
                 </Link>
               </div>
               <div className="m-contact__card col-sm-12 col-md-6">
-                <a href="" className="m-contact__shortcut">
+                <div href="" className="m-contact__shortcut">
                   <div className="m-contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
@@ -267,7 +267,7 @@ class Home extends Component {
                     </div>
                     <div className="m-contact__subtitle" />
                   </div>
-                </a>
+                </div>
               </div>
             </div>
           </div>
@@ -288,4 +288,4 @@ class Home extends Component {
   }
 }
 
-export default withRouter(connect(null)(Home));
+export default Home;
