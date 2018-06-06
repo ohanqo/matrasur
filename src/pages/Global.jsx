@@ -19,7 +19,6 @@ export default class Global extends Component {
 
   static getDerivedStateFromProps(nextProps, prevState) {
     if (nextProps.match.params !== prevState.param) {
-      window.scrollTo(0, 0);
       const slash = "/";
       const period = ".";
       const path = nextProps.location.pathname.trim();
@@ -47,6 +46,10 @@ export default class Global extends Component {
     } else {
       return null;
     }
+  }
+
+  componentDidMount() {
+    this.props.location.searchedWord ? window.find(this.props.location.searchedWord) : window.scrollTo(0, 0);
   }
 
   render() {

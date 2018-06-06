@@ -133,7 +133,10 @@ const Searchform = props => {
                       key.includes("home")
                     ) {
                       return (
-                        <Link key={index} to="/">
+                        <Link key={index} to={{
+                          pathname: "/",
+                          searchedWord: keyValue
+                          }}>
                           {keyValue}
                         </Link>
                       );
@@ -142,7 +145,10 @@ const Searchform = props => {
                       if (splitedKey !== undefined && splitedKey.length === 2) {
                         const link = "/" + splitedKey[0] + "/" + splitedKey[1];
                         return (
-                          <Link to={link} key={index}>
+                          <Link key={index} to={{
+                            pathname: link,
+                            searchedWord: keyValue
+                            }}>
                             {keyValue}
                           </Link>
                         );
