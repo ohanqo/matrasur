@@ -14,6 +14,7 @@ class Searchbox extends Component {
 
   toggleDisplaySearchForm = this.toggleDisplaySearchForm.bind(this);
   searchValue = this.searchValue.bind(this);
+  findContent = this.findContent.bind(this);
 
   componentDidUpdate() {
     if (this.state.isOpen) {
@@ -23,6 +24,13 @@ class Searchbox extends Component {
 
   toggleDisplaySearchForm() {
     this.setState({ isOpen: !this.state.isOpen });
+  }
+
+  findContent(query) {
+    //HACK
+    window.find(query);    
+    this.toggleDisplaySearchForm();    
+    window.find(query);
   }
 
   searchValue(e) {
@@ -56,6 +64,7 @@ class Searchbox extends Component {
       <Searchform
         toggleDisplaySearchForm={this.toggleDisplaySearchForm}
         search={this.searchValue}
+        findContent={this.findContent}
         open={this.state.isOpen}
         matches={this.state.matches}
         userLanguage={this.state.userLanguage}
@@ -76,6 +85,7 @@ const Searchform = props => {
         <i className="fas fa-search" />
       </button>
       <div
+        id="modal"
         className={(props.open ? "-fade--in " : "-displayNone ") + "modal"}
         tabIndex="-1"
         role="dialog"
@@ -113,7 +123,8 @@ const Searchform = props => {
                     key.includes(".img") ||
                     (key.includes("navbar") && key.includes(".title")) ||
                     key.includes("contact.subtitle") ||
-                    (key.startsWith("footer.social.icon") && !key.endsWith(".url"))
+                    (key.startsWith("footer.social.icon") &&
+                      !key.endsWith(".url"))
                   )
                 ) {
                   if (key.includes(".subitem") && key.includes("navbar")) {
@@ -132,26 +143,56 @@ const Searchform = props => {
                       key.includes("footer.") ||
                       key.includes("home")
                     ) {
-                      return (
-                        <Link key={index} to={{
-                          pathname: "/",
-                          searchedWord: keyValue
-                          }}>
-                          {keyValue}
-                        </Link>
-                      );
+                      if (window.location.pathname === "/") {
+                        return (
+                          <Link
+                            to="/"
+                            key={index}
+                            onClick={() => { props.findContent(keyValue) }}
+                          >
+                            {keyValue}
+                          </Link>
+                        );
+                      } else {
+                        return (
+                          <Link
+                            key={index}
+                            to={{
+                              pathname: "/",
+                              searchedWord: keyValue
+                            }}
+                          >
+                            {keyValue}
+                          </Link>
+                        );
+                      }
                     } else {
                       const splitedKey = key.split(".", 2);
                       if (splitedKey !== undefined && splitedKey.length === 2) {
                         const link = "/" + splitedKey[0] + "/" + splitedKey[1];
-                        return (
-                          <Link key={index} to={{
-                            pathname: link,
-                            searchedWord: keyValue
-                            }}>
-                            {keyValue}
-                          </Link>
-                        );
+                        if (window.location.pathname === link) {
+                          return (
+                            <Link
+                              to={link}
+                              key={index}
+                              onClick={() => { props.findContent(keyValue) }}
+                            >
+                              {keyValue}
+                            </Link>
+                          );
+                        } else {
+                          return (
+                            <Link
+                              key={index}
+                              to={{
+                                pathname: link,
+                                searchedWord: keyValue
+                              }}
+                            >
+                              {keyValue}
+                            </Link>
+                          );
+                        }
                       }
                     }
                   }

@@ -3710,12 +3710,19 @@ hr {
     padding-top: 10vh; }
     .searchbox > .modal > .modal-dialog .modal-body {
       max-height: 60vh;
-      overflow: scroll; }
+      overflow: scroll;
+      user-select: none; }
       .searchbox > .modal > .modal-dialog .modal-body > a {
         display: block;
         white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis; }
+        text-overflow: ellipsis;
+        color: #006EB9;
+        transition: color .2s ease-in-out;
+        padding-bottom: 20px; }
+        .searchbox > .modal > .modal-dialog .modal-body > a:hover {
+          color: #4AADE9;
+          text-decoration: none; }
     .searchbox > .modal > .modal-dialog .modal-header > input {
       width: 100%; }
   .searchbox > .modal .close,
