@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
-import LazyLoad from "react-lazyload";
+//import LazyLoad from "react-lazyload";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";

@@ -115,8 +115,8 @@ export default class Global extends Component {
               } else return null;
             })}
           </section>
-          <section className="global__sections--darker">
-            <div className="global__wrapper--darker container">
+          <section className="global__sections global__sections--darker">
+            <div className="global__wrapper container">
               {Object.keys(this.state.items).map((item, index) => {
                 if (item.endsWith(".darker") && item.includes(".name")) {
                   return (

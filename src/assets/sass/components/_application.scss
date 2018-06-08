@@ -92,67 +92,6 @@
   }
 }
 
-.appSection {
-  position: relative;
-  z-index: 2;
-}
-
-.firstSection {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-between;
-  align-items: center;
-  overflow: hidden;
-
-  & > span,
-  & > p {
-    width: 50vw;
-    @include media-max($lg) {
-      width: 100vw;
-    }
-    & > * {
-      width: inherit;
-    }
-  }
-  & > p {
-    padding: 0 5%;
-  }
-}
-
-.secondSection {
-  display: flex;
-  align-items: center;
-
-  &__title {
-    padding: 5% 0;
-  }
-
-  &__card {
-    text-align: center;
-  }
-
-  &__image {
-    & > span > img {
-      width: 100%;
-      filter: blur(0.75px);
-
-      &:hover {
-        opacity: 0.9;
-      }
-    }
-  }
-
-  &__text {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-
-    color: $white;
-    font-size: 1.5rem;
-  }
-}
 
 @include keyframes(zoom) {
   @include zoom();

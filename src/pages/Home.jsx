@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { withRouter, Link } from "react-router-dom";
-import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 import LazyLoad from "react-lazyload";
 
@@ -160,14 +159,14 @@ class Home extends Component {
                 />
               </h2>
             </div>
-            <div className="contact__cards row">
-              <div className="contact__card col-sm-12 col-md-6">
+            <div className="contact__cards">
+              <div className="contact__card">
                 <div href="" className="contact__shortcut">
                   <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
                         id="contact.img-1"
-                        defaultMessage="Img"
+                        defaultMessage="!JSON non valide"
                       />
                     </LazyLoad>
                   </div>
@@ -175,7 +174,7 @@ class Home extends Component {
                     <div className="contact__title">
                       <FormattedMessage
                         id="contact.title-1"
-                        defaultMessage="Img"
+                        defaultMessage="!JSON non valide"
                       />
                     </div>
                     <div className="contact__subtitle">
@@ -189,13 +188,13 @@ class Home extends Component {
                   </div>
                 </div>
               </div>
-              <div className="contact__card col-sm-12 col-md-6">
+              <div className="contact__card">
                 <div href="" className="contact__shortcut">
                   <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
                         id="contact.img-2"
-                        defaultMessage="Img"
+                        defaultMessage="!JSON non valide"
                       />
                     </LazyLoad>
                   </div>
@@ -203,7 +202,7 @@ class Home extends Component {
                     <div className="contact__title">
                       <FormattedMessage
                         id="contact.title-2"
-                        defaultMessage="Img"
+                        defaultMessage="!JSON non valide"
                       />
                     </div>
                     <div className="contact__subtitle">
@@ -217,13 +216,13 @@ class Home extends Component {
                   </div>
                 </div>
               </div>
-              <div className="contact__card col-sm-12 col-md-6">
-                <Link to="other/international" className="contact__shortcut">
+              <div className="contact__card">
+                <div href="" className="contact__shortcut">
                   <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
                         id="contact.img-3"
-                        defaultMessage="Img"
+                        defaultMessage="!JSON non valide"
                       />
                     </LazyLoad>
                   </div>
@@ -231,7 +230,7 @@ class Home extends Component {
                     <div className="contact__title">
                       <FormattedMessage
                         id="contact.title-3"
-                        defaultMessage="Img"
+                        defaultMessage="!JSON non valide"
                       />
                     </div>
                     <div className="contact__subtitle">
@@ -243,15 +242,15 @@ class Home extends Component {
                       </LazyLoad>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
-              <div className="contact__card col-sm-12 col-md-6">
+              <div className="contact__card">
                 <div href="" className="contact__shortcut">
                   <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
                         id="contact.img-4"
-                        defaultMessage="Img"
+                        defaultMessage="!JSON non valide"
                       />
                     </LazyLoad>
                   </div>
@@ -259,10 +258,17 @@ class Home extends Component {
                     <div className="contact__title">
                       <FormattedMessage
                         id="contact.title-4"
-                        defaultMessage="Img"
+                        defaultMessage="!JSON non valide"
                       />
                     </div>
-                    <div className="contact__subtitle" />
+                    <div className="contact__subtitle">
+                      <LazyLoad height={200}>
+                        <FormattedMessage
+                          id="contact.subtitle-4"
+                          defaultMessage="!JSON non valide"
+                        />
+                      </LazyLoad>
+                    </div>
                   </div>
                 </div>
               </div>
