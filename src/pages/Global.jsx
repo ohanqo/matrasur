@@ -104,7 +104,7 @@ export default class Global extends Component {
                         />
                       </h4>
                       <p>
-                        <FormattedMessage
+                        <FormattedHTMLMessage
                           id={sectionItem + ".text"}
                           defaultMessage="!JSON non-valide"
                         />
@@ -129,7 +129,7 @@ export default class Global extends Component {
                           />
                         </h4>
                         <p>
-                          <FormattedMessage
+                          <FormattedHTMLMessage
                             id={item.replace("name", "text")}
                             defaultMessage="!JSON non-valide"
                           />

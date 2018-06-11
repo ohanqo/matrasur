@@ -4,11 +4,12 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    transition: transform .3s ease-out;
     & .contact__image, span, img {
       height: 100%;
     }
     &:hover {
-      transform: scale3d(1.02, 1.02, 1);
+      transform: scale3d(1.05, 1.05, 1);
       transition: all 0.3s ease-in-out;
     }
   }
@@ -25,23 +26,17 @@
   }
   &__card {
     overflow: hidden;
+    &:hover img {
+      opacity: .2;
+      transition: all .3s ease-in-out;
+    }
   }
   &__image {
     position: relative;
     & img {
       vertical-align: middle;
       width: 100%;
-    }
-    &:after {
-      content: "";
-      width: 100%;
-      height: 100%;
-      background-color: $black--dark;
-      opacity: 0.6;
-      position: absolute;
-      left: 0;
-      top: 0;
-      transition: all 0.25s ease;
+      opacity: .6;
     }
   }
   &__title {

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 import LazyLoad from "react-lazyload";
 
@@ -161,7 +160,7 @@ class Home extends Component {
             </div>
             <div className="contact__cards">
               <div className="contact__card">
-                <div href="" className="contact__shortcut">
+                <div className="contact__shortcut">
                   <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
@@ -189,7 +188,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="contact__card">
-                <div href="" className="contact__shortcut">
+                <div className="contact__shortcut">
                   <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
@@ -217,7 +216,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="contact__card">
-                <div href="" className="contact__shortcut">
+                <div className="contact__shortcut">
                   <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage
@@ -245,7 +244,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="contact__card">
-                <div href="" className="contact__shortcut">
+                <div className="contact__shortcut">
                   <div className="contact__image">
                     <LazyLoad height={200}>
                       <FormattedHTMLMessage

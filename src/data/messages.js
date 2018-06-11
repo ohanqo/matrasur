@@ -16,6 +16,14 @@ export default {
     "navbar.item-2.subitem-1.link": "/processes/projection",
     "navbar.item-2.subitem-2": "Injection",
     "navbar.item-2.subitem-2.link": "/processes/injection",
+    "navbar.item-2.subitem-3": "Thermoformage",
+    "navbar.item-2.subitem-3.link": "/processes/thermoforming",
+    "navbar.item-2.subitem-4": "Enroulement filamentaire",
+    "navbar.item-2.subitem-4.link": "/processes/winding",
+    "navbar.item-2.subitem-5": "Imprégnation",
+    "navbar.item-2.subitem-5.link": "/processes/impregnation",
+    "navbar.item-2.subitem-6": "Panneaux plats",
+    "navbar.item-2.subitem-6.link": "/processes/panels",
 
     "navbar.item-3.title": "Matières premières",
     "navbar.item-3.subitem-1": "Polyuréthanes",
@@ -29,7 +37,9 @@ export default {
     "navbar.item-4.subitem-1": "Gamme MATRAFOAM",
     "navbar.item-4.subitem-1.link": "/machines/matrafoam",
     "navbar.item-4.subitem-2": "Gamme MATRACOAT",
-    "navbar.item-4.subitem-2.link": "/materials/matracoat",
+    "navbar.item-4.subitem-2.link": "/machines/matracoat",
+    "navbar.item-4.subitem-3": "HV 500 BN",
+    "navbar.item-4.subitem-3.link": "/machines/hv500bn",
 
     "navbar.item-5.title": "Autre",
     "navbar.item-5.subitem-1": "Formation",
@@ -273,17 +283,38 @@ export default {
       "Fine et unique membrane de protection du stratifié, le gelcoat mérite toutes les attentions lors de son application. Nos machines couvrent les conditions d’application de projection de gelcoat les plus variées : petites, moyennes, grandes pièces, projection de plusieurs couleurs, travail en cabine ou sur chantier, application en manuel, automatique et robotique.",
     "processes.projection.section-1.image":
       "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
     "processes.projection.section-2.name": "Projection de résine",
     "processes.projection.section-2.text":
       "Les techniques de mélange en tête basse pression et les toutes dernières technologies de buse respectent l’opérateur et l’environnement, et apportent une productivité tout à fait spectaculaire. Matrasur Composites vous propose un large panel de machines de projection de résine adaptées aux tailles de pièces à réaliser et à la variété des résines disponibles sur le marché.",
     "processes.projection.section-2.image":
       "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
 
-    "processes.projection.section-3.name.darker": "Ce que nous vous proposons",
-    "processes.projection.section-3.text.darker":
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quas ducimus ad natus praesentium voluptatem nostrum velit distinctio modi rem debitis quod aliquid non vero perspiciatis illum at molestias perferendis quia, voluptatibus dignissimos. Labore, quam exercitationem autem dolorem deserunt ratione.",
-    "processes.projection.section-4.name.darker": "Ce que nous vous proposons",
-    "processes.projection.section-4.text.darker":
+    "processes.projection.section-3.name":
+      "Projection simultanée résine et fibre de verre:",
+    "processes.projection.section-3.text":
+      "Une technique à la fois traditionnelle et moderne, la projection simultanée est déployée sur un vaste champ d’applications. Matrasur Composites propose des machines équipées d’une nouvelle génération de pompes pouvant couvrir une large plage de débits.",
+    "processes.projection.section-3.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    "processes.projection.section-3.name":
+      "Projection de colles, mastics, et autres produits pâteux",
+    "processes.projection.section-3.text":
+      "Les colles, adhésifs, enduits et revêtements ont souvent besoin d’être projetés en couches régulières et uniformes et la viscosité est un facteur qui rend cette tâche difficile. Matrasur Composites a mis au point une série de solutions permettant de contourner ce problème et d’appliquer ces produits dans d’excellentes conditions. Des matières telles que polyester (y compris fibrés), polyuréthane, époxy, et silicone, entrent dans la liste des produits mis en œuvre par nos appareils.",
+    "processes.projection.section-3.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    "processes.projection.section-4.name": "Projection polyuréthane",
+    "processes.projection.section-4.text":
+      "Les mousses et élastomères polyuréthane appartiennent à des familles de résine très réactives. Cette caractéristique nécessite le recours à des matériels de grande précision.",
+    "processes.projection.section-4.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    "processes.projection.section-6.name.darker": "À propos de nos machines",
+    "processes.projection.section-6.text.darker":
+      "Toutes nos machines sont équipées de pistolets sans aiguille, à mélange en tête (sans air), convertible toutes applications : projection de résine, projection simultanée, projection de gelcoat, ou même injection. L'accessoirie proposée avec nos machines apporte une véritable réponse aux contraintes de qualité et de productivité (chariot, potence, alarme catalyseur, compteur digital, etc.) Chaque opérateur trouvera dans notre gamme de machines de projection une machine ergonomique et respectueuse de l’environnement de votre atelier.",
+    "processes.projection.section-7.name.darker": "Ce que nous vous proposons",
+    "processes.projection.section-7.text.darker":
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quas ducimus ad natus praesentium voluptatem nostrum velit distinctio modi rem debitis quod aliquid non vero perspiciatis illum at molestias perferendis quia, voluptatibus dignissimos. Labore, quam exercitationem autem dolorem deserunt ratione.",
 
     /**
@@ -305,10 +336,107 @@ export default {
     "processes.injection.section-1.image":
       "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
 
+    "processes.injection.section-2.name":
+      "Machines d'injection/coulée de betons de résines",
+    "processes.injection.section-2.text":
+      "Les bétons de résine et 'solid surface' sont des matériaux de traitement grands consommateurs de main d’œuvre, posant des problèmes de propreté et un accès difficile à une qualité constante. Ces matériaux très chargés sont aussi des matériaux très abrasifs, la gamme HV 500 BN est prévue pour faire face à ces conditions difficiles.",
+    "processes.injection.section-2.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    "processes.injection.section-3.name":
+      "Machines d'injection pour résines epoxy",
+    "processes.injection.section-3.text":
+      "Les résines époxy offrent une incroyable diversité et voient leur usage tourné vers des fabrications particulières en perpétuelle évolution. La gamme de machines d'injection de Matrasur Composites s’adapte aux contraintes spécifiques des résines époxy et prend en compte des larges plages de ratios de dosage, de viscosités élevées, et une variété de températures d’utilisation. Pour les applications de faible quantité, Matrasur Composites propose sa gamme de machines d'injection économiques (prototypages, pièces unitaires, etc).",
+    "processes.injection.section-3.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    "processes.injection.section-4.name": "Machines d'infusion & flex molding",
+    "processes.injection.section-4.text":
+      "Comme tout procédé de moule fermé, l’infusion requiert des moyens adaptés tels qu’un dosage et un pompage fiables. La prévention des erreurs de dosage et des fausses manipulations amène tout naturellement vers une mécanisation de ces opérations et le recours à des machines adaptées. La gamme de machines de Matrasur Composites offre toutes les combinaisons nécessaires pour l’infusion : injection sous bâche à pression réglée, ratios variables, comptage, parmi tant d’autres. Une gamme de matériels et accessoires tels que centrale de vide, évents et injecteurs automatiques, permet des mises en œuvre rapides et sécurisées.",
+    "processes.injection.section-4.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    "processes.injection.section-5.name.darker":
+      "Pour l’industrie du sanitaire, de l’ameublement, loisir, bâtiment, yachting, art et décoration.",
+    "processes.injection.section-5.text.darker":
+      "La machine HV 500 BN trouve sa place en particulier dans l’industrie du sanitaire, de l’ameublement, loisir, bâtiment, yachting, art et décoration. Les machines de type HV 500 BN de Matrasur Composites apportent une solution commune à la transformation des 'solid surfaces' (résine et Ath) et des bétons de résine (résine et CaCo3).  Les configurations HV 500 BN consistent, en général, en un système de dispersion (cuves de mélange) et d’un groupe de dosage spécialement aménagé pour mettre en œuvre des produits à fort taux de charge. Ces matériaux très chargés sont aussi des matériaux très abrasifs, la gamme HV 500 BN est prévue pour faire face à ces conditions difficiles.",
+
     /**
      * fin injection
      */
 
+    /**
+     * début thermoformage
+     */
+
+    "processes.thermoforming.title": "Thermoformage",
+    "processes.thermoforming.subtitle":
+      "La technique de thermoformage consiste à former une plaque thermoplastique en la soumettant à la chaleur. Le contrôle permanent et précis de l’image de chauffe assure une grande qualité de formage et une répétitivité stricte des conditions des programmes.",
+    "processes.thermoforming.image":
+      "<img src='https://source.unsplash.com/random/?jacuzzi' alt='Background' class='hero__image'/>",
+    "processes.thermoforming.section-1.name": "La gamme Matraform",
+    "processes.thermoforming.section-1.text":
+      "Matrasur Composites est le constructeur d'une gamme de machines destinées au thermoformage de grandes pièces: la gamme MATRAFORM. Le temps de changement de moule et des outillages est particulièrement faible, permettant ainsi un gain important de productivité dans le processus de thermoformage.",
+    "processes.thermoforming.section-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.thermoforming.section-2.name.darker": "Pour les spas & jacuzzi",
+    "processes.thermoforming.section-2.text.darker":
+      "Pour des applications spécifiques comme la Production de Spas à partir de feuilles acryliques thermoformées d'une épaisseur de 4mm, Matrasur Composites fournit des thermoformeuses spécialement développées pour des pièces de grande dimension.<br/><br/>Afin de déterminer la machine la plus adaptée à votre production, nous avons besoin de connaître: les dimensions de vos pièces (hauteur, largeur, longueur et épaisseurs), la matière utilisée, et votre cadence de production.",
+
+    /**
+     * fin thermoformage
+     */
+    /**
+     * début eroulement filamentaire
+     */
+
+    "processes.winding.title": "Enroulement filamentaire",
+    "processes.winding.subtitle":
+      "Matrasur Composites offre une gamme de machines d’enroulement filamentaire couvrant des besoins divers.",
+    "processes.winding.image":
+      "<img src='https://source.unsplash.com/random/?sunshine' alt='Background' class='hero__image'/>",
+    "processes.winding.section-1.name": "Les méthodes d'enroulement",
+    "processes.winding.section-1.text":
+      "Chacune de nos machines se décline en multi-modes permettant de combiner, dans une épaisseur de paroi, un échantillonnage varié: voile de surface, liner d’étanchéité intérieur en mat de verre fil coupé, mat fil coupé et enroulement orthogonal, enroulement hélicoïdal, dépose de top coat.",
+    "processes.winding.section-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    /**
+     * fin enroulement filamentaire
+     */
+    /**
+     * début imprégnation
+     */
+
+    "processes.impregnation.title": "Imprégnation",
+    "processes.impregnation.subtitle":
+      "L’imprégnation est une technique fiable et précise de transformation de tissus et complexes de verre dans les travaux de grande dimension.",
+    "processes.impregnation.image":
+      "<img src='https://source.unsplash.com/random/?sunshine' alt='Background' class='hero__image'/>",
+    "processes.impregnation.section-1.name": "Informations sur l'imprégnation",
+    "processes.impregnation.section-1.text":
+      "Cette technique permet des taux de renfort importants et constants pouvant aller jusqu’à 52%, avec un grammage de 830g/m² (minimum) à 1600g/m² (maximum), à une vitesse d’imprégnation de 3m/min. Les machines Matrasur Composites définies en 47, 60, 90, 127 et 150cm sont disponibles en configuration « embarqué sur pont roulant » permettant la dépose in situ, ou plus simplement, en configuration mobile au sol, utilisées à la façon de distributeur de tissus imprégnés.",
+    "processes.impregnation.section-1.image":
+      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+
+    /**
+     * fin imprégnation
+     */
+    /**
+     * début panneaux plats
+     */
+
+    "processes.panels.title": "Panneaux plats",
+    "processes.panels.subtitle":
+      "L'utilisation de panneaux plats",
+    "processes.panels.image":
+      "<img src='https://source.unsplash.com/random/?sunshine' alt='Background' class='hero__image'/>",
+      "processes.panels.section-1.name": "Panneaux plats",
+    "processes.panels.section-1.text": "A partir de votre cahier des charges précis, nous pouvons vous proposer un équipement adapté à votre secteur d’application (production de portes de réfrigérateurs, panneaux isothermes pour camions frigorifiques, panneaux sandwich pour maisons modulaires…) vous permettant de produire vos panneaux au rendement désiré.",
+
+    /**
+     * fin panneaux plats
+     */
     /**
      * fin pages processes
      */

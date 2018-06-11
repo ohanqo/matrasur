@@ -96,6 +96,10 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg fixed-top">
+        <div className="navbar__upper">
+          <span className="navbar__phone"><i className="fas fa-phone"></i></span>
+          <p>06 12 34 56 89</p>
+        </div>
         <Link className="navbar-brand" to="/">
           <img
             className="a-brand__img"
@@ -124,7 +128,7 @@ class Navbar extends Component {
             </li>
             <li className="nav-item">
               <div className="a-lang">
-                <a
+              <a
                   id="flag"
                   className={(this.props.lang === "fr" ? "en" : "fr") + " nav-link a-lang__text"}
                   onClick={() => this.toggleLanguage()}
@@ -199,10 +203,21 @@ class NavItem extends Component {
         >
           {this.renderTitle()}
         </a>
-        <div className="dropdown-menu">{this.renderSubitems()}</div>
+        <div className="dropdown-menu dropdown-menu-center">
+          <div className="dropdown-menu__title">
+            <h4>{this.renderTitle()}</h4>
+          </div>
+          <hr /> 
+          {this.renderSubitems()}
+        </div>
       </li>
     );
   }
 }
 
-export default withRouter(connect(mapStateToProps, { setLocale })(Navbar));
+export default withRouter(
+  connect(
+    mapStateToProps,
+    { setLocale }
+  )(Navbar)
+);

@@ -2,14 +2,14 @@
   position: relative;
   & a {
     color: $blue--light;
-    transition: all .3s;
+    transition: all 0.3s;
     &:hover {
       text-decoration: none;
       color: $black--light;
     }
   }
   &__elements {
-    display: flex; 
+    display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
@@ -33,7 +33,7 @@
       align-items: center;
       justify-content: space-between;
       @include media-max($lg) {
-        width: 100vw;        
+        width: 100vw;
       }
     }
   }
@@ -79,7 +79,9 @@
   &__links {
     list-style: none;
     padding-left: 5%;
-    word-break: break-all;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     @include media-max($lg) {
       padding-left: 0;
     }
