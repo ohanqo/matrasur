@@ -33,7 +33,11 @@ $bottomRadius: 4px;
     background: rgba(0, 0, 0, 0.5);
 
     & > .modal-dialog {
-      padding-top: 10vh;
+      top: 10vh;
+      
+      & > .modal-content {
+        border-radius: 2px;
+      }
 
       & .modal-body {
         max-height: 60vh;
@@ -51,6 +55,9 @@ $bottomRadius: 4px;
             color: $pale;
             text-decoration: none;
           }
+        }
+        &:empty {
+          display: none;
         }
       }
 

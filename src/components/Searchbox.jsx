@@ -23,7 +23,7 @@ class Searchbox extends Component {
   }
 
   toggleDisplaySearchForm() {
-    this.setState({ isOpen: !this.state.isOpen });
+    this.setState({ isOpen: !this.state.isOpen, userSearch: "", matches: {} });
   }
 
   findContent(query) {

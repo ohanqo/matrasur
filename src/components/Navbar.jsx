@@ -102,7 +102,7 @@ class Navbar extends Component {
         </div>
         <Link className="navbar-brand" to="/">
           <img
-            className="a-brand__img"
+            className="brand__img"
             src={Matrasur}
             alt="Logo de la société Matrasur"
           />
@@ -116,9 +116,9 @@ class Navbar extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="a-bar a-bar__top" />
-          <span className="a-bar a-bar__middle" />
-          <span className="a-bar a-bar__bottom" />
+          <span className="bar bar__top" />
+          <span className="bar bar__middle" />
+          <span className="bar bar__bottom" />
         </button>
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -127,10 +127,10 @@ class Navbar extends Component {
               <Searchbox />
             </li>
             <li className="nav-item">
-              <div className="a-lang">
+              <div className="lang">
               <a
                   id="flag"
-                  className={(this.props.lang === "fr" ? "en" : "fr") + " nav-link a-lang__text"}
+                  className={(this.props.lang === "fr" ? "en" : "fr") + " nav-link lang__text"}
                   onClick={() => this.toggleLanguage()}
                 >
                 </a>
@@ -159,8 +159,7 @@ class NavItem extends Component {
     this.state = {
       title: props.title,
       subitems: props.subitems,
-      links: props.links,
-      open: false
+      links: props.links
     };
   }
 
@@ -175,13 +174,13 @@ class NavItem extends Component {
   }
 
   renderSubitems() {
-    return this.state.subitems.map(subitem => {
+    return this.state.subitems.map((subitem, index) => {
       var link =
         typeof this.state.links[subitem + ".link"] !== "undefined"
           ? this.state.links[subitem + ".link"]
           : "/";
       return (
-        <Link className="dropdown-item" key={"a-" + subitem} to={link}>
+        <Link className="dropdown-item" key={index} to={link}>
           <FormattedMessage
             key={subitem}
             id={subitem}

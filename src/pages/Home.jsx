@@ -61,7 +61,7 @@ class Home extends Component {
                   />
                 </h2>
               </div>
-              <div className="box__text text-justify animated slideInLeft">
+              <div className="box__text text-left animated slideInLeft">
                 <FormattedMessage
                   id="home.section-1.text"
                   defaultMessage="!JSON non valide"
@@ -82,7 +82,7 @@ class Home extends Component {
                 />
               </h2>
             </div>
-            <div className="box__text text-justify">
+            <div className="box__text text-right">
               <FormattedMessage
                 id="home.section-2.text"
                 defaultMessage="!JSON non valide"

@@ -52,11 +52,11 @@
 
   .nav-item {
     margin: 0 1vw;
-    & .a-lang {
+    & .lang {
       display: flex;
       align-items: center;
       height: 100%;
-      & .a-lang__text {
+      & .lang__text {
         font-weight: $fontweight--sm;
         float: left;
         @include media-max($lg) {
@@ -131,6 +131,7 @@
     }
     & .dropdown-item {
       margin: 10px 0;
+      letter-spacing: 1px;
       &:first-child {
         margin-top: 0;
       }
@@ -175,11 +176,11 @@
   justify-content: center;
   display: flex;
 }
-.a-brand__img {
+.brand__img {
   height: 8vh;
   width: 20vw;
 }
-.a-bar {
+.bar {
   width: 22px;
   height: 2px;
   display: block;
@@ -192,26 +193,26 @@
   border: none;
   background: transparent !important;
   outline: none !important;
-  .a-bar__top {
+  .bar__top {
     transform: rotate(45deg);
     transform-origin: 10% 10%;
   }
-  .a-bar__middle {
+  .bar__middle {
     opacity: 0;
   }
-  .a-bar__bottom {
+  .bar__bottom {
     transform: rotate(-45deg);
     transform-origin: 10% 90%;
   }
   &.collapsed {
-    .a-bar__top {
+    .bar__top {
       transform: rotate(0);
     }
-    .a-bar__middle {
+    .bar__middle {
       opacity: 1;
       width: 75%;
     }
-    .a-bar__bottom {
+    .bar__bottom {
       transform: rotate(0);
       width: 50%;
     }
@@ -267,13 +268,13 @@
   .m-button {
     margin: auto;
   }
-  .a-brand__img {
+  .brand__img {
     width: 50vw !important;
   }
 }
 
 @media (max-width: 991.98px) {
-  .a-brand__img {
+  .brand__img {
     width: 30vw;
   }
   .form-inline {
