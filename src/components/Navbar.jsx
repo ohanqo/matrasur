@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom";
-import $ from "jquery";
 
 import { connect } from "react-redux";
 import { setLocale } from "../actions/locale";
@@ -174,6 +173,22 @@ class NavItem extends Component {
     );
   }
 
+  renderSubmenuItems(subitem) {
+    return this.state.subitems.map((sub, idx) => {
+      if (sub.startsWith(subitem) && sub.includes("submenu.item")) {
+        return (
+          <li key={idx}>
+            <Link to={this.state.links[sub + ".link"]} className="dropdown-item">
+              <FormattedMessage id={sub} defaultMessage="!JSON invalide" />
+            </Link>
+          </li>
+        );
+      } else {
+        return null;
+      }
+    });
+  }
+
   renderSubitems() {
     return this.state.subitems.map((subitem, index) => {
       if (!subitem.includes("submenu")) {
@@ -190,8 +205,20 @@ class NavItem extends Component {
             />
           </Link>
         );
+      } else if (subitem.endsWith("submenu")) {
+        return (
+          <div className="dropdown-submenu" key={index}>
+            <a className="dropdown-item">
+              <FormattedMessage id={subitem} defaultMessage="!JSON invalide" />
+            </a>
+            <ul className="dropdown-menu submenu">
+              {this.renderSubmenuItems(subitem)}
+            </ul>
+          </div>
+        );
+      } else {
+        return null;
       }
-      return null;
     });
   }
 
@@ -212,43 +239,6 @@ class NavItem extends Component {
           </div>
           <hr />
           {this.renderSubitems()}
-
-          <div className="dropdown-submenu">
-            <a className="dropdown-item">Cliquer pour le menu</a>
-            <ul className="dropdown-menu submenu">
-              <li>
-                <a className="dropdown-item">Coucou</a>
-              </li>
-              <li>
-                <a className="dropdown-item">Test</a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="dropdown-submenu">
-            <a className="dropdown-item">Test</a>
-            <ul className="dropdown-menu submenu">
-              <li>
-                <a className="dropdown-item">Coucou</a>
-              </li>
-              <li>
-                <a className="dropdown-item">Test</a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="dropdown-submenu">
-            <a className="dropdown-item">Cliquer pour le menu</a>
-            <ul className="dropdown-menu submenu">
-              <li>
-                <a className="dropdown-item">Coucou</a>
-              </li>
-              <li>
-                <a className="dropdown-item">Test</a>
-              </li>
-            </ul>
-          </div>
-
         </div>
       </li>
     );

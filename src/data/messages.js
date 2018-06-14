@@ -46,7 +46,6 @@ export default {
     "navbar.item-3.subitem-6.link": "/materials/silicon",
 
     "navbar.item-4.title": "Nos machines",
-    "navbar.item-4.subitem-1": "Gamme MATRAFOAM",
     "navbar.item-4.subitem-1.submenu": "Machine FOAM",
     "navbar.item-4.subitem-1.submenu.item-1": "FOAM 1",
     "navbar.item-4.subitem-1.submenu.item-1.link": "/other/documentation",
