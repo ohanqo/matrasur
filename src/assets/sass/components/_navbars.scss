@@ -65,6 +65,10 @@
     }
   }
 
+  .dot:after {
+    content:" •";
+  }
+
   .dropdown-menu {
     border-radius: 0;
     animation: fade--in 0.2s;
@@ -117,6 +121,7 @@
     & .dropdown-item {
       margin: 10px 0;
       letter-spacing: 1px;
+      cursor: pointer;
       &:first-child {
         margin-top: 0;
       }

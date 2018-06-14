@@ -115,6 +115,7 @@ const Searchform = props => {
             </div>
             <div className="modal-body">
               {Object.keys(props.matches).map((key, index) => {
+                console.log(key)
                 var keyValue = props.matches[key];
                 if (
                   !(
@@ -127,7 +128,7 @@ const Searchform = props => {
                       !key.endsWith(".url"))
                   )
                 ) {
-                  if (key.includes(".subitem") && key.includes("navbar")) {
+                  if (key.includes(".subitem") && key.includes("navbar") && !key.includes("submenu")) {
                     return (
                       <Link
                         to={messagesOfHisLanguage[key + ".link"]}
@@ -141,6 +142,7 @@ const Searchform = props => {
                       key.includes("contact.") ||
                       key.includes("slideshow.") ||
                       key.includes("footer.") ||
+                      key.endsWith("submenu") ||
                       key.includes("home")
                     ) {
                       if (window.location.pathname === "/") {

@@ -208,7 +208,7 @@ class NavItem extends Component {
       } else if (subitem.endsWith("submenu")) {
         return (
           <div className="dropdown-submenu" key={index}>
-            <a className="dropdown-item">
+            <a className="dropdown-item dot">
               <FormattedMessage id={subitem} defaultMessage="!JSON invalide" />
             </a>
             <ul className="dropdown-menu submenu">

@@ -30,7 +30,7 @@
     <script src="%PUBLIC_URL%/assets/vendor/fa-solid.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('.dropdown-submenu a').on("click", function (e) {
+            $('.dropdown-submenu a.dot').on("click", function (e) {
                 $(this).next('ul').toggle();
                 e.stopPropagation();
                 e.preventDefault();

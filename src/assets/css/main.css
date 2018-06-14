@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -2624,6 +2625,8 @@ hr {
       @media screen and (min-width: 992px) {
         .navbar-nav .nav-item .nav-link {
           font-size: 1vw; } }
+  .navbar-nav .dot:after {
+    content: " •"; }
   .navbar-nav .dropdown-menu {
     border-radius: 0;
     animation: fade--in 0.2s; }
@@ -2668,7 +2671,8 @@ hr {
           display: none; } }
     .navbar-nav .dropdown-menu .dropdown-item {
       margin: 10px 0;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      cursor: pointer; }
       .navbar-nav .dropdown-menu .dropdown-item:first-child {
         margin-top: 0; }
       .navbar-nav .dropdown-menu .dropdown-item:hover {
