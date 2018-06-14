@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { withRouter, Link } from "react-router-dom";
+import $ from "jquery";
 
 import { connect } from "react-redux";
 import { setLocale } from "../actions/locale";
@@ -96,10 +97,6 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg fixed-top">
-        <div className="navbar__upper">
-          <span className="navbar__phone"><i className="fas fa-phone"></i></span>
-          <p>06 12 34 56 89</p>
-        </div>
         <Link className="navbar-brand" to="/">
           <img
             className="brand__img"
@@ -128,11 +125,15 @@ class Navbar extends Component {
             </li>
             <li className="nav-item">
               <div className="lang">
-              <a
+                <a
                   id="flag"
-                  className={(this.props.lang === "fr" ? "en" : "fr") + " nav-link lang__text"}
+                  className={
+                    (this.props.lang === "fr" ? "en" : "fr") +
+                    " nav-link lang__text"
+                  }
                   onClick={() => this.toggleLanguage()}
                 >
+                  {""}
                 </a>
               </div>
             </li>
@@ -175,19 +176,22 @@ class NavItem extends Component {
 
   renderSubitems() {
     return this.state.subitems.map((subitem, index) => {
-      var link =
-        typeof this.state.links[subitem + ".link"] !== "undefined"
-          ? this.state.links[subitem + ".link"]
-          : "/";
-      return (
-        <Link className="dropdown-item" key={index} to={link}>
-          <FormattedMessage
-            key={subitem}
-            id={subitem}
-            defaultMessage=" ! Subitem non-valide"
-          />
-        </Link>
-      );
+      if (!subitem.includes("submenu")) {
+        var link =
+          typeof this.state.links[subitem + ".link"] !== "undefined"
+            ? this.state.links[subitem + ".link"]
+            : "/";
+        return (
+          <Link className="dropdown-item" key={index} to={link}>
+            <FormattedMessage
+              key={subitem}
+              id={subitem}
+              defaultMessage=" ! Subitem non-valide"
+            />
+          </Link>
+        );
+      }
+      return null;
     });
   }
 
@@ -206,8 +210,45 @@ class NavItem extends Component {
           <div className="dropdown-menu__title">
             <h4>{this.renderTitle()}</h4>
           </div>
-          <hr /> 
+          <hr />
           {this.renderSubitems()}
+
+          <div className="dropdown-submenu">
+            <a className="dropdown-item">Cliquer pour le menu</a>
+            <ul className="dropdown-menu submenu">
+              <li>
+                <a className="dropdown-item">Coucou</a>
+              </li>
+              <li>
+                <a className="dropdown-item">Test</a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="dropdown-submenu">
+            <a className="dropdown-item">Test</a>
+            <ul className="dropdown-menu submenu">
+              <li>
+                <a className="dropdown-item">Coucou</a>
+              </li>
+              <li>
+                <a className="dropdown-item">Test</a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="dropdown-submenu">
+            <a className="dropdown-item">Cliquer pour le menu</a>
+            <ul className="dropdown-menu submenu">
+              <li>
+                <a className="dropdown-item">Coucou</a>
+              </li>
+              <li>
+                <a className="dropdown-item">Test</a>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </li>
     );

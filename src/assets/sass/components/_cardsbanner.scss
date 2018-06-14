@@ -44,6 +44,7 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
 
         @include media-max($md) {
           padding: 5% 0;
+          font-weight: 400;
         }
         @include media-min($lg) {
           max-height: 20vh;

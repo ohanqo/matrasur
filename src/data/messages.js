@@ -47,7 +47,12 @@ export default {
 
     "navbar.item-4.title": "Nos machines",
     "navbar.item-4.subitem-1": "Gamme MATRAFOAM",
-    "navbar.item-4.subitem-1.link": "/machines/matrafoam",
+    "navbar.item-4.subitem-1.submenu": "Machine FOAM",
+    "navbar.item-4.subitem-1.submenu.item-1": "FOAM 1",
+    "navbar.item-4.subitem-1.submenu.item-1.link": "/other/documentation",
+    "navbar.item-4.subitem-1.submenu.item-2": "FOAM 2",
+    "navbar.item-4.subitem-1.submenu.item-2.link": "/other/formation",
+
     "navbar.item-4.subitem-2": "Gamme MATRACOAT",
     "navbar.item-4.subitem-2.link": "/machines/matracoat",
     "navbar.item-4.subitem-3": "HV 500 BN",

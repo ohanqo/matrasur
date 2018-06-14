@@ -15,7 +15,6 @@
 @import 'vendor/bootstrap/buttons';
 @import 'vendor/bootstrap/transitions';
 @import 'vendor/bootstrap/modal';
-@import 'vendor/animate';
 
 @import 'mixins/prefix';
 @import 'mixins/keyframes';
@@ -36,3 +35,5 @@
 @import 'components/searchbox';
 @import 'components/global';
 @import 'components/documentation';
+
+@import 'vendor/animate';

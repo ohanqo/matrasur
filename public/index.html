@@ -28,6 +28,15 @@
     <script src="%PUBLIC_URL%/assets/vendor/bootstrap.min.js"></script>
     <script src="%PUBLIC_URL%/assets/vendor/fontawesome.min.js"></script>
     <script src="%PUBLIC_URL%/assets/vendor/fa-solid.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-submenu a').on("click", function (e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
 </body>
 
 </html>
