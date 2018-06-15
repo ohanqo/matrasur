@@ -9,6 +9,10 @@
   &__phone {
     padding-right: 1em;
   }
+  &-collapse {
+    max-height: 75vh;
+    overflow-y: scroll;
+  }
 }
 .navbar-nav {
   margin-left: auto;
@@ -122,6 +126,7 @@
       margin: 10px 0;
       letter-spacing: 1px;
       cursor: pointer;
+
       &:first-child {
         margin-top: 0;
       }
@@ -135,6 +140,11 @@
     }
   }
 }
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 .navbar-brand {
   padding: 0;
   min-height: 8vh;
@@ -181,6 +191,18 @@
     .bar__bottom {
       transform: rotate(0);
       width: 50%;
+    }
+  }
+  &--desktop {
+    display: none;
+    @include media-min($lg) {
+      position: absolute;
+      display: block !important;
+      top: 15%;
+      right: 10%;
+      & .bar--black {
+        background-color: $black;
+      }
     }
   }
 }

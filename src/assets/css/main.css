@@ -2580,6 +2580,9 @@ hr {
       background-color: #000000; } }
   .navbar__phone {
     padding-right: 1em; }
+  .navbar-collapse {
+    max-height: 75vh;
+    overflow-y: scroll; }
 
 .navbar-nav {
   margin-left: auto; }
@@ -2681,6 +2684,10 @@ hr {
         color: #006EB9;
         transition: color 0.2s ease-in-out; }
 
+.disabled {
+  pointer-events: none;
+  cursor: default; }
+
 .navbar-brand {
   padding: 0;
   min-height: 8vh;
@@ -2721,6 +2728,16 @@ hr {
   .navbar-toggler.collapsed .bar__bottom {
     transform: rotate(0);
     width: 50%; }
+  .navbar-toggler--desktop {
+    display: none; }
+    @media screen and (min-width: 992px) {
+      .navbar-toggler--desktop {
+        position: absolute;
+        display: block !important;
+        top: 15%;
+        right: 10%; }
+        .navbar-toggler--desktop .bar--black {
+          background-color: #222222; } }
 
 .m-button {
   color: #006EB9;

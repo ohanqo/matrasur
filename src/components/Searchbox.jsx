@@ -115,20 +115,20 @@ const Searchform = props => {
             </div>
             <div className="modal-body">
               {Object.keys(props.matches).map((key, index) => {
-                console.log(key)
                 var keyValue = props.matches[key];
                 if (
                   !(
                     key.includes(".link") ||
                     key.includes(".image") ||
                     key.includes(".img") ||
+                    key.endsWith("submenu") ||
                     (key.includes("navbar") && key.includes(".title")) ||
                     key.includes("contact.subtitle") ||
                     (key.startsWith("footer.social.icon") &&
                       !key.endsWith(".url"))
                   )
                 ) {
-                  if (key.includes(".subitem") && key.includes("navbar") && !key.includes("submenu")) {
+                  if ((key.includes(".subitem") && key.includes("navbar")) || key.includes("submenu.item")) {
                     return (
                       <Link
                         to={messagesOfHisLanguage[key + ".link"]}

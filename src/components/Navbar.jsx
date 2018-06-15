@@ -19,9 +19,12 @@ class Navbar extends Component {
       data: messages[Object.keys(messages)[0]],
       items: [],
       subitems: [],
-      links: {}
+      links: {},
+      opened: false
     };
   }
+
+  toggleNavbar = this.toggleNavbar.bind(this);
 
   componentDidMount() {
     this.toggleBackgroundOnScroll();
@@ -93,6 +96,10 @@ class Navbar extends Component {
     });
   }
 
+  toggleNavbar() {
+    this.setState({ opened: !this.state.opened });
+  }
+
   render() {
     return (
       <nav className="navbar navbar-expand-lg fixed-top">
@@ -104,19 +111,19 @@ class Navbar extends Component {
           />
         </Link>
         <button
-          className="navbar-toggler collapsed"
+          className={"navbar-toggler" + (this.state.opened ? "" : " collapsed")}
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarToggler"
-          aria-controls="navbarToggler"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          onClick={this.toggleNavbar}
         >
           <span className="bar bar__top" />
           <span className="bar bar__middle" />
           <span className="bar bar__bottom" />
         </button>
-        <div className="collapse navbar-collapse" id="navbarToggler">
+        <div
+          className={
+            "collapse navbar-collapse" + (this.state.opened ? " show" : "")
+          }
+        >
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             {this.displayNavItems()}
             <li className="nav-item">
@@ -159,8 +166,33 @@ class NavItem extends Component {
     this.state = {
       title: props.title,
       subitems: props.subitems,
-      links: props.links
+      links: props.links,
+      submenuIsOpen: false,
+      isOpen: false
     };
+  }
+
+  toggleSubmenu = this.toggleSubmenu.bind(this);
+  toggleMenu = this.toggleMenu.bind(this);
+  setWrapperRef = this.setWrapperRef.bind(this);
+  handleClickOutside = this.handleClickOutside.bind(this);
+
+  componentDidMount() {
+    document.addEventListener("mousedown", this.handleClickOutside);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener("mousedown", this.handleClickOutside);
+  }
+
+  setWrapperRef(node) {
+    this.wrapperRef = node;
+  }
+
+  handleClickOutside(event) {
+    if (this.wrapperRef && !this.wrapperRef.contains(event.target) && window.innerWidth > 992) {
+      this.setState({ isOpen: false });
+    }
   }
 
   renderTitle() {
@@ -178,7 +210,16 @@ class NavItem extends Component {
       if (sub.startsWith(subitem) && sub.includes("submenu.item")) {
         return (
           <li key={idx}>
-            <Link to={this.state.links[sub + ".link"]} className="dropdown-item">
+            <Link
+              to={this.state.links[sub + ".link"]}
+              className={
+                "dropdown-item " +
+                (this.state.links[sub + ".link"] === window.location.pathname
+                  ? "disabled"
+                  : "")
+              }
+              onClick={this.toggleMenu}
+            >
               <FormattedMessage id={sub} defaultMessage="!JSON invalide" />
             </Link>
           </li>
@@ -189,6 +230,14 @@ class NavItem extends Component {
     });
   }
 
+  toggleSubmenu() {
+    this.setState({ submenuIsOpen: !this.state.submenuIsOpen });
+  }
+
+  toggleMenu() {
+    this.setState({ isOpen: !this.state.isOpen });
+  }
+
   renderSubitems() {
     return this.state.subitems.map((subitem, index) => {
       if (!subitem.includes("submenu")) {
@@ -197,7 +246,17 @@ class NavItem extends Component {
             ? this.state.links[subitem + ".link"]
             : "/";
         return (
-          <Link className="dropdown-item" key={index} to={link}>
+          <Link
+            className={
+              "dropdown-item " +
+              (link === window.location.pathname
+                ? "disabled"
+                : "")
+            }
+            key={index}
+            to={link}
+            onClick={this.toggleMenu}
+          >
             <FormattedMessage
               key={subitem}
               id={subitem}
@@ -208,10 +267,16 @@ class NavItem extends Component {
       } else if (subitem.endsWith("submenu")) {
         return (
           <div className="dropdown-submenu" key={index}>
-            <a className="dropdown-item dot">
+            <a className="dropdown-item dot" onClick={this.toggleSubmenu}>
               <FormattedMessage id={subitem} defaultMessage="!JSON invalide" />
             </a>
-            <ul className="dropdown-menu submenu">
+            <ul
+              className={
+                this.state.submenuIsOpen
+                  ? "dropdown-menu submenu show"
+                  : "dropdown-menu submenu"
+              }
+            >
               {this.renderSubmenuItems(subitem)}
             </ul>
           </div>
@@ -224,16 +289,29 @@ class NavItem extends Component {
 
   render() {
     return (
-      <li className="nav-item">
+      <li className="nav-item" ref={this.setWrapperRef}>
         <a
           className="nav-link dropdown-toggle"
           role="button"
-          data-toggle="dropdown"
-          aria-expanded="false"
+          onClick={this.toggleMenu}
         >
           {this.renderTitle()}
         </a>
-        <div className="dropdown-menu dropdown-menu-center">
+        <div
+          className={
+            this.state.isOpen
+              ? "dropdown-menu dropdown-menu-center show"
+              : "dropdown-menu dropdown-menu-center"
+          }
+        >
+          <button
+            className="navbar-toggler navbar-toggler--desktop"
+            onClick={this.toggleMenu}
+          >
+            <span className="bar bar__top bar--black" />
+            <span className="bar bar__middle bar--black" />
+            <span className="bar bar__bottom bar--black" />
+          </button>
           <div className="dropdown-menu__title">
             <h4>{this.renderTitle()}</h4>
           </div>

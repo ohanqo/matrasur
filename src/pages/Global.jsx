@@ -31,7 +31,7 @@ export default class Global extends Component {
       if (param !== undefined) {
         for (var key in prevState.data) {
           if (prevState.data.hasOwnProperty(key)) {
-            if (key.startsWith(pageRoot) && key.includes(param)) {
+            if (key.startsWith(pageRoot) && key.includes(period + param + period)) {
               items[key] = prevState.data[key];
             }
           }
