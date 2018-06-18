@@ -92,60 +92,56 @@ class Home extends Component {
         </section>
         <section className="box -fh -fw -bg--white">
           <div className="box__grids -fw">
-            <div className="box__grid -bg--blue">
-              <LazyLoad height={200}>
+            <LazyLoad height={200}>
+              <div className="box__grid -bg--blue">
                 <FormattedHTMLMessage
                   id="home.grid-1.image"
                   defaultMessage="!JSON non valide"
                 />
-              </LazyLoad>
-            </div>
-            <div className="box__grid">
-              <div className="box__border box__border--noleft -p-10">
-                <h4 className="animated slideInRight">
-                  <FormattedMessage
-                    id="home.grid-1.text"
-                    defaultMessage="!JSON non valide"
-                  />
-                </h4>
               </div>
-            </div>
-            <div className="box__grid">
-              <div className="box__border box__border--noright -p-10">
-                <h4 className="animated slideInLeft">
-                  <FormattedMessage
-                    id="home.grid-2.text"
-                    defaultMessage="!JSON non valide"
-                  />
-                </h4>
+              <div className="box__grid">
+                <div className="box__border box__border--noleft -p-10">
+                  <h4 className="animated slideInRight">
+                    <FormattedMessage
+                      id="home.grid-1.text"
+                      defaultMessage="!JSON non valide"
+                    />
+                  </h4>
+                </div>
               </div>
-            </div>
-            <div className="box__grid -bg--blue">
-              <LazyLoad height={200}>
+              <div className="box__grid">
+                <div className="box__border box__border--noright -p-10">
+                  <h4 className="animated slideInLeft">
+                    <FormattedMessage
+                      id="home.grid-2.text"
+                      defaultMessage="!JSON non valide"
+                    />
+                  </h4>
+                </div>
+              </div>
+              <div className="box__grid -bg--blue">
                 <FormattedHTMLMessage
                   id="home.grid-2.image"
                   defaultMessage="!JSON non valide"
                 />
-              </LazyLoad>
-            </div>
-            <div className="box__grid -bg--blue">
-              <LazyLoad height={200}>
+              </div>
+              <div className="box__grid -bg--blue">
                 <FormattedHTMLMessage
                   id="home.grid-3.image"
                   defaultMessage="!JSON non valide"
                 />
-              </LazyLoad>
-            </div>
-            <div className="box__grid">
-              <div className="box__border box__border--noleft -p-10">
-                <h4 className="animated slideInRight">
-                  <FormattedMessage
-                    id="home.grid-3.text"
-                    defaultMessage="!JSON non valide"
-                  />
-                </h4>
               </div>
-            </div>
+              <div className="box__grid">
+                <div className="box__border box__border--noleft -p-10">
+                  <h4 className="animated slideInRight">
+                    <FormattedMessage
+                      id="home.grid-3.text"
+                      defaultMessage="!JSON non valide"
+                    />
+                  </h4>
+                </div>
+              </div>
+            </LazyLoad>
           </div>
         </section>
         <section className="contact -fh -fw">
@@ -159,118 +155,104 @@ class Home extends Component {
               </h2>
             </div>
             <div className="contact__cards">
-              <div className="contact__card">
-                <div className="contact__shortcut">
-                  <div className="contact__image">
-                    <LazyLoad height={200}>
+              <LazyLoad height={200}>
+                <div className="contact__card">
+                  <div className="contact__shortcut">
+                    <div className="contact__image">
                       <FormattedHTMLMessage
                         id="contact.img-1"
                         defaultMessage="!JSON non valide"
                       />
-                    </LazyLoad>
-                  </div>
-                  <div className="contact__content">
-                    <div className="contact__title">
-                      <FormattedMessage
-                        id="contact.title-1"
-                        defaultMessage="!JSON non valide"
-                      />
                     </div>
-                    <div className="contact__subtitle">
-                      <LazyLoad height={200}>
+                    <div className="contact__content">
+                      <div className="contact__title">
+                        <FormattedMessage
+                          id="contact.title-1"
+                          defaultMessage="!JSON non valide"
+                        />
+                      </div>
+                      <div className="contact__subtitle">
                         <FormattedHTMLMessage
                           id="contact.subtitle-1"
                           defaultMessage="+33 1 61 61 65 65 <br/> info@matrasurcomposites.com"
                         />
-                      </LazyLoad>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="contact__card">
-                <div className="contact__shortcut">
-                  <div className="contact__image">
-                    <LazyLoad height={200}>
+                <div className="contact__card">
+                  <div className="contact__shortcut">
+                    <div className="contact__image">
                       <FormattedHTMLMessage
                         id="contact.img-2"
                         defaultMessage="!JSON non valide"
                       />
-                    </LazyLoad>
-                  </div>
-                  <div className="contact__content">
-                    <div className="contact__title">
-                      <FormattedMessage
-                        id="contact.title-2"
-                        defaultMessage="!JSON non valide"
-                      />
                     </div>
-                    <div className="contact__subtitle">
-                      <LazyLoad height={200}>
+                    <div className="contact__content">
+                      <div className="contact__title">
+                        <FormattedMessage
+                          id="contact.title-2"
+                          defaultMessage="!JSON non valide"
+                        />
+                      </div>
+                      <div className="contact__subtitle">
                         <FormattedHTMLMessage
                           id="contact.subtitle-2"
                           defaultMessage="+33 1 61 61 65 67 <br/> sav@matrasurcomposites.com"
                         />
-                      </LazyLoad>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="contact__card">
-                <div className="contact__shortcut">
-                  <div className="contact__image">
-                    <LazyLoad height={200}>
+                <div className="contact__card">
+                  <div className="contact__shortcut">
+                    <div className="contact__image">
                       <FormattedHTMLMessage
                         id="contact.img-3"
                         defaultMessage="!JSON non valide"
                       />
-                    </LazyLoad>
-                  </div>
-                  <div className="contact__content">
-                    <div className="contact__title">
-                      <FormattedMessage
-                        id="contact.title-3"
-                        defaultMessage="!JSON non valide"
-                      />
                     </div>
-                    <div className="contact__subtitle">
-                      <LazyLoad height={200}>
+                    <div className="contact__content">
+                      <div className="contact__title">
+                        <FormattedMessage
+                          id="contact.title-3"
+                          defaultMessage="!JSON non valide"
+                        />
+                      </div>
+                      <div className="contact__subtitle">
                         <FormattedHTMLMessage
                           id="contact.subtitle-3"
                           defaultMessage="!JSON non valide"
                         />
-                      </LazyLoad>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="contact__card">
-                <div className="contact__shortcut">
-                  <div className="contact__image">
-                    <LazyLoad height={200}>
+                <div className="contact__card">
+                  <div className="contact__shortcut">
+                    <div className="contact__image">
                       <FormattedHTMLMessage
                         id="contact.img-4"
                         defaultMessage="!JSON non valide"
                       />
-                    </LazyLoad>
-                  </div>
-                  <div className="contact__content">
-                    <div className="contact__title">
-                      <FormattedMessage
-                        id="contact.title-4"
-                        defaultMessage="!JSON non valide"
-                      />
                     </div>
-                    <div className="contact__subtitle">
-                      <LazyLoad height={200}>
+                    <div className="contact__content">
+                      <div className="contact__title">
+                        <FormattedMessage
+                          id="contact.title-4"
+                          defaultMessage="!JSON non valide"
+                        />
+                      </div>
+                      <div className="contact__subtitle">
                         <FormattedMessage
                           id="contact.subtitle-4"
                           defaultMessage="!JSON non valide"
                         />
-                      </LazyLoad>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </LazyLoad>
             </div>
           </div>
         </section>
