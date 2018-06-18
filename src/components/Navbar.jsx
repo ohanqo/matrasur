@@ -127,9 +127,6 @@ class Navbar extends Component {
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
             {this.displayNavItems()}
             <li className="nav-item">
-              <Searchbox />
-            </li>
-            <li className="nav-item">
               <div className="lang">
                 <a
                   id="flag"
@@ -142,6 +139,9 @@ class Navbar extends Component {
                   {""}
                 </a>
               </div>
+            </li>
+            <li className="nav-item">
+              <Searchbox />
             </li>
           </ul>
         </div>
@@ -167,12 +167,10 @@ class NavItem extends Component {
       title: props.title,
       subitems: props.subitems,
       links: props.links,
-      submenuIsOpen: false,
       isOpen: false
     };
   }
 
-  toggleSubmenu = this.toggleSubmenu.bind(this);
   toggleMenu = this.toggleMenu.bind(this);
   setWrapperRef = this.setWrapperRef.bind(this);
   handleClickOutside = this.handleClickOutside.bind(this);
@@ -190,7 +188,11 @@ class NavItem extends Component {
   }
 
   handleClickOutside(event) {
-    if (this.wrapperRef && !this.wrapperRef.contains(event.target) && window.innerWidth > 992) {
+    if (
+      this.wrapperRef &&
+      !this.wrapperRef.contains(event.target) &&
+      window.innerWidth > 992
+    ) {
       this.setState({ isOpen: false });
     }
   }
@@ -203,35 +205,6 @@ class NavItem extends Component {
         defaultMessage=" ! Titre non-valide"
       />
     );
-  }
-
-  renderSubmenuItems(subitem) {
-    return this.state.subitems.map((sub, idx) => {
-      if (sub.startsWith(subitem) && sub.includes("submenu.item")) {
-        return (
-          <li key={idx}>
-            <Link
-              to={this.state.links[sub + ".link"]}
-              className={
-                "dropdown-item " +
-                (this.state.links[sub + ".link"] === window.location.pathname
-                  ? "disabled"
-                  : "")
-              }
-              onClick={this.toggleMenu}
-            >
-              <FormattedMessage id={sub} defaultMessage="!JSON invalide" />
-            </Link>
-          </li>
-        );
-      } else {
-        return null;
-      }
-    });
-  }
-
-  toggleSubmenu() {
-    this.setState({ submenuIsOpen: !this.state.submenuIsOpen });
   }
 
   toggleMenu() {
@@ -249,9 +222,7 @@ class NavItem extends Component {
           <Link
             className={
               "dropdown-item " +
-              (link === window.location.pathname
-                ? "disabled"
-                : "")
+              (link === window.location.pathname ? "disabled" : "")
             }
             key={index}
             to={link}
@@ -266,20 +237,12 @@ class NavItem extends Component {
         );
       } else if (subitem.endsWith("submenu")) {
         return (
-          <div className="dropdown-submenu" key={index}>
-            <a className="dropdown-item dot" onClick={this.toggleSubmenu}>
-              <FormattedMessage id={subitem} defaultMessage="!JSON invalide" />
-            </a>
-            <ul
-              className={
-                this.state.submenuIsOpen
-                  ? "dropdown-menu submenu show"
-                  : "dropdown-menu submenu"
-              }
-            >
-              {this.renderSubmenuItems(subitem)}
-            </ul>
-          </div>
+          <Submenu
+            key={index}
+            subitem={subitem}
+            subitems={this.state.subitems}
+            links={this.state.links}
+          />
         );
       } else {
         return null;
@@ -319,6 +282,68 @@ class NavItem extends Component {
           {this.renderSubitems()}
         </div>
       </li>
+    );
+  }
+}
+
+class Submenu extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      subitem: props.subitem,
+      submenuIsOpen: false
+    };
+  }
+
+  toggleSubmenu = this.toggleSubmenu.bind(this);
+
+  toggleSubmenu() {
+    this.setState({ submenuIsOpen: !this.state.submenuIsOpen });
+  }
+
+  renderSubmenuItems(subitem) {
+    return this.props.subitems.map((sub, idx) => {
+      if (sub.startsWith(subitem) && sub.includes("submenu.item")) {
+        return (
+          <li key={idx}>
+            <Link
+              to={this.props.links[sub + ".link"]}
+              className={
+                "dropdown-item " +
+                (this.props.links[sub + ".link"] === window.location.pathname
+                  ? "disabled"
+                  : "")
+              }
+            >
+              <FormattedMessage id={sub} defaultMessage="!JSON invalide" />
+            </Link>
+          </li>
+        );
+      } else {
+        return null;
+      }
+    });
+  }
+
+  render() {
+    return (
+      <div className="dropdown-submenu">
+        <a className="dropdown-item dot" onClick={this.toggleSubmenu}>
+          <FormattedMessage
+            id={this.state.subitem}
+            defaultMessage="!JSON invalide"
+          />
+        </a>
+        <ul
+          className={
+            this.state.submenuIsOpen
+              ? "dropdown-menu submenu show"
+              : "dropdown-menu submenu"
+          }
+        >
+          {this.renderSubmenuItems(this.state.subitem)}
+        </ul>
+      </div>
     );
   }
 }

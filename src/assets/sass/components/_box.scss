@@ -28,6 +28,12 @@
       font-weight: $fontweight--xl;
     }
   }
+  &__content {
+    @include media-min($xl) {
+      max-width: 75vw;
+      padding: 10% 0;
+    }
+  }
   &__grids {
     display: flex;
     flex-flow: row wrap;

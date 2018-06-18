@@ -1,17 +1,16 @@
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 html,
 body {
-  overflow: scroll;
   text-rendering: optimizeLegibility;
   background: $black;
+  overflow-x: hidden;
 }
 body {
   background-image: url("../img/bg/bg.png");
   background-attachment: fixed;
-
 }
 hr {
   width: 25%;

@@ -19,6 +19,7 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
     align-items: stretch;
     flex-flow: row wrap;
     height: inherit;
+    width: 100vw;
     & .m-card {
       display: flex;
       flex-direction: column;
@@ -59,11 +60,11 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
         background: $pale;
         border-radius: 2rem;
       }
-      @include media-max($sm) {
-        width: 100vw;
-      }
       @include media-max($lg) {
         width: 50vw;
+      }
+      @include media-max($sm) {
+        width: 100vw;
       }
       @include media-min($lg) {
         &:hover {
@@ -72,7 +73,7 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
           transform: translateY(-5vh);
           background: linear-gradient(
             to bottom,
-            $blue--dark,
+            $blue,
             $black
           ) !important;
           transition-duration: 0.2s;

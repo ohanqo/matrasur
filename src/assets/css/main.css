@@ -2551,13 +2551,13 @@ input[type="button"].btn-block {
     opacity: 1; } }
 
 * {
-  font-family: 'Raleway', sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 html,
 body {
-  overflow: scroll;
   text-rendering: optimizeLegibility;
-  background: #222222; }
+  background: #222222;
+  overflow-x: hidden; }
 
 body {
   background-image: url("../img/bg/bg.png");
@@ -2580,9 +2580,10 @@ hr {
       background-color: #000000; } }
   .navbar__phone {
     padding-right: 1em; }
-  .navbar-collapse {
-    max-height: 75vh;
-    overflow-y: scroll; }
+  @media screen and (max-width: 992px) {
+    .navbar-collapse {
+      max-height: 75vh;
+      overflow-y: scroll; } }
 
 .navbar-nav {
   margin-left: auto; }
@@ -2607,18 +2608,29 @@ hr {
           .navbar-nav .nav-item .lang .lang__text {
             margin: auto; } }
       .navbar-nav .nav-item .lang .fr {
-        width: 20px;
-        height: 20px;
-        background-image: url("../img/flags/fr-fr.svg"); }
+        background-repeat: no-repeat;
+        background-image: url("../img/flags/fr-fr.svg");
+        position: relative;
+        height: 1rem;
+        width: 1rem; }
+        @media screen and (min-width: 992px) {
+          .navbar-nav .nav-item .lang .fr {
+            width: 1vw;
+            height: 1vw; } }
       .navbar-nav .nav-item .lang .en {
-        width: 20px;
-        height: 20px;
-        background-image: url("../img/flags/en-gb.svg"); }
+        background-repeat: no-repeat;
+        background-image: url("../img/flags/en-gb.svg");
+        position: relative;
+        height: 1rem;
+        width: 1rem; }
+        @media screen and (min-width: 992px) {
+          .navbar-nav .nav-item .lang .en {
+            width: 1vw;
+            height: 1vw; } }
     .navbar-nav .nav-item .dropdown-toggle::after {
       display: none; }
     .navbar-nav .nav-item .nav-link {
-      font-family: "Raleway", sans-serif;
-      font-weight: 900;
+      font-weight: 600;
       text-transform: uppercase;
       color: #F1F2F5;
       cursor: pointer;
@@ -2632,7 +2644,8 @@ hr {
     content: " •"; }
   .navbar-nav .dropdown-menu {
     border-radius: 0;
-    animation: fade--in 0.2s; }
+    animation: fade--in 0.2s;
+    overflow-y: scroll; }
     @media screen and (min-width: 992px) {
       .navbar-nav .dropdown-menu .submenu {
         box-shadow: none;
@@ -2768,6 +2781,17 @@ hr {
   background: transparent;
   background-color: transparent !important;
   box-shadow: none; }
+  @media screen and (min-width: 992px) {
+    .m-searchbar__button, .m-searchbar__button:hover, .m-searchbar__button:active {
+      height: auto;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center; } }
+  @media screen and (min-width: 992px) {
+    .m-searchbar__button > svg, .m-searchbar__button:hover > svg, .m-searchbar__button:active > svg {
+      width: 1vw !important;
+      height: auto; } }
 
 @media screen and (min-width: 992px) {
   .form-control {
@@ -2788,8 +2812,7 @@ hr {
     padding-bottom: 5%; } }
 
 .dropdown-menu.dropdown-menu-center.show {
-  max-height: 50vh;
-  overflow: scroll; }
+  max-height: 50vh; }
   @media screen and (min-width: 992px) {
     .dropdown-menu.dropdown-menu-center.show {
       max-height: 100vh; } }
@@ -2987,7 +3010,8 @@ hr {
     display: flex;
     align-items: stretch;
     flex-flow: row wrap;
-    height: inherit; }
+    height: inherit;
+    width: 100vw; }
     .o-cardsbanner .o-banner .m-card {
       display: flex;
       flex-direction: column;
@@ -3023,18 +3047,18 @@ hr {
         color: #F1F2F5;
         background: #4AADE9;
         border-radius: 2rem; }
-      @media screen and (max-width: 576px) {
-        .o-cardsbanner .o-banner .m-card {
-          width: 100vw; } }
       @media screen and (max-width: 992px) {
         .o-cardsbanner .o-banner .m-card {
           width: 50vw; } }
+      @media screen and (max-width: 576px) {
+        .o-cardsbanner .o-banner .m-card {
+          width: 100vw; } }
       @media screen and (min-width: 992px) {
         .o-cardsbanner .o-banner .m-card:hover {
           min-height: 60vh;
           border-radius: 0.5rem;
           transform: translateY(-5vh);
-          background: linear-gradient(to bottom, #1E4667, #222222) !important;
+          background: linear-gradient(to bottom, #006EB9, #222222) !important;
           transition-duration: 0.2s;
           transition-timing-function: ease-out; }
           .o-cardsbanner .o-banner .m-card:hover .m-card__content {
@@ -3077,6 +3101,10 @@ hr {
     letter-spacing: 4px; }
     .box__title h2 {
       font-weight: 700; }
+  @media screen and (min-width: 1200px) {
+    .box__content {
+      max-width: 75vw;
+      padding: 10% 0; } }
   .box__grids {
     display: flex;
     flex-flow: row wrap; }
