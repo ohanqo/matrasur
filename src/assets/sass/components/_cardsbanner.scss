@@ -2,7 +2,7 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
   "../img/cardsbanner/card-2.jpg", "../img/cardsbanner/card-3.jpg",
   "../img/cardsbanner/card-4.jpg";
 
-.o-cardsbanner {
+.cardsbanner {
   position: relative;
   top: -10vh;
   height: 45vh;
@@ -14,13 +14,13 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
   @include media-max($lg) {
     height: auto;
   }
-  & .o-banner {
+  & .banner {
     display: flex;
     align-items: stretch;
     flex-flow: row wrap;
     height: inherit;
     width: 100vw;
-    & .m-card {
+    & .card {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -28,6 +28,8 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
       min-height: 50vh;
       flex-grow: 1;
       overflow: hidden;
+      border: none;
+      border-radius: 0;
       & > a {
         text-align: center;
       }
@@ -79,7 +81,7 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
           transition-duration: 0.2s;
           transition-timing-function: ease-out;
 
-          & .m-card__content {
+          & .card__content {
             height: auto;
             max-height: none;
           }

@@ -2994,86 +2994,88 @@ hr {
   100% {
     transform: scale(1.05); } }
 
-.o-cardsbanner {
+.cardsbanner {
   position: relative;
   top: -10vh;
   height: 45vh;
   color: #F1F2F5;
   z-index: 2; }
   @media screen and (max-height: 576px) {
-    .o-cardsbanner {
+    .cardsbanner {
       height: auto; } }
   @media screen and (max-width: 992px) {
-    .o-cardsbanner {
+    .cardsbanner {
       height: auto; } }
-  .o-cardsbanner .o-banner {
+  .cardsbanner .banner {
     display: flex;
     align-items: stretch;
     flex-flow: row wrap;
     height: inherit;
     width: 100vw; }
-    .o-cardsbanner .o-banner .m-card {
+    .cardsbanner .banner .card {
       display: flex;
       flex-direction: column;
       justify-content: center;
       width: 25vw;
       min-height: 50vh;
       flex-grow: 1;
-      overflow: hidden; }
-      .o-cardsbanner .o-banner .m-card > a {
+      overflow: hidden;
+      border: none;
+      border-radius: 0; }
+      .cardsbanner .banner .card > a {
         text-align: center; }
-      .o-cardsbanner .o-banner .m-card__title {
+      .cardsbanner .banner .card__title {
         flex-grow: 0.33;
         font-size: 1.2rem;
         font-weight: 600;
         text-transform: uppercase;
         padding-top: 5%; }
-      .o-cardsbanner .o-banner .m-card__content {
+      .cardsbanner .banner .card__content {
         flex-grow: 0.33;
         font-weight: 200;
         overflow: hidden; }
         @media screen and (max-width: 768px) {
-          .o-cardsbanner .o-banner .m-card__content {
+          .cardsbanner .banner .card__content {
             padding: 5% 0;
             font-weight: 400; } }
         @media screen and (min-width: 992px) {
-          .o-cardsbanner .o-banner .m-card__content {
+          .cardsbanner .banner .card__content {
             max-height: 20vh;
             margin-bottom: 5%;
             text-overflow: hidden; } }
-      .o-cardsbanner .o-banner .m-card__button {
+      .cardsbanner .banner .card__button {
         margin: auto;
         font-size: 1rem;
         color: #F1F2F5;
         background: #4AADE9;
         border-radius: 2rem; }
       @media screen and (max-width: 992px) {
-        .o-cardsbanner .o-banner .m-card {
+        .cardsbanner .banner .card {
           width: 50vw; } }
       @media screen and (max-width: 576px) {
-        .o-cardsbanner .o-banner .m-card {
+        .cardsbanner .banner .card {
           width: 100vw; } }
       @media screen and (min-width: 992px) {
-        .o-cardsbanner .o-banner .m-card:hover {
+        .cardsbanner .banner .card:hover {
           min-height: 60vh;
           border-radius: 0.5rem;
           transform: translateY(-5vh);
           background: linear-gradient(to bottom, #006EB9, #222222) !important;
           transition-duration: 0.2s;
           transition-timing-function: ease-out; }
-          .o-cardsbanner .o-banner .m-card:hover .m-card__content {
+          .cardsbanner .banner .card:hover .card__content {
             height: auto;
             max-height: none; } }
-      .o-cardsbanner .o-banner .m-card:nth-child(1) {
+      .cardsbanner .banner .card:nth-child(1) {
         background-size: cover;
         background-image: url("../img/cardsbanner/card-1.jpg"); }
-      .o-cardsbanner .o-banner .m-card:nth-child(2) {
+      .cardsbanner .banner .card:nth-child(2) {
         background-size: cover;
         background-image: url("../img/cardsbanner/card-2.jpg"); }
-      .o-cardsbanner .o-banner .m-card:nth-child(3) {
+      .cardsbanner .banner .card:nth-child(3) {
         background-size: cover;
         background-image: url("../img/cardsbanner/card-3.jpg"); }
-      .o-cardsbanner .o-banner .m-card:nth-child(4) {
+      .cardsbanner .banner .card:nth-child(4) {
         background-size: cover;
         background-image: url("../img/cardsbanner/card-4.jpg"); }
 

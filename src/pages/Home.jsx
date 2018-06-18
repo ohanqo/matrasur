@@ -48,7 +48,7 @@ class Home extends Component {
           </p>
         </section>
         <Cardsbanner />
-        <LazyLoad height={200}>
+        <LazyLoad height={200} once>
           <section className="box box--bg -slanted -fh -fw -bg--blue">
             <div className="box__content container -white">
               <div className="box__title animated slideInLeft">
@@ -91,8 +91,8 @@ class Home extends Component {
           </div>
         </section>
         <section className="box -fh -fw -bg--white">
-          <div className="box__grids -fw">
-            <LazyLoad height={200}>
+          <LazyLoad height={200} once>
+            <div className="box__grids -fw">
               <div className="box__grid -bg--blue">
                 <FormattedHTMLMessage
                   id="home.grid-1.image"
@@ -141,8 +141,8 @@ class Home extends Component {
                   </h4>
                 </div>
               </div>
-            </LazyLoad>
-          </div>
+            </div>
+          </LazyLoad>
         </section>
         <section className="contact -fh -fw">
           <div className="contact__container container -pt-10 -pb-10">
@@ -154,8 +154,8 @@ class Home extends Component {
                 />
               </h2>
             </div>
-            <div className="contact__cards">
-              <LazyLoad height={200}>
+            <LazyLoad height={200} offset={100} once>
+              <div className="contact__cards">
                 <div className="contact__card">
                   <div className="contact__shortcut">
                     <div className="contact__image">
@@ -252,12 +252,12 @@ class Home extends Component {
                     </div>
                   </div>
                 </div>
-              </LazyLoad>
-            </div>
+              </div>
+            </LazyLoad>
           </div>
         </section>
         <section className="map">
-          <LazyLoad height={200}>
+          <LazyLoad height={200} offset={300} once>
             <iframe
               title="Matrasur sur Google Maps"
               className="map__frame -hh -fw"
