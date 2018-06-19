@@ -1,7 +1,7 @@
 $bottomRadius: 4px;
 
 .searchbox {
-  & .m-searchbar__button {
+  & .searchbar__button {
     box-shadow: none;
   }
   & .searchform {
@@ -76,6 +76,9 @@ $bottomRadius: 4px;
     }
     & .close {
       cursor: pointer;
+      @include media-max($lg) {
+        width: 5em;
+      }
     }
   }
 }

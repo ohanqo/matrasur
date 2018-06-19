@@ -19,8 +19,11 @@
     flex-flow: row wrap;
     align-items: baseline;
     margin: auto;
+    justify-content: center;
+    align-items: center;
 
     @include media-max($lg) {
+      padding: 0 10%;
       width: 100vw;
     }
     &--30 {

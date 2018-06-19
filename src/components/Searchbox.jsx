@@ -79,18 +79,14 @@ const Searchform = props => {
   return (
     <div className="searchbox">
       <button
-        className="btn btn-outline-dark my-2 my-sm-0 m-button m-searchbar__button"
+        className="btn btn-outline-dark my-2 my-sm-0 button searchbar__button"
         onClick={props.toggleDisplaySearchForm}
       >
-        <i className="fas fa-search" />
+        <svg className="" xmlns="http://www.w3.org/2000/svg" viewBox="5605.991 836 16.958 16.95"><path fill="#006EB9" data-name="Path 150" d="M5612.5 836a6.493 6.493 0 0 1 5.29 10.27l4.88 4.88a1.076 1.076 0 0 1-1.52 1.52l-4.88-4.88a6.5 6.5 0 1 1-3.77-11.79zm0 11a4.5 4.5 0 1 0-4.5-4.5 4.5 4.5 0 0 0 4.5 4.5z"></path></svg>
       </button>
       <div
         id="modal"
         className={(props.open ? "-fade--in " : "-displayNone ") + "modal"}
-        tabIndex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
       >
         <div className="modal-dialog" role="document">
           <div className="modal-content">
@@ -106,8 +102,6 @@ const Searchform = props => {
               <button
                 type="button"
                 className="close"
-                data-dismiss="modal"
-                aria-label="Close"
                 onClick={props.toggleDisplaySearchForm}
               >
                 <span aria-hidden="true">&times;</span>

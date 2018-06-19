@@ -2601,6 +2601,9 @@ hr {
       display: flex;
       align-items: center;
       height: 100%; }
+      @media screen and (max-width: 992px) {
+        .navbar-nav .nav-item .lang {
+          margin: 1.5% 0; } }
       .navbar-nav .nav-item .lang .lang__text {
         font-weight: 200;
         float: left; }
@@ -2724,7 +2727,8 @@ hr {
 .navbar-toggler {
   border: none;
   background: transparent !important;
-  outline: none !important; }
+  outline: none !important;
+  font-size: 0; }
   .navbar-toggler .bar__top {
     transform: rotate(45deg);
     transform-origin: 10% 10%; }
@@ -2752,46 +2756,48 @@ hr {
         .navbar-toggler--desktop .bar--black {
           background-color: #222222; } }
 
-.m-button {
+.button {
   color: #006EB9;
   background-color: transparent;
   background-image: none;
   border-color: #006EB9; }
-  .m-button:hover {
+  .button:hover {
     color: #F1F2F5;
     background-color: #006EB9;
     border-color: #006EB9; }
-  .m-button:focus, .m-button.focus {
+  .button:focus, .button.focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
 
-.m-searchbar__input {
+.searchbar__input {
   background: transparent;
   border: none;
   border-bottom: 2px solid #D6D6D6;
   border-radius: 0; }
-  .m-searchbar__input:focus {
+  .searchbar__input:focus {
     background: transparent;
     color: #F1F2F5;
     outline: none;
     box-shadow: none; }
 
-.m-searchbar__button, .m-searchbar__button:hover, .m-searchbar__button:active {
+.searchbar__button, .searchbar__button:hover, .searchbar__button:active {
   border: none;
   border-color: transparent !important;
   background: transparent;
   background-color: transparent !important;
   box-shadow: none; }
   @media screen and (min-width: 992px) {
-    .m-searchbar__button, .m-searchbar__button:hover, .m-searchbar__button:active {
+    .searchbar__button, .searchbar__button:hover, .searchbar__button:active {
       height: auto;
       padding: 0;
       display: flex;
       justify-content: center;
       align-items: center; } }
-  @media screen and (min-width: 992px) {
-    .m-searchbar__button > svg, .m-searchbar__button:hover > svg, .m-searchbar__button:active > svg {
-      width: 1vw !important;
-      height: auto; } }
+  .searchbar__button > svg, .searchbar__button:hover > svg, .searchbar__button:active > svg {
+    width: 1rem; }
+    @media screen and (min-width: 992px) {
+      .searchbar__button > svg, .searchbar__button:hover > svg, .searchbar__button:active > svg {
+        width: 1vw !important;
+        height: auto; } }
 
 @media screen and (min-width: 992px) {
   .form-control {
@@ -3047,7 +3053,7 @@ hr {
         margin: auto;
         font-size: 1rem;
         color: #F1F2F5;
-        background: #4AADE9;
+        background: #006EB9;
         border-radius: 2rem; }
       @media screen and (max-width: 992px) {
         .cardsbanner .banner .card {
@@ -3220,9 +3226,12 @@ hr {
     display: flex;
     flex-flow: row wrap;
     align-items: baseline;
-    margin: auto; }
+    margin: auto;
+    justify-content: center;
+    align-items: center; }
     @media screen and (max-width: 992px) {
       .footer__element {
+        padding: 0 10%;
         width: 100vw; } }
     .footer__element--30 {
       width: 30vw;
@@ -3383,7 +3392,7 @@ hr {
   100% {
     transform: scale(1.05); } }
 
-.searchbox .m-searchbar__button {
+.searchbox .searchbar__button {
   box-shadow: none; }
 
 .searchbox .searchform {
@@ -3442,6 +3451,9 @@ hr {
     outline: none; }
   .searchbox > .modal .close {
     cursor: pointer; }
+    @media screen and (max-width: 992px) {
+      .searchbox > .modal .close {
+        width: 5em; } }
 
 .global__header {
   position: absolute;
@@ -3591,6 +3603,28 @@ hr {
   .doc__cardContent > h4 {
     text-transform: uppercase;
     font-weight: 600; }
+
+.legals__title {
+  margin: 10vh 0;
+  padding: 5vh 0;
+  min-height: 30vh;
+  text-align: center;
+  color: #F1F2F5;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.legals__content {
+  width: 100vw;
+  min-height: 100vh;
+  padding-top: 10vh;
+  background-color: #F1F2F5; }
+
+.legals__name {
+  margin-bottom: 1em; }
+
+.legals__item {
+  margin-bottom: 5em; }
 
 .animated {
   animation-duration: 1s;

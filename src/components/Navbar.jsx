@@ -112,8 +112,8 @@ class Navbar extends Component {
         </Link>
         <button
           className={"navbar-toggler" + (this.state.opened ? "" : " collapsed")}
-          type="button"
           onClick={this.toggleNavbar}
+          aria-label="Toggle navigation - Ouvrir / fermer le menu de navigaton ">
         >
           <span className="bar bar__top" />
           <span className="bar bar__middle" />

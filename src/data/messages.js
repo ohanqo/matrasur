@@ -51,13 +51,17 @@ export default {
     "navbar.item-4.subitem-1.submenu.item-1.link": "/other/documentation",
     "navbar.item-4.subitem-1.submenu.item-2": "Projection de résines",
     "navbar.item-4.subitem-1.submenu.item-2.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-3": "Projection simultanée de résine et fibre de verre",
+    "navbar.item-4.subitem-1.submenu.item-3":
+      "Projection simultanée de résine et fibre de verre",
     "navbar.item-4.subitem-1.submenu.item-3.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-4": "Projection des colles adhésifs, produits pâteux",
+    "navbar.item-4.subitem-1.submenu.item-4":
+      "Projection des colles adhésifs, produits pâteux",
     "navbar.item-4.subitem-1.submenu.item-4.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-5": "Projection des mousses et coating polyuréthanes",
+    "navbar.item-4.subitem-1.submenu.item-5":
+      "Projection des mousses et coating polyuréthanes",
     "navbar.item-4.subitem-1.submenu.item-5.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-6": "Projection automatique et robotique",
+    "navbar.item-4.subitem-1.submenu.item-6":
+      "Projection automatique et robotique",
     "navbar.item-4.subitem-1.submenu.item-6.link": "/other/formation",
 
     "navbar.item-4.subitem-2.submenu": "Machines d'injection coulée",
@@ -67,11 +71,14 @@ export default {
     "navbar.item-4.subitem-2.submenu.item-2.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-3": "Injection coulée époxies",
     "navbar.item-4.subitem-2.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-4": "Injection coulée des bétons de résine",
+    "navbar.item-4.subitem-2.submenu.item-4":
+      "Injection coulée des bétons de résine",
     "navbar.item-4.subitem-2.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-5": "Injection coulées des colles et adhésifs",
+    "navbar.item-4.subitem-2.submenu.item-5":
+      "Injection coulées des colles et adhésifs",
     "navbar.item-4.subitem-2.submenu.item-5.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-6": "Injection coulées des produits pâteux",
+    "navbar.item-4.subitem-2.submenu.item-6":
+      "Injection coulées des produits pâteux",
     "navbar.item-4.subitem-2.submenu.item-6.link": "/other/documentation",
 
     "navbar.item-4.subitem-3.submenu": "Machine Polyurethane",
@@ -87,13 +94,16 @@ export default {
     "navbar.item-4.subitem-4.submenu.item-2.link": "/other/documentation",
     "navbar.item-4.subitem-4.submenu.item-3": "Robots projection RoboStrat",
     "navbar.item-4.subitem-4.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-4.submenu.item-4": "Robots de detourage, perçage, fraisage et polissage",
+    "navbar.item-4.subitem-4.submenu.item-4":
+      "Robots de detourage, perçage, fraisage et polissage",
     "navbar.item-4.subitem-4.submenu.item-4.link": "/other/documentation",
-    
+
     "navbar.item-4.subitem-5.submenu": "Machine d'enroulement filamentaire",
-    "navbar.item-4.subitem-5.submenu.item-1": "Enroulement pour réservoir, silos et tubes",
+    "navbar.item-4.subitem-5.submenu.item-1":
+      "Enroulement pour réservoir, silos et tubes",
     "navbar.item-4.subitem-5.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-2": "Enroulement multi'axes et multi'moules",
+    "navbar.item-4.subitem-5.submenu.item-2":
+      "Enroulement multi'axes et multi'moules",
     "navbar.item-4.subitem-5.submenu.item-2.link": "/other/documentation",
 
     "navbar.item-4.subitem-6": "Imprégnateurs de résine sur tissus",
@@ -106,7 +116,8 @@ export default {
     "navbar.item-4.subitem-7.submenu.item-2.link": "/other/documentation",
     "navbar.item-4.subitem-7.submenu.item-3": "Coulée résine PU",
     "navbar.item-4.subitem-7.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-7.submenu.item-4": "Coulée Injection des Silicones et RTV",
+    "navbar.item-4.subitem-7.submenu.item-4":
+      "Coulée Injection des Silicones et RTV",
     "navbar.item-4.subitem-7.submenu.item-4.link": "/other/documentation",
     "navbar.item-4.subitem-7.submenu.item-5": "Coulée de colle et d'adhésifs",
     "navbar.item-4.subitem-7.submenu.item-5.link": "/other/documentation",
@@ -120,6 +131,8 @@ export default {
     "navbar.item-5.subitem-3.link": "/other/documentation",
     "navbar.item-5.subitem-4": "Contacts internationals",
     "navbar.item-5.subitem-4.link": "/other/international",
+    "navbar.item-5.subitem-5": "Mentions légales",
+    "navbar.item-5.subitem-5.link": "/other/legal",
     /**
      * début footer
      */
@@ -230,9 +243,9 @@ export default {
     "contact.title-4": "Lorem ipsum",
 
     "contact.subtitle-1":
-      "<a href='mailto:info@matrasurcomposites.com'><i class='fas fa-phone'></i> +33 1 61 61 65 65 <br/> <i class='fas fa-envelope'></i> info@matrasurcomposites.com</a>",
+      "<a href='mailto:info@matrasurcomposites.com'> +33 1 61 61 65 65 <br/> info@matrasurcomposites.com</a>",
     "contact.subtitle-2":
-      "<a href='mailto:sav@matrasurcomposites.com'><i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com</a>",
+      "<a href='mailto:sav@matrasurcomposites.com'> +33 1 61 61 65 67 <br/> sav@matrasurcomposites.com</a>",
     "contact.subtitle-3":
       "<a href='/other/international'>Voir nos contacts</a>",
     "contact.subtitle-4": "Lorem ipsum",
@@ -635,9 +648,30 @@ export default {
     "other.international.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "other.international.image":
-      "<img src='https://source.unsplash.com/random/?contacts' alt='International'/>"
+      "<img src='https://source.unsplash.com/random/?contacts' alt='International'/>",
     /**
      * fin contact international
+     */
+
+    /**
+     * début mentions légales
+     */
+
+    "other.legal.title": "Mentions légales du site",
+    "other.legal.item-1.name": "Informations sur la société",
+    "other.legal.item-1.text":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "other.legal.item-2.name":
+      "Adresse de courrier électronique et numéro de téléphone",
+    "other.legal.item-2.text":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "other.legal.item-3.name":
+      "Nom du directeur de la publication et coordonnées de l'hébergeur du site",
+    "other.legal.item-3.text":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+
+    /**
+     * fin mentions légales
      */
     /**
      * fin other
@@ -697,9 +731,11 @@ export default {
     "navbar.item-4.subitem-1.submenu.item-2.link": "/other/formation",
     "navbar.item-4.subitem-1.submenu.item-3": "Chopped laminate spray-up units",
     "navbar.item-4.subitem-1.submenu.item-3.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-4": "Adhesives, putties and high viscosity spray-up units",
+    "navbar.item-4.subitem-1.submenu.item-4":
+      "Adhesives, putties and high viscosity spray-up units",
     "navbar.item-4.subitem-1.submenu.item-4.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-5": "Foams spray-up and polyurethane coating",
+    "navbar.item-4.subitem-1.submenu.item-5":
+      "Foams spray-up and polyurethane coating",
     "navbar.item-4.subitem-1.submenu.item-5.link": "/other/formation",
     "navbar.item-4.subitem-1.submenu.item-6": "Automatic spray-up and robotics",
     "navbar.item-4.subitem-1.submenu.item-6.link": "/other/formation",
@@ -709,13 +745,17 @@ export default {
     "navbar.item-4.subitem-2.submenu.item-1.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-2": "Infusion and Flex molding",
     "navbar.item-4.subitem-2.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-3": "Injection casting of epoxy resins",
+    "navbar.item-4.subitem-2.submenu.item-3":
+      "Injection casting of epoxy resins",
     "navbar.item-4.subitem-2.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-4": "Injection casting for High Filler Content Resins",
+    "navbar.item-4.subitem-2.submenu.item-4":
+      "Injection casting for High Filler Content Resins",
     "navbar.item-4.subitem-2.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-5": "Injection casting of adhesives and glues",
+    "navbar.item-4.subitem-2.submenu.item-5":
+      "Injection casting of adhesives and glues",
     "navbar.item-4.subitem-2.submenu.item-5.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-6": "Injection casting of pasty products",
+    "navbar.item-4.subitem-2.submenu.item-6":
+      "Injection casting of pasty products",
     "navbar.item-4.subitem-2.submenu.item-6.link": "/other/documentation",
 
     "navbar.item-4.subitem-3.submenu": "Polyurethane units",
@@ -731,13 +771,16 @@ export default {
     "navbar.item-4.subitem-4.submenu.item-2.link": "/other/documentation",
     "navbar.item-4.subitem-4.submenu.item-3": "Robots projection RoboStrat",
     "navbar.item-4.subitem-4.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-4.submenu.item-4": "Robots for cutting, drilling, milling and polishing",
+    "navbar.item-4.subitem-4.submenu.item-4":
+      "Robots for cutting, drilling, milling and polishing",
     "navbar.item-4.subitem-4.submenu.item-4.link": "/other/documentation",
-    
+
     "navbar.item-4.subitem-5.submenu": "Filament Winding units",
-    "navbar.item-4.subitem-5.submenu.item-1": "Winding for tanks, silos and tubes",
+    "navbar.item-4.subitem-5.submenu.item-1":
+      "Winding for tanks, silos and tubes",
     "navbar.item-4.subitem-5.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-2": "Multi'axis and multi'mould winding",
+    "navbar.item-4.subitem-5.submenu.item-2":
+      "Multi'axis and multi'mould winding",
     "navbar.item-4.subitem-5.submenu.item-2.link": "/other/documentation",
 
     "navbar.item-4.subitem-6": "Resin impregnators on fabrics",
@@ -750,7 +793,8 @@ export default {
     "navbar.item-4.subitem-7.submenu.item-2.link": "/other/documentation",
     "navbar.item-4.subitem-7.submenu.item-3": "PU resin casting",
     "navbar.item-4.subitem-7.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-7.submenu.item-4": "Silicone Injection and RTV Casting",
+    "navbar.item-4.subitem-7.submenu.item-4":
+      "Silicone Injection and RTV Casting",
     "navbar.item-4.subitem-7.submenu.item-4.link": "/other/documentation",
     "navbar.item-4.subitem-7.submenu.item-5": "Casting of glue and adhesives",
     "navbar.item-4.subitem-7.submenu.item-5.link": "/other/documentation",
@@ -764,6 +808,8 @@ export default {
     "navbar.item-5.subitem-3.link": "/other/documentation",
     "navbar.item-5.subitem-4": "International contacts",
     "navbar.item-5.subitem-4.link": "/other/international",
+    "navbar.item-5.subitem-5": "Mentions légales",
+    "navbar.item-5.subitem-5.link": "/other/legal",
 
     /**
      * début footer
@@ -872,9 +918,9 @@ export default {
     "contact.title-4": "Lorem ipsum",
 
     "contact.subtitle-1":
-      "<a href='mailto:info@matrasurcomposites.com'><i class='fas fa-phone'></i> +33 1 61 61 65 65 <br/> <i class='fas fa-envelope'></i> info@matrasurcomposites.com</a>",
+      "<a href='mailto:info@matrasurcomposites.com'> +33 1 61 61 65 65 <br/> info@matrasurcomposites.com</a>",
     "contact.subtitle-2":
-      "<a href='mailto:sav@matrasurcomposites.com'><i class='fas fa-phone'></i> +33 1 61 61 65 67 <br/> <i class='fas fa-envelope'></i> sav@matrasurcomposites.com</a>",
+      "<a href='mailto:sav@matrasurcomposites.com'> +33 1 61 61 65 67 <br/> sav@matrasurcomposites.com</a>",
     "contact.subtitle-3": "<a href='/other/international'>See our contacts</a>",
     "contact.subtitle-4": "Lorem ipsum",
     /**
@@ -1206,8 +1252,7 @@ export default {
     "other.formation.section-3.name": "Maintenance training",
     "other.formation.section-3.text":
       "For safe maintenance and controlled operating costs.",
-    "other.formation.section-4.name":
-      "Workshop Methods Services Training",
+    "other.formation.section-4.name": "Workshop Methods Services Training",
     "other.formation.section-4.text":
       "This particular component opens up new technological horizons for method departments by broadening their point of view on how to optimize production.",
     "other.formation.section-5.name": "Professional training",
@@ -1284,9 +1329,28 @@ export default {
     "other.international.subtitle":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "other.international.image":
-      "<img src='https://source.unsplash.com/random/?contacts' alt='International'/>"
+      "<img src='https://source.unsplash.com/random/?contacts' alt='International'/>",
     /**
      * fin contact international
+     */
+    /**
+     * début mentions légales
+     */
+
+    "other.legal.title": "Legal mentions of the website",
+    "other.legal.item-1.name": "Company Information",
+    "other.legal.item-1.text":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "other.legal.item-2.name": "E-mail address and telephone number",
+    "other.legal.item-2.text":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "other.legal.item-3.name":
+      "Name of the publication director and contact details of the site host",
+    "other.legal.item-3.text":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+
+    /**
+     * fin mentions légales
      */
     /**
      * fin other
