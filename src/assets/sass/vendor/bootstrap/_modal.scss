@@ -26,10 +26,6 @@
   // gnarly iOS Safari bug: https://bugs.webkit.org/show_bug.cgi?id=158342
   // See also https://github.com/twbs/bootstrap/issues/17695
 
-  .modal-open & {
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
 }
 
 // Shell div to position the modal with bottom padding
@@ -50,12 +46,6 @@
   }
 }
 
-.modal-dialog-centered {
-  display: flex;
-  align-items: center;
-  min-height: calc(100% - (#{$modal-dialog-margin} * 2));
-}
-
 // Actual modal
 .modal-content {
   position: relative;
@@ -71,21 +61,6 @@
   @include box-shadow($modal-content-box-shadow-xs);
   // Remove focus outline from opened modal
   outline: 0;
-}
-
-// Modal background
-.modal-backdrop {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: $zindex-modal-backdrop;
-  background-color: $modal-backdrop-bg;
-
-  // Fade for backdrop
-  &.fade { opacity: 0; }
-  &.show { opacity: $modal-backdrop-opacity; }
 }
 
 // Modal header
@@ -121,39 +96,11 @@
   padding: $modal-inner-padding;
 }
 
-// Footer (for actions)
-.modal-footer {
-  display: flex;
-  align-items: center; // vertically center
-  justify-content: flex-end; // Right align buttons with flex property because text-align doesn't work on flex items
-  padding: $modal-inner-padding;
-  border-top: $modal-footer-border-width solid $modal-footer-border-color;
-
-  // Easily place margin between footer elements
-  > :not(:first-child) { margin-left: .25rem; }
-  > :not(:last-child) { margin-right: .25rem; }
-}
-
-// Measure scrollbar width for padding body during modal show/hide
-.modal-scrollbar-measure {
-  position: absolute;
-  top: -9999px;
-  width: 50px;
-  height: 50px;
-  overflow: scroll;
-}
 
 // Scale up the modal
 @include media-breakpoint-up(sm) {
   // Automatically set modal's width for larger viewports
-  .modal-dialog {
-    max-width: $modal-md;
-    margin: $modal-dialog-margin-y-sm-up auto;
-  }
 
-  .modal-dialog-centered {
-    min-height: calc(100% - (#{$modal-dialog-margin-y-sm-up} * 2));
-  }
 
   .modal-content {
     @include box-shadow($modal-content-box-shadow-sm-up);
@@ -163,6 +110,3 @@
 
 }
 
-@include media-breakpoint-up(lg) {
-  .modal-lg { max-width: $modal-lg; }
-}

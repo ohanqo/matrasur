@@ -15,7 +15,7 @@ export default class Footer extends Component {
         <div className="footer__elements -white">
           <div className="footer__element--30">
             <div className="footer__img">
-              <LazyLoad height={200}>
+              <LazyLoad height={200} once>
                 <FormattedHTMLMessage
                   id="footer.image"
                   defaultMessage="!JSON non valide"
@@ -47,7 +47,7 @@ export default class Footer extends Component {
                   !item.endsWith(".url")
                 ) {
                   return (
-                    <LazyLoad height={200} key={index}>
+                    <LazyLoad height={200} key={index} once>
                       <a href={this.state.data[item + ".url"]}>
                         <FormattedHTMLMessage
                           id={item}

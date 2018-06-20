@@ -88,7 +88,7 @@ $images: "../img/slider/slider-1.jpg", "../img/slider/slider-2.jpg",
   
 }
 .slideshow__subtitle {
-  font-size: 3vh;
+  // font-size: 3vh;
 }
 @include keyframes(sliderAnimation) {
   @include sliderAnimation();

@@ -89,7 +89,7 @@ export default class Global extends Component {
                 return (
                   <section className="global__section -fw -hh" key={index}>
                     {hasImage && (
-                      <LazyLoad height={200}>
+                      <LazyLoad height={200} once>
                         <FormattedHTMLMessage
                           id={sectionItem + ".image"}
                           defaultMessage="!JSON non-valide"

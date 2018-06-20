@@ -62,7 +62,7 @@ class Documentation extends Component {
                       return (
                         <a href={data[i.replace("name", "link")]} key={e}>
                           <div className="doc__card--doc">
-                            <LazyLoad height={200}>
+                            <LazyLoad height={200} once>
                               <FormattedHTMLMessage
                                 id={i.replace("name", "image")}
                                 defaultMessage="!JSON non valide"

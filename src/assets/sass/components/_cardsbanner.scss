@@ -35,7 +35,7 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
       }
       &__title {
         flex-grow: 0.33;
-        font-size: $font-title--small;
+        // font-size: $font-title--small;
         font-weight: 600;
         text-transform: uppercase;
         padding-top: 5%;
@@ -57,7 +57,7 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
       }
       &__button {
         margin: auto;
-        font-size: 1rem;
+        // font-size: 1rem;
         color: $white;
         background: $blue;
         border-radius: 2rem;

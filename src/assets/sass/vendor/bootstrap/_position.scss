@@ -6,10 +6,6 @@
 // stylelint-disable-next-line scss/dollar-variable-default
 $positions: static, relative, absolute, fixed, sticky;
 
-@each $position in $positions {
-  .position-#{$position} { position: $position !important; }
-}
-
 // Shorthand
 
 .fixed-top {
@@ -26,12 +22,4 @@ $positions: static, relative, absolute, fixed, sticky;
   bottom: 0;
   left: 0;
   z-index: $zindex-fixed;
-}
-
-.sticky-top {
-  @supports (position: sticky) {
-    position: sticky;
-    top: 0;
-    z-index: $zindex-sticky;
-  }
 }
