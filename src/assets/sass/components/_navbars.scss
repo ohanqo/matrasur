@@ -73,11 +73,12 @@
       color: $white;
       cursor: pointer;
       transition: all 0.3s;
+      font-size: 14px;
       &:hover {
         color: $blue--light;
       }
       @include media-min($lg) {
-        @include fluid-type(992px, $max_width, 10px, 14px);
+        font-size: 1vw;
       }
     }
   }
@@ -91,6 +92,11 @@
     animation: fade--in 0.2s;
     overflow-y: scroll;
     & .submenu {
+      & .show {
+        @include media-max($lg) {
+          background-color: lightgrey;
+        }
+      }
       @include media-min($lg) {
         box-shadow: none;
         height: auto;
@@ -100,7 +106,7 @@
         background-color: transparent;
         width: auto;
         margin: 2.5% 5%;
-        border-left: 0.25em solid $blue;
+        border-left: 0.12em solid $blue;
       }
     }
     &__title {
@@ -136,9 +142,13 @@
         display: none;
       }
     }
+    & > li {
+      margin-bottom: 0;
+    }
     & .dropdown-item {
       margin: 10px 0;
       letter-spacing: 1px;
+      font-size: 16px;
       cursor: pointer;
 
       &:first-child {

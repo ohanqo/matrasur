@@ -7,6 +7,7 @@ $images: "../img/slider/slider-1.jpg", "../img/slider/slider-2.jpg",
   height: 100vh;
   width: 100vw;
   position: absolute;
+  top: 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   &--50 {
     height: 50vh;
@@ -74,6 +75,12 @@ $images: "../img/slider/slider-1.jpg", "../img/slider/slider-2.jpg",
   &__title {
     display: inline-block;
     font-weight: 600;
+    @include media-max($lg) { font-size: 2.25rem; }
+    @include media-min($lg) { font-size: 2.5rem; }
+  }
+  &__subtitle {
+    @include media-max($lg) { font-size: .8rem; }
+    @include media-min($lg) { font-size: 1rem; }
   }
 }
 .separator {
@@ -81,14 +88,12 @@ $images: "../img/slider/slider-1.jpg", "../img/slider/slider-2.jpg",
   width: auto;
   min-height: 6px;
   display: block;
-  margin: 5% 5% 10% 1%;
+  max-width: 35vw;
+  margin: 2% 1% 6% 1%;
   background: linear-gradient(to right, $pale--dark, $pale--light);
   border-radius: 2rem;
   box-shadow: $shadow--soft;
   
-}
-.slideshow__subtitle {
-  // font-size: 3vh;
 }
 @include keyframes(sliderAnimation) {
   @include sliderAnimation();

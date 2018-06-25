@@ -39,11 +39,13 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
         font-weight: 600;
         text-transform: uppercase;
         padding-top: 5%;
+        font-size: 20px;
       }
       &__content {
         flex-grow: 0.33;
         font-weight: 200;
         overflow: hidden;
+        font-size: 16px;
 
         @include media-max($md) {
           padding: 5% 0;
@@ -61,6 +63,7 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
         color: $white;
         background: $blue;
         border-radius: 2rem;
+        font-size: 16px;
       }
       @include media-max($lg) {
         width: 50vw;

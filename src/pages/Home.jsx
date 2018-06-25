@@ -31,14 +31,14 @@ class Home extends Component {
         </ul>
         <section className="slideshow__content -white">
           <div>
-            <h2 className="slideshow__title -big">
+            <h1 className="slideshow__title -big">
               <FormattedMessage
                 id="slideshow.title"
                 defaultMessage="!JSON non valide"
               />
               <br />
               <span className="separator" />
-            </h2>
+            </h1>
           </div>
           <p className="slideshow__subtitle">
             <FormattedMessage

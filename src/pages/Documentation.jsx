@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { FormattedHTMLMessage, FormattedMessage } from "react-intl";
 import LazyLoad from "react-lazyload";
+import { connect } from "react-redux";
+import { setLocale } from "../actions/locale";
+import PropTypes from "prop-types";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -13,8 +16,10 @@ class Documentation extends Component {
       ? window.find(this.props.location.searchedWord)
       : window.scrollTo(0, 0);
   }
+
   render() {
-    const data = messages[Object.keys(messages)[0]];
+    var lang = this.props.lang === "fr" ? 0 : 1;
+    var data = messages[Object.keys(messages)[lang]];
     return (
       <div className="documentation animated fadeIn">
         <Navbar />
@@ -60,7 +65,7 @@ class Documentation extends Component {
                   {Object.keys(data).map((i, e) => {
                     if (i.startsWith(rootSection) && i.endsWith(".name")) {
                       return (
-                        <a href={data[i.replace("name", "link")]} key={e}>
+                        <a href={data[i.replace("name", "link")]} key={e} target="_blank">
                           <div className="doc__card--doc">
                             <LazyLoad height={200} once>
                               <FormattedHTMLMessage
@@ -97,4 +102,17 @@ class Documentation extends Component {
   }
 }
 
-export default Documentation;
+Documentation.propTypes = {
+  setLocale: PropTypes.func.isRequired
+};
+
+function mapStateToProps(state) {
+  return {
+    lang: state.locale.lang
+  };
+}
+
+export default connect(
+  mapStateToProps,
+  { setLocale }
+)(Documentation);

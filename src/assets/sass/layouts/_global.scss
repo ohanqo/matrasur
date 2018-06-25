@@ -2,6 +2,17 @@
   font-family: "Raleway", sans-serif;
 }
 
+
+html { font-size: calc(1em + 1vw); } 
+
+/* setting the max width*/
+ @media screen and (min-width: 50em) {
+  html {
+    font-size: 1.5em;
+  }
+   
+} 
+
 html,
 body {
   text-rendering: optimizeLegibility;
@@ -14,33 +25,36 @@ body {
 }
 hr {
   width: 25%;
+  border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 5% 0;
 }
 
-$min_width: 320px;
-$max_width: 1200px;
-$min_font: 16px;
-$max_font: 24px;
-$mod_1: 1.2; // mobile
-$mod_2: 1.5; // desktop
+li { margin-bottom: 1em; }
 
-h1 {  
-  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem; 
-  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
-}
-h2 {  
-  font-size: $mod_1*$mod_1*$mod_1 *1rem; 
-  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
-}
-h3 { 
-  font-size: $mod_1*$mod_1 *1rem;
-  @include fluid-type($min_width, $max_width, $mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
-}
-h4 { 
-  font-size: $mod_1 *1rem;
-  @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
-}
+// $min_width: 320px;
+// $max_width: 1200px;
+// $min_font: 16px;
+// $max_font: 24px;
+// $mod_1: 1.2; // mobile
+// $mod_2: 1.5; // desktop
+
+// h1 {  
+//   font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem; 
+//   @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+// }
+// h2 {  
+//   font-size: $mod_1*$mod_1*$mod_1 *1rem; 
+//   @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+// }
+// h3 { 
+//   font-size: $mod_1*$mod_1 *1rem;
+//   @include fluid-type($min_width, $max_width, $mod_1*$mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
+// }
+// h4 { 
+//   font-size: $mod_1 *1rem;
+//   @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
+// }
 
 ::selection {
   background: $blue;

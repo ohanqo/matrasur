@@ -3,10 +3,13 @@ export default {
     /**
      * Navbar
      */
-    "navbar.item-1.title": "Domaines d'applications",
+
+    // DOMAINES D'APPLICATIONS
+
+    "navbar.item-1.title": "Domaines d'application",
     "navbar.item-1.subitem-1": "Aéronautique",
     "navbar.item-1.subitem-1.link": "/application/aerospace",
-    "navbar.item-1.subitem-2": "Réfrigeration",
+    "navbar.item-1.subitem-2": "Réfrigération",
     "navbar.item-1.subitem-2.link": "/application/refrigeration",
     "navbar.item-1.subitem-3": "Marine",
     "navbar.item-1.subitem-3.link": "/application/marine",
@@ -17,33 +20,45 @@ export default {
     "navbar.item-1.subitem-6": "Militaire",
     "navbar.item-1.subitem-6.link": "/application/military",
 
+    // PROCÉDÉS
+
     "navbar.item-2.title": "Procédés",
     "navbar.item-2.subitem-1": "Projection",
     "navbar.item-2.subitem-1.link": "/processes/projection",
-    "navbar.item-2.subitem-2": "Injection",
+    "navbar.item-2.subitem-2": "Injection RTM",
     "navbar.item-2.subitem-2.link": "/processes/injection",
-    "navbar.item-2.subitem-3": "Thermoformage",
-    "navbar.item-2.subitem-3.link": "/processes/thermoforming",
-    "navbar.item-2.subitem-4": "Enroulement filamentaire",
-    "navbar.item-2.subitem-4.link": "/processes/winding",
-    "navbar.item-2.subitem-5": "Imprégnation",
-    "navbar.item-2.subitem-5.link": "/processes/impregnation",
-    "navbar.item-2.subitem-6": "Panneaux plats",
-    "navbar.item-2.subitem-6.link": "/processes/panels",
+    "navbar.item-2.subitem-3": "Coulée",
+    "navbar.item-2.subitem-3.link": "/processes/casting",
+    "navbar.item-2.subitem-4": "Infusion",
+    "navbar.item-2.subitem-4.link": "/processes/infusion",
+    "navbar.item-2.subitem-5": "Enroulement filamentaire",
+    "navbar.item-2.subitem-5.link": "/processes/winding",
+    "navbar.item-2.subitem-6": "Imprégnation",
+    "navbar.item-2.subitem-6.link": "/processes/impregnation",
+    "navbar.item-2.subitem-7": "Panneaux plats",
+    "navbar.item-2.subitem-7.link": "/processes/panels",
+    "navbar.item-2.subitem-8": "Thermoformage",
+    "navbar.item-2.subitem-8.link": "/processes/thermoforming",
+
+    // MATIÈRES PREMIERES
 
     "navbar.item-3.title": "Matières premières",
-    "navbar.item-3.subitem-1": "Polyuréthanes",
-    "navbar.item-3.subitem-1.link": "/materials/polyurethane",
-    "navbar.item-3.subitem-2": "Mastic",
-    "navbar.item-3.subitem-2.link": "/materials/putty",
-    "navbar.item-3.subitem-3": "Résines",
-    "navbar.item-3.subitem-3.link": "/materials/resins",
-    "navbar.item-3.subitem-4": "Gelcoat",
-    "navbar.item-3.subitem-4.link": "/materials/gelcoat",
-    "navbar.item-3.subitem-5": "Epoxy",
-    "navbar.item-3.subitem-5.link": "/materials/epoxy",
-    "navbar.item-3.subitem-6": "Silicone",
+    "navbar.item-3.subitem-1": "Résines polyester, résines acryliques",
+    "navbar.item-3.subitem-1.link": "/materials/polyester-acrylic",
+    "navbar.item-3.subitem-2": "Gelcoat",
+    "navbar.item-3.subitem-2.link": "/materials/gelcoat",
+    "navbar.item-3.subitem-3": "Epoxy",
+    "navbar.item-3.subitem-3.link": "/materials/epoxy",
+    "navbar.item-3.subitem-4": "Adhésif et produits pâteux",
+    "navbar.item-3.subitem-4.link": "/materials/adhesive-and-pasty",
+    "navbar.item-3.subitem-5": "Résines et mousses polyuréthanes",
+    "navbar.item-3.subitem-5.link": "/materials/polyurethane",
+    "navbar.item-3.subitem-6": "Silicone, RTV",
     "navbar.item-3.subitem-6.link": "/materials/silicon",
+    "navbar.item-3.subitem-7": "test des char",
+    "navbar.item-3.subitem-7.link": "/materials/plastic;acrylic",
+
+    // NOS MACHINES
 
     "navbar.item-4.title": "Nos machines",
     "navbar.item-4.subitem-1.submenu": "Machines de projection",
@@ -81,58 +96,69 @@ export default {
       "Injection coulées des produits pâteux",
     "navbar.item-4.subitem-2.submenu.item-6.link": "/other/documentation",
 
-    "navbar.item-4.subitem-3.submenu": "Machine Polyurethane",
-    "navbar.item-4.subitem-3.submenu.item-1": "Gamme Matrafoam",
+    "navbar.item-4.subitem-3.submenu": "Machines de coulée",
+    "navbar.item-4.subitem-3.submenu.item-1": "Coulée des résines polyester",
     "navbar.item-4.subitem-3.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-2": "Gamme Matracoat",
+    "navbar.item-4.subitem-3.submenu.item-2": "Coulées des bétons de résine",
     "navbar.item-4.subitem-3.submenu.item-2.link": "/other/documentation",
-
-    "navbar.item-4.subitem-4.submenu": "Robots de projection et finition",
-    "navbar.item-4.subitem-4.submenu.item-1": "Robots panneaux plats",
-    "navbar.item-4.subitem-4.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-4.submenu.item-2": "Robots projection Robomat",
-    "navbar.item-4.subitem-4.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-4.submenu.item-3": "Robots projection RoboStrat",
-    "navbar.item-4.subitem-4.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-4.submenu.item-4":
-      "Robots de detourage, perçage, fraisage et polissage",
-    "navbar.item-4.subitem-4.submenu.item-4.link": "/other/documentation",
-
-    "navbar.item-4.subitem-5.submenu": "Machine d'enroulement filamentaire",
-    "navbar.item-4.subitem-5.submenu.item-1":
-      "Enroulement pour réservoir, silos et tubes",
-    "navbar.item-4.subitem-5.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-2":
-      "Enroulement multi'axes et multi'moules",
-    "navbar.item-4.subitem-5.submenu.item-2.link": "/other/documentation",
-
-    "navbar.item-4.subitem-6": "Imprégnateurs de résine sur tissus",
-    "navbar.item-4.subitem-6.link": "/other/formation",
-
-    "navbar.item-4.subitem-7.submenu": "Machines de coulée",
-    "navbar.item-4.subitem-7.submenu.item-1": "Coulée des résines polyester",
-    "navbar.item-4.subitem-7.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-7.submenu.item-2": "Coulées des bétons de résine",
-    "navbar.item-4.subitem-7.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-7.submenu.item-3": "Coulée résine PU",
-    "navbar.item-4.subitem-7.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-7.submenu.item-4":
+    "navbar.item-4.subitem-3.submenu.item-3": "Coulée résine PU",
+    "navbar.item-4.subitem-3.submenu.item-3.link": "/other/documentation",
+    "navbar.item-4.subitem-3.submenu.item-4":
       "Coulée Injection des Silicones et RTV",
-    "navbar.item-4.subitem-7.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-7.submenu.item-5": "Coulée de colle et d'adhésifs",
-    "navbar.item-4.subitem-7.submenu.item-5.link": "/other/documentation",
+    "navbar.item-4.subitem-3.submenu.item-4.link": "/other/documentation",
+    "navbar.item-4.subitem-3.submenu.item-5": "Coulée de colle et d'adhésifs",
+    "navbar.item-4.subitem-3.submenu.item-5.link": "/other/documentation",
+
+    "navbar.item-4.subitem-4.submenu": "Machine Polyurethane",
+    "navbar.item-4.subitem-4.submenu.item-1": "Gamme Matrafoam",
+    "navbar.item-4.subitem-4.submenu.item-1.link": "/other/documentation",
+    "navbar.item-4.subitem-4.submenu.item-2": "Gamme Matracoat",
+    "navbar.item-4.subitem-4.submenu.item-2.link": "/other/documentation",
+
+    "navbar.item-4.subitem-5.submenu": "Robots de projection et finition",
+    "navbar.item-4.subitem-5.submenu.item-1": "Robots panneaux plats",
+    "navbar.item-4.subitem-5.submenu.item-1.link": "/other/documentation",
+    "navbar.item-4.subitem-5.submenu.item-2": "Robots projection Robomat",
+    "navbar.item-4.subitem-5.submenu.item-2.link": "/other/documentation",
+    "navbar.item-4.subitem-5.submenu.item-3": "Robots projection RoboStrat",
+    "navbar.item-4.subitem-5.submenu.item-3.link": "/other/documentation",
+    "navbar.item-4.subitem-5.submenu.item-4":
+      "Robots de detourage, perçage, fraisage et polissage",
+    "navbar.item-4.subitem-5.submenu.item-4.link": "/other/documentation",
+
+    "navbar.item-4.subitem-6.submenu": "Machine d'enroulement filamentaire",
+    "navbar.item-4.subitem-6.submenu.item-1":
+      "Enroulement pour réservoir, silos et tubes",
+    "navbar.item-4.subitem-6.submenu.item-1.link": "/other/documentation",
+    "navbar.item-4.subitem-6.submenu.item-2":
+      "Enroulement multi'axes et multi'moules",
+    "navbar.item-4.subitem-6.submenu.item-2.link": "/other/documentation",
+
+    "navbar.item-4.subitem-7": "Imprégnateurs de résine sur tissus",
+    "navbar.item-4.subitem-7.link": "/other/formation",
+
+    // AUTRE
 
     "navbar.item-5.title": "Autre",
-    "navbar.item-5.subitem-1": "Formation",
-    "navbar.item-5.subitem-1.link": "/other/formation",
+    "navbar.item-5.subitem-1.submenu": "Service client",
+    "navbar.item-5.subitem-1.submenu.item-1": "Pièces détachées",
+    "navbar.item-5.subitem-1.submenu.item-1.link": "/other/spareparts",
+    "navbar.item-5.subitem-1.submenu.item-2": "Accessoires",
+    "navbar.item-5.subitem-1.submenu.item-2.link": "/other/accessories",
+    "navbar.item-5.subitem-1.submenu.item-3": "Documentation",
+    "navbar.item-5.subitem-1.submenu.item-3.link": "/other/documentation",
+    "navbar.item-5.subitem-1.submenu.item-4": "Formation",
+    "navbar.item-5.subitem-1.submenu.item-4.link": "/other/formation",
+    "navbar.item-5.subitem-1.submenu.item-5": "Support client",
+    "navbar.item-5.subitem-1.submenu.item-5.link": "/other/support",
+    "navbar.item-5.subitem-1.submenu.item-6": "Agent de nettoyage M CLEAN",
+    "navbar.item-5.subitem-1.submenu.item-6.link": "/other/mclean",
     "navbar.item-5.subitem-2": "Recrutement",
     "navbar.item-5.subitem-2.link": "/other/recruitment",
-    "navbar.item-5.subitem-3": "Documentation",
-    "navbar.item-5.subitem-3.link": "/other/documentation",
-    "navbar.item-5.subitem-4": "Contacts internationals",
-    "navbar.item-5.subitem-4.link": "/other/international",
-    "navbar.item-5.subitem-5": "Mentions légales",
-    "navbar.item-5.subitem-5.link": "/other/legal",
+    "navbar.item-5.subitem-3": "Contacts internationals",
+    "navbar.item-5.subitem-3.link": "/other/international",
+    "navbar.item-5.subitem-4": "Mentions légales",
+    "navbar.item-5.subitem-4.link": "/other/legal",
     /**
      * début footer
      */
@@ -545,11 +571,79 @@ export default {
      */
 
     /**
+     * Début page Résines polyester, résines acryliques
+     */
+
+    "materials.polyester-acrylic.title":
+      "Résines polyester, résines acryliques",
+    "materials.polyester-acrylic.subtitle":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+
+    /**
+     * Fin page Résines polyester, résines acryliques
+     */
+
+    "materials.plastic;acrylic.title": "Test du site",
+
+    /**
      * fin pages materials
      */
 
     /**
      * début other
+     */
+
+    /**
+     * début pièces détachées
+     */
+    "other.spareparts.title": "Pièces détachées",
+    "other.spareparts.subtitle":
+      "Le service Pièces Détachées vous permet de bénéficier de nombreux avantages",
+    "other.spareparts.image":
+      "<img src='https://images.unsplash.com/photo-1493994807689-406227cceebd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0b9832e15d974a13f13f6ae410a544f&auto=format&fit=crop&w=1350&q=80' alt='Local pièces détachées' class='hero__image'/>",
+    "other.spareparts.section-1.name": "La garantie constructeur",
+    "other.spareparts.section-1.text":
+      "En achetant vos pièces détachées chez nous, vous êtes sûrs de bénéficier de la garantie constructeur, seule à pouvoir vous offrir qualité, fiabilité et longévité des pièces au meilleur prix. De plus, tous nos ensembles et sous ensembles sont livrés avec une documentation technique complète et adaptée.",
+    "other.spareparts.section-1.image":
+      "<img src='https://images.unsplash.com/photo-1528918325699-4a4a1a539b35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d31a6168778e345ff41d73d1d15898c0&auto=format&fit=crop&w=634&q=80' alt='Garantie constructeur'/>",
+    "other.spareparts.section-2.name": "Une logistique rapide",
+    "other.spareparts.section-2.text":
+      "Matrasur Composites achemine vos pièces en France comme dans le reste du monde dans des délais très courts. Pour une commande passée avant 12h par exemple, vous pouvez demander d’être livré le lendemain (Exemple de délai pour une livraison en France métropolitaine).",
+    "other.spareparts.section-2.image":
+      "<img src='https://images.unsplash.com/photo-1528918325699-4a4a1a539b35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d31a6168778e345ff41d73d1d15898c0&auto=format&fit=crop&w=634&q=80' alt='Une logistique rapide'/>",
+    "other.spareparts.section-3.name": "Un large stock de pièces",
+    "other.spareparts.section-3.text":
+      "Nous mettons à la disposition de nos clients plus de 6000 références de pièces stockées et disponibles pour répondre aux urgences de l'exploitation.",
+    "other.spareparts.section-3.image":
+      "<img src='https://images.unsplash.com/photo-1528918325699-4a4a1a539b35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d31a6168778e345ff41d73d1d15898c0&auto=format&fit=crop&w=634&q=80' alt='Un large stock de pièces'/>",
+    "other.spareparts.section-4.name": "Un design adapté et innovateur",
+    "other.spareparts.section-4.text":
+      "Matrasur Composites intégre de manière régulière de nouvelles références afin de faire bénéficier ses clients des derniers dévelopements en termes d’innovation et technologie.",
+    "other.spareparts.section-4.image":
+      "<img src='https://images.unsplash.com/photo-1528918325699-4a4a1a539b35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d31a6168778e345ff41d73d1d15898c0&auto=format&fit=crop&w=634&q=80' alt='Un design adapté et innovateur'/>",
+
+    "other.spareparts.section-5.name": "Une nouvelle section",
+    "other.spareparts.section-5.text": "Nouvelle section sans image",
+
+    /**
+     * fin pièces détachées
+     */
+
+    /**
+     * début accessoires
+     */
+    "other.accessories.title": "Accessoires",
+    "other.accessories.subtitle":
+      "Matrasur Composites complète ses gammes de machines d’un environnement riche en accessoires et périphériques. Ceux-ci contribuent à la qualité, la productivité, l’ergonomie, la santé des personnels et la bonne marche de l’atelier composite de nos clients.",
+    "other.accessories.image":
+      "<img src='https://images.unsplash.com/photo-1493994807689-406227cceebd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0b9832e15d974a13f13f6ae410a544f&auto=format&fit=crop&w=1350&q=80' alt='Accessories' class='hero__image'/>",
+    "other.accessories.section-1.name": "Ces produits périphériques concernent",
+    "other.accessories.section-1.text":
+      "<ul><li>Agent de nettoyage sans solvant M Clean</li><li>Mélange et préparation des matières</li><li>Chauffe de matière</li><li>Rouleaux ébulleurs</li><li>Pompage et transfert</li><li>Comptage et alarmes</li><li>Outillage à main</li><li>Accessoires et consommables RTM /Flex Molding</li><li>Cabines et extraction</li><li>Pistolets pneumatiques</li><li>Groupes électrogènes</li><li>Fourniture d'air comprimé</li></ul>",
+    "other.accessories.section-1.image":
+      "<img src='https://images.unsplash.com/photo-1528918325699-4a4a1a539b35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d31a6168778e345ff41d73d1d15898c0&auto=format&fit=crop&w=634&q=80' alt='Garantie constructeur'/>",
+    /**
+     * fin accessoires
      */
     /**
      * début formation
@@ -590,57 +684,241 @@ export default {
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "other.documentation.image":
       "<img src='/assets/img/documentation/documentation.jpg' alt='Documentation'/>",
+
     "other.documentation.section-1.title": "À propos de la société",
     "other.documentation.section-1.item-1.name": "Brochure de la société",
     "other.documentation.section-1.item-1.description":
       "Vous y trouverez toutes les informations à propos de Matrasur Composites",
     "other.documentation.section-1.item-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+      "<img src='/assets/img/documentation/matrasur_company_brochure_en_fr.jpg' alt='Image de la brochure de la société'/>",
     "other.documentation.section-1.item-1.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
+      "/documentation/fr/matrasur_company_brochure_en_fr.pdf",
 
-    "other.documentation.section-1.item-2.name": "Brochure de la société",
+    "other.documentation.section-1.item-2.name": "Newsletter",
     "other.documentation.section-1.item-2.description":
-      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+      "Retrouvez toute l'actualité de la société Matrasur Composites",
     "other.documentation.section-1.item-2.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+      "<img src='/assets/img/documentation/newsletter_matrasur_fr.jpg' alt='Image de la newsletter'/>",
     "other.documentation.section-1.item-2.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
-    "other.documentation.section-1.item-3.name": "Brochure de la société",
-    "other.documentation.section-1.item-3.description":
-      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
-    "other.documentation.section-1.item-3.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
-    "other.documentation.section-1.item-3.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
-    "other.documentation.section-1.item-4.name": "Brochure de la société",
-    "other.documentation.section-1.item-4.description":
-      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
-    "other.documentation.section-1.item-4.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
-    "other.documentation.section-1.item-4.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
+      "/documentation/fr/newsletter_matrasur_fr.pdf",
 
-    "other.documentation.section-2.title": "À propos de la société",
-    "other.documentation.section-2.item-1.name": "Brochure de la société",
+    "other.documentation.section-2.title": "Nos brochures robots",
+    "other.documentation.section-2.item-1.name": "Brochure ROBOMAT",
     "other.documentation.section-2.item-1.description":
-      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+      "Robot de projection avec recopie du geste humain.",
     "other.documentation.section-2.item-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+      "<img src='/assets/img/documentation/plaquette_robomat.jpg' alt='Brochure ROBOMAT'/>",
     "other.documentation.section-2.item-1.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
-    "other.documentation.section-2.item-2.name": "Brochure de la société",
+      "/documentation/fr/plaquette_robomat.pdf",
+
+    "other.documentation.section-2.item-2.name": "Brochure USIMAT",
     "other.documentation.section-2.item-2.description":
-      "Vous y trouverez toutes les informations à propos de Matrasur Composites",
+      "Robot d’usinage et de finition de pièces en composite.",
     "other.documentation.section-2.item-2.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+      "<img src='/assets/img/documentation/usimat_brochure_matrasur.jpg' alt='Brochure USIMAT'/>",
     "other.documentation.section-2.item-2.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
+      "/documentation/fr/usimat_brochure_matrasur.pdf",
+
+    "other.documentation.section-3.title": "Nos accessoires RTM/Infusion",
+    "other.documentation.section-3.item-1.name": "Accessoires Injection RTM",
+    "other.documentation.section-3.item-1.description":
+      "PDF sur les accessoires d'injection RTM",
+    "other.documentation.section-3.item-1.image":
+      "<img src='/assets/img/documentation/accessoires_rtm_light_2015.jpg' alt='Image accessoires Injection RTM'/>",
+    "other.documentation.section-3.item-1.link":
+      "/documentation/fr/accessoires_rtm_light_2015.pdf",
+
+    "other.documentation.section-3.item-2.name":
+      "Accessoires Infusion - Flex Molding",
+    "other.documentation.section-3.item-2.description":
+      "PDF sur les accessoires d'infusion - flex molding",
+    "other.documentation.section-3.item-2.image":
+      "<img src='/assets/img/documentation/accessoires_flex_molding_2015.jpg' alt='Image accessoires infusion & flex molding'/>",
+    "other.documentation.section-3.item-2.link":
+      "/documentation/fr/accessoires_flex_molding_2015.pdf",
+
+    "other.documentation.section-4.title": "Nos fiches produits",
+    "other.documentation.section-4.item-1.name":
+      "Tout pour projeter les Polyuréthanes",
+    "other.documentation.section-4.item-1.description":
+      "Nos machines et équipements pour l'application de polyuréthanes par projection",
+    "other.documentation.section-4.item-1.image":
+      "<img src='/assets/img/documentation/gamme_polyurethane_matrasur_composites.jpg' alt='Image projeter les Polyuréthanes'/>",
+    "other.documentation.section-4.item-1.link":
+      "/documentation/fr/gamme_polyurethane_matrasur_composites.pdf",
+
+    "other.documentation.section-4.item-2.name":
+      "Nettoyant sans solvant M CLEAN",
+    "other.documentation.section-4.item-2.description":
+      "Nouvelle alternative à l’acétone et aux solvants chlorés",
+    "other.documentation.section-4.item-2.image":
+      "<img src='/assets/img/documentation/m_clean_matrasur.jpg' alt='Image fiche produit M Clean Matrasur Composites'/>",
+    "other.documentation.section-4.item-2.link":
+      "/documentation/fr/m_clean_matrasur.pdf",
+
+    "other.documentation.section-4.item-3.name": "RTM Concept (Anglais)",
+    "other.documentation.section-4.item-3.description":
+      "Définition et avantages du concept de production en moule fermé avec 1 poinçon et 2 matrices.",
+    "other.documentation.section-4.item-3.image":
+      "<img src='/assets/img/documentation/rtm_concept_matrasur.jpg' alt='Image fiche produit RTM Concept Matrasur Composites'/>",
+    "other.documentation.section-4.item-3.link":
+      "/documentation/fr/rtm_concept_matrasur.pdf",
+
+    "other.documentation.section-4.item-4.name": "RTM Lines (Anglais)",
+    "other.documentation.section-4.item-4.description":
+      "Lignes RTM pour la fabrication de pièces en composite.",
+    "other.documentation.section-4.item-4.image":
+      "<img src='/assets/img/documentation/rtm_lines_matrasur.jpg' alt='Image fiche produit RTM Lines Matrasur Composites'/>",
+    "other.documentation.section-4.item-4.link":
+      "/documentation/fr/rtm_lines_matrasur.pdf",
+
+    "other.documentation.section-4.item-5.name":
+      "Tous nos équipments pour la production de Spas",
+    "other.documentation.section-4.item-5.description":
+      "Découvrez nos machines de thermoformage, de projection de mousse polyurethane, notre robot de projection résine & fibres de verre et le robot de perçage et détourage pour spas.",
+    "other.documentation.section-4.item-5.image":
+      "<img src='/assets/img/documentation/spas_equipement_fr.jpg' alt='Image fiche produit production de Spas Matrasur Composites'/>",
+    "other.documentation.section-4.item-5.link":
+      "/documentation/fr/spas_equipement_fr.pdf",
+
+    "other.documentation.section-4.item-6.name": "Production de Spas",
+    "other.documentation.section-4.item-6.description":
+      "Industrialisez la fabrication d’un spa depuis le thermoformage, la stratification, l’isolation et jusqu’à l’usinage.",
+    "other.documentation.section-4.item-6.image":
+      "<img src='/assets/img/documentation/industrialisation_spas_matrasur_fr.jpg' alt='Image fiche produit production de Spas Matrasur Composites n°2'/>",
+    "other.documentation.section-4.item-6.link":
+      "/documentation/fr/industrialisation_spas_matrasur_fr.pdf",
+
+    "other.documentation.section-4.item-7.name": "Production de piscines",
+    "other.documentation.section-4.item-7.description":
+      "L’industrialisation du processus de production de vos piscines à l’aide de la robotisation.",
+    "other.documentation.section-4.item-7.image":
+      "<img src='/assets/img/documentation/industrialisation_piscines_matrasur_fr.jpg' alt='Image fiche produit production de piscines Matrasur Composites n°2'/>",
+    "other.documentation.section-4.item-7.link":
+      "/documentation/fr/industrialisation_piscines_matrasur_fr.pdf",
+
+    "other.documentation.section-5.title": "Nos fiches périphériques",
+    "other.documentation.section-5.item-1.name":
+      "Système d'alimentation de matière de votre machine avec fûts de 200L",
+    "other.documentation.section-5.item-1.description":
+      "Alimentation en continu du récipient tampon machine par l’intermédiaire de 2 chariots navettes pour fûts fournisseur de 200L.",
+    "other.documentation.section-5.item-1.image":
+      "<img src='/assets/img/documentation/f0001_syst_alimentation_continue_auto_200_r.jpg' alt='Image système d'alimentation 200L'/>",
+    "other.documentation.section-5.item-1.link":
+      "/documentation/fr/f0001_syst_alimentation_continue_auto_200_r.pdf",
+
+    "other.documentation.section-5.item-2.name":
+      "Système d'alimentation de matière de votre machine avec container de 1000L ",
+    "other.documentation.section-5.item-2.description":
+      "Alimentation en continu du récipient tampon machine par l’intermédiaire du container fournisseur de 1000L.",
+    "other.documentation.section-5.item-2.image":
+      "<img src='/assets/img/documentation/f0002_syst_alimentation_continue_auto_1000_r.jpg' alt='Image système d'alimentation 1000L'/>",
+    "other.documentation.section-5.item-2.link":
+      "/documentation/fr/f0002_syst_alimentation_continue_auto_1000_r.pdf",
+
+    "other.documentation.section-5.item-3.name":
+      "Système d'alimentation manuelle de votre machine avec fûts de 200L",
+    "other.documentation.section-5.item-3.description":
+      "Alimentation manuelle du récipient tampon machine par l’intermédiaire du fût fournisseur de 200L.",
+    "other.documentation.section-5.item-3.image":
+      "<img src='/assets/img/documentation/f0003_syst_alimentation_continue_manu_200_r.jpg' alt='Image système d'alimentation 200L'/>",
+    "other.documentation.section-5.item-3.link":
+      "/documentation/fr/f0003_syst_alimentation_continue_manu_200_r.pdf",
+
+    "other.documentation.section-5.item-4.name":
+      "Chariot navette pour fûts de 200L",
+    "other.documentation.section-5.item-4.description":
+      "Alimentation en continu de la machine mobile par l’intermédiaire d’un chariot navette pour fût fournisseur de 200L.",
+    "other.documentation.section-5.item-4.image":
+      "<img src='/assets/img/documentation/f0004_syst_alimentation_continue_mobile1_r.jpg' alt='Image chariot navette pour fûts de 200L'/>",
+    "other.documentation.section-5.item-4.link":
+      "/documentation/fr/f0004_syst_alimentation_continue_mobile1_r.pdf",
+
+    "other.documentation.section-5.item-5.name":
+      "Poste de mélange résine et charges",
+    "other.documentation.section-5.item-5.description":
+      "Poste de mélange résine et charges, simple, performant, sécurisé et économique.",
+    "other.documentation.section-5.item-5.image":
+      "<img src='/assets/img/documentation/f0005_melangeur_resine_charges1_r.jpg' alt='Image poste de mélange résine et charges'/>",
+    "other.documentation.section-5.item-5.link":
+      "/documentation/fr/f0005_melangeur_resine_charges1_r.pdf",
+
+    "other.documentation.section-5.item-6.name":
+      "Détecteur de pression catalyseur",
+    "other.documentation.section-5.item-6.description":
+      "Détecteur de pression en ligne pour circuit catalyseur.",
+    "other.documentation.section-5.item-6.image":
+      "<img src='/assets/img/documentation/f0006_detecteur_pression_ligne_catalyseur1_r.jpg' alt='Image Détecteur de pression catalyseur'/>",
+    "other.documentation.section-5.item-6.link":
+      "/documentation/fr/f0006_detecteur_pression_ligne_catalyseur1_r.pdf",
+
+      "other.documentation.section-5.item-7.name":
+      "Chariot de remplissage sécurisé du catalyseur",
+    "other.documentation.section-5.item-7.description":
+      "Système de remplissage sécurisé du catalyseur avec chariot.",
+    "other.documentation.section-5.item-7.image":
+      "<img src='/assets/img/documentation/f0007_chariot_catalyseur_securise1_r.jpg' alt='Image chariot de remplissage sécurisé du catalyseur'/>",
+    "other.documentation.section-5.item-7.link":
+      "/documentation/fr/f0007_chariot_catalyseur_securise1_r.pdf",
 
     /**
      * fin documentation
      */
+    /**
+     * début support client
+     */
 
+    "other.support.title": "Support client Matrasur Composites",
+    "other.support.subtitle":
+      "Matrasur Composites met à la disposition de ses clients un service d’assistance complet et structuré autour de 3 axes:",
+    "other.support.image":
+      "<img src='https://source.unsplash.com/random/?support' alt='Support client Matrasur Composites'/>",
+    "other.support.section-1.name": "Assistance technique téléphonique",
+    "other.support.section-1.text":
+      "Une assistance technique téléphonique composée de spécialistes pour répondre aux questions, diagnostiquer les problèmes, évaluer les situations pointues, proposer des solutions de redémarrage rapides, conseiller sur la maintenance...",
+    "other.support.section-1.image":
+      "<img src='https://source.unsplash.com/random/?phone' alt='Assistance téléphonique'/>",
+    "other.support.section-2.name":
+      "Équipe de techniciens qualifiés et mobiles",
+    "other.support.section-2.text":
+      "Une équipe de techniciens qualifiés et mobiles assure chaque jour les interventions sur site et les réparations en atelier avec le même souci de rapidité et de professionnalisme.",
+    "other.support.section-2.image":
+      "<img src='https://source.unsplash.com/random/?technical' alt='Équipe de techniciens qualifiés et mobiles'/>",
+    "other.support.section-3.name":
+      "Service pièces détachées/pièces de rechange",
+    "other.support.section-3.text":
+      "Un service pièces détachées/pièces de rechange avec un stock important pour répondre aux urgences de l'exploitation.",
+    "other.support.section-3.image":
+      "<img src='https://source.unsplash.com/random/?parts' alt='Service pièces détachées/pièces de rechange' />",
+
+    /**
+     * fin support client
+     */
+
+    /**
+     * début mclean
+     */
+    "other.mclean.title": "M Clean",
+    "other.mclean.subtitle": "Agent de nettoyage sans solvant",
+    "other.mclean.image":
+      "<img src='https://source.unsplash.com/random/?solvant' alt='M Clean agent de nettoyage sans solvant'/>",
+    "other.mclean.section-1.name": "M Clean, qu’est-ce que c’est ?",
+    "other.mclean.section-1.text":
+      "M Clean est un nettoyant aqueux, sans solvant, non polluant et non toxique permettant le nettoyage de vos outils. <br/> <br/> M Clean permet de remplacer l’utilisation de l’acétone avec une efficacité améliorée et une durée de vie supérieure pour deux raisons majeures : <br/> <br/> <ul><li>Les particules de résine se séparent naturellement du produit de nettoyage.</li><li>L’évaporation du mélange M Clean est considérablement inférieure à celle de l’acétone.</li></ul>",
+    "other.mclean.section-1.image":
+      "<img src='https://source.unsplash.com/random/?solvant' alt='M Clean agent de nettoyage sans solvant'/>",
+    "other.mclean.section-2.name":
+      "Quelles sont ses principaux avantages par rapport au solvant ?",
+    "other.mclean.section-2.text":
+      "<ul><li>M Clean ne génère pas de rejets de COV : Il n’est plus nécessaire d’utiliser une extraction des vapeurs à la source, les opérateurs sont protégés des irritations sur la peau et des troubles respiratoires et vous ne serez plus taxé sur les rejets de COV dus à l’acétone.</li><li>M Clean écarte tous les risques d’incendie et d’explosion dans votre atelier.</li><li>M Clean dilué possède un PH neutre pour la peau, il ne représente pas de danger pour les opérateurs et l’environnement.</li><li>M Clean est vendu à un prix compétitif par rapport à l’acétone, avec une durée de vie supérieure, ce qui rend le retour sur l’investissement dans une station de lavage très rapide.</li></ul>",
+    "other.mclean.section-2.image":
+      "<img src='https://source.unsplash.com/random/?solvant' alt='M Clean, les avantages de l'agent de nettoyage sans solvant'/>",
+    "other.mclean.section-3.name.darker": "Comment utiliser M Clean ?",
+    "other.mclean.section-3.text.darker":
+      "<ul><li>Pour limiter les coûts de transport et limiter son stockage M Clean est livré concentré.</li><li>1 L de M Clean concentré permet d’obtenir 21 L de nettoyant. Ainsi, un fût de 200L de M Clean concentré permet d’obtenir 4 200 L de nettoyant.</li><li>Afin d’être efficace, le nettoyant M Clean est mélangé avec de l’eau chaude dans une station de lavage (d’une capacité de 50 ou 150L) équipée d’un système de maintien en température.</li><li>Lors du nettoyage de vos rouleaux, la résine se sépare du nettoyant et vient se déposer sur le fond de la station de lavage. Ainsi, les déchets solides de résine agglomérée peuvent être évacués facilement.</li><li>Cette station sécurisée permet de garder un poste de nettoyage toujours accessible et prêt à l’emploi dans l’atelier. Cette organisation est rendue possible puisque le produit ne s’évapore pas et reste long temps opérant.</li></ul>",
+    /**
+     * fin mclean
+     */
     /**
      * début contact international
      */
@@ -698,29 +976,33 @@ export default {
     "navbar.item-2.title": "Processes",
     "navbar.item-2.subitem-1": "Projection",
     "navbar.item-2.subitem-1.link": "/processes/projection",
-    "navbar.item-2.subitem-2": "Injection",
+    "navbar.item-2.subitem-2": "RTM Injection",
     "navbar.item-2.subitem-2.link": "/processes/injection",
-    "navbar.item-2.subitem-3": "Thermoforming",
-    "navbar.item-2.subitem-3.link": "/processes/thermoforming",
-    "navbar.item-2.subitem-4": "Filament winding",
-    "navbar.item-2.subitem-4.link": "/processes/winding",
-    "navbar.item-2.subitem-5": "Impregnation",
-    "navbar.item-2.subitem-5.link": "/processes/impregnation",
-    "navbar.item-2.subitem-6": "Flat panels",
-    "navbar.item-2.subitem-6.link": "/processes/panels",
+    "navbar.item-2.subitem-3": "Casting",
+    "navbar.item-2.subitem-3.link": "/processes/casting",
+    "navbar.item-2.subitem-4": "Infusion",
+    "navbar.item-2.subitem-4.link": "/processes/infusion",
+    "navbar.item-2.subitem-5": "Filament winding",
+    "navbar.item-2.subitem-5.link": "/processes/winding",
+    "navbar.item-2.subitem-6": "Impregnation",
+    "navbar.item-2.subitem-6.link": "/processes/impregnation",
+    "navbar.item-2.subitem-7": "Flat panels",
+    "navbar.item-2.subitem-7.link": "/processes/panels",
+    "navbar.item-2.subitem-8": "Thermoforming",
+    "navbar.item-2.subitem-8.link": "/processes/thermoforming",
 
     "navbar.item-3.title": "Raw materials",
-    "navbar.item-3.subitem-1": "Polyurethanes",
-    "navbar.item-3.subitem-1.link": "/materials/polyurethane",
-    "navbar.item-3.subitem-2": "Putty",
-    "navbar.item-3.subitem-2.link": "/materials/putty",
-    "navbar.item-3.subitem-3": "Resins",
-    "navbar.item-3.subitem-3.link": "/materials/resins",
-    "navbar.item-3.subitem-4": "Gelcoat",
-    "navbar.item-3.subitem-4.link": "/materials/gelcoat",
-    "navbar.item-3.subitem-5": "Epoxy",
-    "navbar.item-3.subitem-5.link": "/materials/epoxy",
-    "navbar.item-3.subitem-6": "Silicon",
+    "navbar.item-3.subitem-1": "Polyester resins, acrylic resins",
+    "navbar.item-3.subitem-1.link": "/materials/polyester-acrylic",
+    "navbar.item-3.subitem-2": "Gelcoat",
+    "navbar.item-3.subitem-2.link": "/materials/gelcoat",
+    "navbar.item-3.subitem-3": "Epoxy",
+    "navbar.item-3.subitem-3.link": "/materials/epoxy",
+    "navbar.item-3.subitem-4": "Adhesive and pasty products",
+    "navbar.item-3.subitem-4.link": "/materials/adhesive-and-pasty",
+    "navbar.item-3.subitem-5": "Polyurethane resins and foams",
+    "navbar.item-3.subitem-5.link": "/materials/polyurethane",
+    "navbar.item-3.subitem-6": "Silicon, RTV",
     "navbar.item-3.subitem-6.link": "/materials/silicon",
 
     "navbar.item-4.title": "Our machines",
@@ -758,58 +1040,67 @@ export default {
       "Injection casting of pasty products",
     "navbar.item-4.subitem-2.submenu.item-6.link": "/other/documentation",
 
-    "navbar.item-4.subitem-3.submenu": "Polyurethane units",
-    "navbar.item-4.subitem-3.submenu.item-1": "Matrafoam machine range",
+    "navbar.item-4.subitem-3.submenu": "Casting units",
+    "navbar.item-4.subitem-3.submenu.item-1": "Polyester resin casting",
     "navbar.item-4.subitem-3.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-2": "Matracoat machine range",
+    "navbar.item-4.subitem-3.submenu.item-2": "Casting of resin concretes",
     "navbar.item-4.subitem-3.submenu.item-2.link": "/other/documentation",
-
-    "navbar.item-4.subitem-4.submenu": "Robots for spray-up and finishing",
-    "navbar.item-4.subitem-4.submenu.item-1": "Flat panels robots",
-    "navbar.item-4.subitem-4.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-4.submenu.item-2": "Robots projection Robomat",
-    "navbar.item-4.subitem-4.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-4.submenu.item-3": "Robots projection RoboStrat",
-    "navbar.item-4.subitem-4.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-4.submenu.item-4":
-      "Robots for cutting, drilling, milling and polishing",
-    "navbar.item-4.subitem-4.submenu.item-4.link": "/other/documentation",
-
-    "navbar.item-4.subitem-5.submenu": "Filament Winding units",
-    "navbar.item-4.subitem-5.submenu.item-1":
-      "Winding for tanks, silos and tubes",
-    "navbar.item-4.subitem-5.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-2":
-      "Multi'axis and multi'mould winding",
-    "navbar.item-4.subitem-5.submenu.item-2.link": "/other/documentation",
-
-    "navbar.item-4.subitem-6": "Resin impregnators on fabrics",
-    "navbar.item-4.subitem-6.link": "/other/formation",
-
-    "navbar.item-4.subitem-7.submenu": "Casting units",
-    "navbar.item-4.subitem-7.submenu.item-1": "Polyester resin casting",
-    "navbar.item-4.subitem-7.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-7.submenu.item-2": "Casting of resin concretes",
-    "navbar.item-4.subitem-7.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-7.submenu.item-3": "PU resin casting",
-    "navbar.item-4.subitem-7.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-7.submenu.item-4":
+    "navbar.item-4.subitem-3.submenu.item-3": "PU resin casting",
+    "navbar.item-4.subitem-3.submenu.item-3.link": "/other/documentation",
+    "navbar.item-4.subitem-3.submenu.item-4":
       "Silicone Injection and RTV Casting",
-    "navbar.item-4.subitem-7.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-7.submenu.item-5": "Casting of glue and adhesives",
-    "navbar.item-4.subitem-7.submenu.item-5.link": "/other/documentation",
+    "navbar.item-4.subitem-3.submenu.item-4.link": "/other/documentation",
+    "navbar.item-4.subitem-3.submenu.item-5": "Casting of glue and adhesives",
+    "navbar.item-4.subitem-3.submenu.item-5.link": "/other/documentation",
+
+    "navbar.item-4.subitem-4.submenu": "Polyurethane units",
+    "navbar.item-4.subitem-4.submenu.item-1": "Matrafoam machine range",
+    "navbar.item-4.subitem-4.submenu.item-1.link": "/other/documentation",
+    "navbar.item-4.subitem-4.submenu.item-2": "Matracoat machine range",
+    "navbar.item-4.subitem-4.submenu.item-2.link": "/other/documentation",
+
+    "navbar.item-4.subitem-5.submenu": "Robots for spray-up and finishing",
+    "navbar.item-4.subitem-5.submenu.item-1": "Flat panels robots",
+    "navbar.item-4.subitem-5.submenu.item-1.link": "/other/documentation",
+    "navbar.item-4.subitem-5.submenu.item-2": "Robots projection Robomat",
+    "navbar.item-4.subitem-5.submenu.item-2.link": "/other/documentation",
+    "navbar.item-4.subitem-5.submenu.item-3": "Robots projection RoboStrat",
+    "navbar.item-4.subitem-5.submenu.item-3.link": "/other/documentation",
+    "navbar.item-4.subitem-5.submenu.item-4":
+      "Robots for cutting, drilling, milling and polishing",
+    "navbar.item-4.subitem-5.submenu.item-4.link": "/other/documentation",
+
+    "navbar.item-4.subitem-6.submenu": "Filament Winding units",
+    "navbar.item-4.subitem-6.submenu.item-1":
+      "Winding for tanks, silos and tubes",
+    "navbar.item-4.subitem-6.submenu.item-1.link": "/other/documentation",
+    "navbar.item-4.subitem-6.submenu.item-2":
+      "Multi'axis and multi'mould winding",
+    "navbar.item-4.subitem-6.submenu.item-2.link": "/other/documentation",
+
+    "navbar.item-4.subitem-7": "Resin impregnators on fabrics",
+    "navbar.item-4.subitem-7.link": "/other/formation",
 
     "navbar.item-5.title": "Other",
-    "navbar.item-5.subitem-1": "Formation",
-    "navbar.item-5.subitem-1.link": "/other/formation",
+    "navbar.item-5.subitem-1.submenu": "Customer service",
+    "navbar.item-5.subitem-1.submenu.item-1": "Spare parts",
+    "navbar.item-5.subitem-1.submenu.item-1.link": "/other/spareparts",
+    "navbar.item-5.subitem-1.submenu.item-2": "Accessories",
+    "navbar.item-5.subitem-1.submenu.item-2.link": "/other/accessories",
+    "navbar.item-5.subitem-1.submenu.item-3": "Documentation",
+    "navbar.item-5.subitem-1.submenu.item-3.link": "/other/documentation",
+    "navbar.item-5.subitem-1.submenu.item-4": "Formation",
+    "navbar.item-5.subitem-1.submenu.item-4.link": "/other/formation",
+    "navbar.item-5.subitem-1.submenu.item-5": "Technical support",
+    "navbar.item-5.subitem-1.submenu.item-5.link": "/other/support",
+    "navbar.item-5.subitem-1.submenu.item-6": "Cleaning agent M CLEAN",
+    "navbar.item-5.subitem-1.submenu.item-6.link": "/other/mclean",
     "navbar.item-5.subitem-2": "Recruitment",
     "navbar.item-5.subitem-2.link": "/other/recruitment",
-    "navbar.item-5.subitem-3": "Documentation",
-    "navbar.item-5.subitem-3.link": "/other/documentation",
-    "navbar.item-5.subitem-4": "International contacts",
-    "navbar.item-5.subitem-4.link": "/other/international",
-    "navbar.item-5.subitem-5": "Mentions légales",
-    "navbar.item-5.subitem-5.link": "/other/legal",
+    "navbar.item-5.subitem-3": "International contacts",
+    "navbar.item-5.subitem-3.link": "/other/international",
+    "navbar.item-5.subitem-4": "Legal mentions",
+    "navbar.item-5.subitem-4.link": "/other/legal",
 
     /**
      * début footer
@@ -1230,9 +1521,58 @@ export default {
     /**
      * début other
      */
+
     /**
-     * début formation
+     * début pièces détachées
      */
+
+    "other.spareparts.title": "Spare parts",
+    "other.spareparts.subtitle":
+      "Matrasur Composites puts all its efforts in order to offer the most reliable Spare Parts Service with the aim of providing customers with the highest level of satisfaction. The Spare Parts service allows you to benefit from many advantages.",
+    "other.spareparts.image":
+      "<img src='https://images.unsplash.com/photo-1493994807689-406227cceebd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0b9832e15d974a13f13f6ae410a544f&auto=format&fit=crop&w=1350&q=80' alt='Spare parts room' class='hero__image'/>",
+    "other.spareparts.section-1.name": "Manufacturer's warranty",
+    "other.spareparts.section-1.text":
+      "When you buy Matrasur Composites’ spare parts you are sure to benefit from the manufacturer’s warranty which guarantees top-quality, reliable, long-life parts at the best price on the market. Furthermore, all our part assemblies are delivered with a complete technical documentation.",
+    "other.spareparts.section-1.image":
+      "<img src='https://images.unsplash.com/photo-1528918325699-4a4a1a539b35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d31a6168778e345ff41d73d1d15898c0&auto=format&fit=crop&w=634&q=80' alt='Manufacturer's warranty/>",
+    "other.spareparts.section-2.name": "Fast Delivery Time",
+    "other.spareparts.section-2.text":
+      "Matrasur Composites works hard to guarantee the shortest delivery time possible in France and abroad. For example, for an urgent delivery in France, if we receive your order by noon, we can dispatch it in the after-noon.",
+    "other.spareparts.section-2.image":
+      "<img src='https://images.unsplash.com/photo-1528918325699-4a4a1a539b35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d31a6168778e345ff41d73d1d15898c0&auto=format&fit=crop&w=634&q=80' alt='Fast delivry time'/>",
+    "other.spareparts.section-3.name":
+      "Wide Range of References Available in Stock",
+    "other.spareparts.section-3.text":
+      "We keep a constant stock of around 6000 references that are available and ready to be shipped in order to cover our client’s urgent repair and maintenance needs.",
+    "other.spareparts.section-3.image":
+      "<img src='https://images.unsplash.com/photo-1528918325699-4a4a1a539b35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d31a6168778e345ff41d73d1d15898c0&auto=format&fit=crop&w=634&q=80' alt='Wide range of references avaible in stock'/>",
+    "other.spareparts.section-4.name": "Innovative design",
+    "other.spareparts.section-4.text":
+      "Matrasur Composites is constanly searching to improve and upgrade the design and fonctionalities of the equipment and spare parts in our catalogue.",
+    "other.spareparts.section-4.image":
+      "<img src='https://images.unsplash.com/photo-1528918325699-4a4a1a539b35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d31a6168778e345ff41d73d1d15898c0&auto=format&fit=crop&w=634&q=80' alt='Innovative design'/>",
+    /**
+     * fin pièces détachées
+     */
+
+    /**
+     * début accessoires
+     */
+    "other.accessories.title": "Accessories",
+    "other.accessories.subtitle":
+      "Matrasur Composites offers a range of ancillaries & accessories and systems that complement its machine range and contribute to product quality, productivity , equipment ergonomics and improved health & working conditions for the personnel using the equipment.",
+    "other.accessories.image":
+      "<img src='https://images.unsplash.com/photo-1493994807689-406227cceebd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0b9832e15d974a13f13f6ae410a544f&auto=format&fit=crop&w=1350&q=80' alt='Accessories' class='hero__image'/>",
+    "other.accessories.section-1.name": "Accessories include",
+    "other.accessories.section-1.text":
+      "<ul><li>Solvent-free cleaner M CLEAN</li><li>Material mixing and preparation systems</li><li>Heating systems</li><li>Rollers & Tooling</li><li>Material pumping and transfer systems</li><li>Counter & Alarms</li><li>Pneumatic guns and nozzles</li><li>RTM/Flex Molding accessories and consumables</li><li>Cabins and extraction systems</li><li>Pneumatic guns</li><li>Generators</li><li>Compressed air supply</li></ul>",
+    "other.accessories.section-1.image":
+      "<img src='https://images.unsplash.com/photo-1528918325699-4a4a1a539b35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d31a6168778e345ff41d73d1d15898c0&auto=format&fit=crop&w=634&q=80' alt='Garantie constructeur'/>",
+    /**
+     * fin accessoires
+     */
+
     /**
      * début formation
      */
@@ -1261,9 +1601,6 @@ export default {
     /**
      * fin formation
      */
-    /**
-     * fin formation
-     */
 
     /**
      * début documentation
@@ -1273,55 +1610,240 @@ export default {
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "other.documentation.image":
       "<img src='/assets/img/documentation/documentation.jpg' alt='Documentation'/>",
-    "other.documentation.section-1.title": "About the society",
+
+    "other.documentation.section-1.title": "About the company",
     "other.documentation.section-1.item-1.name": "Company brochure",
     "other.documentation.section-1.item-1.description":
-      "Here you will find all the information about Matrasur Composites",
+      "You will find all the information about Matrasur Composites.",
     "other.documentation.section-1.item-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+      "<img src='/assets/img/documentation/matrasur_company_brochure_en_fr.jpg' alt='Image of the company brochure'/>",
     "other.documentation.section-1.item-1.link":
-      "matrasur_company_brochure_en_fr.pdf",
+      "/documentation/en/matrasur_company_brochure_en_fr.pdf",
 
-    "other.documentation.section-1.item-2.name": "About the society",
+    "other.documentation.section-1.item-2.name": "Newsletter",
     "other.documentation.section-1.item-2.description":
-      "Here you will find all the information about Matrasur Composites",
+      "Find all the Matrasur Composites company news",
     "other.documentation.section-1.item-2.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+      "<img src='/assets/img/documentation/newsletter_matrasur_fr.jpg' alt='Image Matrasur Composites company news'/>",
     "other.documentation.section-1.item-2.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
-    "other.documentation.section-1.item-3.name": "About the society",
-    "other.documentation.section-1.item-3.description":
-      "Here you will find all the information about Matrasur Composites",
-    "other.documentation.section-1.item-3.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
-    "other.documentation.section-1.item-3.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
-    "other.documentation.section-1.item-4.name": "About the society",
-    "other.documentation.section-1.item-4.description":
-      "Here you will find all the information about Matrasur Composites",
-    "other.documentation.section-1.item-4.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
-    "other.documentation.section-1.item-4.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
+      "/documentation/en/newsletter_matrasur_en.pdf",
 
-    "other.documentation.section-2.title": "About the society",
-    "other.documentation.section-2.item-1.name": "About the society",
+    "other.documentation.section-2.title": "Robots documentation",
+    "other.documentation.section-2.item-1.name": "ROBOMAT documentation",
     "other.documentation.section-2.item-1.description":
-      "Here you will find all the information about Matrasur Composites",
+      "Spray-up robot capable of reproducing the movements made by an operator.",
     "other.documentation.section-2.item-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+      "<img src='/assets/img/documentation/plaquette_robomat.jpg' alt='ROBOMAT documentation'/>",
     "other.documentation.section-2.item-1.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
-    "other.documentation.section-2.item-2.name": "About the society",
+      "/documentation/en/plaquette_robomat.pdf",
+
+    "other.documentation.section-2.item-2.name": "USIMAT documentation",
     "other.documentation.section-2.item-2.description":
-      "Here you will find all the information about Matrasur Composites",
+      "Trimming and finishing robot for composite parts.",
     "other.documentation.section-2.item-2.image":
-      "<img src='https://source.unsplash.com/random/' alt='Photo de la doc'/>",
+      "<img src='/assets/img/documentation/usimat_brochure_matrasur.jpg' alt='USIMAT documentation'/>",
     "other.documentation.section-2.item-2.link":
-      "/documentation/matrasur_company_brochure_en_fr.pdf",
+      "/documentation/en/usimat_brochure_matrasur.pdf",
+
+    "other.documentation.section-3.title": "RTM/Infusion accessories",
+    "other.documentation.section-3.item-1.name": "Injection RTM accessories",
+    "other.documentation.section-3.item-1.description":
+      "PDF on RTM injection accessories.",
+    "other.documentation.section-3.item-1.image":
+      "<img src='/assets/img/documentation/accessoires_rtm_light_2015.jpg' alt='Image Injection RTM accessories'/>",
+    "other.documentation.section-3.item-1.link":
+      "/documentation/en/accessories_rtm_light_2015.pdf",
+
+    "other.documentation.section-3.item-2.name":
+      "Infusion - Flex Molding accessories",
+    "other.documentation.section-3.item-2.description":
+      "PDF on infusion accessories - flex molding",
+    "other.documentation.section-3.item-2.image":
+      "<img src='/assets/img/documentation/accessoires_flex_molding_2015.jpg' alt='Image infusion - flex Molding accessories'/>",
+    "other.documentation.section-3.item-2.link":
+      "/documentation/en/accessories_flex_molding_2015.pdf",
+
+    "other.documentation.section-4.title": "Product documentation",
+    "other.documentation.section-4.item-1.name":
+      "PU Spray-up Equipment",
+    "other.documentation.section-4.item-1.description":
+      "Machines and other Equipment for Sprayed Polyurethanes ",
+    "other.documentation.section-4.item-1.image":
+      "<img src='/assets/img/documentation/gamme_polyurethane_matrasur_composites.jpg' alt='Image PU Spray-up Equipment'/>",
+    "other.documentation.section-4.item-1.link":
+      "/documentation/en/pu_machines_matrasur_composites.pdf",
+
+    "other.documentation.section-4.item-2.name":
+      "Solvent-free cleaner MCLEAN",
+    "other.documentation.section-4.item-2.description":
+      "New alternative to acetone and other chlorine-based solvents.",
+    "other.documentation.section-4.item-2.image":
+      "<img src='/assets/img/documentation/m_clean_matrasur.jpg' alt='Solvent-free cleaner MCLEAN'/>",
+    "other.documentation.section-4.item-2.link":
+      "/documentation/en/m_clean_matrasur.pdf",
+
+    "other.documentation.section-4.item-3.name": "RTM Concept",
+    "other.documentation.section-4.item-3.description":
+      "Features and Benefits of the RTM Production Concept based of closed mould technology with 1 upper mold and 2 lower molds.",
+    "other.documentation.section-4.item-3.image":
+      "<img src='/assets/img/documentation/rtm_concept_matrasur.jpg' alt='RTM Concept'/>",
+    "other.documentation.section-4.item-3.link":
+      "/documentation/en/rtm_concept_matrasur.pdf",
+
+    "other.documentation.section-4.item-4.name": "RTM Lines",
+    "other.documentation.section-4.item-4.description":
+      "Our RTM Lines for the manufacturing of composite part with closed mould technology.",
+    "other.documentation.section-4.item-4.image":
+      "<img src='/assets/img/documentation/rtm_lines_matrasur.jpg' alt='Image fRTM Lines Matrasur Composites'/>",
+    "other.documentation.section-4.item-4.link":
+      "/documentation/en/rtm_lines_matrasur.pdf",
+
+    "other.documentation.section-4.item-5.name":
+      "Equipment for Spa Production",
+    "other.documentation.section-4.item-5.description":
+      "Discover our thermoforming machine, our PU spray-up machine as well as our chopped laminate spray-up robot and our trimming robot for spas.",
+    "other.documentation.section-4.item-5.image":
+      "<img src='/assets/img/documentation/spas_equipement_fr.jpg' alt='Equipment for Spa Production'/>",
+    "other.documentation.section-4.item-5.link":
+      "/documentation/en/spas_equipement_en.pdf",
+
+    "other.documentation.section-4.item-6.name": "Spa Production",
+    "other.documentation.section-4.item-6.description":
+      "Equipment for the manufacturing of a spa including thermoforming, lamination, insulation and spa trimming.",
+    "other.documentation.section-4.item-6.image":
+      "<img src='/assets/img/documentation/industrialisation_spas_matrasur_fr.jpg' alt='Spa Production'/>",
+    "other.documentation.section-4.item-6.link":
+      "/documentation/en/industrialisation_spas_matrasur_en.pdf",
+
+    "other.documentation.section-4.item-7.name": "Pool production",
+    "other.documentation.section-4.item-7.description":
+      "Automating the production process of pools with the help of robotics.",
+    "other.documentation.section-4.item-7.image":
+      "<img src='/assets/img/documentation/industrialisation_piscines_matrasur_fr.jpg' alt='Pool production'/>",
+    "other.documentation.section-4.item-7.link":
+      "/documentation/en/industrialisation_piscines_matrasur_en.pdf",
+
+    "other.documentation.section-5.title": "Material feeding systems",
+    "other.documentation.section-5.item-1.name":
+      "Material Feeding System from 200L drums",
+    "other.documentation.section-5.item-1.description":
+      "Continuous material supply system for 200L drums.",
+    "other.documentation.section-5.item-1.image":
+      "<img src='/assets/img/documentation/f0001_syst_alimentation_continue_auto_200_r.jpg' alt='Material Feeding System from 200L drums'/>",
+    "other.documentation.section-5.item-1.link":
+      "/documentation/en/f0001_syst_alimentation_continue_auto_200_r.pdf",
+
+    "other.documentation.section-5.item-2.name":
+      "Material Feeding System from 1000L",
+    "other.documentation.section-5.item-2.description":
+      "Continuous material supply system for 1000L containers.",
+    "other.documentation.section-5.item-2.image":
+      "<img src='/assets/img/documentation/f0002_syst_alimentation_continue_auto_1000_r.jpg' alt='Image continuous material supply system for 1000L containers'/>",
+    "other.documentation.section-5.item-2.link":
+      "/documentation/en/f0002_syst_alimentation_continue_auto_1000_r.pdf",
+
+    "other.documentation.section-5.item-3.name":
+      "Manual Material Feeding System from 200L drums",
+    "other.documentation.section-5.item-3.description":
+      "Manual continuous material supply system for 200L drums.",
+    "other.documentation.section-5.item-3.image":
+      "<img src='/assets/img/documentation/f0003_syst_alimentation_continue_manu_200_r.jpg' alt='Image Manual continuous material supply system for 200L drums '/>",
+    "other.documentation.section-5.item-3.link":
+      "/documentation/en/f0003_syst_alimentation_continue_manu_200_r.pdf",
+
+    "other.documentation.section-5.item-4.name":
+      "Shuttle Trolley for 200L drums",
+    "other.documentation.section-5.item-4.description":
+      "Continuous material supply system for 200L drums with mobile machine.",
+    "other.documentation.section-5.item-4.image":
+      "<img src='/assets/img/documentation/f0004_syst_alimentation_continue_mobile1_r.jpg' alt='Image Shuttle Trolley for 200L drums'/>",
+    "other.documentation.section-5.item-4.link":
+      "/documentation/en/f0004_syst_alimentation_continue_mobile1_r.pdf",
+
+    "other.documentation.section-5.item-5.name":
+      "Mixing Station for Resin and Fillers",
+    "other.documentation.section-5.item-5.description":
+      "Safety mixing station for resin and fillers.",
+    "other.documentation.section-5.item-5.image":
+      "<img src='/assets/img/documentation/f0005_melangeur_resine_charges1_r.jpg' alt='Image Mixing Station for Resin and Fillers'/>",
+    "other.documentation.section-5.item-5.link":
+      "/documentation/en/f0005_melangeur_resine_charges1_r.pdf",
+
+    "other.documentation.section-5.item-6.name":
+      "Catalyst Alarm",
+    "other.documentation.section-5.item-6.description":
+      "In-line catalyst pressure sensor",
+    "other.documentation.section-5.item-6.image":
+      "<img src='/assets/img/documentation/f0006_detecteur_pression_ligne_catalyseur1_r.jpg' alt='Image Détecteur de pression catalyseur'/>",
+    "other.documentation.section-5.item-6.link":
+      "/documentation/en/f0006_detecteur_pression_ligne_catalyseur1_r.pdf",
+
+    "other.documentation.section-5.item-7.name":
+      "Secured Catalyst Refill",
+    "other.documentation.section-5.item-7.description":
+      "Safety catalyst refill station avec chariot.",
+    "other.documentation.section-5.item-7.image":
+      "<img src='/assets/img/documentation/f0007_chariot_catalyseur_securise1_r.jpg' alt='Image Secured Catalyst Refill'/>",
+    "other.documentation.section-5.item-7.link":
+      "/documentation/en/f0007_chariot_catalyseur_securise1_r.pdf",
     /**
      * fin documentation
      */
+
+    /**
+     * début support client
+     */
+
+    "other.support.title": "Technical support",
+    "other.support.subtitle":
+      "Matrasur Composites' technical support includes helping you choose the most adapted equipment, installating it and accompanying you during the start-up process, providing complete traning and offering top-quality After-Sales Assistance whenever and wherever you may need it. Our Technical Supports is composed of :",
+    "other.support.image":
+      "<img src='https://source.unsplash.com/random/?support' alt='Matrasur Composites Technical support'/>",
+    "other.support.section-1.name": "A hotline",
+    "other.support.section-1.text":
+      "A hotline available during our opening hours with specialists who diagnose, solve problems and give technical advise for quick assistance needs.",
+    "other.support.section-1.image":
+      "<img src='https://source.unsplash.com/random/?phone' alt='A hotline'/>",
+    "other.support.section-2.name": "Qualified Field Engineers and Technicians",
+    "other.support.section-2.text":
+      "Qualified field engineers and technicians are at your disposal for on site or in-house repair and maintenance operations.",
+    "other.support.section-2.image":
+      "<img src='https://source.unsplash.com/random/?technical' alt='Qualified Field Engineers and Technicians'/>",
+    "other.support.section-3.name": "A Large Stock of Spare Parts",
+    "other.support.section-3.text":
+      "A large stock of spare parts are available for immeadiate repair and maintenance needs.",
+    "other.support.section-3.image":
+      "<img src='https://source.unsplash.com/random/?parts' alt='A Large Stock of Spare Parts' />",
+
+    /**
+     * fin support client
+     */
+
+    /**
+     * début mclean
+     */
+    "other.mclean.title": "M Clean",
+    "other.mclean.subtitle": "Solvant-free cleaning agent",
+    "other.mclean.image":
+      "<img src='https://source.unsplash.com/random/?solvant' alt='M Clean solvent-free cleaning agent'/>",
+    "other.mclean.section-1.name": "What is M Clean ?",
+    "other.mclean.section-1.text":
+      "M Clean is an aqueous, solvent-free, non- polluting and non toxic cleaning agent for your tools. <br/> <br/> M Clean is an alternative to acetone which offers improved efficiency and a longer life span for the following two main reasons : <br/> <br/> <ul><li>The resin particles separate naturally from the cleaning agent.</li><li>The evaporation rate is 3 times lower than that of the acetone.</li></ul>",
+    "other.mclean.section-1.image":
+      "<img src='https://source.unsplash.com/random/?solvant' alt='M Clean solvent-free cleaning agent'/>",
+    "other.mclean.section-2.name":
+      "What are the main advantages over solvent ?",
+    "other.mclean.section-2.text":
+      "<ul><li>M Clean does not generate VOC emissions in the workshop : It is no longer necessary to use an extraction system. Operators are protected from skin irritation and respiratory problems.</li><li>M Clean eliminates all risks of fire and explosion in your workshop.</li><li>It is diluted form; M Clean has a neutral pH on skin. It does not represent a danger to operators or the environment and it improves operator safety.</li><li>M Clean is sold at a competitive price with regards to acetone, with a life span that is higher for a fast Return on Investment of the cleaning station.</li></ul>",
+    "other.mclean.section-2.image":
+      "<img src='https://source.unsplash.com/random/?solvant' alt='M Clean, advantages of the solvent-free cleaning agent'/>",
+    "other.mclean.section-3.name.darker": "How to use M Clean ?",
+    "other.mclean.section-3.text.darker":
+      "<ul><li>To reduce shipping costs and storage space, M Clean is supplied in its concentrated form.</li><li>1 L of concentrated M Clean allows to obtain 21 L of cleaning mixture. Thus, with a 200L drum you can make 4 200 L of cleaning mixture.</li><li>To be effective, M Clean needs to be mixed with hot water in a cleaning station (available capacities: 50 L or 150 L) equipped with a temperature regulation system.</li><li>When cleaning your rollers, the resin separates from the cleaning agent and sinks to the bottom of the cleaning station. All solid residues gather together and can then be removed easily.</li><li>The cleaning station is secured and remains ready to be used at all times since the cleaning agent does not evaporate and remains active for a long period of time.</li></ul>",
+    /**
+     * fin mclean
+     */
+
     /**
      * début contact international
      */

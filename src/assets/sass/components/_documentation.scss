@@ -61,7 +61,7 @@
     flex-flow: row wrap;
     justify-content: space-around;
     & > * {
-      margin-bottom: 5%;
+      margin: 5%;
     }
   }
   &__card--doc {
@@ -92,12 +92,17 @@
     }
   }
   &__cardContent {
-    position: absolute;
-    width: inherit;
+    width: 100%;
     display: flex;
     flex-flow: column wrap;
     color: white;
     padding: 10px;
+    @include media-max($lg) {
+      width: 100%;
+      max-height: 100%;
+      overflow: scroll;
+      flex-flow: column nowrap;
+    }
     & > h4 {
       text-transform: uppercase;
       font-weight: 600;
