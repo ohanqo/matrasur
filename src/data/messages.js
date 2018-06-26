@@ -207,8 +207,7 @@ export default {
     "home.card-1.link": "/processes/projection",
 
     "home.card-2.title": "Résines Polyester & Résines Acryliques",
-    "home.card-2.text":
-      "Ces deux matières premières sont …",
+    "home.card-2.text": "Ces deux matières premières sont …",
     "home.card-2.button": "En apprendre plus",
     "home.card-2.link": "/materials/polyester-acrylic",
 
@@ -852,7 +851,7 @@ export default {
     "other.documentation.section-5.item-6.link":
       "/documentation/fr/f0006_detecteur_pression_ligne_catalyseur1_r.pdf",
 
-      "other.documentation.section-5.item-7.name":
+    "other.documentation.section-5.item-7.name":
       "Chariot de remplissage sécurisé du catalyseur",
     "other.documentation.section-5.item-7.description":
       "Système de remplissage sécurisé du catalyseur avec chariot.",
@@ -946,13 +945,23 @@ export default {
     "other.legal.item-3.name":
       "Nom du directeur de la publication et coordonnées de l'hébergeur du site",
     "other.legal.item-3.text":
-      "Directeur de publication: Clarisse LANIAU<br/><br/><br/>Hébergeur: Orange <br/><br/> Société anonyme au capital de 10 640 226 396 euros RCS Paris 380 129 866 Siège social : 78, rue Olivier de Serres, 75 015 Paris et domiciliée pour les besoins des présentes 1 avenue Nelson Mandela, 94745 ARCUEIL N° de téléphone : 01.44.44.22.22"
+      "Directeur de publication: Clarisse LANIAU<br/><br/><br/>Hébergeur: Orange <br/><br/> Société anonyme au capital de 10 640 226 396 euros RCS Paris 380 129 866 Siège social : 78, rue Olivier de Serres, 75 015 Paris et domiciliée pour les besoins des présentes 1 avenue Nelson Mandela, 94745 ARCUEIL N° de téléphone : 01.44.44.22.22",
 
     /**
      * fin mentions légales
      */
     /**
      * fin other
+     */
+
+    /**
+     * début page 404
+     */
+    "404.title": "404",
+    "404.subtitle": "La page que vous cherchez n'est pas disponible.",
+    "404.image": "<img src='/assets/img/404.jpg'/>",
+    /**
+     * fin page 404
      */
   },
   en: {
@@ -1147,8 +1156,7 @@ export default {
     "home.card-1.link": "/processes/projection",
 
     "home.card-2.title": "Polyester & Acrylic Resins",
-    "home.card-2.text":
-      "These two raw materials are …",
+    "home.card-2.text": "These two raw materials are …",
     "home.card-2.button": "Learn more",
     "home.card-2.link": "/processes/projection",
 
@@ -1159,8 +1167,7 @@ export default {
     "home.card-3.link": "/other/spareparts",
 
     "home.card-4.title": "Documentation",
-    "home.card-4.text":
-      "Find all company brochures and machine documentation.",
+    "home.card-4.text": "Find all company brochures and machine documentation.",
     "home.card-4.button": "Visit this page",
     "home.card-4.link": "/other/documentation",
 
@@ -1665,8 +1672,7 @@ export default {
       "/documentation/en/accessories_flex_molding_2015.pdf",
 
     "other.documentation.section-4.title": "Product documentation",
-    "other.documentation.section-4.item-1.name":
-      "PU Spray-up Equipment",
+    "other.documentation.section-4.item-1.name": "PU Spray-up Equipment",
     "other.documentation.section-4.item-1.description":
       "Machines and other Equipment for Sprayed Polyurethanes ",
     "other.documentation.section-4.item-1.image":
@@ -1674,8 +1680,7 @@ export default {
     "other.documentation.section-4.item-1.link":
       "/documentation/en/pu_machines_matrasur_composites.pdf",
 
-    "other.documentation.section-4.item-2.name":
-      "Solvent-free cleaner MCLEAN",
+    "other.documentation.section-4.item-2.name": "Solvent-free cleaner MCLEAN",
     "other.documentation.section-4.item-2.description":
       "New alternative to acetone and other chlorine-based solvents.",
     "other.documentation.section-4.item-2.image":
@@ -1699,8 +1704,7 @@ export default {
     "other.documentation.section-4.item-4.link":
       "/documentation/en/rtm_lines_matrasur.pdf",
 
-    "other.documentation.section-4.item-5.name":
-      "Equipment for Spa Production",
+    "other.documentation.section-4.item-5.name": "Equipment for Spa Production",
     "other.documentation.section-4.item-5.description":
       "Discover our thermoforming machine, our PU spray-up machine as well as our chopped laminate spray-up robot and our trimming robot for spas.",
     "other.documentation.section-4.item-5.image":
@@ -1770,8 +1774,7 @@ export default {
     "other.documentation.section-5.item-5.link":
       "/documentation/en/f0005_melangeur_resine_charges1_r.pdf",
 
-    "other.documentation.section-5.item-6.name":
-      "Catalyst Alarm",
+    "other.documentation.section-5.item-6.name": "Catalyst Alarm",
     "other.documentation.section-5.item-6.description":
       "In-line catalyst pressure sensor",
     "other.documentation.section-5.item-6.image":
@@ -1779,8 +1782,7 @@ export default {
     "other.documentation.section-5.item-6.link":
       "/documentation/en/f0006_detecteur_pression_ligne_catalyseur1_r.pdf",
 
-    "other.documentation.section-5.item-7.name":
-      "Secured Catalyst Refill",
+    "other.documentation.section-5.item-7.name": "Secured Catalyst Refill",
     "other.documentation.section-5.item-7.description":
       "Safety catalyst refill station avec chariot.",
     "other.documentation.section-5.item-7.image":
@@ -1870,13 +1872,23 @@ export default {
     "other.legal.item-3.name":
       "Name of the publication director and contact details of the site host",
     "other.legal.item-3.text":
-      "Publication director: Clarisse LANIAU<br/><br/><br/>Hébergeur: Orange <br/><br/> Public limited company with share capital of 10 640 226 396 euros RCS Paris 380 129 866 Head Office : 78, rue Olivier de Serres, 75 015 Paris and domiciled for the purposes hereof 1 avenue Nelson Mandela, 94745 ARCUEIL Phone number : 01.44.44.22.22"
+      "Publication director: Clarisse LANIAU<br/><br/><br/>Hébergeur: Orange <br/><br/> Public limited company with share capital of 10 640 226 396 euros RCS Paris 380 129 866 Head Office : 78, rue Olivier de Serres, 75 015 Paris and domiciled for the purposes hereof 1 avenue Nelson Mandela, 94745 ARCUEIL Phone number : 01.44.44.22.22",
 
     /**
      * fin mentions légales
      */
     /**
      * fin other
+     */
+
+         /**
+     * début page 404
+     */
+    "404.title": "404",
+    "404.subtitle": "Page Not Found",
+    "404.image": "<img src='/assets/img/404.jpg'/>",
+    /**
+     * fin page 404
      */
   }
 };

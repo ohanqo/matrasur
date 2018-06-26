@@ -115,6 +115,7 @@ const Searchform = props => {
                     key.includes(".link") ||
                     key.includes(".image") ||
                     key.includes(".img") ||
+                    key.startsWith("404") ||
                     key.endsWith("submenu") ||
                     (key.includes("navbar") && key.includes(".title")) ||
                     key.includes("contact.subtitle") ||
