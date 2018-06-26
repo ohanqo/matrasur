@@ -2142,10 +2142,15 @@ li {
   background-color: #F1F2F5; }
 
 .legals__name {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-size: 24px; }
 
 .legals__item {
-  margin-bottom: 5em; }
+  margin-bottom: 5em;
+  font-size: 16px; }
+
+.legals li > ul {
+  margin: 1em 0; }
 
 .animated {
   animation-duration: 1s;

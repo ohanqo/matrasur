@@ -938,15 +938,15 @@ export default {
     "other.legal.title": "Mentions légales du site",
     "other.legal.item-1.name": "Informations sur la société",
     "other.legal.item-1.text":
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+      "<ul><li>Raison sociale: Matrasur Composites</li><li>Directeur: Claude CHOUET</li><li>Siège social: 28-30 rue de Tournenfils - 91540 Mennecy - France</li><li>Téléphone: <a href='tel:+33161616565'>+33 1 61 61 65 65</a></li><li>Fax: +33 1 61 61 65 66</li><li>Capital social: <ul><li>SIRET: 420 865 313 00035</li><li>N° TVA: FR 10 420 865 313</li></ul></li></ul>",
     "other.legal.item-2.name":
       "Adresse de courrier électronique et numéro de téléphone",
     "other.legal.item-2.text":
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+      "<ul><li>Mail Service Commercial: <a href='mailto:info@matrasurcomposites.com'>info@matrasurcomposites.com</a></li><li>Téléphone Service Commercial: <a href='tel:+33161616565'>+33 1 61 61 65 65</a></li></ul><ul><li>Mail Service Après-vente: <a href='mailto:sav@matrasurcomposites.com'>sav@matrasurcomposites.com</a></li><li>Téléphone Service Après-vente: <a href='tel:+33161616567'>+33 1 61 61 65 67</a></li></ul>",
     "other.legal.item-3.name":
       "Nom du directeur de la publication et coordonnées de l'hébergeur du site",
     "other.legal.item-3.text":
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "Directeur de publication: Clarisse LANIAU<br/><br/><br/>Hébergeur: Orange <br/><br/> Société anonyme au capital de 10 640 226 396 euros RCS Paris 380 129 866 Siège social : 78, rue Olivier de Serres, 75 015 Paris et domiciliée pour les besoins des présentes 1 avenue Nelson Mandela, 94745 ARCUEIL N° de téléphone : 01.44.44.22.22"
 
     /**
      * fin mentions légales
@@ -1862,14 +1862,14 @@ export default {
     "other.legal.title": "Legal mentions of the website",
     "other.legal.item-1.name": "Company Information",
     "other.legal.item-1.text":
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+      "<ul><li>Company name: Matrasur Composites</li><li>General Manager: Claude CHOUET</li><li>Head Office: 28-30 rue de Tournenfils - 91540 Mennecy - France</li><li>Phone: <a href='tel:+33161616565'>+33 1 61 61 65 65</a></li><li>Fax: +33 1 61 61 65 66</li><li>Share capital: <ul><li>SIRET: 420 865 313 00035</li><li>N° TVA: FR 10 420 865 313</li></ul></li></ul>",
     "other.legal.item-2.name": "E-mail address and telephone number",
     "other.legal.item-2.text":
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+      "<ul><li>Mail Commercial Service: <a href='mailto:info@matrasurcomposites.com'>info@matrasurcomposites.com</a></li><li>Telephone Commercial Service: <a href='tel:+33161616565'>+33 1 61 61 65 65</a></li></ul><ul><li>Mail After-sales Service: <a href='mailto:sav@matrasurcomposites.com'>sav@matrasurcomposites.com</a></li><li>Telephone After-Sales Service: <a href='tel:+33161616567'>+33 1 61 61 65 67</a></li></ul>",
     "other.legal.item-3.name":
       "Name of the publication director and contact details of the site host",
     "other.legal.item-3.text":
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "Publication director: Clarisse LANIAU<br/><br/><br/>Hébergeur: Orange <br/><br/> Public limited company with share capital of 10 640 226 396 euros RCS Paris 380 129 866 Head Office : 78, rue Olivier de Serres, 75 015 Paris and domiciled for the purposes hereof 1 avenue Nelson Mandela, 94745 ARCUEIL Phone number : 01.44.44.22.22"
 
     /**
      * fin mentions légales
