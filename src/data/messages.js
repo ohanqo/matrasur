@@ -9,16 +9,20 @@ export default {
     "navbar.item-1.title": "Domaines d'application",
     "navbar.item-1.subitem-1": "Aéronautique",
     "navbar.item-1.subitem-1.link": "/application/aerospace",
-    "navbar.item-1.subitem-2": "Réfrigération",
-    "navbar.item-1.subitem-2.link": "/application/refrigeration",
-    "navbar.item-1.subitem-3": "Marine",
-    "navbar.item-1.subitem-3.link": "/application/marine",
-    "navbar.item-1.subitem-4": "Spatial",
-    "navbar.item-1.subitem-4.link": "/application/space",
-    "navbar.item-1.subitem-5": "Industrie",
-    "navbar.item-1.subitem-5.link": "/application/industrial",
+    "navbar.item-1.subitem-2": "Automobile",
+    "navbar.item-1.subitem-2.link": "/application/automotive",
+    "navbar.item-1.subitem-3": "Construction",
+    "navbar.item-1.subitem-3.link": "/application/construction",
+    "navbar.item-1.subitem-4": "Industrie",
+    "navbar.item-1.subitem-4.link": "/application/industrial",
+    "navbar.item-1.subitem-5": "Marine",
+    "navbar.item-1.subitem-5.link": "/application/marine",
     "navbar.item-1.subitem-6": "Militaire",
     "navbar.item-1.subitem-6.link": "/application/military",
+    "navbar.item-1.subitem-7": "Réfrigération",
+    "navbar.item-1.subitem-7.link": "/application/refrigeration",
+    "navbar.item-1.subitem-8": "Spatial",
+    "navbar.item-1.subitem-8.link": "/application/space",
 
     // PROCÉDÉS
 
@@ -55,8 +59,6 @@ export default {
     "navbar.item-3.subitem-5.link": "/materials/polyurethane",
     "navbar.item-3.subitem-6": "Silicone, RTV",
     "navbar.item-3.subitem-6.link": "/materials/silicon",
-    "navbar.item-3.subitem-7": "test des char",
-    "navbar.item-3.subitem-7.link": "/materials/plastic;acrylic",
 
     // NOS MACHINES
 
@@ -184,9 +186,9 @@ export default {
     /**
      * début slideshow
      */
-    "slideshow.title": "Version française",
+    "slideshow.title": "Solutions composites",
     "slideshow.subtitle":
-      "Ponderum nec nullas arta lapsantibus ponderum et nullas ad nostriplantis consternuntur eos dumos vertices.",
+      "Matrasur Composites est une société spécialisée dans la mise en oeuvre des matériaux composites.",
 
     /**
      * fin slideshow
@@ -198,51 +200,51 @@ export default {
 
     // début Cards
 
-    "home.card-1.title": "Omnem defensio omnem existimatis.",
+    "home.card-1.title": "Le procédé de projection",
     "home.card-1.text":
-      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur, Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
-    "home.card-1.button": "Lorem ipsum",
+      "La projection de materiaux composites est une technique fréquemment utilisé …",
+    "home.card-1.button": "En apprendre plus",
     "home.card-1.link": "/processes/projection",
 
-    "home.card-2.title": "Omnem defensio omnem existimatis.",
+    "home.card-2.title": "Résines Polyester & Résines Acryliques",
     "home.card-2.text":
-      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
-    "home.card-2.button": "Lorem ipsum",
-    "home.card-2.link": "/processes/projection",
+      "Ces deux matières premières sont …",
+    "home.card-2.button": "En apprendre plus",
+    "home.card-2.link": "/materials/polyester-acrylic",
 
-    "home.card-3.title": "Omnem defensio omnem existimatis.",
+    "home.card-3.title": "Pièces détachées",
     "home.card-3.text":
-      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
-    "home.card-3.button": "Lorem ipsum",
-    "home.card-3.link": "/processes/projection",
+      "Le service Pièces Détachées vous permet de bénéficier de nombreux avantages, comme par exemple la garantie constructeur, une logisitque rapide et un large stock de pièces.",
+    "home.card-3.button": "En apprendre plus",
+    "home.card-3.link": "/other/spareparts",
 
-    "home.card-4.title": "Omnem defensio omnem existimatis.",
+    "home.card-4.title": "Documentation",
     "home.card-4.text":
-      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
-    "home.card-4.button": "Lorem ipsum",
-    "home.card-4.link": "/processes/projection",
+      "Retrouvez l'ensemble des brochures de la société ainsi que la documentation des machines.",
+    "home.card-4.button": "Visiter cette page",
+    "home.card-4.link": "/other/documentation",
 
     // fin Cards
 
     "home.section-1.title": "Notre histoire",
     "home.section-1.text":
-      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius, quod idem adipisci uterque non posset. Quod si qui longius in amicitia provecti essent, tamen saepe labefactari, si in honoris contentionem incidissent; pestem enim nullam maiorem esse amicitiis quam in plerisque pecuniae cupiditatem, in optimis quibusque honoris certamen et gloriae; ex quo inimicitias maximas saepe inter amicissimos exstitisse.",
+      "Matrasur Composites fournit le marché des composites depuis 1972 et fait partie des premières entreprises françaises à s’être spécialisée dans les équipements pour la mise en oeuvre des matériaux composites. Aujourd’hui, elle se distingue comme un leader dans le domaine. <br/><br/>Matrasur Composites est une entreprise de WHEELABRATOR Group. Après la fusion avec DISA Group en 2008, WHEELABRATOR est devenue une société de NORICAN Group.",
 
     "home.section-2.title": "Notre triple vocation",
     "home.section-2.text":
       "Matrasur Composites est à la fois distributeur, constructeur et intégrateur de systèmes dans une variété de process couvrant la projection, la coulée/injection RTM, la projection PU, le thermoformage, parmi d’autres. Epaulée par un bureau d’études et d’ingénierie, Matrasur Composites est en mesure de proposer des solutions manuelles, en automatique ou robotisées.",
 
     "home.grid-1.text":
-      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+      "S’appuyant sur son bureau d’études, Matrasur Composites offre une capacité d’ingénierie mécanique, automatisme et robotique, ce qui lui permet une couverture de projet très large.",
     "home.grid-1.image":
       "<img src='https://source.unsplash.com/random/' alt='Image 1'/>",
     "home.grid-2.text":
-      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+      "Nos solutions sont testées et approuvées par notre équipe de techniciens qualifiés afin de garantir la mise à disposition d’un système complet.",
     "home.grid-2.image":
       "<img src='https://source.unsplash.com/random/' alt='Image 2'/>",
 
     "home.grid-3.text":
-      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+      "Votre besoin est spécifique ? Matrasur Composites est capable de vous fournir une solution sur-mesure.",
     "home.grid-3.image":
       "<img src='https://source.unsplash.com/random/' alt='Image 3'/>",
 
@@ -266,7 +268,7 @@ export default {
     "contact.title-1": "Service commercial",
     "contact.title-2": "Service après-vente",
     "contact.title-3": "Contact international",
-    "contact.title-4": "Lorem ipsum",
+    "contact.title-4": "Fax",
 
     "contact.subtitle-1":
       "<a href='mailto:info@matrasurcomposites.com'> +33 1 61 61 65 65 <br/> info@matrasurcomposites.com</a>",
@@ -274,7 +276,7 @@ export default {
       "<a href='mailto:sav@matrasurcomposites.com'> +33 1 61 61 65 67 <br/> sav@matrasurcomposites.com</a>",
     "contact.subtitle-3":
       "<a href='/other/international'>Voir nos contacts</a>",
-    "contact.subtitle-4": "Lorem ipsum",
+    "contact.subtitle-4": "<a>+33 1 61 61 65 66</a>",
 
     /**
      * Pages Application
@@ -582,8 +584,6 @@ export default {
     /**
      * Fin page Résines polyester, résines acryliques
      */
-
-    "materials.plastic;acrylic.title": "Test du site",
 
     /**
      * fin pages materials
@@ -938,7 +938,7 @@ export default {
     "other.legal.title": "Mentions légales du site",
     "other.legal.item-1.name": "Informations sur la société",
     "other.legal.item-1.text":
-      "<ul><li>Raison sociale: Matrasur Composites</li><li>Directeur: Claude CHOUET</li><li>Siège social: 28-30 rue de Tournenfils - 91540 Mennecy - France</li><li>Téléphone: <a href='tel:+33161616565'>+33 1 61 61 65 65</a></li><li>Fax: +33 1 61 61 65 66</li><li>Capital social: <ul><li>SIRET: 420 865 313 00035</li><li>N° TVA: FR 10 420 865 313</li></ul></li></ul>",
+      "<ul><li>Raison sociale: Matrasur Composites</li><li>Directeur: Claude CHOUET</li><li>Siège social: 28-30 rue de Tournenfils - 91540 Mennecy - France</li><li>Forme juridique: S.A.S au capital de 926 905€</li><li>RCS: 420 865 313 RCS Evry</li><li>Téléphone: <a href='tel:+33161616565'>+33 1 61 61 65 65</a></li><li>Fax: +33 1 61 61 65 66</li><li>Capital social: <ul><li>SIRET: 420 865 313 00035</li><li>N° TVA: FR 10 420 865 313</li></ul></li></ul>",
     "other.legal.item-2.name":
       "Adresse de courrier électronique et numéro de téléphone",
     "other.legal.item-2.text":
@@ -962,16 +962,20 @@ export default {
     "navbar.item-1.title": "Application areas",
     "navbar.item-1.subitem-1": "Aeronautics",
     "navbar.item-1.subitem-1.link": "/application/aerospace",
-    "navbar.item-1.subitem-2": "Refrigeration",
-    "navbar.item-1.subitem-2.link": "/application/refrigeration",
-    "navbar.item-1.subitem-3": "Marine",
-    "navbar.item-1.subitem-3.link": "/application/marine",
-    "navbar.item-1.subitem-4": "Spatial",
-    "navbar.item-1.subitem-4.link": "/application/space",
-    "navbar.item-1.subitem-5": "Industrial",
-    "navbar.item-1.subitem-5.link": "/application/industrial",
+    "navbar.item-1.subitem-2": "Automotive",
+    "navbar.item-1.subitem-2.link": "/application/automotive",
+    "navbar.item-1.subitem-3": "Construction",
+    "navbar.item-1.subitem-3.link": "/application/construction",
+    "navbar.item-1.subitem-4": "Industrial",
+    "navbar.item-1.subitem-4.link": "/application/industrial",
+    "navbar.item-1.subitem-5": "Marine",
+    "navbar.item-1.subitem-5.link": "/application/marine",
     "navbar.item-1.subitem-6": "Military",
     "navbar.item-1.subitem-6.link": "/application/military",
+    "navbar.item-1.subitem-7": "Refrigeration",
+    "navbar.item-1.subitem-7.link": "/application/refrigeration",
+    "navbar.item-1.subitem-8": "Spatial",
+    "navbar.item-1.subitem-8.link": "/application/space",
 
     "navbar.item-2.title": "Processes",
     "navbar.item-2.subitem-1": "Projection",
@@ -1125,64 +1129,61 @@ export default {
     /**
      * début slideshow
      */
-    "slideshow.title": "English version",
+    "slideshow.title": "Composite Solutions",
     "slideshow.subtitle":
-      "Ponderum nec nullas arta lapsantibus ponderum et nullas ad nostriplantis consternuntur eos dumos vertices.",
+      "Matrasur Composites is a company specialized in the implementation of composite materials.",
 
     /**
      * fin slideshow
-     */
-
-    /**
      * début home
      */
 
     // début Cards
 
-    "home.card-1.title": "Omnem defensio omnem existimatis.",
+    "home.card-1.title": "Projection process",
     "home.card-1.text":
-      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
-    "home.card-1.button": "Lorem ipsum",
+      "The projection of composite materials is a technique frequently used...",
+    "home.card-1.button": "Learn more",
     "home.card-1.link": "/processes/projection",
 
-    "home.card-2.title": "Omnem defensio omnem existimatis.",
+    "home.card-2.title": "Polyester & Acrylic Resins",
     "home.card-2.text":
-      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
-    "home.card-2.button": "Lorem ipsum",
+      "These two raw materials are …",
+    "home.card-2.button": "Learn more",
     "home.card-2.link": "/processes/projection",
 
-    "home.card-3.title": "Omnem defensio omnem existimatis.",
+    "home.card-3.title": "Spareparts",
     "home.card-3.text":
-      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
-    "home.card-3.button": "Lorem ipsum",
-    "home.card-3.link": "/processes/projection",
+      "The Spare Parts service allows you to benefit from many advantages, such as the manufacturer's warranty, fast logistics and a large stock of parts.",
+    "home.card-3.button": "Learn more",
+    "home.card-3.link": "/other/spareparts",
 
-    "home.card-4.title": "Omnem defensio omnem existimatis.",
+    "home.card-4.title": "Documentation",
     "home.card-4.text":
-      "Intactam nostris fore milite parte documentis latrones intactam inpares deviis Lycaoniam cum magna deviis Pamphyliam diu magna et praesidiis igitur.",
-    "home.card-4.button": "Lorem ipsum",
-    "home.card-4.link": "/processes/projection",
+      "Find all company brochures and machine documentation.",
+    "home.card-4.button": "Visit this page",
+    "home.card-4.link": "/other/documentation",
 
     // fin Cards
 
     "home.section-1.title": "Our story",
     "home.section-1.text":
-      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius, quod idem adipisci uterque non posset. Quod si qui longius in amicitia provecti essent, tamen saepe labefactari, si in honoris contentionem incidissent; pestem enim nullam maiorem esse amicitiis quam in plerisque pecuniae cupiditatem, in optimis quibusque honoris certamen et gloriae; ex quo inimicitias maximas saepe inter amicissimos exstitisse.",
+      "Matrasur Composites supplies the Composites market since 1972 and was one of the first French companies to have specialized in equipment and production lines for composite part manufacturing. Today Matrasur Composites stands out as a leader in the field.",
 
     "home.section-2.title": "A triple vocation",
     "home.section-2.text":
       "Matrasur Composites is a distributor, systems integrator and manufacturer for equipment in a variety of application processes including spray-up (polyester & PU resins, gelcoat, epoxy) , injection and cast (RTM, infusion, polyconcrete) and robotic solutions for part spray-up, trimming, finishing. Backed up by its own Design Office and Engineers, Matrasur Composites offers different levels of technology : manual equipment, semi automated or fully automated systems.",
 
     "home.grid-1.text":
-      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+      "Matrasur Composites offers a mechanical engineering, automation and robotics capacity, which allows a very broad project coverage.",
     "home.grid-1.image":
       "<img src='https://source.unsplash.com/random/' alt='Image 1'/>",
     "home.grid-2.text":
-      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+      "Our solutions are tested and approved by our team of qualified technicians to ensure a complete system is available.",
     "home.grid-2.image":
       "<img src='https://source.unsplash.com/random/' alt='Image 2'/>",
     "home.grid-3.text":
-      "Sin autem ad adulescentiam perduxissent, dirimi tamen interdum contentione vel uxoriae condicionis vel commodi alicuius.",
+      "Your need is specific? Matrasur Composites is able to provide you with a tailor-made solution.",
     "home.grid-3.image":
       "<img src='https://source.unsplash.com/random/' alt='Image 3'/>",
     /**
@@ -1206,14 +1207,14 @@ export default {
 
     "contact.title-2": "After-sales service",
     "contact.title-3": "International contact",
-    "contact.title-4": "Lorem ipsum",
+    "contact.title-4": "Fax",
 
     "contact.subtitle-1":
       "<a href='mailto:info@matrasurcomposites.com'> +33 1 61 61 65 65 <br/> info@matrasurcomposites.com</a>",
     "contact.subtitle-2":
       "<a href='mailto:sav@matrasurcomposites.com'> +33 1 61 61 65 67 <br/> sav@matrasurcomposites.com</a>",
     "contact.subtitle-3": "<a href='/other/international'>See our contacts</a>",
-    "contact.subtitle-4": "Lorem ipsum",
+    "contact.subtitle-4": "<a>+33 1 61 61 65 66</a>",
     /**
      * Début pages Application
      */
@@ -1862,7 +1863,7 @@ export default {
     "other.legal.title": "Legal mentions of the website",
     "other.legal.item-1.name": "Company Information",
     "other.legal.item-1.text":
-      "<ul><li>Company name: Matrasur Composites</li><li>General Manager: Claude CHOUET</li><li>Head Office: 28-30 rue de Tournenfils - 91540 Mennecy - France</li><li>Phone: <a href='tel:+33161616565'>+33 1 61 61 65 65</a></li><li>Fax: +33 1 61 61 65 66</li><li>Share capital: <ul><li>SIRET: 420 865 313 00035</li><li>N° TVA: FR 10 420 865 313</li></ul></li></ul>",
+      "<ul><li>Company name: Matrasur Composites</li><li>General Manager: Claude CHOUET</li><li>Head Office: 28-30 rue de Tournenfils - 91540 Mennecy - France</li><li>Legal form: Simplified joint stock company with a capital of 926 905€</li><li>RCS: 420 865 313 RCS Evry</li><li>Phone: <a href='tel:+33161616565'>+33 1 61 61 65 65</a></li><li>Fax: +33 1 61 61 65 66</li><li>Share capital: <ul><li>SIRET: 420 865 313 00035</li><li>N° TVA: FR 10 420 865 313</li></ul></li></ul>",
     "other.legal.item-2.name": "E-mail address and telephone number",
     "other.legal.item-2.text":
       "<ul><li>Mail Commercial Service: <a href='mailto:info@matrasurcomposites.com'>info@matrasurcomposites.com</a></li><li>Telephone Commercial Service: <a href='tel:+33161616565'>+33 1 61 61 65 65</a></li></ul><ul><li>Mail After-sales Service: <a href='mailto:sav@matrasurcomposites.com'>sav@matrasurcomposites.com</a></li><li>Telephone After-Sales Service: <a href='tel:+33161616567'>+33 1 61 61 65 67</a></li></ul>",

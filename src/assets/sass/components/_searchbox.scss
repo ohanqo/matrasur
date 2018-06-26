@@ -55,9 +55,7 @@ $bottomRadius: 4px;
     }
     & .close {
       cursor: pointer;
-      @include media-max($lg) {
-        width: 5em;
-      }
+      width: 100px;
     }
   }
 }

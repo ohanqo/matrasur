@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
+import { FormattedHTMLMessage } from "react-intl";
 import LazyLoad from "react-lazyload";
 
 import Navbar from "../components/Navbar";
@@ -32,7 +32,7 @@ class Home extends Component {
         <section className="slideshow__content -white">
           <div>
             <h1 className="slideshow__title -big">
-              <FormattedMessage
+              <FormattedHTMLMessage
                 id="slideshow.title"
                 defaultMessage="!JSON non valide"
               />
@@ -41,7 +41,7 @@ class Home extends Component {
             </h1>
           </div>
           <p className="slideshow__subtitle">
-            <FormattedMessage
+            <FormattedHTMLMessage
               id="slideshow.subtitle"
               defaultMessage="!JSON non valide"
             />
@@ -55,14 +55,14 @@ class Home extends Component {
                 <h2>
                   <span className="separator" />
                   <br />
-                  <FormattedMessage
+                  <FormattedHTMLMessage
                     id="home.section-1.title"
                     defaultMessage="!JSON non valide"
                   />
                 </h2>
               </div>
               <div className="box__text text-left animated slideInLeft">
-                <FormattedMessage
+                <FormattedHTMLMessage
                   id="home.section-1.text"
                   defaultMessage="!JSON non valide"
                 />
@@ -76,14 +76,14 @@ class Home extends Component {
               <h2>
                 <span className="separator right" />
                 <br />
-                <FormattedMessage
+                <FormattedHTMLMessage
                   id="home.section-2.title"
                   defaultMessage="!JSON non valide"
                 />
               </h2>
             </div>
             <div className="box__text text-right">
-              <FormattedMessage
+              <FormattedHTMLMessage
                 id="home.section-2.text"
                 defaultMessage="!JSON non valide"
               />
@@ -102,7 +102,7 @@ class Home extends Component {
               <div className="box__grid">
                 <div className="box__border box__border--noleft -p-10">
                   <h4 className="animated slideInRight">
-                    <FormattedMessage
+                    <FormattedHTMLMessage
                       id="home.grid-1.text"
                       defaultMessage="!JSON non valide"
                     />
@@ -112,7 +112,7 @@ class Home extends Component {
               <div className="box__grid">
                 <div className="box__border box__border--noright -p-10">
                   <h4 className="animated slideInLeft">
-                    <FormattedMessage
+                    <FormattedHTMLMessage
                       id="home.grid-2.text"
                       defaultMessage="!JSON non valide"
                     />
@@ -134,7 +134,7 @@ class Home extends Component {
               <div className="box__grid">
                 <div className="box__border box__border--noleft -p-10">
                   <h4 className="animated slideInRight">
-                    <FormattedMessage
+                    <FormattedHTMLMessage
                       id="home.grid-3.text"
                       defaultMessage="!JSON non valide"
                     />
@@ -144,11 +144,13 @@ class Home extends Component {
             </div>
           </LazyLoad>
         </section>
-        <section className="contact -fh -fw">
+        <section className="box contact -fh -fw">
           <div className="contact__container container -pt-10 -pb-10">
             <div className="box__title -white">
               <h2>
-                <FormattedMessage
+                <span className="separator" />
+                <br />
+                <FormattedHTMLMessage
                   id="contact.title"
                   defaultMessage="!JSON non valide"
                 />
@@ -166,7 +168,7 @@ class Home extends Component {
                     </div>
                     <div className="contact__content">
                       <div className="contact__title">
-                        <FormattedMessage
+                        <FormattedHTMLMessage
                           id="contact.title-1"
                           defaultMessage="!JSON non valide"
                         />
@@ -190,7 +192,7 @@ class Home extends Component {
                     </div>
                     <div className="contact__content">
                       <div className="contact__title">
-                        <FormattedMessage
+                        <FormattedHTMLMessage
                           id="contact.title-2"
                           defaultMessage="!JSON non valide"
                         />
@@ -214,7 +216,7 @@ class Home extends Component {
                     </div>
                     <div className="contact__content">
                       <div className="contact__title">
-                        <FormattedMessage
+                        <FormattedHTMLMessage
                           id="contact.title-3"
                           defaultMessage="!JSON non valide"
                         />
@@ -238,13 +240,13 @@ class Home extends Component {
                     </div>
                     <div className="contact__content">
                       <div className="contact__title">
-                        <FormattedMessage
+                        <FormattedHTMLMessage
                           id="contact.title-4"
                           defaultMessage="!JSON non valide"
                         />
                       </div>
                       <div className="contact__subtitle">
-                        <FormattedMessage
+                        <FormattedHTMLMessage
                           id="contact.subtitle-4"
                           defaultMessage="!JSON non valide"
                         />

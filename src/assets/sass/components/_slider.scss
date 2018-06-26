@@ -75,8 +75,8 @@ $images: "../img/slider/slider-1.jpg", "../img/slider/slider-2.jpg",
   &__title {
     display: inline-block;
     font-weight: 600;
-    @include media-max($lg) { font-size: 2.25rem; }
-    @include media-min($lg) { font-size: 2.5rem; }
+    @include media-max($lg) { font-size: 1.75rem; }
+    @include media-min($lg) { font-size: 2rem; }
   }
   &__subtitle {
     @include media-max($lg) { font-size: .8rem; }

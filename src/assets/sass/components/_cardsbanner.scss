@@ -64,6 +64,10 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
         background: $blue;
         border-radius: 2rem;
         font-size: 16px;
+        transition: background-color .5s ease-in-out;
+        &:hover {
+          background-color: $black--light;
+        }
       }
       @include media-max($lg) {
         width: 50vw;

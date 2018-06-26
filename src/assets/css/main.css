@@ -1028,7 +1028,7 @@ fieldset:disabled a.btn {
   background-color: #ffffff; }
 
 .-bg--black {
-  background-color: #000000 !important; }
+  background-color: #222222 !important; }
 
 .-bg--grey {
   background-color: #F1F2F5; }
@@ -1197,6 +1197,9 @@ li {
         @media screen and (max-width: 992px) {
           .navbar-nav .nav-item .lang .lang__text {
             margin: auto; } }
+        @media screen and (min-width: 992px) {
+          .navbar-nav .nav-item .lang .lang__text {
+            padding: 10px; } }
       .navbar-nav .nav-item .lang .fr {
         background-repeat: no-repeat;
         background-image: url("../img/flags/fr-fr.svg");
@@ -1379,7 +1382,7 @@ li {
     width: 1rem; }
     @media screen and (min-width: 992px) {
       .searchbar__button > svg, .searchbar__button:hover > svg, .searchbar__button:active > svg {
-        width: 1vw !important;
+        width: 1.2vw !important;
         height: auto; } }
 
 @media (max-width: 575.98px) {
@@ -1478,10 +1481,10 @@ li {
     font-weight: 600; }
     @media screen and (max-width: 992px) {
       .slideshow__title {
-        font-size: 2.25rem; } }
+        font-size: 1.75rem; } }
     @media screen and (min-width: 992px) {
       .slideshow__title {
-        font-size: 2.5rem; } }
+        font-size: 2rem; } }
   @media screen and (max-width: 992px) {
     .slideshow__subtitle {
       font-size: .8rem; } }
@@ -1645,7 +1648,10 @@ li {
         color: #F1F2F5;
         background: #006EB9;
         border-radius: 2rem;
-        font-size: 16px; }
+        font-size: 16px;
+        transition: background-color .5s ease-in-out; }
+        .cardsbanner .banner .card__button:hover {
+          background-color: #777777; }
       @media screen and (max-width: 992px) {
         .cardsbanner .banner .card {
           width: 50vw; } }
@@ -1774,10 +1780,13 @@ li {
   font-weight: 600;
   color: #F1F2F5;
   text-transform: uppercase;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center; }
 
 .contact__subtitle {
-  text-align: center; }
+  text-align: center;
+  font-size: 20px; }
   .contact__subtitle a {
     color: #6AC7FF;
     transition: color 0.2s ease-in-out;
@@ -1960,10 +1969,8 @@ li {
     border: none;
     outline: none; }
   .searchbox > .modal .close {
-    cursor: pointer; }
-    @media screen and (max-width: 992px) {
-      .searchbox > .modal .close {
-        width: 5em; } }
+    cursor: pointer;
+    width: 100px; }
 
 .global__header {
   position: absolute;

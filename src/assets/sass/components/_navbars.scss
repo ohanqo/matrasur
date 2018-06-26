@@ -40,6 +40,9 @@
         @include media-max($lg) {
           margin: auto;
         }
+        @include media-min($lg) {
+          padding: 10px;
+        }
       }
       & .fr {
         background-repeat: no-repeat;
@@ -267,7 +270,7 @@
     & > svg {
       width: 1rem;
       @include media-min($lg) {
-        width: 1vw !important;
+        width: 1.2vw !important;
         height: auto;
       }
     }
