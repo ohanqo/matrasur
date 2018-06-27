@@ -926,6 +926,12 @@ export default {
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "other.international.image":
       "<img src='https://source.unsplash.com/random/?contacts' alt='International'/>",
+    "other.international.item-1": "France",
+    "other.international.item-1.subitem-1": "John Doe: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
+    "other.international.item-1.subitem-2": "John Doe 2: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
+    "other.international.item-2": "Allemagne",
+    "other.international.item-2.subitem-1": "John Doe: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
+
     /**
      * fin contact international
      */
@@ -953,6 +959,7 @@ export default {
     /**
      * fin other
      */
+
 
     /**
      * début page 404

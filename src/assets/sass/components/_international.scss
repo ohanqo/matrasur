@@ -1,0 +1,11 @@
+.internationalContact {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+
+
+  &__country {
+    margin: auto;
+    min-width: 80vw;
+  }
+}

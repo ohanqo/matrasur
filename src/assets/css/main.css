@@ -1292,7 +1292,7 @@ li {
       .navbar-nav .dropdown-menu .dropdown-item:first-child {
         margin-top: 0; }
       .navbar-nav .dropdown-menu .dropdown-item:hover {
-        background-color: inherit; }
+        background-color: transparent; }
       .navbar-nav .dropdown-menu .dropdown-item:hover > span {
         color: #006EB9;
         transition: color 0.2s ease-in-out; }
@@ -2158,6 +2158,14 @@ li {
 
 .legals li > ul {
   margin: 1em 0; }
+
+.internationalContact {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around; }
+  .internationalContact__country {
+    margin: auto;
+    min-width: 80vw; }
 
 .animated {
   animation-duration: 1s;

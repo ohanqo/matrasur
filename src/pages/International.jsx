@@ -5,12 +5,40 @@ import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
+import messages from "../data/messages";
+
 class International extends Component {
+  state = { data: messages[Object.keys(messages)[0]] }
+
   componentDidMount() {
     this.props.location.searchedWord
       ? window.find(this.props.location.searchedWord)
       : window.scrollTo(0, 0);
   }
+
+  renderItems() {
+    return Object.keys(this.state.data).map((item, index) => {
+      if(item.startsWith("other.international") && item.includes(".item") && !item.includes(".subitem")) {
+        return(
+          <div className="internationalContact__country" key={index}>
+            <h4 className="internationalContact__title"><FormattedHTMLMessage id={item} defaultMessage="!JSON non-valide" /></h4>
+            {this.renderContactByCountry(item)}
+          </div>
+        )
+      }
+      return null;
+    })
+  }
+
+  renderContactByCountry(country) {
+    return Object.keys(this.state.data).map((item, index) => {
+      if(item.startsWith(country) && item.includes("subitem")) {
+        return <p className="internationalContact__item" key={index}><FormattedHTMLMessage id={item} defaultMessage="!JSON non-valide" /></p>
+      }
+      return null;
+    })
+  }
+
   render() {
     return (
       <div className="international animated fadeIn">
@@ -37,6 +65,9 @@ class International extends Component {
               />
             </p>
           </div>
+        </section>
+        <section className="internationalContact -bg--white -fh">
+          {this.renderItems()}
         </section>
         <Footer />
       </div>
