@@ -28,9 +28,9 @@ class Searchbox extends Component {
 
   findContent(query) {
     //HACK
-    window.find(query);    
+    if(window.find) { window.find(query); }
     this.toggleDisplaySearchForm();    
-    window.find(query);
+    if(window.find) { window.find(query); }
   }
 
   searchValue(e) {

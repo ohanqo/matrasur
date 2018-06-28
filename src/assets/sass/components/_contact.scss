@@ -20,8 +20,15 @@
     grid-gap: 0px 0px;
     min-height: 50vh;
     margin: auto;
+
     @include media-max($lg) {
       grid-template-columns: 1fr;
+    }
+
+    @media all and (-ms-high-contrast:none) {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
     }
   }
   &__card {
@@ -29,6 +36,12 @@
     &:hover img {
       opacity: .2;
       transition: all .3s ease-in-out;
+    }
+    @media all and (-ms-high-contrast:none) {
+      width: 100%;
+    }
+    @media all and (-ms-high-contrast:none) and (min-width: $lg) {
+      width: 50%;
     }
   }
   &__image {
@@ -69,10 +82,8 @@
   .contact {
     &__shortcut {
       display: block;
-      transition: all 0.3s ease-in-out;    
-      &:hover {
-        transform: scale3d(1.05, 1.05, 1);
-      }
+      transition: all 0.3s ease-in-out;
+      transform: scale3d(1, 1, 1);
     }
     &__cards {
       padding: 2.5%;  
@@ -80,6 +91,7 @@
     &__card {
       padding: 0;
       overflow: hidden;
+
       &:hover img {
         opacity: .2;
         transition: all .3s ease-in-out;

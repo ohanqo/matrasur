@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { FormattedHTMLMessage, FormattedMessage } from "react-intl";
 import LazyLoad from "react-lazyload";
 import { connect } from "react-redux";
-import { setLocale } from "../actions/locale";
-import PropTypes from "prop-types";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -102,17 +100,13 @@ class Documentation extends Component {
   }
 }
 
-Documentation.propTypes = {
-  setLocale: PropTypes.func.isRequired
-};
-
 function mapStateToProps(state) {
+  console.log(state)
   return {
     lang: state.locale.lang
   };
 }
 
 export default connect(
-  mapStateToProps,
-  { setLocale }
+  mapStateToProps
 )(Documentation);

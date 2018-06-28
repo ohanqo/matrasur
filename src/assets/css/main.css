@@ -1273,6 +1273,7 @@ li {
         box-shadow: 0px 10px 10px -10px #222222;
         opacity: 0.95; } }
     .navbar-nav .dropdown-menu hr {
+      margin: auto;
       padding: 10px 0;
       border-bottom: 0.06em solid #e3e3e3;
       margin-left: 1.5rem;
@@ -1777,12 +1778,23 @@ li {
   @media screen and (max-width: 992px) {
     .contact__cards {
       grid-template-columns: 1fr; } }
+  @media all and (-ms-high-contrast: none) {
+    .contact__cards {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center; } }
 
 .contact__card {
   overflow: hidden; }
   .contact__card:hover img {
     opacity: .2;
     transition: all .3s ease-in-out; }
+  @media all and (-ms-high-contrast: none) {
+    .contact__card {
+      width: 100%; } }
+  @media all and (-ms-high-contrast: none) and (min-width: 992px) {
+    .contact__card {
+      width: 50%; } }
 
 .contact__image {
   position: relative; }
@@ -1816,9 +1828,8 @@ li {
 @media all and (-ms-high-contrast: none) {
   .contact__shortcut {
     display: block;
-    transition: all 0.3s ease-in-out; }
-    .contact__shortcut:hover {
-      transform: scale3d(1.05, 1.05, 1); }
+    transition: all 0.3s ease-in-out;
+    transform: scale3d(1, 1, 1); }
   .contact__cards {
     padding: 2.5%; }
   .contact__card {
@@ -2140,9 +2151,11 @@ li {
     text-transform: uppercase;
     font-weight: 600;
     padding-bottom: 5%;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    width: 100%; }
   .hero__content--alternative p {
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    width: 100%; }
 
 .doc__section {
   background-color: #ffffff;
