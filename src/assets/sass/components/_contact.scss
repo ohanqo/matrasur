@@ -65,7 +65,7 @@
   }
 }
 
-@supports not (display: grid) {
+@media all and (-ms-high-contrast:none) {
   .contact {
     &__shortcut {
       display: block;

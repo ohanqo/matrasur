@@ -1813,7 +1813,7 @@ li {
 .contact__content {
   position: absolute; }
 
-@supports not (display: grid) {
+@media all and (-ms-high-contrast: none) {
   .contact__shortcut {
     display: block;
     transition: all 0.3s ease-in-out; }
