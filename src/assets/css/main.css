@@ -1476,6 +1476,9 @@ li {
     font-family: "Raleway", sans-serif;
     transform: translateY(-45%);
     z-index: 2; }
+    @media all and (-ms-high-contrast: none) {
+      .slideshow__content {
+        max-width: 100vw; } }
   .slideshow__title {
     display: inline-block;
     font-weight: 600; }
@@ -1665,7 +1668,14 @@ li {
           transform: translateY(-5vh);
           background: linear-gradient(to bottom, #006EB9, #222222) !important;
           transition-duration: 0.2s;
-          transition-timing-function: ease-out; }
+          transition-timing-function: ease-out; } }
+  @media screen and (min-width: 992px) and (-ms-high-contrast: active), screen and (min-width: 992px) and (-ms-high-contrast: none) {
+    .cardsbanner .banner .card:hover {
+      transition-duration: 0; } }
+      @media screen and (min-width: 992px) {
+          @supports (-ms-ime-align: auto) {
+            .cardsbanner .banner .card:hover {
+              min-height: auto; } }
           .cardsbanner .banner .card:hover .card__content {
             height: auto;
             max-height: none; } }
@@ -1685,7 +1695,12 @@ li {
 .box {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  -ms-flex-flow: column wrap; }
+  @media all and (-ms-high-contrast: none) {
+    .box {
+      margin-left: 0px;
+      margin-right: 0px; } }
   .box--bg {
     background-size: cover;
     background-image: url("../img/controle.jpg"); }
@@ -1798,6 +1813,50 @@ li {
 .contact__content {
   position: absolute; }
 
+@supports not (display: grid) {
+  .contact__shortcut {
+    display: block;
+    transition: all 0.3s ease-in-out; }
+    .contact__shortcut:hover {
+      transform: scale3d(1.05, 1.05, 1); }
+  .contact__cards {
+    padding: 2.5%; }
+  .contact__card {
+    padding: 0;
+    overflow: hidden; }
+    .contact__card:hover img {
+      opacity: .2;
+      transition: all .3s ease-in-out; }
+  .contact__image {
+    height: 45vh; }
+    .contact__image img {
+      width: 100%;
+      height: 100%;
+      opacity: .6; }
+  .contact__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #F1F2F5;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .contact__subtitle a {
+    color: #6AC7FF;
+    transition: color .2s ease-in-out; }
+    .contact__subtitle a:hover {
+      color: #F1F2F5;
+      text-decoration: none; }
+  .contact__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center; } }
+
 .map {
   display: flex; }
   .map__frame {
@@ -1823,6 +1882,9 @@ li {
     margin: auto;
     justify-content: center;
     align-items: center; }
+    @media all and (-ms-high-contrast: none) {
+      .footer__element {
+        margin: 0; } }
     @media screen and (max-width: 992px) {
       .footer__element {
         padding: 0 10%;
@@ -1871,7 +1933,6 @@ li {
         padding: 0; } }
   .footer__links {
     list-style: none;
-    padding-left: 5%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -1931,6 +1992,9 @@ li {
 
 .searchbox .searchbar__button {
   box-shadow: none; }
+  @media all and (-ms-high-contrast: none) {
+    .searchbox .searchbar__button {
+      height: 1em; } }
 
 .searchbox > .modal {
   display: block;
@@ -2066,6 +2130,9 @@ li {
   text-align: center;
   padding: 0 15%;
   overflow: hidden; }
+  @media all and (-ms-high-contrast: none) {
+    .hero__content--alternative {
+      max-width: 100%; } }
   @media screen and (max-width: 576px) {
     .hero__content--alternative {
       padding: 0 5%; } }
@@ -2166,6 +2233,9 @@ li {
   .internationalContact__country {
     margin: auto;
     min-width: 80vw; }
+    @media all and (-ms-high-contrast: none) {
+      .internationalContact__country {
+        width: 80vw; } }
 
 .animated {
   animation-duration: 1s;

@@ -7,5 +7,8 @@
   &__country {
     margin: auto;
     min-width: 80vw;
+    @media all and (-ms-high-contrast:none) {
+      width: 80vw;
+    }
   }
 }

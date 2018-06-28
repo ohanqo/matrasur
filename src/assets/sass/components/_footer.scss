@@ -22,6 +22,10 @@
     justify-content: center;
     align-items: center;
 
+    @media all and (-ms-high-contrast:none) {
+      margin: 0;
+    }
+
     @include media-max($lg) {
       padding: 0 10%;
       width: 100vw;
@@ -81,7 +85,6 @@
   }
   &__links {
     list-style: none;
-    padding-left: 5%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

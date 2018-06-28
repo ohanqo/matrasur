@@ -88,6 +88,14 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
           transition-duration: 0.2s;
           transition-timing-function: ease-out;
 
+          @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+            transition-duration: 0;
+          }
+
+          @supports (-ms-ime-align: auto) {
+            min-height: auto;
+          }
+
           & .card__content {
             height: auto;
             max-height: none;

@@ -29,6 +29,9 @@
     text-align: center;
 
     padding: 0 15%;
+    @media all and (-ms-high-contrast:none) {
+      max-width: 100%;
+    }
     @include media-max($sm) {
       padding: 0 5%;
     }

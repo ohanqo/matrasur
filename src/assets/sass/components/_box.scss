@@ -2,6 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  -ms-flex-flow: column wrap;
+  @media all and (-ms-high-contrast:none) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }  
   &--bg {
     background-size: cover;
     background-image: url("../img/controle.jpg");
