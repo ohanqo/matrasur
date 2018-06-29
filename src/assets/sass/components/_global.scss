@@ -33,6 +33,9 @@
     padding: 5% 0;
     & > span {
       width: 30%;
+      @include media-max($sm) {
+        display: none;
+      }
       & > img {
         width: 100%;
       }
@@ -46,6 +49,9 @@
   }
   &__text {
     width: 60%;
+    @include media-max($sm) {
+      width: 90%;
+    }
     & > h4 {
       font-weight: 600;
       text-transform: uppercase;

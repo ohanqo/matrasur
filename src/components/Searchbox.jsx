@@ -28,9 +28,13 @@ class Searchbox extends Component {
 
   findContent(query) {
     //HACK
-    if(window.find) { window.find(query); }
-    this.toggleDisplaySearchForm();    
-    if(window.find) { window.find(query); }
+    if (window.find) {
+      window.find(query);
+    }
+    this.toggleDisplaySearchForm();
+    if (window.find) {
+      window.find(query);
+    }
   }
 
   searchValue(e) {
@@ -76,13 +80,30 @@ class Searchbox extends Component {
 const Searchform = props => {
   const userLanguage = props.userLanguage;
   const messagesOfHisLanguage = messages[userLanguage];
+
+  function removeHTMLtags(keyValue) {
+    if (keyValue === null || keyValue === "") return false;
+    else keyValue = keyValue.toString();
+    return keyValue.replace(/<[^>]*>/g, "");
+  }
+
   return (
     <div className="searchbox">
       <button
         className="btn btn-outline-dark my-2 my-sm-0 button searchbar__button"
         onClick={props.toggleDisplaySearchForm}
       >
-        <svg className="" xmlns="http://www.w3.org/2000/svg" viewBox="5605.991 836 16.958 16.95"><path fill="#006EB9" data-name="Path 150" d="M5612.5 836a6.493 6.493 0 0 1 5.29 10.27l4.88 4.88a1.076 1.076 0 0 1-1.52 1.52l-4.88-4.88a6.5 6.5 0 1 1-3.77-11.79zm0 11a4.5 4.5 0 1 0-4.5-4.5 4.5 4.5 0 0 0 4.5 4.5z"></path></svg>
+        <svg
+          className=""
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="5605.991 836 16.958 16.95"
+        >
+          <path
+            fill="#006EB9"
+            data-name="Path 150"
+            d="M5612.5 836a6.493 6.493 0 0 1 5.29 10.27l4.88 4.88a1.076 1.076 0 0 1-1.52 1.52l-4.88-4.88a6.5 6.5 0 1 1-3.77-11.79zm0 11a4.5 4.5 0 1 0-4.5-4.5 4.5 4.5 0 0 0 4.5 4.5z"
+          />
+        </svg>
       </button>
       <div
         id="modal"
@@ -123,13 +144,16 @@ const Searchform = props => {
                       !key.endsWith(".url"))
                   )
                 ) {
-                  if ((key.includes(".subitem") && key.includes("navbar")) || key.includes("submenu.item")) {
+                  if (
+                    (key.includes(".subitem") && key.includes("navbar")) ||
+                    key.includes("submenu.item")
+                  ) {
                     return (
                       <Link
                         to={messagesOfHisLanguage[key + ".link"]}
                         key={index}
                       >
-                        {keyValue}
+                        {removeHTMLtags(keyValue)}
                       </Link>
                     );
                   } else {
@@ -145,9 +169,11 @@ const Searchform = props => {
                           <Link
                             to="/"
                             key={index}
-                            onClick={() => { props.findContent(keyValue) }}
+                            onClick={() => {
+                              props.findContent(keyValue);
+                            }}
                           >
-                            {keyValue}
+                            {removeHTMLtags(keyValue)}
                           </Link>
                         );
                       } else {
@@ -159,7 +185,7 @@ const Searchform = props => {
                               searchedWord: keyValue
                             }}
                           >
-                            {keyValue}
+                            {removeHTMLtags(keyValue)}
                           </Link>
                         );
                       }
@@ -172,9 +198,11 @@ const Searchform = props => {
                             <Link
                               to={link}
                               key={index}
-                              onClick={() => { props.findContent(keyValue) }}
+                              onClick={() => {
+                                props.findContent(keyValue);
+                              }}
                             >
-                              {keyValue}
+                              {removeHTMLtags(keyValue)}
                             </Link>
                           );
                         } else {
@@ -186,7 +214,7 @@ const Searchform = props => {
                                 searchedWord: keyValue
                               }}
                             >
-                              {keyValue}
+                              {removeHTMLtags(keyValue)}
                             </Link>
                           );
                         }

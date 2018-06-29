@@ -2074,6 +2074,9 @@ li {
   padding: 5% 0; }
   .global__section > span {
     width: 30%; }
+    @media screen and (max-width: 576px) {
+      .global__section > span {
+        display: none; } }
     .global__section > span > img {
       width: 100%; }
   .global__section:nth-child(even) {
@@ -2083,6 +2086,9 @@ li {
 
 .global__text {
   width: 60%; }
+  @media screen and (max-width: 576px) {
+    .global__text {
+      width: 90%; } }
   .global__text > h4 {
     font-weight: 600;
     text-transform: uppercase;
