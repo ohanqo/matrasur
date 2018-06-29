@@ -12,9 +12,11 @@ export default class Mention extends Component {
   };
 
   componentDidMount() {
-    this.props.location.searchedWord
+    if(window.find) {
+      this.props.location.searchedWord
       ? window.find(this.props.location.searchedWord)
       : window.scrollTo(0, 0);
+    }
   }
 
   displayContent() {

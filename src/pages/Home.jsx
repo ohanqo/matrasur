@@ -8,9 +8,11 @@ import Footer from "../components/Footer";
 
 class Home extends Component {
   componentDidMount() {
-    this.props.location.searchedWord
-      ? window.find(this.props.location.searchedWord)
-      : window.scrollTo(0, 0);
+    if (window.find) {
+      this.props.location.searchedWord
+        ? window.find(this.props.location.searchedWord)
+        : window.scrollTo(0, 0);
+    }
   }
 
   render() {

@@ -11,9 +11,11 @@ class International extends Component {
   state = { data: messages[Object.keys(messages)[0]] };
 
   componentDidMount() {
-    this.props.location.searchedWord
-      ? window.find(this.props.location.searchedWord)
-      : window.scrollTo(0, 0);
+    if (window.find) {
+      this.props.location.searchedWord
+        ? window.find(this.props.location.searchedWord)
+        : window.scrollTo(0, 0);
+    }
   }
 
   renderItems() {

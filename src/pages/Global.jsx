@@ -31,7 +31,10 @@ export default class Global extends Component {
       if (param !== undefined) {
         for (var key in prevState.data) {
           if (prevState.data.hasOwnProperty(key)) {
-            if (key.startsWith(pageRoot) && key.includes(period + param + period)) {
+            if (
+              key.startsWith(pageRoot) &&
+              key.includes(period + param + period)
+            ) {
               items[key] = prevState.data[key];
             }
           }
@@ -49,7 +52,11 @@ export default class Global extends Component {
   }
 
   componentDidMount() {
-    this.props.location.searchedWord ? window.find(this.props.location.searchedWord) : window.scrollTo(0, 0);
+    if (window.find) {
+      this.props.location.searchedWord
+        ? window.find(this.props.location.searchedWord)
+        : window.scrollTo(0, 0);
+    }
   }
 
   render() {
@@ -59,7 +66,7 @@ export default class Global extends Component {
       return (
         <div className="global -bg--white animated fadeIn">
           <Navbar />
-          <span className="shadow shadow--50"></span>
+          <span className="shadow shadow--50" />
           <section className="hero -fw -fh">
             <FormattedHTMLMessage
               id={this.state.itemsRoot + ".image"}
