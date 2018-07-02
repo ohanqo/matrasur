@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 import messages from "../data/messages";
+import { Object } from "core-js";
 
 export default class Global extends Component {
   constructor(props) {
@@ -91,18 +92,12 @@ export default class Global extends Component {
             {Object.keys(this.state.items).map((item, index) => {
               if (item.endsWith(".name")) {
                 const sectionItem = item.substr(0, item.length - 5);
-                const hasImage =
-                  sectionItem + ".image" in this.state.items ? true : false;
+                const hasPhotos =
+                  sectionItem + ".photos.item-1" in this.state.items
+                    ? true
+                    : false;
                 return (
                   <section className="global__section -fw -hh" key={index}>
-                    {hasImage && (
-                      <LazyLoad height={200} once>
-                        <FormattedHTMLMessage
-                          id={sectionItem + ".image"}
-                          defaultMessage="!JSON non-valide"
-                        />
-                      </LazyLoad>
-                    )}
                     <div className="global__text">
                       <h4>
                         <FormattedMessage
@@ -117,6 +112,29 @@ export default class Global extends Component {
                         />
                       </p>
                     </div>
+                    {hasPhotos && (
+                      <section className="global__photos">
+                        <div className="global__grid">
+                          {Object.keys(this.state.items).map((itm, idx) => {
+                            if (
+                              itm.includes(sectionItem) &&
+                              itm.includes(".photos.") &&
+                              itm.includes("item")
+                            ) {
+                              return (
+                                <div className="global__cell" key={idx}>
+                                  <FormattedHTMLMessage
+                                    id={itm}
+                                    defaultMessage="!JSON non-valide"
+                                  />
+                                </div>
+                              );
+                            }
+                            return null;
+                          })}
+                        </div>
+                      </section>
+                    )}
                   </section>
                 );
               } else return null;

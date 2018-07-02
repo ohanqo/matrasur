@@ -103,22 +103,22 @@ class Home extends Component {
               </div>
               <div className="box__grid">
                 <div className="box__border box__border--noleft -p-10">
-                  <h4 className="animated slideInRight">
+                  <h6 className="animated slideInRight">
                     <FormattedHTMLMessage
                       id="home.grid-1.text"
                       defaultMessage="!JSON non valide"
                     />
-                  </h4>
+                  </h6>
                 </div>
               </div>
               <div className="box__grid">
                 <div className="box__border box__border--noright -p-10">
-                  <h4 className="animated slideInLeft">
+                  <h6 className="animated slideInLeft">
                     <FormattedHTMLMessage
                       id="home.grid-2.text"
                       defaultMessage="!JSON non valide"
                     />
-                  </h4>
+                  </h6>
                 </div>
               </div>
               <div className="box__grid -bg--blue">
@@ -135,12 +135,12 @@ class Home extends Component {
               </div>
               <div className="box__grid">
                 <div className="box__border box__border--noleft -p-10">
-                  <h4 className="animated slideInRight">
+                  <h6 className="animated slideInRight">
                     <FormattedHTMLMessage
                       id="home.grid-3.text"
                       defaultMessage="!JSON non valide"
                     />
-                  </h4>
+                  </h6>
                 </div>
               </div>
             </div>

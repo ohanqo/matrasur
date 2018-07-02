@@ -12,19 +12,21 @@
     background-image: url("../img/controle.jpg");
   }
   &__text {
-    // font-size: $font--md;
     font-weight: $fontweight--md;
     & > * {
       font-family: -apple-system, system-ui, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
     }
-    @include media-max($md) {
-      // font-size: 16px;
+    & a {
+      color: $black;
+      transition: color .5s ease-in-out;
+      &:hover {
+        color: $white--light;
+      }
     }
   }
   &__title {
     right: 10vw;
     padding-bottom: 5%;
-    // font-size: $font--big;
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 4px;

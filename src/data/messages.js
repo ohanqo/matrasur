@@ -141,7 +141,7 @@ export default {
 
     // AUTRE
 
-    "navbar.item-5.title": "Autre",
+    "navbar.item-5.title": "Autres",
     "navbar.item-5.subitem-1.submenu": "Service client",
     "navbar.item-5.subitem-1.submenu.item-1": "Pièces détachées",
     "navbar.item-5.subitem-1.submenu.item-1.link": "/other/spareparts",
@@ -186,9 +186,8 @@ export default {
     /**
      * début slideshow
      */
-    "slideshow.title": "Solutions composites",
-    "slideshow.subtitle":
-      "Matrasur Composites est une société spécialisée dans la mise en oeuvre des matériaux composites.",
+    "slideshow.title": "Matrasur Composites",
+    "slideshow.subtitle": "Les solutions pour l'industrie des composites.",
 
     /**
      * fin slideshow
@@ -203,31 +202,31 @@ export default {
     "home.card-1.title": "Le procédé de projection",
     "home.card-1.text":
       "La projection de materiaux composites est une technique fréquemment utilisé …",
-    "home.card-1.button": "En apprendre plus",
+    "home.card-1.button": "+ d'informations",
     "home.card-1.link": "/processes/projection",
 
     "home.card-2.title": "Résines Polyester & Résines Acryliques",
     "home.card-2.text": "Ces deux matières premières sont …",
-    "home.card-2.button": "En apprendre plus",
+    "home.card-2.button": "+ d'informations",
     "home.card-2.link": "/materials/polyester-acrylic",
 
     "home.card-3.title": "Pièces détachées",
     "home.card-3.text":
       "Le service Pièces Détachées vous permet de bénéficier de nombreux avantages, comme par exemple la garantie constructeur, une logisitque rapide et un large stock de pièces.",
-    "home.card-3.button": "En apprendre plus",
+    "home.card-3.button": "+ d'informations",
     "home.card-3.link": "/other/spareparts",
 
     "home.card-4.title": "Documentation",
     "home.card-4.text":
       "Retrouvez l'ensemble des brochures de la société ainsi que la documentation des machines.",
-    "home.card-4.button": "Visiter cette page",
+    "home.card-4.button": "+ d'informations",
     "home.card-4.link": "/other/documentation",
 
     // fin Cards
 
     "home.section-1.title": "Notre histoire",
     "home.section-1.text":
-      "Matrasur Composites fournit le marché des composites depuis 1972 et fait partie des premières entreprises françaises à s’être spécialisée dans les équipements pour la mise en oeuvre des matériaux composites. Aujourd’hui, elle se distingue comme un leader dans le domaine. <br/><br/>Matrasur Composites est une entreprise de WHEELABRATOR Group. Après la fusion avec DISA Group en 2008, WHEELABRATOR est devenue une société de NORICAN Group.",
+      "Matrasur Composites fournit le marché des composites depuis 1972 et fait partie des premières entreprises françaises à s’être spécialisée dans les équipements pour la mise en oeuvre des matériaux composites. Aujourd’hui, elle se distingue comme un leader dans le domaine. <br/><br/>Matrasur Composites est une entreprise de <a href='https://www.wheelabratorgroup.com/fr-fr' alt='Lien vers le site du groupe WHEELABRATOR'>WHEELABRATOR Group</a>.",
 
     "home.section-2.title": "Notre triple vocation",
     "home.section-2.text":
@@ -388,38 +387,124 @@ export default {
     "processes.projection.subtitle":
       "Depuis une trentaine d’années, Matrasur Composites met sur le marché tous les systèmes de mise en œuvre de projection. Associant à chaque produit la technologie la plus adaptée, une vaste gamme de machines de projection est proposée, couvrant les besoins les plus variés.",
     "processes.projection.image":
-      "<img src='/assets/img/applicationPages/marine/marine.jpg' alt='Background' class='hero__image'/>",
+      "<img src='/assets/img/projection/projection.jpg' alt='Background' class='hero__image'/>",
     "processes.projection.section-1.name": "Projection de gelcoat",
     "processes.projection.section-1.text":
       "Fine et unique membrane de protection du stratifié, le gelcoat mérite toutes les attentions lors de son application. Nos machines couvrent les conditions d’application de projection de gelcoat les plus variées : petites, moyennes, grandes pièces, projection de plusieurs couleurs, travail en cabine ou sur chantier, application en manuel, automatique et robotique.",
-    "processes.projection.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-1":
+      "<img src='/assets/img/projection/gelcoat/projection_gelcoat_3.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-2":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_2.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-3":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_1.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-4":
+      "<img src='/assets/img/projection/gelcoat/projection_gelcoat_2.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-5":
+      "<img src='/assets/img/projection/gelcoat/projection_gelcoat_4.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-6":
+      "<img src='/assets/img/projection/gelcoat/projection_gelcoat_5.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-7":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_6.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-8":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_7.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-9":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_3.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-10":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_4.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-11":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_5.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-12":
+      "<img src='/assets/img/projection/gelcoat/logo_MVP_fr.jpg' alt='Image section'/>",
 
     "processes.projection.section-2.name": "Projection de résine",
     "processes.projection.section-2.text":
       "Les techniques de mélange en tête basse pression et les toutes dernières technologies de buse respectent l’opérateur et l’environnement, et apportent une productivité tout à fait spectaculaire. Matrasur Composites vous propose un large panel de machines de projection de résine adaptées aux tailles de pièces à réaliser et à la variété des résines disponibles sur le marché.",
-    "processes.projection.section-2.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-1":
+      "<img src='/assets/img/projection/résine/projection_resine_1.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-2":
+      "<img src='/assets/img/projection/résine/projection_resine_2.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-3":
+      "<img src='/assets/img/projection/résine/pistolet_projection_resine.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-4":
+      "<img src='/assets/img/projection/résine/machine_resine_1.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-5":
+      "<img src='/assets/img/projection/résine/machine_resine_2.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-6":
+      "<img src='/assets/img/projection/résine/machine_resine_3.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-7":
+      "<img src='/assets/img/projection/résine/machine_resine_5.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-8":
+      "<img src='/assets/img/projection/résine/logo_MVP_fr.jpg' alt='Image section'/>",
 
     "processes.projection.section-3.name":
       "Projection simultanée résine et fibre de verre",
     "processes.projection.section-3.text":
       "Une technique à la fois traditionnelle et moderne, la projection simultanée est déployée sur un vaste champ d’applications. Matrasur Composites propose des machines équipées d’une nouvelle génération de pompes pouvant couvrir une large plage de débits.",
-    "processes.projection.section-3.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-1":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_1.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-2":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_2.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-3":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_3.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-4":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_4.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-5":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_5.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-6":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_6.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-7":
+      "<img src='/assets/img/projection/fibre-résine/machine_resine_fibre_1.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-8":
+      "<img src='/assets/img/projection/fibre-résine/machine_resine_fibre_2.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-9":
+      "<img src='/assets/img/projection/fibre-résine/logo_MVP_fr.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-10":
+      "<img src='/assets/img/projection/fibre-résine/machine_resine_fibre_4.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-11":
+      "<img src='/assets/img/projection/fibre-résine/machine_resine_fibre_5.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-12":
+      "<img src='/assets/img/projection/fibre-résine/machine_resine_fibre_6.jpg' alt='Image section'/>",
 
     "processes.projection.section-4.name":
       "Projection de colles, mastics, et autres produits pâteux",
     "processes.projection.section-4.text":
       "Les colles, adhésifs, enduits et revêtements ont souvent besoin d’être projetés en couches régulières et uniformes et la viscosité est un facteur qui rend cette tâche difficile. Matrasur Composites a mis au point une série de solutions permettant de contourner ce problème et d’appliquer ces produits dans d’excellentes conditions. Des matières telles que polyester (y compris fibrés), polyuréthane, époxy, et silicone, entrent dans la liste des produits mis en œuvre par nos appareils.",
-    "processes.projection.section-4.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-1":
+      "<img src='/assets/img/projection/colle/projection_colle_1.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-2":
+      "<img src='/assets/img/projection/colle/projection_colle_2.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-3":
+      "<img src='/assets/img/projection/colle/machine_colle_1.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-4":
+      "<img src='/assets/img/projection/colle/machine_colle_2.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-5":
+      "<img src='/assets/img/projection/colle/projection_colle_3.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-6":
+      "<img src='/assets/img/projection/colle/projection_colle_4.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-7":
+      "<img src='/assets/img/projection/colle/machine_colle_3.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-8":
+      "<img src='/assets/img/projection/colle/machine_colle_4.jpg' alt='Image section'/>",
 
     "processes.projection.section-5.name": "Projection polyuréthane",
     "processes.projection.section-5.text":
       "Les mousses et élastomères polyuréthane appartiennent à des familles de résine très réactives. Cette caractéristique nécessite le recours à des matériels de grande précision.",
-    "processes.projection.section-5.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-1":
+      "<img src='/assets/img/projection/polyuréthane/projection_polyurethane_1.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-2":
+      "<img src='/assets/img/projection/polyuréthane/machine_polyurethane_1.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-3":
+      "<img src='/assets/img/projection/polyuréthane/projection_polyurethane_2.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-4":
+      "<img src='/assets/img/projection/polyuréthane/machine_polyurethane_2.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-5":
+      "<img src='/assets/img/projection/polyuréthane/projection_polyurethane_3.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-6":
+      "<img src='/assets/img/projection/polyuréthane/machine_polyurethane_3.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-7":
+      "<img src='/assets/img/projection/polyuréthane/logo_GAMA_fr.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-8":
+      "<img src='/assets/img/projection/polyuréthane/machine_polyurethane_4.jpg' alt='Image section'/>",
 
     "processes.projection.section-6.name.darker": "À propos de nos machines",
     "processes.projection.section-6.text.darker":
@@ -927,10 +1012,13 @@ export default {
     "other.international.image":
       "<img src='https://source.unsplash.com/random/?contacts' alt='International'/>",
     "other.international.item-1": "France",
-    "other.international.item-1.subitem-1": "John Doe: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
-    "other.international.item-1.subitem-2": "John Doe 2: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
+    "other.international.item-1.subitem-1":
+      "John Doe: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
+    "other.international.item-1.subitem-2":
+      "John Doe 2: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
     "other.international.item-2": "Allemagne",
-    "other.international.item-2.subitem-1": "John Doe: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
+    "other.international.item-2.subitem-1":
+      "John Doe: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
 
     /**
      * fin contact international
@@ -960,13 +1048,12 @@ export default {
      * fin other
      */
 
-
     /**
      * début page 404
      */
     "404.title": "404",
     "404.subtitle": "La page que vous cherchez n'est pas disponible.",
-    "404.image": "<img src='/assets/img/404.jpg'/>",
+    "404.image": "<img src='/assets/img/404.jpg'/>"
     /**
      * fin page 404
      */
@@ -1145,9 +1232,8 @@ export default {
     /**
      * début slideshow
      */
-    "slideshow.title": "Composite Solutions",
-    "slideshow.subtitle":
-      "Matrasur Composites is a company specialized in the implementation of composite materials.",
+    "slideshow.title": "Matrasur Composites",
+    "slideshow.subtitle": "Solutions for the composites industry.",
 
     /**
      * fin slideshow
@@ -1159,23 +1245,23 @@ export default {
     "home.card-1.title": "Projection process",
     "home.card-1.text":
       "The projection of composite materials is a technique frequently used...",
-    "home.card-1.button": "Learn more",
+    "home.card-1.button": "+ informations",
     "home.card-1.link": "/processes/projection",
 
     "home.card-2.title": "Polyester & Acrylic Resins",
     "home.card-2.text": "These two raw materials are …",
-    "home.card-2.button": "Learn more",
+    "home.card-2.button": "+ informations",
     "home.card-2.link": "/processes/projection",
 
     "home.card-3.title": "Spareparts",
     "home.card-3.text":
       "The Spare Parts service allows you to benefit from many advantages, such as the manufacturer's warranty, fast logistics and a large stock of parts.",
-    "home.card-3.button": "Learn more",
+    "home.card-3.button": "+ informations",
     "home.card-3.link": "/other/spareparts",
 
     "home.card-4.title": "Documentation",
     "home.card-4.text": "Find all company brochures and machine documentation.",
-    "home.card-4.button": "Visit this page",
+    "home.card-4.button": "+ informations",
     "home.card-4.link": "/other/documentation",
 
     // fin Cards
@@ -1352,33 +1438,119 @@ export default {
     "processes.projection.section-1.name": "Gelcoat Spray-up",
     "processes.projection.section-1.text":
       "This thin and unique layer of laminate deserves special attention when being applied. Our machine range covers a large variety of configurations to match your needs: small, medium and large part size outputs, single or multiple color configurations, interior or on site applications, manual or automated systems, including robotics.",
-    "processes.projection.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-1":
+      "<img src='/assets/img/projection/gelcoat/projection_gelcoat_3.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-2":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_2.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-3":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_1.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-4":
+      "<img src='/assets/img/projection/gelcoat/projection_gelcoat_2.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-5":
+      "<img src='/assets/img/projection/gelcoat/projection_gelcoat_4.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-6":
+      "<img src='/assets/img/projection/gelcoat/projection_gelcoat_5.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-7":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_6.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-8":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_7.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-9":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_3.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-10":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_4.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-11":
+      "<img src='/assets/img/projection/gelcoat/machine_gelcoat_5.jpg' alt='Image section'/>",
+    "processes.projection.section-1.photos.item-12":
+      "<img src='/assets/img/projection/gelcoat/logo_MVP_fr.jpg' alt='Image section'/>",
 
     "processes.projection.section-2.name": "Resin Spray-up",
     "processes.projection.section-2.text":
       "Low pressure spray-up technology with head mixture and the latest nozzle technologies are certainly the most performing and operator-friendly equipment for this application. Matrasur Composites offers machines with a wide variety of ratios that are compatible with the majority of resins present in the market.",
-    "processes.projection.section-2.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-1":
+      "<img src='/assets/img/projection/résine/projection_resine_1.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-2":
+      "<img src='/assets/img/projection/résine/projection_resine_2.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-3":
+      "<img src='/assets/img/projection/résine/pistolet_projection_resine.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-4":
+      "<img src='/assets/img/projection/résine/machine_resine_1.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-5":
+      "<img src='/assets/img/projection/résine/machine_resine_2.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-6":
+      "<img src='/assets/img/projection/résine/machine_resine_3.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-7":
+      "<img src='/assets/img/projection/résine/machine_resine_5.jpg' alt='Image section'/>",
+    "processes.projection.section-2.photos.item-8":
+      "<img src='/assets/img/projection/résine/logo_MVP_fr.jpg' alt='Image section'/>",
 
     "processes.projection.section-3.name": "Chopped Laminate",
     "processes.projection.section-3.text":
       "The spray-up of resin & fiberglass is both a traditional and modern technique that is nowadays employed in a great variety of applications. From a few square inches to large boats, our machines are designed for efficient application of chopped glass and resin offering the latest technologies of low pressure and low emissions associated with a new pumping system for a wider output range.",
-    "processes.projection.section-3.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-1":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_1.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-2":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_2.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-3":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_3.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-4":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_4.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-5":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_5.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-6":
+      "<img src='/assets/img/projection/fibre-résine/projection_resine_fibre_6.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-7":
+      "<img src='/assets/img/projection/fibre-résine/machine_resine_fibre_1.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-8":
+      "<img src='/assets/img/projection/fibre-résine/machine_resine_fibre_2.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-9":
+      "<img src='/assets/img/projection/fibre-résine/logo_MVP_fr.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-10":
+      "<img src='/assets/img/projection/fibre-résine/machine_resine_fibre_4.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-11":
+      "<img src='/assets/img/projection/fibre-résine/machine_resine_fibre_5.jpg' alt='Image section'/>",
+    "processes.projection.section-3.photos.item-12":
+      "<img src='/assets/img/projection/fibre-résine/machine_resine_fibre_6.jpg' alt='Image section'/>",
 
     "processes.projection.section-4.name":
       "Adhesives, Putties & High Viscosity Materials",
     "processes.projection.section-4.text":
       "Glues, adhesives and other high viscosity materials often need to be sprayed in uniform, regular layers. Their viscosity is one delicate factor to be taken into consideration. Matrasur Composites has designed a series of equipment solutions that help you apply such products under excellent conditions. Silicon and epoxy are examples of products for which we offer premium solutions.",
-    "processes.projection.section-4.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-1":
+      "<img src='/assets/img/projection/colle/projection_colle_1.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-2":
+      "<img src='/assets/img/projection/colle/projection_colle_2.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-3":
+      "<img src='/assets/img/projection/colle/machine_colle_1.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-4":
+      "<img src='/assets/img/projection/colle/machine_colle_2.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-5":
+      "<img src='/assets/img/projection/colle/projection_colle_3.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-6":
+      "<img src='/assets/img/projection/colle/projection_colle_4.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-7":
+      "<img src='/assets/img/projection/colle/machine_colle_3.jpg' alt='Image section'/>",
+    "processes.projection.section-4.photos.item-8":
+      "<img src='/assets/img/projection/colle/machine_colle_4.jpg' alt='Image section'/>",
 
     "processes.projection.section-5.name": "Polyurethane Spray-up",
     "processes.projection.section-5.text":
       "Polyurethane foams and coatings are very reactive materials which call for the need of highly accurate systems.",
-    "processes.projection.section-5.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-1":
+      "<img src='/assets/img/projection/polyuréthane/projection_polyurethane_1.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-2":
+      "<img src='/assets/img/projection/polyuréthane/machine_polyurethane_1.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-3":
+      "<img src='/assets/img/projection/polyuréthane/projection_polyurethane_2.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-4":
+      "<img src='/assets/img/projection/polyuréthane/machine_polyurethane_2.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-5":
+      "<img src='/assets/img/projection/polyuréthane/projection_polyurethane_3.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-6":
+      "<img src='/assets/img/projection/polyuréthane/machine_polyurethane_3.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-7":
+      "<img src='/assets/img/projection/polyuréthane/logo_GAMA_fr.jpg' alt='Image section'/>",
+    "processes.projection.section-5.photos.item-8":
+      "<img src='/assets/img/projection/polyuréthane/machine_polyurethane_4.jpg' alt='Image section'/>",
 
     "processes.projection.section-6.name.darker": "About our machines",
     "processes.projection.section-6.text.darker":
@@ -1888,12 +2060,12 @@ export default {
      * fin other
      */
 
-         /**
+    /**
      * début page 404
      */
     "404.title": "404",
     "404.subtitle": "Page Not Found",
-    "404.image": "<img src='/assets/img/404.jpg'/>",
+    "404.image": "<img src='/assets/img/404.jpg'/>"
     /**
      * fin page 404
      */

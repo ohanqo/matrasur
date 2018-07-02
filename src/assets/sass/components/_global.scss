@@ -28,6 +28,7 @@
   }
   &__section {
     display: flex;
+    flex-flow: column;
     justify-content: space-around;
     align-items: center;
     padding: 5% 0;
@@ -92,6 +93,31 @@
   &__wrapper {
     &:empty {
       display: none;
+    }
+  }
+
+
+  &__photos {
+    margin: auto;
+    max-width: 60%;
+    @include media-max($sm) {
+      max-width: 90%;
+    }
+  }
+  &__grid {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  &__cell {
+    width: 50%;
+
+    @include media-min($lg) {
+      width: calc(100% / 4);
+    }
+
+    & img {
+      width: 95%;
+      height: 95%;
     }
   }
 }

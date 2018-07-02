@@ -1709,6 +1709,11 @@ li {
     font-weight: 300; }
     .box__text > * {
       font-family: -apple-system, system-ui, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif; }
+    .box__text a {
+      color: #222222;
+      transition: color .5s ease-in-out; }
+      .box__text a:hover {
+        color: #ffffff; }
   .box__title {
     right: 10vw;
     padding-bottom: 5%;
@@ -1885,6 +1890,8 @@ li {
     display: flex;
     flex-flow: row wrap;
     justify-content: center; }
+  .footer__mail {
+    font-size: 20px; }
   .footer__element {
     width: 60vw;
     display: flex;
@@ -2069,6 +2076,7 @@ li {
 
 .global__section {
   display: flex;
+  flex-flow: column;
   justify-content: space-around;
   align-items: center;
   padding: 5% 0; }
@@ -2119,6 +2127,26 @@ li {
 
 .global__wrapper:empty {
   display: none; }
+
+.global__photos {
+  margin: auto;
+  max-width: 60%; }
+  @media screen and (max-width: 576px) {
+    .global__photos {
+      max-width: 90%; } }
+
+.global__grid {
+  display: flex;
+  flex-flow: row wrap; }
+
+.global__cell {
+  width: 50%; }
+  @media screen and (min-width: 992px) {
+    .global__cell {
+      width: calc(100% / 4); } }
+  .global__cell img {
+    width: 95%;
+    height: 95%; }
 
 .hero__image--alternative img {
   width: 100vw;
