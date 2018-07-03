@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
+import { Redirect, Link } from "react-router-dom";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
 
 import Navbar from "../components/Navbar";
@@ -95,6 +95,8 @@ export default class Global extends Component {
                   sectionItem + ".photos.item-1" in this.state.items
                     ? true
                     : false;
+                const hasLinks =
+                  sectionItem + ".links.item-1" in this.state.items ? true : false;
                 return (
                   <section className="global__section -fw -hh" key={index}>
                     <div className="global__text">
@@ -118,7 +120,7 @@ export default class Global extends Component {
                             if (
                               itm.includes(sectionItem) &&
                               itm.includes(".photos.") &&
-                              itm.includes("item")
+                              itm.includes(".item")
                             ) {
                               return (
                                 <div className="global__cell" key={idx}>
@@ -133,6 +135,30 @@ export default class Global extends Component {
                           })}
                         </div>
                       </section>
+                    )}
+                    {hasLinks && (
+                      <ul className="global__links">
+                        {Object.keys(this.state.items).map((i, y) => {
+                          if (
+                            i.includes(sectionItem) &&
+                            i.includes(".links") &&
+                            i.includes(".item") &&
+                            !i.endsWith(".text")
+                          ) {
+                            return (
+                              <li className="global__link" key={y}>
+                                <Link to={this.state.items[i]}>
+                                  <FormattedHTMLMessage
+                                    id={i + ".text"}
+                                    defaultMessage="!JSON non-valide"
+                                  />
+                                </Link>
+                              </li>
+                            );
+                          }
+                          return null;
+                        })}
+                      </ul>
                     )}
                   </section>
                 );
