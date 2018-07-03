@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import { FormattedMessage, FormattedHTMLMessage } from "react-intl";
-import LazyLoad from "react-lazyload";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";

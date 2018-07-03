@@ -103,7 +103,6 @@ class Documentation extends Component {
 }
 
 function mapStateToProps(state) {
-  console.log(state)
   return {
     lang: state.locale.lang
   };

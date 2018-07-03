@@ -64,68 +64,65 @@ export default {
 
     "navbar.item-4.title": "Nos machines",
     "navbar.item-4.subitem-1.submenu": "Machines de projection",
-    "navbar.item-4.subitem-1.submenu.item-1": "Projection de gelcoat",
+    "navbar.item-4.subitem-1.submenu.item-1": "Gelcoat",
     "navbar.item-4.subitem-1.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-1.submenu.item-2": "Projection de résines",
+    "navbar.item-4.subitem-1.submenu.item-2": "Résines",
     "navbar.item-4.subitem-1.submenu.item-2.link": "/other/formation",
     "navbar.item-4.subitem-1.submenu.item-3":
-      "Projection simultanée de résine et fibre de verre",
+      "Simultanée de résine et fibre de verre",
     "navbar.item-4.subitem-1.submenu.item-3.link": "/other/formation",
     "navbar.item-4.subitem-1.submenu.item-4":
-      "Projection des colles adhésifs, produits pâteux",
+      "Colles adhésifs, produits pâteux",
     "navbar.item-4.subitem-1.submenu.item-4.link": "/other/formation",
     "navbar.item-4.subitem-1.submenu.item-5":
-      "Projection des mousses et coating polyuréthanes",
+      "Mousses et coating polyuréthanes",
     "navbar.item-4.subitem-1.submenu.item-5.link": "/other/formation",
     "navbar.item-4.subitem-1.submenu.item-6":
-      "Projection automatique et robotique",
+      "Automatique et robotique",
     "navbar.item-4.subitem-1.submenu.item-6.link": "/other/formation",
 
     "navbar.item-4.subitem-2.submenu": "Machines d'injection coulée",
-    "navbar.item-4.subitem-2.submenu.item-1": "Injection RTM - RTMlight",
+    "navbar.item-4.subitem-2.submenu.item-1": "RTM - RTMlight",
     "navbar.item-4.subitem-2.submenu.item-1.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-2": "Infusion et Flex molding",
     "navbar.item-4.subitem-2.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-3": "Injection coulée époxies",
+    "navbar.item-4.subitem-2.submenu.item-3": "Époxy",
     "navbar.item-4.subitem-2.submenu.item-3.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-4":
-      "Injection coulée des bétons de résine",
+      "Bétons de résine",
     "navbar.item-4.subitem-2.submenu.item-4.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-5":
-      "Injection coulées des colles et adhésifs",
+      "Colles et adhésifs",
     "navbar.item-4.subitem-2.submenu.item-5.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-6":
-      "Injection coulées des produits pâteux",
+      "Produits pâteux",
     "navbar.item-4.subitem-2.submenu.item-6.link": "/other/documentation",
 
     "navbar.item-4.subitem-3.submenu": "Machines de coulée",
-    "navbar.item-4.subitem-3.submenu.item-1": "Coulée des résines polyester",
+    "navbar.item-4.subitem-3.submenu.item-1": "Résines polyester",
     "navbar.item-4.subitem-3.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-2": "Coulées des bétons de résine",
+    "navbar.item-4.subitem-3.submenu.item-2": "Bétons de résine",
     "navbar.item-4.subitem-3.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-3": "Coulée résine PU",
+    "navbar.item-4.subitem-3.submenu.item-3": "Résine PU",
     "navbar.item-4.subitem-3.submenu.item-3.link": "/other/documentation",
     "navbar.item-4.subitem-3.submenu.item-4":
-      "Coulée Injection des Silicones et RTV",
+      "Injection des Silicones et RTV",
     "navbar.item-4.subitem-3.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-5": "Coulée de colle et d'adhésifs",
+    "navbar.item-4.subitem-3.submenu.item-5": "Colle et d'adhésifs",
     "navbar.item-4.subitem-3.submenu.item-5.link": "/other/documentation",
 
-    "navbar.item-4.subitem-4.submenu": "Machine Polyurethane",
-    "navbar.item-4.subitem-4.submenu.item-1": "Gamme Matrafoam",
-    "navbar.item-4.subitem-4.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-4.submenu.item-2": "Gamme Matracoat",
-    "navbar.item-4.subitem-4.submenu.item-2.link": "/other/documentation",
+    "navbar.item-4.subitem-4": "Machine Polyurethane",
+    "navbar.item-4.subitem-4.link": "/other/documentation",
 
     "navbar.item-4.subitem-5.submenu": "Robots de projection et finition",
-    "navbar.item-4.subitem-5.submenu.item-1": "Robots panneaux plats",
+    "navbar.item-4.subitem-5.submenu.item-1": "Panneaux plats",
     "navbar.item-4.subitem-5.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-2": "Robots projection Robomat",
+    "navbar.item-4.subitem-5.submenu.item-2": "Projection Robomat",
     "navbar.item-4.subitem-5.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-3": "Robots projection RoboStrat",
+    "navbar.item-4.subitem-5.submenu.item-3": "Projection RoboStrat",
     "navbar.item-4.subitem-5.submenu.item-3.link": "/other/documentation",
     "navbar.item-4.subitem-5.submenu.item-4":
-      "Robots de detourage, perçage, fraisage et polissage",
+      "Detourage, perçage, fraisage et polissage",
     "navbar.item-4.subitem-5.submenu.item-4.link": "/other/documentation",
 
     "navbar.item-4.subitem-6.submenu": "Machine d'enroulement filamentaire",
@@ -133,7 +130,7 @@ export default {
       "Enroulement pour réservoir, silos et tubes",
     "navbar.item-4.subitem-6.submenu.item-1.link": "/other/documentation",
     "navbar.item-4.subitem-6.submenu.item-2":
-      "Enroulement multi'axes et multi'moules",
+      "Multi'axes et multi'moules",
     "navbar.item-4.subitem-6.submenu.item-2.link": "/other/documentation",
 
     "navbar.item-4.subitem-7": "Imprégnateurs de résine sur tissus",
@@ -525,22 +522,48 @@ export default {
     "processes.injection.section-1.name": "Machines d'injection RTM",
     "processes.injection.section-1.text":
       "De l’abréviation anglaise Resin Transfer Moulding, RTM est une technologie de transformation par injection basse pression. Assurant une cadence de production élevée, cette technique de moule fermé présente un rapport efficacité/coût des plus intéressants. Matrasur Composites intègre toute son expérience et l’évolution des technologies les plus récentes d'injection pour la mise en ouvre de vos projets RTM. Nos solutions prennent en compte les impératifs des pièces à fabriquer et l’environnement de production garantissant un succès rapide.",
-    "processes.injection.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.injection.section-1.photos.item-1":
+      "<img src='/assets/img/injection/rtm/injection_rtm_light_1.jpg' alt='Image section'/>",
+    "processes.injection.section-1.photos.item-2":
+      "<img src='/assets/img/injection/rtm/injection_rtm_light_2.jpg' alt='Image section'/>",
+    "processes.injection.section-1.photos.item-3":
+      "<img src='/assets/img/injection/rtm/logo_MVP_fr.jpg' alt='Image section'/>",
+    "processes.injection.section-1.photos.item-4":
+      "<img src='/assets/img/injection/rtm/injection_rtm_matrasur2.jpg' alt='Image section'/>",
 
     "processes.injection.section-2.name":
       "Machines d'injection/coulée de betons de résines",
     "processes.injection.section-2.text":
       "Les bétons de résine et 'solid surface' sont des matériaux de traitement grands consommateurs de main d’œuvre, posant des problèmes de propreté et un accès difficile à une qualité constante. Ces matériaux très chargés sont aussi des matériaux très abrasifs, la gamme HV 500 BN est prévue pour faire face à ces conditions difficiles.",
-    "processes.injection.section-2.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.injection.section-2.photos.item-1":
+      "<img src='/assets/img/injection/bétons-résine/betons_resine_1.jpg' alt='Image section'/>",
+    "processes.injection.section-2.photos.item-2":
+      "<img src='/assets/img/injection/bétons-résine/betons_resine_2.jpg' alt='Image section'/>",
+    "processes.injection.section-2.photos.item-3":
+      "<img src='/assets/img/injection/bétons-résine/betons_resine_3.jpg' alt='Image section'/>",
+    "processes.injection.section-2.photos.item-4":
+      "<img src='/assets/img/injection/bétons-résine/betons_resine_4.jpg' alt='Image section'/>",
 
     "processes.injection.section-3.name":
       "Machines d'injection pour résines epoxy",
     "processes.injection.section-3.text":
       "Les résines époxy offrent une incroyable diversité et voient leur usage tourné vers des fabrications particulières en perpétuelle évolution. La gamme de machines d'injection de Matrasur Composites s’adapte aux contraintes spécifiques des résines époxy et prend en compte des larges plages de ratios de dosage, de viscosités élevées, et une variété de températures d’utilisation. Pour les applications de faible quantité, Matrasur Composites propose sa gamme de machines d'injection économiques (prototypages, pièces unitaires, etc).",
-    "processes.injection.section-3.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-1":
+      "<img src='/assets/img/injection/epoxy/machine_a_verin_pousseur_code_pour_epoxy_a_chaud_maxi_350_degres.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-2":
+      "<img src='/assets/img/injection/epoxy/machine_de_dosage_par_pompes_a_engrenages.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-3":
+      "<img src='/assets/img/injection/epoxy/machine_matrasur_epoxy_1.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-4":
+      "<img src='/assets/img/injection/epoxy/machine_matrasur_epoxy_2.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-5":
+      "<img src='/assets/img/injection/epoxy/machine_matrasur_epoxy_3.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-6":
+      "<img src='/assets/img/injection/epoxy/microdosage_epoxy.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-7":
+      "<img src='/assets/img/injection/epoxy/tete_ de_melange_dynamique.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-8":
+      "<img src='/assets/img/injection/epoxy/tete_de_melange_statique.jpg' alt='Image section'/>",
 
     "processes.injection.section-4.name": "Machines d'infusion & flex molding",
     "processes.injection.section-4.text":
@@ -569,8 +592,14 @@ export default {
     "processes.thermoforming.section-1.name": "La gamme Matraform",
     "processes.thermoforming.section-1.text":
       "Matrasur Composites est le constructeur d'une gamme de machines destinées au thermoformage de grandes pièces: la gamme MATRAFORM. Le temps de changement de moule et des outillages est particulièrement faible, permettant ainsi un gain important de productivité dans le processus de thermoformage.",
-    "processes.thermoforming.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.thermoforming.section-1.photos.item-1":
+      "<img src='/assets/img/thermoformage/thermoformage_1.jpg' alt='Image section'/>",
+    "processes.thermoforming.section-1.photos.item-2":
+      "<img src='/assets/img/thermoformage/thermoformage_2.jpg' alt='Image section'/>",
+    "processes.thermoforming.section-1.photos.item-3":
+      "<img src='/assets/img/thermoformage/thermoformage_3.jpg' alt='Image section'/>",
+    "processes.thermoforming.section-1.photos.item-4":
+      "<img src='/assets/img/thermoformage/thermoformage_4.jpg' alt='Image section'/>",
     "processes.thermoforming.section-2.name.darker": "Pour les spas & jacuzzi",
     "processes.thermoforming.section-2.text.darker":
       "Pour des applications spécifiques comme la Production de Spas à partir de feuilles acryliques thermoformées d'une épaisseur de 4mm, Matrasur Composites fournit des thermoformeuses spécialement développées pour des pièces de grande dimension.<br/><br/>Afin de déterminer la machine la plus adaptée à votre production, nous avons besoin de connaître: les dimensions de vos pièces (hauteur, largeur, longueur et épaisseurs), la matière utilisée, et votre cadence de production.",
@@ -586,13 +615,18 @@ export default {
     "processes.winding.subtitle":
       "Matrasur Composites offre une gamme de machines d’enroulement filamentaire couvrant des besoins divers.",
     "processes.winding.image":
-      "<img src='https://source.unsplash.com/random/?sunshine' alt='Background' class='hero__image'/>",
+      "<img src='/assets/img/enroulement/hermex.jpg' alt='Background' class='hero__image'/>",
     "processes.winding.section-1.name": "Les méthodes d'enroulement",
     "processes.winding.section-1.text":
       "Chacune de nos machines se décline en multi-modes permettant de combiner, dans une épaisseur de paroi, un échantillonnage varié: voile de surface, liner d’étanchéité intérieur en mat de verre fil coupé, mat fil coupé et enroulement orthogonal, enroulement hélicoïdal, dépose de top coat.",
-    "processes.winding.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
-
+    "processes.winding.section-1.photos.item-1":
+      "<img src='/assets/img/enroulement/enroulement_filamentaire_1.jpg' alt='Image section'/>",
+    "processes.winding.section-1.photos.item-2":
+      "<img src='/assets/img/enroulement/enroulement_filamentaire_2.jpg' alt='Image section'/>",
+    "processes.winding.section-1.photos.item-3":
+      "<img src='/assets/img/enroulement/enroulement_filamentaire_3.jpg' alt='Image section'/>",
+    "processes.winding.section-1.photos.item-4":
+      "<img src='/assets/img/enroulement/enroulement_filamentaire_4.jpg' alt='Image section'/>",
     /**
      * fin enroulement filamentaire
      */
@@ -608,8 +642,12 @@ export default {
     "processes.impregnation.section-1.name": "Informations sur l'imprégnation",
     "processes.impregnation.section-1.text":
       "Cette technique permet des taux de renfort importants et constants pouvant aller jusqu’à 52%, avec un grammage de 830g/m² (minimum) à 1600g/m² (maximum), à une vitesse d’imprégnation de 3m/min. Les machines Matrasur Composites définies en 47, 60, 90, 127 et 150cm sont disponibles en configuration « embarqué sur pont roulant » permettant la dépose in situ, ou plus simplement, en configuration mobile au sol, utilisées à la façon de distributeur de tissus imprégnés.",
-    "processes.impregnation.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.impregnation.section-1.photos.item-1":
+      "<img src='/assets/img/impregnation/impregnateurs_1.jpg' alt='Image section'/>",
+    "processes.impregnation.section-1.photos.item-2":
+      "<img src='/assets/img/impregnation/impregnateurs_2.jpg' alt='Image section'/>",
+    "processes.impregnation.section-1.photos.item-3":
+      "<img src='/assets/img/impregnation/impregnateurs_3.jpg' alt='Image section'/>",
 
     /**
      * fin imprégnation
@@ -625,7 +663,10 @@ export default {
     "processes.panels.section-1.name": "Panneaux plats",
     "processes.panels.section-1.text":
       "A partir de votre cahier des charges précis, nous pouvons vous proposer un équipement adapté à votre secteur d’application (production de portes de réfrigérateurs, panneaux isothermes pour camions frigorifiques, panneaux sandwich pour maisons modulaires…) vous permettant de produire vos panneaux au rendement désiré.",
-
+    "processes.panels.section-1.photos.item-1":
+      "<img src='/assets/img/panneaux/panneaux_plats_1.jpg' alt='Image section'/>",
+    "processes.panels.section-1.photos.item-2":
+      "<img src='/assets/img/panneaux/panneaux_plats_2.jpg' alt='Image section'/>",
     /**
      * fin panneaux plats
      */
@@ -1114,64 +1155,61 @@ export default {
 
     "navbar.item-4.title": "Our machines",
     "navbar.item-4.subitem-1.submenu": "Spray-up units",
-    "navbar.item-4.subitem-1.submenu.item-1": "Gelcoat spray-up",
+    "navbar.item-4.subitem-1.submenu.item-1": "Gelcoat",
     "navbar.item-4.subitem-1.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-1.submenu.item-2": "Resin spray-up",
+    "navbar.item-4.subitem-1.submenu.item-2": "Resin",
     "navbar.item-4.subitem-1.submenu.item-2.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-3": "Chopped laminate spray-up units",
+    "navbar.item-4.subitem-1.submenu.item-3": "Chopped laminate",
     "navbar.item-4.subitem-1.submenu.item-3.link": "/other/formation",
     "navbar.item-4.subitem-1.submenu.item-4":
-      "Adhesives, putties and high viscosity spray-up units",
+      "Adhesives, putties and high viscosity",
     "navbar.item-4.subitem-1.submenu.item-4.link": "/other/formation",
     "navbar.item-4.subitem-1.submenu.item-5":
-      "Foams spray-up and polyurethane coating",
+      "Foams and polyurethane coating",
     "navbar.item-4.subitem-1.submenu.item-5.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-6": "Automatic spray-up and robotics",
+    "navbar.item-4.subitem-1.submenu.item-6": "Automatic and robotics",
     "navbar.item-4.subitem-1.submenu.item-6.link": "/other/formation",
 
     "navbar.item-4.subitem-2.submenu": "Injection casting units",
-    "navbar.item-4.subitem-2.submenu.item-1": "RTM Injection - RTMlight",
+    "navbar.item-4.subitem-2.submenu.item-1": "RTM - RTMlight",
     "navbar.item-4.subitem-2.submenu.item-1.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-2": "Infusion and Flex molding",
     "navbar.item-4.subitem-2.submenu.item-2.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-3":
-      "Injection casting of epoxy resins",
+      "Casting of epoxy resins",
     "navbar.item-4.subitem-2.submenu.item-3.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-4":
       "Injection casting for High Filler Content Resins",
     "navbar.item-4.subitem-2.submenu.item-4.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-5":
-      "Injection casting of adhesives and glues",
+      "Adhesives and glues",
     "navbar.item-4.subitem-2.submenu.item-5.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-6":
-      "Injection casting of pasty products",
+      "Pasty products",
     "navbar.item-4.subitem-2.submenu.item-6.link": "/other/documentation",
 
     "navbar.item-4.subitem-3.submenu": "Casting units",
-    "navbar.item-4.subitem-3.submenu.item-1": "Polyester resin casting",
+    "navbar.item-4.subitem-3.submenu.item-1": "Polyester resin",
     "navbar.item-4.subitem-3.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-2": "Casting of resin concretes",
+    "navbar.item-4.subitem-3.submenu.item-2": "Resin concretes",
     "navbar.item-4.subitem-3.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-3": "PU resin casting",
+    "navbar.item-4.subitem-3.submenu.item-3": "PU resin",
     "navbar.item-4.subitem-3.submenu.item-3.link": "/other/documentation",
     "navbar.item-4.subitem-3.submenu.item-4":
       "Silicone Injection and RTV Casting",
     "navbar.item-4.subitem-3.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-5": "Casting of glue and adhesives",
+    "navbar.item-4.subitem-3.submenu.item-5": "Glue and adhesives",
     "navbar.item-4.subitem-3.submenu.item-5.link": "/other/documentation",
 
-    "navbar.item-4.subitem-4.submenu": "Polyurethane units",
-    "navbar.item-4.subitem-4.submenu.item-1": "Matrafoam machine range",
-    "navbar.item-4.subitem-4.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-4.submenu.item-2": "Matracoat machine range",
-    "navbar.item-4.subitem-4.submenu.item-2.link": "/other/documentation",
+    "navbar.item-4.subitem-4": "Polyurethane units",
+    "navbar.item-4.subitem-4.link": "/other/documentation",
 
     "navbar.item-4.subitem-5.submenu": "Robots for spray-up and finishing",
-    "navbar.item-4.subitem-5.submenu.item-1": "Flat panels robots",
+    "navbar.item-4.subitem-5.submenu.item-1": "Flat panels",
     "navbar.item-4.subitem-5.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-2": "Robots projection Robomat",
+    "navbar.item-4.subitem-5.submenu.item-2": "Projection Robomat",
     "navbar.item-4.subitem-5.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-3": "Robots projection RoboStrat",
+    "navbar.item-4.subitem-5.submenu.item-3": "Projection RoboStrat",
     "navbar.item-4.subitem-5.submenu.item-3.link": "/other/documentation",
     "navbar.item-4.subitem-5.submenu.item-4":
       "Robots for cutting, drilling, milling and polishing",
@@ -1182,7 +1220,7 @@ export default {
       "Winding for tanks, silos and tubes",
     "navbar.item-4.subitem-6.submenu.item-1.link": "/other/documentation",
     "navbar.item-4.subitem-6.submenu.item-2":
-      "Multi'axis and multi'mould winding",
+      "Multi'axis and multi'mould",
     "navbar.item-4.subitem-6.submenu.item-2.link": "/other/documentation",
 
     "navbar.item-4.subitem-7": "Resin impregnators on fabrics",
@@ -1434,7 +1472,7 @@ export default {
     "processes.projection.subtitle":
       "During the last 30 years Matrasur Composites has supplied the market with high-quality, reliable, equipment for a remarkable number of applications.",
     "processes.projection.image":
-      "<img src='/assets/img/applicationPages/marine/marine.jpg' alt='Background' class='hero__image'/>",
+      "<img src='/assets/img/projection/projection.jpg' alt='Background' class='hero__image'/>",
     "processes.projection.section-1.name": "Gelcoat Spray-up",
     "processes.projection.section-1.text":
       "This thin and unique layer of laminate deserves special attention when being applied. Our machine range covers a large variety of configurations to match your needs: small, medium and large part size outputs, single or multiple color configurations, interior or on site applications, manual or automated systems, including robotics.",
@@ -1571,21 +1609,47 @@ export default {
     "processes.injection.section-1.name": "RTM injection machines",
     "processes.injection.section-1.text":
       "Abbreviation of Resin transfer Molding, RTM is a closed mould technology of low pressure injection. Allowing to reach high production rates, this technology provides one of the most interesting cost/efficiency ratios. Matrasur Composites incorporates its know-how and experience in the development and implementation of RTM projects. Our stand-alone machines and turn-key RTM systems take into account the requirements of the parts to be manufactured and the environement of the workshop for a successful installation. Matrasur Composites is able to offer RTM solutions that are adapted to your specific needs, including full automated lines when quantities are high enough.",
-    "processes.injection.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.injection.section-1.photos.item-1":
+      "<img src='/assets/img/injection/rtm/injection_rtm_light_1.jpg' alt='Image section'/>",
+    "processes.injection.section-1.photos.item-2":
+      "<img src='/assets/img/injection/rtm/injection_rtm_light_2.jpg' alt='Image section'/>",
+    "processes.injection.section-1.photos.item-3":
+      "<img src='/assets/img/injection/rtm/logo_MVP_fr.jpg' alt='Image section'/>",
+    "processes.injection.section-1.photos.item-4":
+      "<img src='/assets/img/injection/rtm/injection_rtm_matrasur2.jpg' alt='Image section'/>",
 
     "processes.injection.section-2.name":
       "Units for high filler content resins",
     "processes.injection.section-2.text":
       "When working with High Filler Content Resins and 'Solid Surface' it is usually hard to avoid handling operations, to keep the working area clean and achieve quality consistency.",
-    "processes.injection.section-2.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.injection.section-2.photos.item-1":
+      "<img src='/assets/img/injection/bétons-résine/betons_resine_1.jpg' alt='Image section'/>",
+    "processes.injection.section-2.photos.item-2":
+      "<img src='/assets/img/injection/bétons-résine/betons_resine_2.jpg' alt='Image section'/>",
+    "processes.injection.section-2.photos.item-3":
+      "<img src='/assets/img/injection/bétons-résine/betons_resine_3.jpg' alt='Image section'/>",
+    "processes.injection.section-2.photos.item-4":
+      "<img src='/assets/img/injection/bétons-résine/betons_resine_4.jpg' alt='Image section'/>",
 
     "processes.injection.section-3.name": "Injection units for epoxy resins",
     "processes.injection.section-3.text":
       "Epoxy resins are of a great diversity and their application fields evolve constanly. Matrasur Composites’ offers a series of injection machines that can be configured in terms of output, metering ratio, material viscocity and operating temperature to work with the large variety of epoxy resins.",
-    "processes.injection.section-3.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-1":
+      "<img src='/assets/img/injection/epoxy/machine_a_verin_pousseur_code_pour_epoxy_a_chaud_maxi_350_degres.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-2":
+      "<img src='/assets/img/injection/epoxy/machine_de_dosage_par_pompes_a_engrenages.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-3":
+      "<img src='/assets/img/injection/epoxy/machine_matrasur_epoxy_1.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-4":
+      "<img src='/assets/img/injection/epoxy/machine_matrasur_epoxy_2.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-5":
+      "<img src='/assets/img/injection/epoxy/machine_matrasur_epoxy_3.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-6":
+      "<img src='/assets/img/injection/epoxy/microdosage_epoxy.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-7":
+      "<img src='/assets/img/injection/epoxy/tete_ de_melange_dynamique.jpg' alt='Image section'/>",
+    "processes.injection.section-3.photos.item-8":
+      "<img src='/assets/img/injection/epoxy/tete_de_melange_statique.jpg' alt='Image section'/>",
 
     "processes.injection.section-4.name": "Infusion & Flex molding units",
     "processes.injection.section-4.text":
@@ -1614,8 +1678,14 @@ export default {
     "processes.thermoforming.section-1.name": "Matraform range",
     "processes.thermoforming.section-1.text":
       "Matrasur Composites is the manufacturer of the thermoforming machine range MATRAFORM for the thermoforming of large industrial parts (such as spas, etc) through the heating of acrylic sheets into the desired form.",
-    "processes.thermoforming.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.thermoforming.section-1.photos.item-1":
+      "<img src='/assets/img/thermoformage/thermoformage_1.jpg' alt='Image section'/>",
+    "processes.thermoforming.section-1.photos.item-2":
+      "<img src='/assets/img/thermoformage/thermoformage_2.jpg' alt='Image section'/>",
+    "processes.thermoforming.section-1.photos.item-3":
+      "<img src='/assets/img/thermoformage/thermoformage_3.jpg' alt='Image section'/>",
+    "processes.thermoforming.section-1.photos.item-4":
+      "<img src='/assets/img/thermoformage/thermoformage_4.jpg' alt='Image section'/>",
     "processes.thermoforming.section-2.name.darker": "For spas & jacuzzi",
     "processes.thermoforming.section-2.text.darker":
       "If you wish to know whether we offer the machine suited to your production, please contact us and send us the specifications of your parts (height, length, wide and thickness), the type of material used in the thermoforming process (acrylic sheets, etc) and your production rate (approximate quantities per day/week/month or year).",
@@ -1631,12 +1701,18 @@ export default {
     "processes.winding.subtitle":
       "Matrasur Composites offers a range of versatile filament winders for the manufacturing of various part types such as tubes, pipes and tanks, all of which can be manufactured with the help of our automatic systems (computer-controlled machines).",
     "processes.winding.image":
-      "<img src='https://source.unsplash.com/random/?sunshine' alt='Background' class='hero__image'/>",
+      "<img src='/assets/img/enroulement/hermex.jpg' alt='Background' class='hero__image'/>",
     "processes.winding.section-1.name": "Winding methods",
     "processes.winding.section-1.text":
       "Each machine can be configured in order to combine in one layer a varied sample of surface veil, chopper liners, chop-hoop / helical winding, top coat application…",
-    "processes.winding.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.winding.section-1.photos.item-1":
+      "<img src='/assets/img/enroulement/enroulement_filamentaire_1.jpg' alt='Image section'/>",
+    "processes.winding.section-1.photos.item-2":
+      "<img src='/assets/img/enroulement/enroulement_filamentaire_2.jpg' alt='Image section'/>",
+    "processes.winding.section-1.photos.item-3":
+      "<img src='/assets/img/enroulement/enroulement_filamentaire_3.jpg' alt='Image section'/>",
+    "processes.winding.section-1.photos.item-4":
+      "<img src='/assets/img/enroulement/enroulement_filamentaire_4.jpg' alt='Image section'/>",
 
     /**
      * fin enroulement filamentaire
@@ -1653,8 +1729,12 @@ export default {
     "processes.impregnation.section-1.name": "Impregnation information",
     "processes.impregnation.section-1.text":
       "Our impregnators allow to apply both high & constant reinforcement rates up to 52% with a weight/m² of 830 to 1600 gr/m² at a speed of 3 m/min, which represents an advantage compared to hand lay-up. Matrasur Composites’ impregnators are defined in 47, 60 90, 127 and 150 cm, and are available in different configurations: on bridge crane, mobile gantry, semi-gantry, portable and stationary.",
-    "processes.impregnation.section-1.image":
-      "<img src='https://source.unsplash.com/random/' alt='Image section'/>",
+    "processes.impregnation.section-1.photos.item-1":
+      "<img src='/assets/img/impregnation/impregnateurs_1.jpg' alt='Image section'/>",
+    "processes.impregnation.section-1.photos.item-2":
+      "<img src='/assets/img/impregnation/impregnateurs_2.jpg' alt='Image section'/>",
+    "processes.impregnation.section-1.photos.item-3":
+      "<img src='/assets/img/impregnation/impregnateurs_3.jpg' alt='Image section'/>",
 
     /**
      * fin imprégnation
@@ -1670,7 +1750,10 @@ export default {
     "processes.panels.section-1.name": "Flat panels",
     "processes.panels.section-1.text":
       "From your panel definition and specifications Matrasur Composites can study and supply equipment for the manufacture of flat panels for a variety of applications from insulated truck panels to sandwich panels for modular homes.",
-
+    "processes.panels.section-1.photos.item-1":
+      "<img src='/assets/img/panneaux/panneaux_plats_1.jpg' alt='Image section'/>",
+    "processes.panels.section-1.photos.item-2":
+      "<img src='/assets/img/panneaux/panneaux_plats_2.jpg' alt='Image section'/>",
     /**
      * fin panneaux plats
      */
