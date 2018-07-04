@@ -52,6 +52,17 @@
     align-items: center;
     overflow: hidden;
 
+    & > span {
+      width: inherit;
+      height: inherit;
+
+      & img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+      }
+    }
+
     &:nth-child(even) {
       justify-content: flex-start;
     }

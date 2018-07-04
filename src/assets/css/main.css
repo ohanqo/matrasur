@@ -1738,6 +1738,13 @@ button, html [type="button"], [type="reset"], [type="submit"] {
     display: flex;
     align-items: center;
     overflow: hidden; }
+    .box__grid > span {
+      width: inherit;
+      height: inherit; }
+      .box__grid > span img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover; }
     .box__grid:nth-child(even) {
       justify-content: flex-start; }
     .box__grid:nth-child(odd) {
