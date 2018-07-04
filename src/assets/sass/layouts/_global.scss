@@ -56,6 +56,10 @@ li { margin-bottom: 1em; }
 //   @include fluid-type($min_width, $max_width, $mod_1 *$min_font, $mod_2*$mod_2 *$min_font);
 // }
 
+button, html [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: none;
+}
+
 ::selection {
   background: $blue;
 }

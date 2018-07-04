@@ -1157,6 +1157,9 @@ hr {
 li {
   margin-bottom: 1em; }
 
+button, html [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: none; }
+
 ::selection {
   background: #006EB9; }
 
@@ -2287,6 +2290,61 @@ li {
     @media all and (-ms-high-contrast: none) {
       .internationalContact__country {
         width: 80vw; } }
+
+.press__years {
+  min-height: 20vh;
+  background: white; }
+  .press__years > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-flow: row wrap;
+    padding: 5%;
+    margin: 0; }
+
+.press__menu {
+  background-color: #D6D6D6;
+  min-height: 30vh;
+  display: none; }
+  .press__menu.show {
+    display: block;
+    padding: 5%; }
+  .press__menu .navbar-toggler {
+    float: right; }
+  .press__menu .bar {
+    background-color: #222222; }
+
+.press__year {
+  margin: 2.5% 5%; }
+
+.press__articles {
+  margin: 5% 0; }
+
+.press__article {
+  margin: 10% 0; }
+
+.article__title {
+  font-size: 24px; }
+
+.article__content {
+  font-size: 16px; }
+
+.article__button {
+  font-size: 20px;
+  text-decoration: none;
+  color: #F1F2F5;
+  background-color: #4AADE9;
+  border: none;
+  text-align: center;
+  letter-spacing: .5px;
+  padding: .5em;
+  transition: background-color .2s ease-out;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer; }
+  .article__button:hover {
+    background-color: #6AC7FF;
+    text-decoration: none;
+    color: #F1F2F5; }
 
 .animated {
   animation-duration: 1s;

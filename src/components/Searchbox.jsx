@@ -140,6 +140,7 @@ const Searchform = props => {
                     key.endsWith("submenu") ||
                     (key.includes("navbar") && key.includes(".title")) ||
                     key.includes("contact.subtitle") ||
+                    key.includes("other.press.years") ||
                     (key.startsWith("footer.social.icon") &&
                       !key.endsWith(".url"))
                   )

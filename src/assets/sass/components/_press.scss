@@ -1,0 +1,57 @@
+.press {
+  &__years {
+    min-height: 20vh;
+    background: white;
+    & > ul { 
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      flex-flow: row wrap;
+      padding: 5%;
+      margin: 0;
+    }
+  }
+  &__menu {
+    background-color: $white--dark;
+    min-height: 30vh;
+    display: none;
+    &.show { 
+      display: block;
+      padding: 5%;
+    }
+    & .navbar-toggler { float: right; }
+    & .bar { background-color: $black; }
+  }
+  &__year {
+    margin: 2.5% 5%;
+  }
+  &__articles { margin: 5% 0; }
+  &__article { margin: 10% 0; }
+}
+
+.article {
+  &__title {
+    font-size: 24px;
+  }
+  &__content {
+    font-size: 16px;
+  }
+  &__button {
+    font-size: 20px;
+    text-decoration: none;
+    color: $white;
+    background-color: $pale;
+    border: none;
+    text-align: center;
+    letter-spacing: .5px;
+    padding: .5em;
+    transition: background-color .2s ease-out;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    &:hover {
+      background-color: $pale--light;
+      text-decoration: none;
+      color: $white;
+    }
+  }
+}

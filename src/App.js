@@ -12,6 +12,7 @@ import NotFound from "./pages/NotFound";
 import Documentation from "./pages/Documentation";
 import International from "./pages/International";
 import Mention from "./pages/Mention";
+import Press from "./pages/Press";
 
 
 import "./assets/css/main.css";
@@ -27,6 +28,7 @@ class App extends Component {
             <Route path="/other/documentation" component={Documentation} />
             <Route path="/other/international" component={International} />
             <Route path="/other/legal" component={Mention} />                   
+            <Route path="/other/press" component={Press} />                   
             <Route path="/:domain/:param" component={Global} />
             <Route component={NotFound} />
           </Switch>

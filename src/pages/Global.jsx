@@ -6,7 +6,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 import messages from "../data/messages";
-import { Object } from "core-js";
 
 export default class Global extends Component {
   constructor(props) {

@@ -77,8 +77,7 @@ export default {
     "navbar.item-4.subitem-1.submenu.item-5":
       "Mousses et coating polyuréthanes",
     "navbar.item-4.subitem-1.submenu.item-5.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-6":
-      "Automatique et robotique",
+    "navbar.item-4.subitem-1.submenu.item-6": "Automatique et robotique",
     "navbar.item-4.subitem-1.submenu.item-6.link": "/other/formation",
 
     "navbar.item-4.subitem-2.submenu": "Machines d'injection coulée",
@@ -88,14 +87,11 @@ export default {
     "navbar.item-4.subitem-2.submenu.item-2.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-3": "Époxy",
     "navbar.item-4.subitem-2.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-4":
-      "Bétons de résine",
+    "navbar.item-4.subitem-2.submenu.item-4": "Bétons de résine",
     "navbar.item-4.subitem-2.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-5":
-      "Colles et adhésifs",
+    "navbar.item-4.subitem-2.submenu.item-5": "Colles et adhésifs",
     "navbar.item-4.subitem-2.submenu.item-5.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-6":
-      "Produits pâteux",
+    "navbar.item-4.subitem-2.submenu.item-6": "Produits pâteux",
     "navbar.item-4.subitem-2.submenu.item-6.link": "/other/documentation",
 
     "navbar.item-4.subitem-3.submenu": "Machines de coulée",
@@ -105,8 +101,7 @@ export default {
     "navbar.item-4.subitem-3.submenu.item-2.link": "/other/documentation",
     "navbar.item-4.subitem-3.submenu.item-3": "Résine PU",
     "navbar.item-4.subitem-3.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-4":
-      "Injection des Silicones et RTV",
+    "navbar.item-4.subitem-3.submenu.item-4": "Injection des Silicones et RTV",
     "navbar.item-4.subitem-3.submenu.item-4.link": "/other/documentation",
     "navbar.item-4.subitem-3.submenu.item-5": "Colle et d'adhésifs",
     "navbar.item-4.subitem-3.submenu.item-5.link": "/other/documentation",
@@ -129,8 +124,7 @@ export default {
     "navbar.item-4.subitem-6.submenu.item-1":
       "Enroulement pour réservoir, silos et tubes",
     "navbar.item-4.subitem-6.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-6.submenu.item-2":
-      "Multi'axes et multi'moules",
+    "navbar.item-4.subitem-6.submenu.item-2": "Multi'axes et multi'moules",
     "navbar.item-4.subitem-6.submenu.item-2.link": "/other/documentation",
 
     "navbar.item-4.subitem-7": "Imprégnateurs de résine sur tissus",
@@ -156,8 +150,14 @@ export default {
     "navbar.item-5.subitem-2.link": "/other/recruitment",
     "navbar.item-5.subitem-3": "Contacts internationals",
     "navbar.item-5.subitem-3.link": "/other/international",
-    "navbar.item-5.subitem-4": "Mentions légales",
-    "navbar.item-5.subitem-4.link": "/other/legal",
+    "navbar.item-5.subitem-4": "Innovations",
+    "navbar.item-5.subitem-4.link": "/other/innovations",
+    "navbar.item-5.subitem-5": "Évènements",
+    "navbar.item-5.subitem-5.link": "/other/events",
+    "navbar.item-5.subitem-6": "Presse",
+    "navbar.item-5.subitem-6.link": "/other/press",
+    "navbar.item-5.subitem-7": "Mentions légales",
+    "navbar.item-5.subitem-7.link": "/other/legal",
     /**
      * début footer
      */
@@ -223,7 +223,7 @@ export default {
 
     "home.section-1.title": "Notre histoire",
     "home.section-1.text":
-      "Matrasur Composites fournit le marché des composites depuis 1972 et fait partie des premières entreprises françaises à s’être spécialisée dans les équipements pour la mise en oeuvre des matériaux composites. Aujourd’hui, elle se distingue comme un leader dans le domaine. <br/><br/>Matrasur Composites est une entreprise de <a href='https://www.wheelabratorgroup.com/fr-fr' alt='Lien vers le site du groupe WHEELABRATOR'>WHEELABRATOR Group</a>.",
+      "Matrasur Composites fournit le marché des composites depuis 1972 et fait partie des premières entreprises françaises à s’être spécialisée dans les équipements pour la mise en oeuvre des matériaux composites. Aujourd’hui, elle se distingue comme un leader dans le domaine. <br/><br/>Matrasur Composites est une entreprise de <a href='https://www.wheelabratorgroup.com/fr-fr' target='_blank' alt='Lien vers le site du groupe WHEELABRATOR'>WHEELABRATOR Group</a>.",
 
     "home.section-2.title": "Notre triple vocation",
     "home.section-2.text":
@@ -1046,6 +1046,7 @@ export default {
      */
     /**
      * début contact international
+     * PAGE SPÉCIALE
      */
     "other.international.title": "Nos contacts à travers le monde",
     "other.international.subtitle":
@@ -1063,8 +1064,308 @@ export default {
 
     /**
      * fin contact international
+     * PAGE SPÉCIALE
+     */
+    /**
+     * début innovations
      */
 
+    "other.innovations.title": "Innovations",
+    "other.innovations.subtitle":
+      "Retrouvez toutes les innovations de Matrasur Composites",
+    "other.innovations.image":
+      "Retrouvez toutes les innovations de Matrasur Composites",
+    "other.innovations.section-1.name": "Agent de nettoyage sans solvant",
+    "other.innovations.section-1.text":
+      "Avec M CLEAN dites définitivement au revoir à l’acétone ! M CLEAN est un nettoyant aqueux, sans solvant et non polluant qui vous permettra d’éliminer tous les risques d’incendie et d’explosition dans vos ateliers. Pour en savoir plus, consulter la Fiche M CLEAN ci-contre.",
+    "other.innovations.section-1.photos.item-1":
+      "<img src='/assets/img/innovations/m_clean_innovation.jpg' alt='M Clean'/>",
+    "other.innovations.section-1.links.item-1": "/other/mclean",
+    "other.innovations.section-1.links.item-1.text":
+      "Lien vers la page du M Clean",
+
+    "other.innovations.section-2.name": "Machine pour resines thermoplastiques",
+    "other.innovations.section-2.text":
+      "Cette nouvelle technologie de machine est destinée à la coulée ou à l’injection de résines de la famille des thermoplatiques telles que Altuglas® RT 300 et similaires. Pour plus d'information, n’hésitez pas à contacter notre Service Commercial.",
+    "other.innovations.section-2.photos.item-1":
+      "<img src='/assets/img/innovations/machine_thermoplastiques.jpg' alt='Machine thermoplastique'/>",
+
+    /**
+     * fin innovations
+     */
+    /**
+     * début presse
+     * Page spéciale
+     */
+    "other.press.title": "Presse",
+    "other.press.subtitle": "Toute la presse à propos de Matrasur Composites",
+    "other.press.image":
+      "<img src='/assets/img/presse/presse.jpg' alt='Image de fond de la page presse'/>",
+    "other.press.years.year-1": "2006",
+    "other.press.years.year-1.item-1":
+      "Le premier tir du P80 ouvre la voie à Vega. (228 ko). Air & Cosmos, 8 Décembre 2006, n° 2056.",
+    "other.press.years.year-1.item-1.text":
+      "Le P80, premier étage de la fusée Vega doté d’une tuyère nouvelle génération, injectée en pression régulée par SPS-Bordeaux grâce à une machine Matrasur Composites de type Minimat, accomplit avec succès son premier essai.",
+    "other.press.years.year-1.item-1.link": "/articles/2006/a_P80_2006.pdf",
+    "other.press.years.year-1.item-2":
+      "Matrasur industrialise les composites. (764 ko). Industries & Technologies, Novembre 2006, n° 883.",
+    "other.press.years.year-1.item-2.text":
+      "Matrasur Composites propose une démarche complète d’industrialisation des composites et des outils adaptés à leur mise en œuvre; quelques exemples dans l’industrie : Poncin Yachts, Ibazur, Version Composites, Altor.",
+    "other.press.years.year-1.item-2.link":
+      "/articles/2006/a_matraindus_2006.pdf",
+    "other.press.years.year-1.item-3":
+      "Thomas Pools automatise la production de coques de piscines. (297 ko). L’Usine Nouvelle, 5 Octobre 2006, n° 3025.",
+    "other.press.years.year-1.item-3.text":
+      "Thomas Pools met en œuvre un procédé automatisé pour la production de coques de piscines en polyester avec une machine RTM Matrasur Composites. Le résultat : un gain de temps de fabrication (de 35 heures à 20 heures) pour une coque de 60 m2 et une qualité accrue.",
+    "other.press.years.year-1.item-3.link":
+      "/articles/2006/a_thomaspools_2006.pdf",
+    "other.press.years.year-1.item-4":
+      "Une offre dédiée aux composites. (571 ko). Plastic Flash n° 134, Juin 2006.",
+    "other.press.years.year-1.item-4.text":
+      "Bref aperçu sur l'offre très complète des équipements proposés par Matrasur Composites : lignes de production polyuréthane, machines RTM, robots industriels...",
+    "other.press.years.year-1.item-4.link":
+      "/articles/2006/plastic_flash_juin_ 2006.jpg",
+    "other.press.years.year-1.item-5":
+      "Du nouveau pour les Coques Polyester Ibiza. (669 ko). L'Activité Piscine n°37.",
+    "other.press.years.year-1.item-5.text":
+      "Clin d'oeil sur l'usine de production de coques polyester Ibiza dont le process de fabrication est assuré par des robots Matrasur Composites.",
+    "other.press.years.year-1.item-5.link":
+      "/articles/2006/activite_piscine_ibazur.pdf",
+    "other.press.years.year-1.item-6":
+      "Olivier Poncin peut-il gagner son pari ? (1087 ko). Voiles et Voiliers. Mai 2006, n° 423.",
+    "other.press.years.year-1.item-6.text":
+      "Un pari technologique : Pour la fabrication des coques de la gamme Harmony 38, Olivier Poncin a choisi de projeter avec un robot de type Robomat de Matrasur Composites, qui recopie le meilleur geste opérateur sur le moule identifié, une technique prometteuse.",
+    "other.press.years.year-1.item-6.link": "/articles/2006/a_poncin_2006.pdf",
+    "other.press.years.year-1.item-7":
+      "Le royaume de la fibre de verre. (986 ko). La Nouvelle République. 4 et 5 Février 2006.",
+    "other.press.years.year-1.item-7.text":
+      "Le pisciniste Ibazur inaugure sa nouvelle usine implantée dans l’Indre, basée sur une chaîne robotisée fournie par Matrasur Composites. L’usine prévoit la production de 5000 unités dans les 3 ans à venir.",
+    "other.press.years.year-1.item-7.link":
+      "/articles/2006/a_fibreverre_2006.pdf",
+
+    "other.press.years.year-2": "2007",
+    "other.press.years.year-2.item-1":
+      "Rencontre avec la société Version. (1187 ko). L'Activité Piscine n°44.",
+    "other.press.years.year-2.item-1.text":
+      "Rencontre avec un fabriquant d'escaliers acryliques pour piscines ayant modernisé de manière importante son outil de production avec l'acquisition d'un robot de projection de résine puis un robot de détourage, tous deux fournis par Matrasur Composites.",
+    "other.press.years.year-2.item-1.link":
+      "/articles/2007/activité_piscine_juin_matrasur.pdf",
+    "other.press.years.year-2.item-2":
+      "Les robots pulvérisateurs améliorent la qualité de surface. (1029 ko). L'Usine Nouvelle, 21 Juin, n° 3061, p.71.",
+    "other.press.years.year-2.item-2.text":
+      "Motivée par le soucis de sécuriser les opérateurs, d'assurer une qualité de surface et des délais de livraison constants, la société Version Composite a choisi de robotiser l'ensemble de sa ligne de production d'escaliers de piscines en faisant appel à Matrasur Composites. Cette solution a tenu ses promesses : le taux de non-conformité est passé de 5 à 1,5% et la production de 4000 à 6000 pièces avec 7 personnes de moins. Regard sur une installation entièrement robotisée, unique en France.",
+    "other.press.years.year-2.item-2.link":
+      "/articles/2007/usine_ nouvelle_juin_matrasur.pdf",
+    "other.press.years.year-2.item-3":
+      "Le robot qui change tout. (726 ko). Le Journal des Entreprises, 1er Juin 2007.",
+    "other.press.years.year-2.item-3.text":
+      "Avec l'arrivée du robot de projection Matrasur Composites, Version Composite, fabricant d'escaliers de piscine, a réussi a passer de 15 à 30 pièces fabriquées par jour et a contribué à améliorer les conditions de travail du personnel. L'ambition désormais : augmenter le chiffre d'affaires de 15 à 20% par an grâce à cette nouvelle technologie de fabrication.",
+    "other.press.years.year-2.item-3.link":
+      "/articles/2007/le_journal_des_entreprises_juin_matrasur.pdf",
+    "other.press.years.year-2.item-4":
+      "Version Composite. (858 ko). Plastilien, Juin 2007, n° 38, p. 64-65.",
+    "other.press.years.year-2.item-4.text":
+      "En 1998 l'entreprise Version Composite décide de fabriquer ses propres escaliers de piscine et entame une restructuration en ce sens. En 2006 elle s'est équipée d'une chaîne de fabrication robotisée fournie par Matrasur Composites, qui a permis de 'rendre le travail plus facile, d'être plus performant dans les délais de livraison et d'améliorer la production en qualité et en quantité' et qui a contribué à l'obtention de la certification ISO 9001.",
+    "other.press.years.year-2.item-4.link":
+      "/articles/2007/plastilien_juin_matrasur.pdf",
+    "other.press.years.year-2.item-5":
+      "Version achève son industrialisation. (1492 ko). Petites Affiches de La Loire, 30 Avril - 6 Mai 2007, n° 382.",
+    "other.press.years.year-2.item-5.text":
+      "D'entreprise artisanale à entreprise industrielle, Version Composite achève son industrialisation avec l'acquisition d'un robot de détourage qui vient compléter le robot de projection, tous deux fournis par Matrasur Composites, dans ce qui est devenu une ligne de fabrication d'escaliers de piscines entièrement robotisée.",
+    "other.press.years.year-2.item-5.link":
+      "/articles/2007/petites_affiches_delaloire_juin_matrasur.pdf",
+
+    "other.press.years.year-3": "2008",
+    "other.press.years.year-3.item-1":
+      "Composites Embrace Mass Production. (260 ko). Plastics Technology, Juillet 2008, p.64-65.",
+    "other.press.years.year-3.item-1.text":
+      "Article anglophone sur les nouvelles techniques utilisées par l'industrie des composites permettant la production en masse. Clin d'oeil en particulier sur la robotisation introduite par Matrasur Composites chez certains de ses clients.",
+    "other.press.years.year-3.item-1.link":
+      "/articles/2008/plastics_technology_july_2008.pdf",
+    "other.press.years.year-3.item-2":
+      "Que faire pour développer la fabrication des composites en Russie. (4,82 Mo). Composite World n°6, 2008 p.19. (Article en russe).",
+    "other.press.years.year-3.item-2.text":
+      "Matrasur Composites s’est tournée vers la robotisation des procédés de fabrication des pièces en composites afin d’améliorer les performances et la productivité des ateliers. Les opérations traditionnelles telles que : Projection d’agent démoulant, projection de gelcoat, mouillage de tissus, perçage, … peuvent désormais être robotisées…",
+    "other.press.years.year-3.item-2.link":
+      "/articles/2008/kompositny_mir_2008.pdf",
+    "other.press.years.year-3.item-3":
+      "JSC Traidenis - The Long Experience in Producing Wastewater Cleaning Equipment. (1,25 Mo). Lithuania Presents, Mai 2008, p.18-19.",
+    "other.press.years.year-3.item-3.text":
+      "Article anglophone relatant le succès d'un de nos clients, la société Traidenis en Lituanie, productrice d'équipements pour le traitement des eaux.",
+    "other.press.years.year-3.item-3.link":
+      "/articles/2008/lithuania_presents_may_2008.pdf",
+    "other.press.years.year-3.item-4":
+      "Recherche : Bilan des activités 2007. (948 ko). VitaMines, Journal Mensuel de l'Ecole des Mines de Douai, Mai 2008.",
+    "other.press.years.year-3.item-4.text":
+      "Bilan du Comité de Recherche qui s'est réuni le 18 mars pour parler des projets dévelopés en 2007, parmi lesquels figure le Robot de Placement de Fibres sèches en carbone mis en place en partenariat avec Matrasur Composites.",
+    "other.press.years.year-3.item-4.link":
+      "/articles/2008/vitamines_mai_2008.pdf",
+    "other.press.years.year-3.item-5":
+      "Robotics makes its mark in the Composite Industry. (572 Mo). Jec Composites Magazine N° 39, Avril 2008, p.32. (Article anglophone). ",
+    "other.press.years.year-3.item-5.text":
+      "La robotique déjà présente dans différents secteurs, perce enfin dans l'industrie des composites. En ce domaine, Matrasur Composites se distingue comme le pionnier. La projection robotisée de gelcoat, résine, résine et fibre de verre, la découpe robotisée de pièces...font partie de solutions devenues réalité.",
+    "other.press.years.year-3.item-5.link":
+      "/articles/2008/jec_magazine_robotics.pdf",
+
+    "other.press.years.year-4": "2009",
+    "other.press.years.year-4.item-1":
+      "Des stratégies et des équipes bien notées par l'AERES. (645 Ko). VitaMines, Journal Mensuel de l'Ecole des Mines de Douai, Août 2009.",
+    "other.press.years.year-4.item-1.text":
+      "Les rapports communiqués par L'Agence d'Evaluation de la Recherche et de l'Enseignement Supérieur (AERES) soulignent le dynamisme et la performance des partenariats de l'Ecole. Matrasur Composites est un partenaire actif de l'Unité de Recherche (UR) Matériaux, Procédés et Environnement (MPE) qui rassemble entre autres, le département 'Technologie des Polymères et Composites et Ingénierie Mécanique' (TPCIM).",
+    "other.press.years.year-4.item-1.link":
+      "/articles/2009/vitamines_aout_2009.pdf",
+    "other.press.years.year-4.item-2":
+      "RTM: Hot-Injection Machine for single-component resins. (1,79 Mo). JEC Composites Magazine, n° 47 March-April 2009.(Article en anglais)",
+    "other.press.years.year-4.item-2.text":
+      "Découvrez la machine d’injection RTM mono composant à chaud type MonoMat EPX-500 RTM spécialement adaptée pour des applications Composites Haute-Performance. Cette machine est équipée d’un vérin hydraulique…",
+    "other.press.years.year-4.item-2.link":
+      "/articles/2009/jec_magazine_47.pdf",
+    "other.press.years.year-4.item-3":
+      "Le Symposium International Technologies 'RTM/Infusion' pour les Composites 2009. (2,24 Mo). Composite World, N°1 2009 (22).(Article en Russe).",
+    "other.press.years.year-4.item-3.text":
+      "Lors du symposium organisé par le PPE les 4 et 5 février 2009, le spécialiste en équipements Matrasur Composites, a présenté un atelier de démonstration portant sur la fabrication d’une pièce avec le procédé RTM Light ...",
+    "other.press.years.year-4.item-3.link":
+      "/articles/2009/composite_world_2009.pdf",
+    "other.press.years.year-4.item-4":
+      "Les dernières innovations en matière de composites RTM. (1,94 Mo). Le Républicain Lorrain, 5 Février 2009.",
+    "other.press.years.year-4.item-4.text":
+      "A l'occasion du 6ème Symposium International organisé à Saint-Avold par le Pôle de Plasturgie de l'Est (PPE), des industriels venus de tout horizon (aéronautique, nautisme, automobile, etc.) se retrouvent pour échanger leur expérience. Matrasur Composites, leader sur le marché français des équipements pour les composites, a présenté son savoir-faire dans ce domaine en participant à un atelier de démonstration.",
+    "other.press.years.year-4.item-4.link":
+      "/articles/2009/le_republicain_lorrain_2009.pdf",
+
+    "other.press.years.year-5": "2010",
+    "other.press.years.year-5.item-1":
+      "Sustainable, constant-quality production : Matrasur Composites takes up the challenge of 'zero-emission' production. (61 Ko). FAPU, May 2010. (Article Anglophone).",
+    "other.press.years.year-5.item-1.text":
+      "Comment offrir aux entreprises des produits concurrentiels de qualité ? Comment moderniser une entreprise dans l'industrie des composites tout en répondant aux nouvelles exigences de développement durable ? Matrasur Composites propose des solutions…",
+    "other.press.years.year-5.item-1.link": "/articles/2010/fapu_may_2010.pdf",
+    "other.press.years.year-5.item-2":
+      "Robotic systems for composite production : No longer a myth but a reality (825 ko). Composite Consulting. April 2010. (Article en russe).",
+    "other.press.years.year-5.item-2.text": " ",
+    "other.press.years.year-5.item-2.link":
+      "/articles/2010/jec_composites_show_2010.pdf",
+    "other.press.years.year-5.item-3":
+      "Le Vent Show des composites. (89 Ko). Plastiques & Caoutchoucs, Avril 2010.",
+    "other.press.years.year-5.item-3.text":
+      "Spécialiste des composites, Matrasur Composites propose à ses clients des solutions d’industrialisation clé-en-main.",
+    "other.press.years.year-5.item-3.link":
+      "/articles/2010/plastiques_et_caoutchouc_avril_2010.pdf",
+    "other.press.years.year-5.item-4":
+      "Concurrence: Matrasur Composites modernise les outils. (34 Ko). Le Marin, Avril 2010.",
+    "other.press.years.year-5.item-4.text":
+      "Matrasur Composites a des liens historiques avec la construction nautique depuis 1972. Dans cette industrie comme dans d’autres, Matrasur Composites propose à ses clients de les aider à repenser et à moderniser leur outil de production.",
+    "other.press.years.year-5.item-4.link":
+      "/articles/2010/le_marin_avril_2010.pdf",
+    "other.press.years.year-5.item-5":
+      "Reinforced Plastics China. (64 Ko). Technology, Marzo 2010. (Article en chinois).",
+    "other.press.years.year-5.item-5.text": " ",
+    "other.press.years.year-5.item-5.link":
+      "/articles/2010/reinforced_plastics_ china_march_2010.pdf",
+    "other.press.years.year-5.item-6":
+      "Matrasur Composites ofrece nuevas soluciones industriales con su taller de producción 0 emisiones. (457 Ko). Interempresas, Marzo 2010. (Article en espagnol).",
+    "other.press.years.year-5.item-6.text":
+      "¿Cómo anticipar las exigencias con respecto al medio ambiente y garantizar el cumplimiento de las normas para un futuro perenne?",
+    "other.press.years.year-5.item-6.link":
+      "/articles/2010/interempresas_marzo_2010.pdf",
+    "other.press.years.year-5.item-7":
+      "Matrasur Composites reléve le challenge du zéro émission. (31 Ko). Omnexus, Mars 2010 (Article Anglophone).",
+    "other.press.years.year-5.item-7.text":
+      "Comment préserver et développer votre entreprise? Un exemple d'une entreprise de fabrication de piscines.",
+    "other.press.years.year-5.item-7.link":
+      "/articles/2010/omnexus_march_2010.pdf",
+    "other.press.years.year-5.item-8":
+      "Composites : Comment produire durablement en France. (39 Ko). Techniques de l'Ingénieur, Mars 2010. ",
+    "other.press.years.year-5.item-8.text":
+      "Faire face à la concurrence mondiale sans délocaliser? Comment retrouver de la compétitivité sur le sol français ? La réponse de Matrasur Composites.",
+    "other.press.years.year-5.item-8.link":
+      "/articles/2010/techniques_ingenieur_mars_2010.pdf",
+    "other.press.years.year-5.item-9":
+      "Matrasur Composites aide à produire durablement en France. (57 Ko). Mach'Pro, Mars 2010. ",
+    "other.press.years.year-5.item-9.text":
+      "Des nouvelles solutions industrielles pour une production compétitive et respectueuse des réglementations environnementales.",
+    "other.press.years.year-5.item-9.link":
+      "/articles/2010/machpro_nr_902_mars_2010.pdf",
+    "other.press.years.year-5.item-10":
+      "JEC Composites Show 2010 on 13-15 April. (56 Ko). Indian Textile Journal, Février 2010 (Article Anglophone). ",
+    "other.press.years.year-5.item-10.text":
+      "L’automatisation des process : thème principal du salon JEC Composites 2010. Matrasur Composites s’inscrit dans cette démarche en proposant des solutions pour l’industrialisation des ateliers composites.",
+    "other.press.years.year-5.item-10.link":
+      "/articles/2010/indian_textile_journal_february_2010.pdf",
+    "other.press.years.year-5.item-11":
+      "Composites - Le zéro émission est possible. (41,3 Ko). Déchet.com, Février 2010. ",
+    "other.press.years.year-5.item-11.text":
+      "La production réalisée en moule ouvert occasionne des émissions de COV importantes. Ainsi, la création de zones en vase clos, dont le fonctionnement est essentiellement assuré par des machines robotisées, permet de maintenir les salariés à l’écart des zones à risques.",
+    "other.press.years.year-5.item-11.link":
+      "/articles/2010/dechetcom_fevrier_2010.pdf",
+
+    "other.press.years.year-6": "2011",
+    "other.press.years.year-6.item-1":
+      "Il veut concurrencer l'huître d'Atlantique. (190 Ko). Le parisien, lundi 26 décembre 2011, page 10.",
+    "other.press.years.year-6.item-1.text":
+      "L'histoire d'un conchyliculteur de l'Hérault qui a fait le pari de concurrencer l'huître d'Atlantique. Il a fait confiance à Matrasur Composites qui a développé pour lui une machine de micro-dosage permettant de coller des naissains d'huîtres sur des barres de palétuviers qu'il remonte régulièrement afin de reproduire artificiellement le cycle des marées.",
+    "other.press.years.year-6.item-1.link": "/articles/2011/medithau_2011.pdf",
+    "other.press.years.year-6.item-2":
+      "Megatrends Push for Composites Market. (1,21 Mo). Plastics Rubber Asia, Décembre 2011, pages 18-19. (Article Anglophone). ",
+    "other.press.years.year-6.item-2.text":
+      "Le marché des Composites en Asie ne cesse de se développer. Le Salon JEC ASIA à Singapour a regroupé des acteurs majeurs de cette industrie dont certains ont été récompensés par le 'Innovations Awards 2011', notamment Matrasur Composites dans la catégorie « Automation ».",
+    "other.press.years.year-6.item-2.link":
+      "/articles/2011/plastics_rubber_asia_2011.pdf",
+    "other.press.years.year-6.item-3":
+      "Jec Asia Innovation Awards 2011 for Groundbreaking Composites Applications Announced. (82 Ko). TechTex India (www.bcg.in), Oct-Dec 2011, pages 42-43. (Article Anglophone).",
+    "other.press.years.year-6.item-3.text":
+      "Frédérique Mutel, Présidente et CEO de JEC Group présente les gagnants du Prix de l'Innovation 2011 décerné à 9 entreprises dans 9 catégories différentes dont Matrasur Composites.",
+    "other.press.years.year-6.item-3.link":
+      "/articles/2011/tech_tex_india_2011.pdf",
+    "other.press.years.year-6.item-4":
+      "Congratulations to the 2011 Winners. (174 Ko). Jec Composites Innovation Awards Winners 2011, October 2011, page 6.",
+    "other.press.years.year-6.item-4.text":
+      "Matrasur Composites a gagné le prix de l'innovation 2011 dans la catégorie «Automatisation» avec son robot de projection unique, capable de reproduire le geste humain, ROBOMAT.",
+    "other.press.years.year-6.item-4.link":
+      "/articles/2011/jec_awards_2011.pdf",
+    "other.press.years.year-6.item-5":
+      "Automating Swimming Pool Production. (734 Ko). Composites World, August 2011, pages 34-39. (Article Anglophone).",
+    "other.press.years.year-6.item-5.text":
+      "Success story : L'histoire d'un producteur de piscines français qui nous a fait confiance et a décidé de s'industrialiser.",
+    "other.press.years.year-6.item-5.link":
+      "/articles/2011/automating_swimming_pool_composites_world_august_2011.pdf",
+    "other.press.years.year-6.item-6":
+      "Matrasur take multi-functional robot concept to market. (202 Ko). Netcomposites.com , Aôut 2011, (Article Anglophone).",
+    "other.press.years.year-6.item-6.text":
+      "Matrasur Composites lance un robot unique capable de reproduire tous les mouvements de l'opérateur pendant la phase de programmation.",
+    "other.press.years.year-6.item-6.link":
+      "/articles/2011/net_composites_august_2011.pdf",
+
+    "other.press.years.year-7": "2012",
+    "other.press.years.year-7.item-1":
+      "JEC Americas 2012: An inaugural session beyond expections. (1,2 Mo). Jec Composites Magazine No. 77, Déc 2012, p. 12-13. (Article en anglais).",
+    "other.press.years.year-7.item-1.text":
+      "L'inauguration du salon JEC Americas à Boston, USA s'est traduit par un véritable un succès au-delà des attentes.",
+    "other.press.years.year-7.item-1.link":
+      "/articles/2012/jec_magazine_december_2012.pdf",
+    "other.press.years.year-7.item-2":
+      "ABCol começa a representar a Matrasur Composites, produtora de robôs para automatizaçao de linha de produçao. (232 Ko). Feira e Congresso Internacionais de Composites, Poliuretano e Plasticos de Engenharia, Nov 2012. (Article en Brésilien). ",
+    "other.press.years.year-7.item-2.text":
+      "Matrasur Composites a participé pour la première fois au salon FEIPLAR qui a eu lieu à Sao Paulo, au Brésil avec son partenaire, la société ABCol. A cette occasion, nous avons exposé nos solutions robotiques pour l’automatisation des lignes de production de pièces composites.",
+    "other.press.years.year-7.item-2.link":
+      "/articles/2012/feiplar_feira_2012.pdf",
+    "other.press.years.year-7.item-3":
+      "Nyetablering i komposittbransjen. (379 Ko). Plastforum No. 3, mai 2012, p. 38. (Article en Norvégien).",
+    "other.press.years.year-7.item-3.text":
+      "L'histoire de notre partenaire commercial en Norvège; un spécialiste dans les équipments pour les composites, la société ROSSELAND AS.",
+    "other.press.years.year-7.item-3.link":
+      "/articles/2012/plastforum_3_may_2012.jpg",
+
+    "other.press.years.year-8": "2013",
+    "other.press.years.year-8.item-1":
+      "Elium, le composite thermoplastique d'Arkema (342 ko). Plastique Flash, Avril-Mai 2014, p. 15. ",
+    "other.press.years.year-8.item-1.text":
+      "Matrasur Composites a mis au point en association avec Arkema, l'équipementier Magnus Venus Produtcs et le Pôle de Plasturgie de l'Est, une machine optimisée pour l'injection et l'infusion de la nouvelle gamme de résines thermoplastiques, lancée en 2013 par le groupe Arkema sous la marque Elium.",
+    "other.press.years.year-8.item-1.link":
+      "/articles/2013/arkema_matrasur_elium_2014.jpg",
+    /**
+     * fin presse
+     * page spéciale
+     */
     /**
      * début mentions légales
      */
@@ -1164,8 +1465,7 @@ export default {
     "navbar.item-4.subitem-1.submenu.item-4":
       "Adhesives, putties and high viscosity",
     "navbar.item-4.subitem-1.submenu.item-4.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-5":
-      "Foams and polyurethane coating",
+    "navbar.item-4.subitem-1.submenu.item-5": "Foams and polyurethane coating",
     "navbar.item-4.subitem-1.submenu.item-5.link": "/other/formation",
     "navbar.item-4.subitem-1.submenu.item-6": "Automatic and robotics",
     "navbar.item-4.subitem-1.submenu.item-6.link": "/other/formation",
@@ -1175,17 +1475,14 @@ export default {
     "navbar.item-4.subitem-2.submenu.item-1.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-2": "Infusion and Flex molding",
     "navbar.item-4.subitem-2.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-3":
-      "Casting of epoxy resins",
+    "navbar.item-4.subitem-2.submenu.item-3": "Casting of epoxy resins",
     "navbar.item-4.subitem-2.submenu.item-3.link": "/other/documentation",
     "navbar.item-4.subitem-2.submenu.item-4":
       "Injection casting for High Filler Content Resins",
     "navbar.item-4.subitem-2.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-5":
-      "Adhesives and glues",
+    "navbar.item-4.subitem-2.submenu.item-5": "Adhesives and glues",
     "navbar.item-4.subitem-2.submenu.item-5.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-6":
-      "Pasty products",
+    "navbar.item-4.subitem-2.submenu.item-6": "Pasty products",
     "navbar.item-4.subitem-2.submenu.item-6.link": "/other/documentation",
 
     "navbar.item-4.subitem-3.submenu": "Casting units",
@@ -1219,8 +1516,7 @@ export default {
     "navbar.item-4.subitem-6.submenu.item-1":
       "Winding for tanks, silos and tubes",
     "navbar.item-4.subitem-6.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-6.submenu.item-2":
-      "Multi'axis and multi'mould",
+    "navbar.item-4.subitem-6.submenu.item-2": "Multi'axis and multi'mould",
     "navbar.item-4.subitem-6.submenu.item-2.link": "/other/documentation",
 
     "navbar.item-4.subitem-7": "Resin impregnators on fabrics",
@@ -1244,8 +1540,14 @@ export default {
     "navbar.item-5.subitem-2.link": "/other/recruitment",
     "navbar.item-5.subitem-3": "International contacts",
     "navbar.item-5.subitem-3.link": "/other/international",
-    "navbar.item-5.subitem-4": "Legal mentions",
-    "navbar.item-5.subitem-4.link": "/other/legal",
+    "navbar.item-5.subitem-4": "Innovations",
+    "navbar.item-5.subitem-4.link": "/other/innovations",
+    "navbar.item-5.subitem-5": "Events",
+    "navbar.item-5.subitem-5.link": "/other/events",
+    "navbar.item-5.subitem-6": "Press Releases",
+    "navbar.item-5.subitem-6.link": "/other/press",
+    "navbar.item-5.subitem-7": "Legal mentions",
+    "navbar.item-5.subitem-7.link": "/other/legal",
 
     /**
      * début footer
@@ -2111,6 +2413,7 @@ export default {
 
     /**
      * début contact international
+     * PAGE SPÉCIALE
      */
     "other.international.title": "Our contacts around the world",
     "other.international.subtitle":
@@ -2119,9 +2422,312 @@ export default {
       "<img src='https://source.unsplash.com/random/?contacts' alt='International'/>",
     /**
      * fin contact international
+     * PAGE SPÉCIALE
+     */
+
+    /**
+     * début innovations
+     */
+
+    "other.innovations.title": "Innovations",
+    "other.innovations.subtitle":
+      "Find all the innovations of Matrasur Composites.",
+    "other.innovations.image": "",
+    "other.innovations.section-1.name": "New solvent-free cleaning agent",
+    "other.innovations.section-1.text":
+      "Discover M CLEAN and say good-bye to acetone! M CLEAN is the new aqueous cleaner which is solvent-free and non-polluting with a life time 2 times higher than that of acetone. M CLEAN will allow you to eliminate fire and explosion hazards in your workshop. For more information on how to use it, check M CLEAN’s Fact Sheet.",
+    "other.innovations.section-1.photos.item-1":
+      "<img src='/assets/img/innovations/m_clean_innovation.jpg' alt='M Clean'/>",
+    "other.innovations.section-1.links.item-1": "/other/mclean",
+    "other.innovations.section-1.links.item-1.text": "Link to M Clean page",
+
+    "other.innovations.section-2.name": "Injection machine for thermoplastics",
+    "other.innovations.section-2.text":
+      "Discover our brand new technology of machine for casting or injecting thermoplastic resins such as Altuglas® RT 300 and similar. If you are interested in this technology, contact our Sales Department.",
+    "other.innovations.section-2.photos.item-1":
+      "<img src='/assets/img/innovations/machine_thermoplastiques.jpg' alt='thermoplastic unit'/>",
+
+    /**
+     * fin innovations
+     */
+
+    /**
+     * début presse
+     */
+    "other.press.title": "Press",
+    "other.press.subtitle": "All press about Matrasur Composites",
+    "other.press.image":
+      "<img src='/assets/img/presse/presse.jpg' alt='Press background image'/>",
+    "other.press.years.year-1": "2006 (French)",
+    "other.press.years.year-1.item-1":
+      "Le premier tir du P80 ouvre la voie à Vega. (228 ko). Air & Cosmos, 8 Décembre 2006, n° 2056.",
+    "other.press.years.year-1.item-1.text":
+      "Le P80, premier étage de la fusée Vega doté d’une tuyère nouvelle génération, injectée en pression régulée par SPS-Bordeaux grâce à une machine Matrasur Composites de type Minimat, accomplit avec succès son premier essai.",
+
+    "other.press.years.year-1.item-2":
+      "Matrasur industrialise les composites. (764 ko). Industries & Technologies, Novembre 2006, n° 883.",
+    "other.press.years.year-1.item-2.text":
+      "Matrasur Composites propose une démarche complète d’industrialisation des composites et des outils adaptés à leur mise en œuvre; quelques exemples dans l’industrie : Poncin Yachts, Ibazur, Version Composites, Altor.",
+    "other.press.years.year-1.item-3":
+      "Thomas Pools automatise la production de coques de piscines. (297 ko). L’Usine Nouvelle, 5 Octobre 2006, n° 3025.",
+    "other.press.years.year-1.item-3.text":
+      "Thomas Pools met en œuvre un procédé automatisé pour la production de coques de piscines en polyester avec une machine RTM Matrasur Composites. Le résultat : un gain de temps de fabrication (de 35 heures à 20 heures) pour une coque de 60 m2 et une qualité accrue.",
+    "other.press.years.year-1.item-4":
+      "Une offre dédiée aux composites. (571 ko). Plastic Flash n° 134, Juin 2006.",
+    "other.press.years.year-1.item-4.text":
+      "Bref aperçu sur l'offre très complète des équipements proposés par Matrasur Composites : lignes de production polyuréthane, machines RTM, robots industriels...",
+    "other.press.years.year-1.item-5":
+      "Du nouveau pour les Coques Polyester Ibiza. (669 ko). L'Activité Piscine n°37.",
+    "other.press.years.year-1.item-5.text":
+      "Clin d'oeil sur l'usine de production de coques polyester Ibiza dont le process de fabrication est assuré par des robots Matrasur Composites.",
+    "other.press.years.year-1.item-6":
+      "Olivier Poncin peut-il gagner son pari ? (1087 ko). Voiles et Voiliers. Mai 2006, n° 423.",
+    "other.press.years.year-1.item-6.text":
+      "Un pari technologique : Pour la fabrication des coques de la gamme Harmony 38, Olivier Poncin a choisi de projeter avec un robot de type Robomat de Matrasur Composites, qui recopie le meilleur geste opérateur sur le moule identifié, une technique prometteuse.",
+    "other.press.years.year-1.item-7":
+      "Le royaume de la fibre de verre. (986 ko). La Nouvelle République. 4 et 5 Février 2006.",
+    "other.press.years.year-1.item-7.text":
+      "Le pisciniste Ibazur inaugure sa nouvelle usine implantée dans l’Indre, basée sur une chaîne robotisée fournie par Matrasur Composites. L’usine prévoit la production de 5000 unités dans les 3 ans à venir.",
+
+    "other.press.years.year-2": "2007 (French)",
+    "other.press.years.year-2.item-1":
+      "Rencontre avec la société Version. (1187 ko). L'Activité Piscine n°44. ",
+    "other.press.years.year-2.item-1.text":
+      "Rencontre avec un fabriquant d'escaliers acryliques pour piscines ayant modernisé de manière importante son outil de production avec l'acquisition d'un robot de projection de résine puis un robot de détourage, tous deux fournis par Matrasur Composites.",
+    "other.press.years.year-2.item-2":
+      "Les robots pulvérisateurs améliorent la qualité de surface. (1029 ko). L'Usine Nouvelle, 21 Juin, n° 3061, p.71. ",
+    "other.press.years.year-2.item-2.text":
+      "Motivée par le soucis de sécuriser les opérateurs, d'assurer une qualité de surface et des délais de livraison constants, la société Version Composite a choisi de robotiser l'ensemble de sa ligne de production d'escaliers de piscines en faisant appel à Matrasur Composites. Cette solution a tenu ses promesses : le taux de non-conformité est passé de 5 à 1,5% et la production de 4000 à 6000 pièces avec 7 personnes de moins. Regard sur une installation entièrement robotisée, unique en France.",
+    "other.press.years.year-2.item-3":
+      "Le robot qui change tout. (726 ko). Le Journal des Entreprises, 1er Juin 2007.",
+    "other.press.years.year-2.item-3.text":
+      "Avec l'arrivée du robot de projection Matrasur Composites, Version Composite, fabricant d'escaliers de piscine, a réussi a passer de 15 à 30 pièces fabriquées par jour et a contribué à améliorer les conditions de travail du personnel. L'ambition désormais : augmenter le chiffre d'affaires de 15 à 20% par an grâce à cette nouvelle technologie de fabrication.",
+    "other.press.years.year-2.item-4":
+      "Version Composite. (858 ko). Plastilien, Juin 2007, n° 38, p. 64-65.",
+    "other.press.years.year-2.item-4.text":
+      "En 1998 l'entreprise Version Composite décide de fabriquer ses propres escaliers de piscine et entame une restructuration en ce sens. En 2006 elle s'est équipée d'une chaîne de fabrication robotisée fournie par Matrasur Composites, qui a permis de 'rendre le travail plus facile, d'être plus performant dans les délais de livraison et d'améliorer la production en qualité et en quantité' et qui a contribué à l'obtention de la certification ISO 9001.",
+    "other.press.years.year-2.item-5":
+      "Version achève son industrialisation. (1492 ko). Petites Affiches de La Loire, 30 Avril - 6 Mai 2007, n° 382. ",
+    "other.press.years.year-2.item-5.text":
+      "D'entreprise artisanale à entreprise industrielle, Version Composite achève son industrialisation avec l'acquisition d'un robot de détourage qui vient compléter le robot de projection, tous deux fournis par Matrasur Composites, dans ce qui est devenu une ligne de fabrication d'escaliers de piscines entièrement robotisée.",
+
+    "other.press.years.year-3": "2008",
+    "other.press.years.year-3.item-1":
+      "Composites Embrace Mass Production. (260 ko). Plastics Technology, July 2008, p.64-65.",
+    "other.press.years.year-3.item-1.text":
+      "Article on the latest techniques used in the composites industry for mass production. A glance at robotic solutions introduced by Matrasur Composites in some of its clients' plants.",
+    "other.press.years.year-3.item-2":
+      "How to develop composites in Russia. (4,82 Mo). Composite World n°6 2008 (19).(Article in Russian).",
+    "other.press.years.year-3.item-2.text":
+      "Matrasur Composites has turned to robotic developments applied to composite part manufacturing in order to improve workshop performance and productivity. Traditional processes such as release agent spray-up, gelcoat spray-up, resin & fiberglass spray-up, part trimming...can now be carried by robots.",
+    "other.press.years.year-3.item-3":
+      "JSC Traidenis - The Long Experience in Producing Wastewater Cleaning Equipment. (1,25 Mo). Lithuania Presents, May 2008, p.18-19.",
+    "other.press.years.year-3.item-3.text":
+      "Article recounting the success of one of Matrasur Composites' clients in Lithuania, the company Traidenis, a water treatment pipe manufacturer.",
+    "other.press.years.year-3.item-4":
+      "Research: 2007 Activity Review. (948 kb). VitaMines, Journal Mensuel de l'Ecole des Mines de Douai, May 2008.",
+    "other.press.years.year-3.item-4.text":
+      "Review of the Research Committee which met on March 18 to discuss the projects developed in 2007, including the Dry Carbon Fiber Placement Robot set up in partnership with Matrasur Composites.",
+    "other.press.years.year-3.item-5":
+      "Robotics makes its mark in the Composite Industry. (572 Mo). Jec Composites Magazine N° 39, April 2008, p.32. ",
+    "other.press.years.year-3.item-5.text":
+      "Robotics has made its breakthrough in many industries and Composite Part Manufacturers are no longer an exception. Matrasur Composites stands out as a pioneer in robotic solutions: robotic spray-up of gelcoat, resin, resin & fibreglass, robotic trimming of parts...",
+
+    "other.press.years.year-4": "2009",
+    "other.press.years.year-4.item-1":
+      "Strategies and teams well rated by the AERES. (645 Ko). VitaMines, Journal Mensuel de l'Ecole des Mines de Douai, August 2009.",
+    "other.press.years.year-4.item-1.text":
+      "The reports communicated by the Agence d'Evaluation de la Recherche et de l'Enseignement Supérieur (AERES) underline the dynamism and performance of the School's partnerships. Matrasur Composites is an active partner of the Materials, Processes and Environment (MPE) Research Unit (UR), which includes the Polymer and Composite Technology and Mechanical Engineering (TPCIM) department.",
+    "other.press.years.year-4.item-2":
+      "RTM: Hot-injection machine for single-component resins. (1,79 Mo). JEC Composites Magazine n°47 March-April 2009.",
+    "other.press.years.year-4.item-2.text":
+      "Discover the RTM injection machine for single-component heated resins for high-performance Composites type MonoMat EPX-500 RTM. This machine based on a hydraulic powered jack offers an exceptional operating flow range.",
+    "other.press.years.year-4.item-3":
+      "International Symposium on RTM/Infusion Technologies 2009. (2,24 Mo). Composite World n°1 2009 (22).(Article in Russian). ",
+    "other.press.years.year-4.item-3.text":
+      "During the International RTM Symposium organized by the PPE on February 4th and 5th, 2009, the well-known equipment specialist Matrasur Composites presented a live demonstration on the manufacturing of an RTM Light part.",
+    "other.press.years.year-4.item-4":
+      "The latest innovations in RTM composites. (1.94 Mb). Le Républicain Lorrain, 5 February 2009.",
+    "other.press.years.year-4.item-4.text":
+      "On the occasion of the 6th International Symposium organised in Saint-Avold by the Pôle de Plasturgie de l'Est (PPE), industrialists from all horizons (aeronautics, nautical, automotive, etc.) are meeting to exchange their experience. Matrasur Composites, leader on the French market for composite equipment, presented its know-how in this field by participating in a demonstration workshop.",
+
+    "other.press.years.year-5": "2010",
+    "other.press.years.year-5.item-1":
+      "Robotic Automation for Composites. (19 ko). High Performance Composites, June 2010.",
+    "other.press.years.year-5.item-1.text":
+      "Matrasur Composites' contribution to the automation process of composite workshops.",
+    "other.press.years.year-5.item-2":
+      "Newmaker China. (265 ko). June 2010. (Article in Chinese).",
+    "other.press.years.year-5.item-2.text": " ",
+    "other.press.years.year-5.item-3":
+      "Nachhaltig produzieren mit konstanter Qualität: die Produktionsanlage 'Zero Emission' von Matrasur Composites. (777 ko). AeroBrief, Mai 2010.(Article in German).",
+    "other.press.years.year-5.item-3.text":
+      "Wie schafft man es, ein Unternehmen für Verbundwerkstoffe zu modernisieren und gleichzeitig die neuen Anforderungen im Bereich der nachhaltigen Entwicklung zu erfüllen?",
+    "other.press.years.year-5.item-4":
+      "Sustainable, constant-quality production: Matrasur Composites takes up the challenge of 'zero-emission production'. (75 ko). FAPU, May 2010.",
+    "other.press.years.year-5.item-4.text":
+      "How to preserve or develop a company? The example of a pool manufacturer.",
+    "other.press.years.year-5.item-5":
+      "Towards the on-line qualification of carbon preforms produced by AFP (862 ko). Jec Magazine n°57, May 2010",
+    "other.press.years.year-5.item-5.text":
+      "Together with Matrasur Composites the Ecole des Mines de Douai (France) developed an automated fibre-placement (AFP) system capable of producing carbon-fibre preforms from dry carbon tapes.",
+    "other.press.years.year-5.item-6":
+      "Robotic systems for composite production : No longer a myth but a reality (825 ko). Composite Consulting. April 2010. (Article in Russian).",
+    "other.press.years.year-5.item-6.text": " ",
+    "other.press.years.year-5.item-7":
+      "Reinforced Plastics China. (78 ko). March 2010. (Article in Chinese).",
+    "other.press.years.year-5.item-7.text": " ",
+    "other.press.years.year-5.item-8":
+      "Matrasur Composites takes up the challenge of 'zero-emission'production. (602 ko). Omnexus, March 2010.",
+    "other.press.years.year-5.item-8.text":
+      "How to preserve or develop a company? The example of a pool manufacturer.",
+    "other.press.years.year-5.item-9":
+      "Matrasur Composites ofrece nuevas soluciones industriales con su taller de producción 0 emisiones. (457 Ko). Interempresas, Marzo 2010. (Article in Spanish). ",
+    "other.press.years.year-5.item-9.text":
+      "¿Cómo anticipar las exigencias con respecto al medio ambiente y garantizar el cumplimiento de las normas para un futuro perenne?",
+    "other.press.years.year-5.item-10":
+      "JEC Composites Show 2010 on 13-15 April. (56 Ko). Indian Textile Journal, Febrary 2010. ",
+    "other.press.years.year-5.item-10.text":
+      "The automation of processes was one of the main topics of the 2010 edition of the JEC Composites Show. As an equipment supplier, Matrasur Composites offers automation solutions to composite workshops.",
+    "other.press.years.year-5.item-11":
+      "Composites - Zero emission is possible. (41.3 Ko). Déchet.com, February 2010.",
+    "other.press.years.year-5.item-11.text":
+      "Production in open moulds causes significant VOC emissions. Thus, the creation of closed areas, whose operation is essentially ensured by robotised machines, makes it possible to keep employees away from risk zones.",
+
+    "other.press.years.year-6": "2011",
+    "other.press.years.year-6.item-1":
+      "Megatrends Push for Composites Market. (1 Mo). Plastics Rubber Asia , December 2011, p. 18-19. The Asian Composites market is gaining market share. ",
+    "other.press.years.year-6.item-1.text":
+      "The JEC ASIA Show held in Singapore gathered worldwide actors of this industry and rewarded the most innovative products and processes. Learn more about Matrasur Composites' Innovation Award.",
+    "other.press.years.year-6.item-2":
+      "Jec Asia Innovation Awards 2011 for Groundbreaking Composites Applications Announced. (82 ko). TechTex India (www.bch.in), Oct - Dec 2011, p. 42-43. ",
+    "other.press.years.year-6.item-2.text":
+      "Frédérique Mutel, Président and CEO of JEC Group presents innovation winners for the 9 categories including Matrasur Composites, winner for the Automation France. .",
+    "other.press.years.year-6.item-3":
+      "Congratulations to the 2011 Winners. (174 ko). Jec Composites Innovation Awards Winners, October 2011 .Page 6. ",
+    "other.press.years.year-6.item-3.text":
+      "Matrasur Composites won the Jec Innovation Award 2011 for its unique spray-up robot type ROBOMAT.",
+    "other.press.years.year-6.item-4":
+      "Automating Swimming Pool Production. (734 ko). Composites World, August 2011. ",
+    "other.press.years.year-6.item-4.text":
+      "Sucess story: Short summary of the automation process of a pool manufacturer in France.",
+    "other.press.years.year-6.item-5":
+      "Matrasur take Multi-functional Robot Concept to Market. (202 ko). Netcomposites.com, August 2011.",
+    "other.press.years.year-6.item-5.text":
+      "Matrasur Composites launches its unique spray-up robot capable of reproducing all operator's movements during the programming phase.",
+    "other.press.years.year-6.item-6":
+      "Il veut concurrencer l'huître d'Atlantique. (190 Ko). Le parisien, lundi 26 décembre 2011, page 10. (Article in French)",
+    "other.press.years.year-6.item-6.text":
+      "L'histoire d'un conchyliculteur de l'Hérault qui a fait le pari de concurrencer l'huître d'Atlantique. Il a fait confiance à Matrasur Composites qui a développé pour lui une machine de micro-dosage permettant de coller des naissains d'huîtres sur des barres de palétuviers qu'il remonte régulièrement afin de reproduire artificiellement le cycle des marées.",
+
+    "other.press.years.year-7": "2012",
+    "other.press.years.year-7.item-1":
+      "JEC Americas 2012: An inaugural session beyond expections. (1,2 Mo). Jec Composites Magazine No. 77, December 2012, p. 12-13",
+    "other.press.years.year-7.item-1.text":
+      "The first JEC Americas Composites Show & Conferences closed its doors last November 9th, on an excellent note.",
+    "other.press.years.year-7.item-2":
+      "ABCol começa a representar a Matrasur Composites, produtora de robôs para automatizaçao de linha de produçao. (232 Ko). Feira e Congresso Internacionais de Composites, Poliuretano e Plasticos de Engenharia, Nov 2012. (Article en Brésilien). ",
+    "other.press.years.year-7.item-2.text":
+      "Matrasur Composites participated for the first time to the FEIPLAR Show held in Sao Paulo, Brazil with its partner, the company ABCol. On this occasion, Matrasur Composites presented its robotic solutions for the automation of production lines for composite parts.",
+    "other.press.years.year-7.item-3":
+      "Nyetablering i komposittbransjen. (379 Ko). Plastforum No. 3, May 2012, p. 38. (Article in Norwegian). ",
+    "other.press.years.year-7.item-3.text":
+      "An glimpse at the Company ROSSELAND AS, a specialist in the Composite Industry and Matrasur Composites’ Sales Partner in Norway.",
+
+    "other.press.years.year-8": "2013",
+    "other.press.years.year-8.item-1":
+      "Elium, le composite thermoplastique d'Arkema (342 ko). Plastique Flash, Avril-Mai 2014, p. 15. (Article in French) ",
+    "other.press.years.year-8.item-1.text":
+      "Matrasur Composites a mis au point en association avec Arkema, l'équipementier Magnus Venus Produtcs et le Pôle de Plasturgie de l'Est, une machine optimisée pour l'injection et l'infusion de la nouvelle gamme de résines thermoplastiques, lancée en 2013 par le groupe Arkema sous la marque Elium.",
+
+    // Liste des liens
+
+    "other.press.years.year-1.item-1.link": "/articles/2006/a_P80_2006.pdf",
+    "other.press.years.year-1.item-2.link":
+      "/articles/2006/a_matraindus_2006.pdf",
+    "other.press.years.year-1.item-3.link":
+      "/articles/2006/a_thomaspools_2006.pdf",
+    "other.press.years.year-1.item-4.link":
+      "/articles/2006/plastic_flash_juin_ 2006.jpg",
+    "other.press.years.year-1.item-5.link":
+      "/articles/2006/activite_piscine_ibazur.pdf",
+    "other.press.years.year-1.item-6.link": "/articles/2006/a_poncin_2006.pdf",
+    "other.press.years.year-1.item-7.link":
+      "/articles/2006/a_fibreverre_2006.pdf",
+    "other.press.years.year-2.item-1.link":
+      "/articles/2007/activité_piscine_juin_matrasur.pdf",
+    "other.press.years.year-2.item-2.link":
+      "/articles/2007/usine_ nouvelle_juin_matrasur.pdf",
+    "other.press.years.year-2.item-3.link":
+      "/articles/2007/le_journal_des_entreprises_juin_matrasur.pdf",
+    "other.press.years.year-2.item-4.link":
+      "/articles/2007/plastilien_juin_matrasur.pdf",
+    "other.press.years.year-2.item-5.link":
+      "/articles/2007/petites_affiches_delaloire_juin_matrasur.pdf",
+    "other.press.years.year-3.item-1.link":
+      "/articles/2008/plastics_technology_july_2008.pdf",
+    "other.press.years.year-3.item-2.link":
+      "/articles/2008/kompositny_mir_2008.pdf",
+    "other.press.years.year-3.item-3.link":
+      "/articles/2008/lithuania_presents_may_2008.pdf",
+    "other.press.years.year-3.item-4.link":
+      "/articles/2008/vitamines_mai_2008.pdf",
+    "other.press.years.year-3.item-5.link":
+      "/articles/2008/jec_magazine_robotics.pdf",
+    "other.press.years.year-4.item-11link":
+      "/articles/2009/vitamines_aout_2009.pdf",
+    "other.press.years.year-4.item-2.link":
+      "/articles/2009/jec_magazine_47.pdf",
+    "other.press.years.year-4.item-3.link":
+      "/articles/2009/composite_world_2009.pdf",
+    "other.press.years.year-4.item-4.link":
+      "/articles/2009/le_republicain_lorrain_2009.pdf",
+    "other.press.years.year-5.item-1.link": "/articles/2010/fapu_may_2010.pdf",
+    "other.press.years.year-5.item-2.link":
+      "/articles/2010/jec_composites_show_2010.pdf",
+    "other.press.years.year-5.item-3.link":
+      "/articles/2010/plastiques_et_caoutchouc_avril_2010.pdf",
+    "other.press.years.year-5.item-4.link":
+      "/articles/2010/le_marin_avril_2010.pdf",
+    "other.press.years.year-5.item-5.link":
+      "/articles/2010/reinforced_plastics_ china_march_2010.pdf",
+    "other.press.years.year-5.item-6.link":
+      "/articles/2010/interempresas_marzo_2010.pdf",
+    "other.press.years.year-5.item-7.link":
+      "/articles/2010/omnexus_march_2010.pdf",
+    "other.press.years.year-5.item-8.link":
+      "/articles/2010/techniques_ingenieur_mars_2010.pdf",
+    "other.press.years.year-5.item-9.link":
+      "/articles/2010/machpro_nr_902_mars_2010.pdf",
+    "other.press.years.year-5.item-10.link":
+      "/articles/2010/indian_textile_journal_february_2010.pdf",
+    "other.press.years.year-5.item-11.link":
+      "/articles/2010/dechetcom_fevrier_2010.pdf",
+    "other.press.years.year-6.item-1.link": "/articles/2011/medithau_2011.pdf",
+    "other.press.years.year-6.item-2.link":
+      "/articles/2011/plastics_rubber_asia_2011.pdf",
+    "other.press.years.year-6.item-3.link":
+      "/articles/2011/tech_tex_india_2011.pdf",
+    "other.press.years.year-6.item-4.link":
+      "/articles/2011/jec_awards_2011.pdf",
+    "other.press.years.year-6.item-5.link":
+      "/articles/2011/automating_swimming_pool_composites_world_august_2011.pdf",
+    "other.press.years.year-6.item-6.link":
+      "/articles/2011/net_composites_august_2011.pdf",
+    "other.press.years.year-7.item-1.link":
+      "/articles/2012/jec_magazine_december_2012.pdf",
+    "other.press.years.year-7.item-2.link":
+      "/articles/2012/feiplar_feira_2012.pdf",
+    "other.press.years.year-7.item-3.link":
+      "/articles/2012/plastforum_3_may_2012.jpg",
+    "other.press.years.year-8.item-1.link":
+      "/articles/2013/arkema_matrasur_elium_2014.jpg",
+    /**
+     * fin presse
      */
     /**
      * début mentions légales
+     * PAGE SPÉCIALE
      */
 
     "other.legal.title": "Legal mentions of the website",
@@ -2138,6 +2744,7 @@ export default {
 
     /**
      * fin mentions légales
+     * PAGE SPÉCIALE
      */
     /**
      * fin other
