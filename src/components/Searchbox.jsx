@@ -141,6 +141,7 @@ const Searchform = props => {
                     (key.includes("navbar") && key.includes(".title")) ||
                     key.includes("contact.subtitle") ||
                     key.includes("other.press.years") ||
+                    key.includes(".photos.") ||
                     (key.startsWith("footer.social.icon") &&
                       !key.endsWith(".url"))
                   )
