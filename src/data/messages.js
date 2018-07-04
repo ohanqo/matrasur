@@ -148,7 +148,7 @@ export default {
     "navbar.item-5.subitem-1.submenu.item-6.link": "/other/mclean",
     "navbar.item-5.subitem-2": "Recrutement",
     "navbar.item-5.subitem-2.link": "/other/recruitment",
-    "navbar.item-5.subitem-3": "Contacts internationals",
+    "navbar.item-5.subitem-3": "Contacts internationaux",
     "navbar.item-5.subitem-3.link": "/other/international",
     "navbar.item-5.subitem-4": "Innovations",
     "navbar.item-5.subitem-4.link": "/other/innovations",
@@ -1074,7 +1074,7 @@ export default {
     "other.innovations.subtitle":
       "Retrouvez toutes les innovations de Matrasur Composites",
     "other.innovations.image":
-      "Retrouvez toutes les innovations de Matrasur Composites",
+      " ",
     "other.innovations.section-1.name": "Agent de nettoyage sans solvant",
     "other.innovations.section-1.text":
       "Avec M CLEAN dites définitivement au revoir à l’acétone ! M CLEAN est un nettoyant aqueux, sans solvant et non polluant qui vous permettra d’éliminer tous les risques d’incendie et d’explosition dans vos ateliers. Pour en savoir plus, consulter la Fiche M CLEAN ci-contre.",
@@ -1093,6 +1093,52 @@ export default {
     /**
      * fin innovations
      */
+
+    /**
+     * début évenement
+     */
+    "other.events.title": "Évènements récents ou à venir",
+    "other.events.subtitle": " ",
+    "other.events.image": " ",
+    "other.events.section-1.name":
+      "MATRASUR Composites au salon JEC WORLD 2017 à Villepinte",
+    "other.events.section-1.text":
+      "MATRASUR Composites était sur le salon JEC WORLD sur le stand de son partenaire Magnum Venus Products. Un rendez-vous incontournable des professionnels dans le milieu des composites!",
+    "other.events.section-1.photos.item-1":
+      "<img src='/événement/photo_jec_2017.jpg' alt='JEC 2017' />",
+    "other.events.section-2.name":
+      "MATRASUR Composites at the JEC WORLD 2016 show in Paris Nord Villepinte Exhibition Center",
+    "other.events.section-2.text":
+      "Matrasur Composites with its partner Magnum Venus Products, participated for a new edition in Paris Nord Villepinte Exhibition Center, at the International Composite event. Hundreds of visitors met our representatives and have been advised in their project.",
+    "other.events.section-2.photos.item-1":
+      "<img src='/événement/stand_jec_2016.jpg' alt='JEC 2016' />",
+    "other.events.section-3.name":
+      "MATRASUR Composites au salon JEC WORLD 2015 à Paris Parc des Expositions",
+    "other.events.section-3.text":
+      "Cet évènement est l'un des évènements majeurs mondiaux qui réunit tous les professionnels de l'industrie du composite. MATRASUR Composites et son partenaire Magnum Venus Products, étaient presents et ont accueilli sur leur stand plusieurs centaines de professionnels.",
+    "other.events.section-3.photos.item-1":
+      "<img src='/événement/jec_europe_2015.jpg' alt='JEC 2015' />",
+    "other.events.section-4.name":
+      "MATRASUR Composites at the Kompozyt Expo in Krakow",
+    "other.events.section-4.text":
+      "L'équipe de MATRASUR Composites, en partenariat avec Magnum Venus Products, a participé, pour une nouvelle édition au Parc des Expositions à Villepinte, au salon de référence internationale du secteur composite. Des centaines de visiteurs ont pu rencontrer nos représentants et ainsi être oritentés dans leur projet.",
+    "other.events.section-4.photos.item-1":
+      "<img src='/événement/kompozyt_expo_2014.jpg' alt='Kompozyt 2014' />",
+    "other.events.section-5.name": "Matrasur déménage!",
+    "other.events.section-5.text":
+      "En août 2014, Matrasur Composites déménage ses bureaux et ateliers au: 28-30 rue Tournenfils, 91540 à Mennecy (France). Venez nous rendre visite!",
+    "other.events.section-5.photos.item-1":
+      "<img src='/événement/nouvelle_adresse_2014.jpg' alt='Adress 2014' />",
+    "other.events.section-6.name":
+      "Journée de démonstration à Matrasur Composites",
+    "other.events.section-6.text":
+      "Matrasur Composites a eu l'honneur, avec le soutien de son partenaire Magnum Venus Products, de tenir une journée de démonstration.Cet évènement a eu lieu le vendredi 14 mars dans les locaux de Matrasur Composites afin de présenter le nouveau système Patriot Pro pour l'injection de résine thermoplastique . Matrasur Composites a également mis à l'honneur le nouveau système Robomat et des équipements de dernière génération reconnus dans l'industrie des composites.",
+    "other.events.section-6.photos.item-1":
+      "<img src='/événement/joint_demo_2014.jpg' alt='Démo 2014' />",
+    /**
+     * fin évenement
+     */
+
     /**
      * début presse
      * Page spéciale
@@ -2432,7 +2478,7 @@ export default {
     "other.innovations.title": "Innovations",
     "other.innovations.subtitle":
       "Find all the innovations of Matrasur Composites.",
-    "other.innovations.image": "",
+    "other.innovations.image": " ",
     "other.innovations.section-1.name": "New solvent-free cleaning agent",
     "other.innovations.section-1.text":
       "Discover M CLEAN and say good-bye to acetone! M CLEAN is the new aqueous cleaner which is solvent-free and non-polluting with a life time 2 times higher than that of acetone. M CLEAN will allow you to eliminate fire and explosion hazards in your workshop. For more information on how to use it, check M CLEAN’s Fact Sheet.",
@@ -2449,6 +2495,56 @@ export default {
 
     /**
      * fin innovations
+     */
+
+    /**
+     * début évenement
+     */
+    "other.events.title": "RECENT & UPCOMING EVENTS",
+    "other.events.subtitle": " ",
+    "other.events.image": "  ",
+    "other.events.section-1.name":
+      "MATRASUR Composites at the JEC WORLD 2017 !",
+    "other.events.section-1.text":
+      "MATRASUR COMPOSITES team was at the JEC WORLD Exhibition on Magnum Venus Products' booth. Our team would not have missed this major trade to meet experts and professionals from all over the world.",
+    "other.events.section-1.photos.item-1":
+      "<img src='/événement/photo_jec_2017.jpg' alt='JEC 2017' />",
+
+    "other.events.section-2.name":
+      "MATRASUR Composites at the JEC WORLD 2016 show in Paris Nord Villepinte Exhibition Center",
+    "other.events.section-2.text":
+      "Matrasur Composites with its partner Magnum Venus Products, participated for a new edition in Paris Nord Villepinte Exhibition Center, at the International Composite event. Hundreds of visitors met our representatives and have been advised in their project.",
+    "other.events.section-2.photos.item-1":
+      "<img src='/événement/stand_jec_2016.jpg' alt='JEC 2016' />",
+
+    "other.events.section-3.name":
+      "MATRASUR Composites at the JEC EUROPE 2015 show in Paris",
+    "other.events.section-3.text":
+      "This trade fair is specialized in the composite industry and brings together all the specialists of the world. MATRASUR Composites and his partner Magnum Venus products were there and they welcomed several hundreds of visitors in their booth.",
+    "other.events.section-3.photos.item-1":
+      "<img src='/événement/jec_europe_2015.jpg' alt='JEC 2015' />",
+
+    "other.events.section-4.name":
+      "MATRASUR Composites at the Kompozyt Expo in Krakow",
+    "other.events.section-4.text":
+      "This trade fair is specialized in the composite industry and brings together all the experts of Poland. MATRASUR Composites and his partner Magnum Venus products were there and they welcomed several hundreds of visitors in their booth.",
+    "other.events.section-4.photos.item-1":
+      "<img src='/événement/kompozyt_expo_2014.jpg' alt='Kompozyt 2014' />",
+
+    "other.events.section-5.name": "MATRASUR Composites moves!",
+    "other.events.section-5.text":
+      "In August 2014, Matasur Composites moves its offices and workshop to a new location. Pay us a visit at our new premises : 28-30 Rue de Tournenfils, 91540 Mennecy, France.",
+    "other.events.section-5.photos.item-1":
+      "<img src='/événement/nouvelle_adresse_2014.jpg' alt='Adress 2014' />",
+
+    "other.events.section-6.name": "Joint Demo Matrasur-MVP-Arkema",
+    "other.events.section-6.text":
+      "Matrasur Composites was proud to partner with Magnum Venus Products in hosting a 1-day demo day. The event was held on Friday, 14 March at the Matrasur Composites facility in Marcoussis, France, and showcased the new Patriot™ Pro Thermoplastics Injection System, Patriot Adhesives Systems, and Matrasur’s RoboMat robotic systems , along with some of the latest materials hitting the Composites Industry. ",
+    "other.events.section-6.photos.item-1":
+      "<img src='/événement/joint_demo_2014.jpg' alt='Démo 2014' />",
+    /**
+    /**
+     * fin évenement
      */
 
     /**
@@ -2674,7 +2770,7 @@ export default {
       "/articles/2008/vitamines_mai_2008.pdf",
     "other.press.years.year-3.item-5.link":
       "/articles/2008/jec_magazine_robotics.pdf",
-    "other.press.years.year-4.item-11link":
+    "other.press.years.year-4.item-11.link":
       "/articles/2009/vitamines_aout_2009.pdf",
     "other.press.years.year-4.item-2.link":
       "/articles/2009/jec_magazine_47.pdf",

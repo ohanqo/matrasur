@@ -107,14 +107,9 @@
   &__grid {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
   }
   &__cell {
-    width: 50%;
-
-    @include media-min($lg) {
-      width: calc(100% / 4);
-    }
-
     & img {
       width: 95%;
       height: 95%;
