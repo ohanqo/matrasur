@@ -3,7 +3,6 @@ import { FormattedHTMLMessage } from "react-intl";
 import LazyLoad from "react-lazyload";
 
 import Navbar from "../components/Navbar";
-import Cardsbanner from "../components/Cardsbanner";
 import Footer from "../components/Footer";
 
 class Home extends Component {
@@ -49,7 +48,6 @@ class Home extends Component {
             />
           </p>
         </section>
-        <Cardsbanner />
         <LazyLoad height={200} once>
           <section className="box box--bg -slanted -fh -fw -bg--blue">
             <div className="box__content container -white">

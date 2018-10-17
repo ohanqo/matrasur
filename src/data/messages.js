@@ -6,8 +6,8 @@ export default {
 
     // DOMAINES D'APPLICATIONS
 
-    "navbar.item-1.title": "Domaines d'application",
-    "navbar.item-1.subitem-1": "Aéronautique",
+    "navbar.item-1.title": "Domaines d'activités",
+    "navbar.item-1.subitem-1": "Aéronautique et Spatial",
     "navbar.item-1.subitem-1.link": "/application/aerospace",
     "navbar.item-1.subitem-2": "Automobile",
     "navbar.item-1.subitem-2.link": "/application/automotive",
@@ -21,20 +21,14 @@ export default {
     "navbar.item-1.subitem-6.link": "/application/military",
     "navbar.item-1.subitem-7": "Réfrigération",
     "navbar.item-1.subitem-7.link": "/application/refrigeration",
-    "navbar.item-1.subitem-8": "Spatial",
-    "navbar.item-1.subitem-8.link": "/application/space",
 
     // PROCÉDÉS
 
-    "navbar.item-2.title": "Procédés",
+    "navbar.item-2.title": "Equipements",
     "navbar.item-2.subitem-1": "Projection",
     "navbar.item-2.subitem-1.link": "/processes/projection",
     "navbar.item-2.subitem-2": "Injection RTM",
     "navbar.item-2.subitem-2.link": "/processes/injection",
-    "navbar.item-2.subitem-3": "Coulée",
-    "navbar.item-2.subitem-3.link": "/processes/casting",
-    "navbar.item-2.subitem-4": "Infusion",
-    "navbar.item-2.subitem-4.link": "/processes/infusion",
     "navbar.item-2.subitem-5": "Enroulement filamentaire",
     "navbar.item-2.subitem-5.link": "/processes/winding",
     "navbar.item-2.subitem-6": "Imprégnation",
@@ -60,91 +54,24 @@ export default {
     "navbar.item-3.subitem-6": "Silicone, RTV",
     "navbar.item-3.subitem-6.link": "/materials/silicon",
 
-    // NOS MACHINES
-
-    "navbar.item-4.title": "Nos machines",
-    "navbar.item-4.subitem-1.submenu": "Machines de projection",
-    "navbar.item-4.subitem-1.submenu.item-1": "Gelcoat",
-    "navbar.item-4.subitem-1.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-1.submenu.item-2": "Résines",
-    "navbar.item-4.subitem-1.submenu.item-2.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-3":"Simultanée de résine et fibre de verre",
-    "navbar.item-4.subitem-1.submenu.item-3.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-4":"Colles adhésifs, produits pâteux",
-    "navbar.item-4.subitem-1.submenu.item-4.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-5":"Mousses et coating polyuréthanes",
-    "navbar.item-4.subitem-1.submenu.item-5.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-6": "Automatique et robotique",
-    "navbar.item-4.subitem-1.submenu.item-6.link": "/other/formation",
-
-    "navbar.item-4.subitem-2.submenu": "Machines d'injection coulée",
-    "navbar.item-4.subitem-2.submenu.item-1": "RTM - RTMlight",
-    "navbar.item-4.subitem-2.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-2": "Infusion et Flex molding",
-    "navbar.item-4.subitem-2.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-3": "Époxy",
-    "navbar.item-4.subitem-2.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-4": "Bétons de résine",
-    "navbar.item-4.subitem-2.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-5": "Colles et adhésifs",
-    "navbar.item-4.subitem-2.submenu.item-5.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-6": "Produits pâteux",
-    "navbar.item-4.subitem-2.submenu.item-6.link": "/other/documentation",
-
-    "navbar.item-4.subitem-3.submenu": "Machines de coulée",
-    "navbar.item-4.subitem-3.submenu.item-1": "Résines polyester",
-    "navbar.item-4.subitem-3.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-2": "Bétons de résine",
-    "navbar.item-4.subitem-3.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-3": "Résine PU",
-    "navbar.item-4.subitem-3.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-4": "Injection des Silicones et RTV",
-    "navbar.item-4.subitem-3.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-5": "Colle et d'adhésifs",
-    "navbar.item-4.subitem-3.submenu.item-5.link": "/other/documentation",
-
-    "navbar.item-4.subitem-4": "Machine Polyurethane",
-    "navbar.item-4.subitem-4.link": "/other/documentation",
-
-    "navbar.item-4.subitem-5.submenu": "Robots de projection et finition",
-    "navbar.item-4.subitem-5.submenu.item-1": "Panneaux plats",
-    "navbar.item-4.subitem-5.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-2": "Projection Robomat",
-    "navbar.item-4.subitem-5.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-3": "Projection RoboStrat",
-    "navbar.item-4.subitem-5.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-4":"Detourage, perçage, fraisage et polissage",
-    "navbar.item-4.subitem-5.submenu.item-4.link": "/other/documentation",
-
-    "navbar.item-4.subitem-6.submenu": "Machine d'enroulement filamentaire",
-    "navbar.item-4.subitem-6.submenu.item-1":"Enroulement pour réservoir, silos et tubes",
-    "navbar.item-4.subitem-6.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-6.submenu.item-2": "Multi'axes et multi'moules",
-    "navbar.item-4.subitem-6.submenu.item-2.link": "/other/documentation",
-
-    "navbar.item-4.subitem-7": "Imprégnateurs de résine sur tissus",
-    "navbar.item-4.subitem-7.link": "/other/formation",
+    // Service client
+    "navbar.item-4.title": "Service client",
+    "navbar.item-4.subitem-1": "Pièces détachées",
+    "navbar.item-4.subitem-1.link": "/other/spareparts",
+    "navbar.item-4.subitem-2": "Accessoires",
+    "navbar.item-4.subitem-2.link": "/other/accessories",
+    "navbar.item-4.subitem-3": "Documentation",
+    "navbar.item-4.subitem-3.link": "/other/documentation",
+    "navbar.item-4.subitem-4": "Formation",
+    "navbar.item-4.subitem-4.link": "/other/formation",
+    "navbar.item-4.subitem-5": "Support client",
+    "navbar.item-4.subitem-5.link": "/other/support",
+    "navbar.item-4.subitem-6": "Agent de nettoyage M CLEAN",
+    "navbar.item-4.subitem-6.link": "/other/mclean",
 
     // AUTRE
 
     "navbar.item-5.title": "Autres",
-    "navbar.item-5.subitem-1.submenu": "Service client",
-    "navbar.item-5.subitem-1.submenu.item-1": "Pièces détachées",
-    "navbar.item-5.subitem-1.submenu.item-1.link": "/other/spareparts",
-    "navbar.item-5.subitem-1.submenu.item-2": "Accessoires",
-    "navbar.item-5.subitem-1.submenu.item-2.link": "/other/accessories",
-    "navbar.item-5.subitem-1.submenu.item-3": "Documentation",
-    "navbar.item-5.subitem-1.submenu.item-3.link": "/other/documentation",
-    "navbar.item-5.subitem-1.submenu.item-4": "Formation",
-    "navbar.item-5.subitem-1.submenu.item-4.link": "/other/formation",
-    "navbar.item-5.subitem-1.submenu.item-5": "Support client",
-    "navbar.item-5.subitem-1.submenu.item-5.link": "/other/support",
-    "navbar.item-5.subitem-1.submenu.item-6": "Agent de nettoyage M CLEAN",
-    "navbar.item-5.subitem-1.submenu.item-6.link": "/other/mclean",
-    "navbar.item-5.subitem-2": "Recrutement",
-    "navbar.item-5.subitem-2.link": "/other/recruitment",
-    "navbar.item-5.subitem-3": "Contacts internationaux",
-    "navbar.item-5.subitem-3.link": "/other/international",
     "navbar.item-5.subitem-4": "Innovations",
     "navbar.item-5.subitem-4.link": "/other/innovations",
     "navbar.item-5.subitem-5": "Évènements",
@@ -185,30 +112,6 @@ export default {
      * début home
      */
 
-    // début Cards
-
-    "home.card-1.title": "Le procédé de projection",
-    "home.card-1.text":"La projection de materiaux composites est une technique fréquemment utilisée …",
-    "home.card-1.button": "+ d'informations",
-    "home.card-1.link": "/processes/projection",
-
-    "home.card-2.title": "Résines Polyester & Résines Acryliques",
-    "home.card-2.text": "Ces deux matières premières sont …",
-    "home.card-2.button": "+ d'informations",
-    "home.card-2.link": "/materials/polyester-acrylic",
-
-    "home.card-3.title": "Pièces détachées",
-    "home.card-3.text":"Le service Pièces Détachées vous permet de bénéficier de nombreux avantages, comme par exemple la garantie constructeur, une logisitque rapide et un large stock de pièces.",
-    "home.card-3.button": "+ d'informations",
-    "home.card-3.link": "/other/spareparts",
-
-    "home.card-4.title": "Documentation",
-    "home.card-4.text":"Retrouvez l'ensemble des brochures de la société ainsi que la documentation des machines.",
-    "home.card-4.button": "+ d'informations",
-    "home.card-4.link": "/other/documentation",
-
-    // fin Cards
-
     "home.section-1.title": "Notre histoire",
     "home.section-1.text":"Matrasur Composites fournit le marché des composites depuis 1972 et fait partie des premières entreprises françaises à s’être spécialisée dans les équipements pour la mise en oeuvre des matériaux composites. Aujourd’hui, elle se distingue comme un leader dans le domaine. <br/><br/>Matrasur Composites est une entreprise de <a href='https://www.wheelabratorgroup.com/fr-fr' target='_blank' alt='Lien vers le site du groupe WHEELABRATOR'>WHEELABRATOR Group</a>.",
 
@@ -238,12 +141,12 @@ export default {
 
     "contact.title-1": "Service commercial",
     "contact.title-2": "Service après-vente",
-    "contact.title-3": "Contacts internationaux",
+    "contact.title-3": "Documentation",
     "contact.title-4": "Fax",
 
     "contact.subtitle-1":"<a href='mailto:info@matrasurcomposites.com'> +33 1 61 61 65 65 <br/> info@matrasurcomposites.com</a>",
     "contact.subtitle-2":"<a href='mailto:sav@matrasurcomposites.com'> +33 1 61 61 65 67 <br/> sav@matrasurcomposites.com</a>",
-    "contact.subtitle-3":"<a href='/other/international'>Voir nos contacts</a>",
+    "contact.subtitle-3":"<a href='/other/documentation'>Documentation</a>",
     "contact.subtitle-4": "<a>+33 1 61 61 65 66</a>",
 
     /**
@@ -252,70 +155,128 @@ export default {
 
     /* Début Aerospace */
     "application.aerospace.title": "Domaine de l'aviation",
-    "application.aerospace.subtitle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "application.aerospace.subtitle":"L’industrie aéronautique recourt à un grand nombre de polymères réactifs pour ses applications :",
     "application.aerospace.image":"<img src='/assets/img/applicationPages/aerospace/aerospace.jpeg' alt='Background' class='hero__image'/>",
 
-    "application.aerospace.section-1.name": "Description",
-    "application.aerospace.section-1.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-1.image":"<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
+    "application.aerospace.section-1.name": "RTM / Infusion",
+    "application.aerospace.section-1.text":"Dosage mono ou multi composant époxy",
 
-    "application.aerospace.section-2.name": "Procédures recommandées",
-    "application.aerospace.section-2.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-2.image":"<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
+    "application.aerospace.section-2.name": "Collage",
+    "application.aerospace.section-2.text":"Dépose de colle en film et cordons. Matrices époxy polyuréthane MMA, polyester…",
 
-    "application.aerospace.section-3.name.darker": "Procedures numéro 1",
-    "application.aerospace.section-3.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-3.name": "Joints et étanchéité",
+    "application.aerospace.section-3.text":"De nombreuses matières comme les RTV, silicones, les polyuréthanes sont dosées, coulées, injectées ou encore projetées par les machines que nous proposons.",
 
-    "application.aerospace.section-4.name.darker": "Procedures numéro 2",
-    "application.aerospace.section-4.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-4.name.darker": "Information",
+    "application.aerospace.section-4.text.darker": "Nos machines sont le plus souvent disponibles en application manuelle ou automatique.",
 
     /* Fin Aerospace */
 
-    /* Début refrigeration */
-    "application.refrigeration.title": "Domaine du froid",
-    "application.refrigeration.subtitle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "application.refrigeration.image":"<img src='/assets/img/applicationPages/refrigeration/refrigeration.jpg' alt='Background' class='hero__image'/>",
+    /**
+     * Début Automobile
+     */
 
-    "application.refrigeration.section-1.name": "Description",
-    "application.refrigeration.section-1.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-1.image":"<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+    "application.automotive.title": "Domaine de l'automobile",
+    "application.automotive.subtitle": "Matrasur Composites fournit de nombreuses solutions à l’industrie automobile ainsi qu’à la carrosserie industrielle.",
+    "application.automotive.image": "<img src='/assets/img/applicationPages/automotive/background.jpeg' alt='Background' class='hero__image'/>",
 
-    "application.refrigeration.section-2.name": "Procédures recommandées",
-    "application.refrigeration.section-2.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-2.image":"<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+    "application.automotive.section-1.name": "Matériel",
+    "application.automotive.section-1.text": "<ul><li>Injection RTM et infusion de toutes pièces de carrosserie</li><li>Collages surfaciques ou structuraux</li><li>Dépose de joints d’étanchéité</li><li>Dosage et mise en œuvre de résine tooling</li><li>Fabrication de panneaux plats pour véhicule réfrigérés</li><li>Fabrication de panneaux de carrosserie (face avant de véhicules utilitaires et de loisirs, déflecteurs, capots, portières…)</li></ul>",
 
-    "application.refrigeration.section-3.name.darker": "Procedures numéro 1",
-    "application.refrigeration.section-3.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    /**
+     * Fin Automobile
+     */
 
-    "application.refrigeration.section-4.name.darker": "Procedures numéro 2",
-    "application.refrigeration.section-4.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    /**
+     * Début Construction
+     */
 
-    /* Fin refrigeration */
+    "application.construction.title": "Domaine du BTP",
+    "application.construction.subtitle": "Les résines et polymères s’imposent dans tous les secteurs de la construction. Matrasur Composites propose des matériels spécifiques dans ces domaines exigeants.",
+    "application.construction.image": "<img src='/assets/img/applicationPages/construction/background.jpg' alt='Background' class='hero__image'/>",
+
+    "application.construction.section-1.name": "Isolation thermique ",
+    "application.construction.section-1.text": "Application des <a href='/materials/polyurethane'>mousses polyuréthanes</a>",
+
+    "application.construction.section-2.name": "Étanchéité ",
+    "application.construction.section-2.text": "Les terrasses, tabliers de ponts, surface de parking, bâtiments industriels, piscines, offrent de grandes surfaces à étancher.",
+
+    "application.construction.section-3.text.name.darker": " ",
+    "application.construction.section-3.text.text.darker": "Les machines proposées par Matrasur Composites assurent des mises en application rapides et précises de toutes les résines destinées à l’étanchéité (polyuréthanes, polyester…).",
+
+    "application.construction.section-4.name.darker": " ",
+    "application.construction.section-4.text.darker": "Également, Matrasur Composites a développé des machines permettant de réaliser de nombreuses pièces utilisées en construction : décor et éléments architecturaux, décor de jardin et abords de piscines, pièces de salle de bain, signalisation, mobilier urbain. <a href='/'>CTM</a>",
+
+
+    /**
+     * Fin Construction
+     */
+
+    /**
+     * Début Industrie
+     */
+
+    "application.industrial.title": "Domaine de l'industrie",
+    "application.industrial.subtitle": " ",
+    "application.industrial.image": "<img src='/assets/img/applicationPages/industrial/background.jpg' alt='Background' class='hero__image'/>",
+
+    "application.industrial.section-1.name": " ",
+    "application.industrial.section-1.text": "<ul><li>Collage</li><li>Pièces industrielles et capotage en composites</li><li>Panneaux industriels</li><li>Revêtement anti corrosion</li></ul>",
+
+    /**
+     * Fin Industrie
+     */
 
     /**
      * Début Marine
      */
     "application.marine.title": "Domaine Maritime",
-    "application.marine.subtitle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "application.marine.subtitle": "Les chantiers navals connaissent bien les enjeux auxquels s’exposent leurs meilleures fabrications. En haute mer, comme dans un bassin d’agrément, les matériaux ont la vie dure. Leur fabrication se doit d’être rigoureuse et précise.",
     "application.marine.image":"<img src='/assets/img/applicationPages/marine/marine.jpg' alt='Background' class='hero__image'/>",
 
-    "application.marine.section-1.name": "Description",
-    "application.marine.section-1.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.marine.section-1.image":"<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+    "application.marine.section-1.name": " ",
+    "application.marine.section-1.text":"Matrasur Composites sert les industries de marine depuis plus de 40 ans, avec toutes les technologies mettant en œuvre les polymères époxy, polyester, polyuréthanes…",
 
-    "application.marine.section-2.name": "Procédures recommandées",
-    "application.marine.section-2.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.marine.section-2.image":"<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+    "application.marine.section-2.name": " ",
+    "application.marine.section-2.text": "Chaque appareil est conçu pour satisfaire à la précision de dosage la plus fine pour que notre machine reste l’une des meilleures du monde",
 
-    "application.marine.section-3.name.darker": "Procedures numéro 1",
-    "application.marine.section-3.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-
-    "application.marine.section-4.name.darker": "Procedures numéro 2",
-    "application.marine.section-4.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.marine.section-3.name": " ",
+    "application.marine.section-3.text": "<ul><li>Projection des gelcoats</li><li>Projection de résine, résine et fibre</li><li>Coatings d’étanchéité</li><li>Colles et adhésifs</li><li>Injection et infusion des ponts coques et pièces diverses</li></ul>",
 
     /**
      * Fin Marine
      */
+
+    /**
+     * Début Militaire
+     */
+
+    "application.military.title": "Domaine Militaire",
+    "application.military.subtitle": "Les applications militaires recourent régulièrement aux matériaux les plus modernes pour les applications les plus variées.",
+    "application.military.image":"<img src='/assets/img/applicationPages/military/background.jpg' alt='Background' class='hero__image'/>",
+
+    "application.military.section-1.name": " ",
+    "application.military.section-1.text":"<ul><li>Protections balistiques</li><li>Structures marines et sous-marine</li><li>Travaux de génie</li><li>Logistique et emballage à forte protection et valeur</li><li>Véhicules spéciaux</li><li>Aéronautique militaire</li><li>Armes propulsées et lanceurs</li></ul>",
+
+    "application.military.section-2.name.darker": "Tous ces domaines exigent une précision et un respect du cahier des charges de transformation.",
+    "application.military.section-2.text.darker":"Matrasur Composites met son expérience et fournit des matériels spécifiques pour chacune de ces applications :<br/><br/><ul><li>Injection RTM, infusion de composites haute performance</li><li>Drapage et stratification de grandes structures navales</li><li>Etanchéité, jointoiement, collage</li></ul>",
+
+    /**
+     * Fin Militaire
+     */
+
+    /* Début refrigeration */
+    "application.refrigeration.title": "Froid industriel",
+    "application.refrigeration.subtitle": "La logistique moderne affiche des besoins en constante croissance. Le froid industriel omniprésent dans la logistique alimentaire est un secteur très exigeant tant en matière de stockage statique (bâtiment) que mobile (véhicules frigorifiques).",
+    "application.refrigeration.image": "<img src='/assets/img/applicationPages/refrigeration/refrigeration.jpg' alt='Background' class='hero__image'/>",
+
+    "application.refrigeration.section-1.name": " ",
+    "application.refrigeration.section-1.text": "Les panneaux isolants sont ainsi devenus la norme dans ce domaine. Par leurs qualités isolantes et leur grande résistance à la corrosion, les panneaux composites ont depuis longtemps imposé leur supériorité face à de nombreux prétendants.",
+
+    "application.refrigeration.section-2.name": " ",
+    "application.refrigeration.section-2.text": "Matrasur Composites fournit les lignes intégrées de projection de gelcoat, de stratification polyester, de collage de mousses isolantes et de bois de renforcement dont cette industrie a besoin en grand quantité.",
+
+    /* Fin refrigeration */
 
     /**
      * Fin pages Application
@@ -597,7 +558,7 @@ export default {
     "other.formation.image":"<img src='https://source.unsplash.com/random/' alt='Photo de la doc' class='hero__image'/>",
     "other.formation.section-1.name": "Datadocké",
     "other.formation.section-1.text":"La société Matrasur Composites est référencée et certifiée par la plateforme Datadock. Datadock est une base de données unique référençant tous les organismes de formation.",
-    "other.formation.section-1.image":"<img src='/assets/img/formation/datadock.jpg' alt='Image section'/>",
+    "other.formation.section-1.photos.item-1":"<img src='/assets/img/formation/datadock.jpg' alt='Image section' />",
     "other.formation.section-2.name": "Formation des opérateurs",
     "other.formation.section-2.text":"Pour une conduite sereine des machines, assurant un rendement maximal ainsi que la longévité de l’équipement.",
     "other.formation.section-3.name": "Formation à la maintenance",
@@ -615,7 +576,7 @@ export default {
      * Cette page a une structure différente des autres
      */
     "other.documentation.title": "Besoin d'informations ?",
-    "other.documentation.subtitle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "other.documentation.subtitle":" ",
     "other.documentation.image":"<img src='/assets/img/documentation/documentation.jpg' alt='Documentation'/>",
 
     "other.documentation.section-1.title": "À propos de la société",
@@ -735,13 +696,10 @@ export default {
     "other.support.image":"<img src='https://source.unsplash.com/random/?support' alt='Support client Matrasur Composites'/>",
     "other.support.section-1.name": "Assistance technique téléphonique",
     "other.support.section-1.text":"Une assistance technique téléphonique composée de spécialistes pour répondre aux questions, diagnostiquer les problèmes, évaluer les situations pointues, proposer des solutions de redémarrage rapides, conseiller sur la maintenance...",
-    "other.support.section-1.image":"<img src='https://source.unsplash.com/random/?phone' alt='Assistance téléphonique'/>",
     "other.support.section-2.name":"Équipe de techniciens qualifiés et mobiles",
     "other.support.section-2.text":"Une équipe de techniciens qualifiés et mobiles assure chaque jour les interventions sur site et les réparations en atelier avec le même souci de rapidité et de professionnalisme.",
-    "other.support.section-2.image":"<img src='https://source.unsplash.com/random/?technical' alt='Équipe de techniciens qualifiés et mobiles'/>",
     "other.support.section-3.name":"Service pièces détachées/pièces de rechange",
     "other.support.section-3.text":"Un service pièces détachées/pièces de rechange avec un stock important pour répondre aux urgences de l'exploitation.",
-    "other.support.section-3.image":"<img src='https://source.unsplash.com/random/?parts' alt='Service pièces détachées/pièces de rechange' />",
 
     /**
      * fin support client
@@ -764,23 +722,7 @@ export default {
     /**
      * fin mclean
      */
-    /**
-     * début contact international
-     * PAGE SPÉCIALE
-     */
-    "other.international.title": "Nos contacts à travers le monde",
-    "other.international.subtitle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    "other.international.image":"<img src='https://source.unsplash.com/random/?contacts' alt='International'/>",
-    "other.international.item-1": "France",
-    "other.international.item-1.subitem-1":"John Doe: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
-    "other.international.item-1.subitem-2":"John Doe 2: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
-    "other.international.item-2": "Allemagne",
-    "other.international.item-2.subitem-1":"John Doe: <a href='tel:+33102030405'>+33 1 02 03 04 05</a>",
 
-    /**
-     * fin contact international
-     * PAGE SPÉCIALE
-     */
     /**
      * début innovations
      */
@@ -1015,8 +957,8 @@ export default {
     /**
      * Navbar
      */
-    "navbar.item-1.title": "Application areas",
-    "navbar.item-1.subitem-1": "Aeronautics",
+    "navbar.item-1.title": "Fields of activity",
+    "navbar.item-1.subitem-1": "Aeronautics and space",
     "navbar.item-1.subitem-1.link": "/application/aerospace",
     "navbar.item-1.subitem-2": "Automotive",
     "navbar.item-1.subitem-2.link": "/application/automotive",
@@ -1030,18 +972,14 @@ export default {
     "navbar.item-1.subitem-6.link": "/application/military",
     "navbar.item-1.subitem-7": "Refrigeration",
     "navbar.item-1.subitem-7.link": "/application/refrigeration",
-    "navbar.item-1.subitem-8": "Spatial",
-    "navbar.item-1.subitem-8.link": "/application/space",
 
-    "navbar.item-2.title": "Processes",
+
+
+    "navbar.item-2.title": "Equipment",
     "navbar.item-2.subitem-1": "Projection",
     "navbar.item-2.subitem-1.link": "/processes/projection",
     "navbar.item-2.subitem-2": "RTM Injection",
     "navbar.item-2.subitem-2.link": "/processes/injection",
-    "navbar.item-2.subitem-3": "Casting",
-    "navbar.item-2.subitem-3.link": "/processes/casting",
-    "navbar.item-2.subitem-4": "Infusion",
-    "navbar.item-2.subitem-4.link": "/processes/infusion",
     "navbar.item-2.subitem-5": "Filament winding",
     "navbar.item-2.subitem-5.link": "/processes/winding",
     "navbar.item-2.subitem-6": "Impregnation",
@@ -1065,87 +1003,22 @@ export default {
     "navbar.item-3.subitem-6": "Silicon, RTV",
     "navbar.item-3.subitem-6.link": "/materials/silicon",
 
-    "navbar.item-4.title": "Our machines",
-    "navbar.item-4.subitem-1.submenu": "Spray-up units",
-    "navbar.item-4.subitem-1.submenu.item-1": "Gelcoat",
-    "navbar.item-4.subitem-1.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-1.submenu.item-2": "Resin",
-    "navbar.item-4.subitem-1.submenu.item-2.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-3": "Chopped laminate",
-    "navbar.item-4.subitem-1.submenu.item-3.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-4":"Adhesives, putties and high viscosity",
-    "navbar.item-4.subitem-1.submenu.item-4.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-5": "Foams and polyurethane coating",
-    "navbar.item-4.subitem-1.submenu.item-5.link": "/other/formation",
-    "navbar.item-4.subitem-1.submenu.item-6": "Automatic and robotics",
-    "navbar.item-4.subitem-1.submenu.item-6.link": "/other/formation",
-
-    "navbar.item-4.subitem-2.submenu": "Injection casting units",
-    "navbar.item-4.subitem-2.submenu.item-1": "RTM - RTMlight",
-    "navbar.item-4.subitem-2.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-2": "Infusion and Flex molding",
-    "navbar.item-4.subitem-2.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-3": "Casting of epoxy resins",
-    "navbar.item-4.subitem-2.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-4":"Injection casting for High Filler Content Resins",
-    "navbar.item-4.subitem-2.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-5": "Adhesives and glues",
-    "navbar.item-4.subitem-2.submenu.item-5.link": "/other/documentation",
-    "navbar.item-4.subitem-2.submenu.item-6": "Pasty products",
-    "navbar.item-4.subitem-2.submenu.item-6.link": "/other/documentation",
-
-    "navbar.item-4.subitem-3.submenu": "Casting units",
-    "navbar.item-4.subitem-3.submenu.item-1": "Polyester resin",
-    "navbar.item-4.subitem-3.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-2": "Resin concretes",
-    "navbar.item-4.subitem-3.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-3": "PU resin",
-    "navbar.item-4.subitem-3.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-4":"Silicone Injection and RTV Casting",
-    "navbar.item-4.subitem-3.submenu.item-4.link": "/other/documentation",
-    "navbar.item-4.subitem-3.submenu.item-5": "Glue and adhesives",
-    "navbar.item-4.subitem-3.submenu.item-5.link": "/other/documentation",
-
-    "navbar.item-4.subitem-4": "Polyurethane units",
-    "navbar.item-4.subitem-4.link": "/other/documentation",
-
-    "navbar.item-4.subitem-5.submenu": "Robots for spray-up and finishing",
-    "navbar.item-4.subitem-5.submenu.item-1": "Flat panels",
-    "navbar.item-4.subitem-5.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-2": "Projection Robomat",
-    "navbar.item-4.subitem-5.submenu.item-2.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-3": "Projection RoboStrat",
-    "navbar.item-4.subitem-5.submenu.item-3.link": "/other/documentation",
-    "navbar.item-4.subitem-5.submenu.item-4":"Robots for cutting, drilling, milling and polishing",
-    "navbar.item-4.subitem-5.submenu.item-4.link": "/other/documentation",
-
-    "navbar.item-4.subitem-6.submenu": "Filament Winding units",
-    "navbar.item-4.subitem-6.submenu.item-1":"Winding for tanks, silos and tubes",
-    "navbar.item-4.subitem-6.submenu.item-1.link": "/other/documentation",
-    "navbar.item-4.subitem-6.submenu.item-2": "Multi'axis and multi'mould",
-    "navbar.item-4.subitem-6.submenu.item-2.link": "/other/documentation",
-
-    "navbar.item-4.subitem-7": "Resin impregnators on fabrics",
-    "navbar.item-4.subitem-7.link": "/other/formation",
+    // Service client
+    "navbar.item-4.title": "Customer service",
+    "navbar.item-4.subitem-1": "Spare parts",
+    "navbar.item-4.subitem-1.link": "/other/spareparts",
+    "navbar.item-4.subitem-2": "Accessories",
+    "navbar.item-4.subitem-2.link": "/other/accessories",
+    "navbar.item-4.subitem-3": "Documentation",
+    "navbar.item-4.subitem-3.link": "/other/documentation",
+    "navbar.item-4.subitem-4": "Formation",
+    "navbar.item-4.subitem-4.link": "/other/formation",
+    "navbar.item-4.subitem-5": "Technical support",
+    "navbar.item-4.subitem-5.link": "/other/support",
+    "navbar.item-4.subitem-6": "Cleaning agent M CLEAN",
+    "navbar.item-4.subitem-6.link": "/other/mclean",
 
     "navbar.item-5.title": "Other",
-    "navbar.item-5.subitem-1.submenu": "Customer service",
-    "navbar.item-5.subitem-1.submenu.item-1": "Spare parts",
-    "navbar.item-5.subitem-1.submenu.item-1.link": "/other/spareparts",
-    "navbar.item-5.subitem-1.submenu.item-2": "Accessories",
-    "navbar.item-5.subitem-1.submenu.item-2.link": "/other/accessories",
-    "navbar.item-5.subitem-1.submenu.item-3": "Documentation",
-    "navbar.item-5.subitem-1.submenu.item-3.link": "/other/documentation",
-    "navbar.item-5.subitem-1.submenu.item-4": "Formation",
-    "navbar.item-5.subitem-1.submenu.item-4.link": "/other/formation",
-    "navbar.item-5.subitem-1.submenu.item-5": "Technical support",
-    "navbar.item-5.subitem-1.submenu.item-5.link": "/other/support",
-    "navbar.item-5.subitem-1.submenu.item-6": "Cleaning agent M CLEAN",
-    "navbar.item-5.subitem-1.submenu.item-6.link": "/other/mclean",
-    "navbar.item-5.subitem-2": "Recruitment",
-    "navbar.item-5.subitem-2.link": "/other/recruitment",
-    "navbar.item-5.subitem-3": "International contacts",
-    "navbar.item-5.subitem-3.link": "/other/international",
     "navbar.item-5.subitem-4": "Innovations",
     "navbar.item-5.subitem-4.link": "/other/innovations",
     "navbar.item-5.subitem-5": "Events",
@@ -1182,30 +1055,6 @@ export default {
      * début home
      */
 
-    // début Cards
-
-    "home.card-1.title": "Projection process",
-    "home.card-1.text":"The projection of composite materials is a technique frequently used...",
-    "home.card-1.button": "+ informations",
-    "home.card-1.link": "/processes/projection",
-
-    "home.card-2.title": "Polyester & Acrylic Resins",
-    "home.card-2.text": "These two raw materials are …",
-    "home.card-2.button": "+ informations",
-    "home.card-2.link": "/processes/projection",
-
-    "home.card-3.title": "Spareparts",
-    "home.card-3.text":"The Spare Parts service allows you to benefit from many advantages, such as the manufacturer's warranty, fast logistics and a large stock of parts.",
-    "home.card-3.button": "+ informations",
-    "home.card-3.link": "/other/spareparts",
-
-    "home.card-4.title": "Documentation",
-    "home.card-4.text": "Find all company brochures and machine documentation.",
-    "home.card-4.button": "+ informations",
-    "home.card-4.link": "/other/documentation",
-
-    // fin Cards
-
     "home.section-1.title": "Our story",
     "home.section-1.text":"Matrasur Composites supplies the Composites market since 1972 and was one of the first French companies to have specialized in equipment and production lines for composite part manufacturing. Today Matrasur Composites stands out as a leader in the field.",
 
@@ -1234,12 +1083,12 @@ export default {
     "contact.title-1": "Commercial service",
 
     "contact.title-2": "After-sales service",
-    "contact.title-3": "International contact",
+    "contact.title-3": "Documentation",
     "contact.title-4": "Fax",
 
     "contact.subtitle-1":"<a href='mailto:info@matrasurcomposites.com'> +33 1 61 61 65 65 <br/> info@matrasurcomposites.com</a>",
     "contact.subtitle-2":"<a href='mailto:sav@matrasurcomposites.com'> +33 1 61 61 65 67 <br/> sav@matrasurcomposites.com</a>",
-    "contact.subtitle-3": "<a href='/other/international'>See our contacts</a>",
+    "contact.subtitle-3": "<a href='/other/documentation'>Documentation</a>",
     "contact.subtitle-4": "<a>+33 1 61 61 65 66</a>",
     /**
      * Début pages Application
@@ -1249,22 +1098,20 @@ export default {
      * Début Aerospace
      */
     "application.aerospace.title": "Aerospace sector",
-    "application.aerospace.subtitle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "application.aerospace.subtitle":"The aeronautics industry uses a large number of reactive polymers for its applications:",
     "application.aerospace.image":"<img src='/assets/img/applicationPages/aerospace/aerospace.jpeg' alt='Background' class='hero__image'/>",
 
-    "application.aerospace.section-1.name": "Description",
-    "application.aerospace.section-1.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-1.image":"<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
+    "application.aerospace.section-1.name": "RTM / Infusion",
+    "application.aerospace.section-1.text":"Single or multi-component epoxy dosing",
 
-    "application.aerospace.section-2.name": "Recommended Procedures",
-    "application.aerospace.section-2.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.aerospace.section-2.image":"<img src='https://source.unsplash.com/random/?plane' alt='Image section'/>",
+    "application.aerospace.section-2.name": "Gluing",
+    "application.aerospace.section-2.text":"Application of film glue and beads. MMA polyurethane epoxy matrices, polyester...",
 
-    "application.aerospace.section-3.name.darker": "Procedures number 1",
-    "application.aerospace.section-3.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-3.name": "Seals and sealing",
+    "application.aerospace.section-3.text":"Many materials such as RTVs, silicones, polyurethanes are dosed, cast, injected or sprayed by the machines we offer.",
 
-    "application.aerospace.section-4.name.darker": "Procedures number 2",
-    "application.aerospace.section-4.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.aerospace.section-4.name.darker": "Information",
+    "application.aerospace.section-4.text.darker": "Our machines are most often available in manual or automatic application.",
 
     /**
      * Fin Aerospace
@@ -1273,51 +1120,111 @@ export default {
     /**
      * Debut refrigeration
      */
-    "application.refrigeration.title": "Refrigeration sector",
-    "application.refrigeration.subtitle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "application.refrigeration.image":"<img src='/assets/img/applicationPages/refrigeration/refrigeration.jpg' alt='Background' class='hero__image'/>",
+    "application.refrigeration.title": "Industrial refrigeration",
+    "application.refrigeration.subtitle": "Modern logistics has ever-increasing needs. Industrial refrigeration, which is omnipresent in food logistics, is a very demanding sector both in terms of static storage (buildings) and mobile storage (refrigerated vehicles)",
+    "application.refrigeration.image": "<img src='/assets/img/applicationPages/refrigeration/refrigeration.jpg' alt='Background' class='hero__image'/>",
 
-    "application.refrigeration.section-1.name": "Description",
-    "application.refrigeration.section-1.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-1.image":"<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+    "application.refrigeration.section-1.name":" ",
+    "application.refrigeration.section-1.text": "Insulating panels have thus become the standard in this field. Thanks to their insulating qualities and high corrosion resistance, composite panels have long since established their superiority over many contenders.",
 
-    "application.refrigeration.section-2.name": "Recommended Procedures",
-    "application.refrigeration.section-2.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.refrigeration.section-2.image":"<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
-
-    "application.refrigeration.section-3.name.darker": "Procedures number 1",
-    "application.refrigeration.section-3.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-
-    "application.refrigeration.section-4.name.darker": "Procedures number 2",
-    "application.refrigeration.section-4.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.refrigeration.section-2.name":" ",
+    "application.refrigeration.section-2.text": "Matrasur Composites provides the integrated lines for gelcoat spraying, polyester lamination, bonding of insulating foams and reinforcing wood that this industry needs in large quantities.",
 
     /**
      * Fin refrigeration
      */
 
     /**
+     * Début Automobile
+     */
+
+    "application.automotive.title": "Automotive sector",
+    "application.automotive.subtitle": "Matrasur Composites provides many solutions for the automotive industry and industrial bodywork.",
+    "application.automotive.image": "<img src='/assets/img/applicationPages/automotive/background.jpeg' alt='Background' class='hero__image'/>",
+
+    "application.automotive.section-1.name": "Material",
+    "application.automotive.section-1.text": "<ul><li>RTM injection and infusion of all body parts</li><li>Surface or structural adhesives</li><li>Removal of seals</li><li>Dosing and application of resin tooling</li><li>Manufacture of flat panels for refrigerated vehicles</li><li>Body panel manufacture (front end of commercial and recreational vehicles, deflectors, covers, doors...)</li></ul>",
+    
+    /**
+     * Fin Automobile
+     */
+
+    /**
+     * Début Construction
+     */
+
+    "application.construction.title": "Construction sector",
+    "application.construction.subtitle": "Resins and polymers are essential in all construction sectors. Matrasur Composites offers specific equipment in these demanding fields.",
+    "application.construction.image": "<img src='/assets/img/applicationPages/construction/background.jpg' alt='Background' class='hero__image' />",
+
+    "application.construction.section-1.name": "Thermal insulation",
+    "application.construction.section-1.text": "Application of <a href='/materials/polyurethane'>polyurethane foams</a>",
+
+    "application.construction.section-2.name": "Waterproofing",
+    "application.construction.section-2.text": "Terraces, bridge decks, parking areas, industrial buildings, swimming pools, offer large areas to be waterproofed.",
+
+    "application.construction.section-3.text.name.darker": " ",
+    "application.construction.section-3.text.text.text.darker": "The machines offered by Matrasur Composites ensure fast and precise application of all resins intended for waterproofing (polyurethanes, polyester...).",
+
+    "application.construction.section-4.name.darker": " ",
+    "application.construction.section-4.text.darker": "Also, Matrasur Composites has developed machines to produce many parts used in construction: decoration and architectural elements, garden and pool decoration, bathroom parts, signage, street furniture. <a href='/'>CTM</a>",
+
+    /**
+     * Fin Construction
+     */
+
+    /**
+     * Début Industrie
+     */
+
+    "application.industrial.title": "Industry sector",
+    "application.industrial.subtitle": " ",
+    "application.industrial.image": "<img src='/assets/img/applicationPages/industrial/background.jpg' alt='Background' class='hero__image'/>",
+
+    "application.industrial.section-1.name": " ",
+    "application.industrial.section-1.text": "<ul><li>Gluing</li><li>Industrial parts and composite coverings</li><li>Industrial panels</li><li>Corrosion-resistant coating</li></ul>",
+
+    /**
+     * Fin Industrie
+     */
+
+    /**
      * Début Marine
      */
     "application.marine.title": "Marine sector",
-    "application.marine.subtitle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "application.marine.image":"<img src='/assets/img/applicationPages/marine/marine.jpg' alt='Background' class='hero__image'/>",
+    "application.marine.subtitle": "Shipyards are well aware of the challenges facing their best products. On the high seas, as in a leisure pool, materials have a hard life. Their manufacture must be rigorous and precise.",
+    "application.marine.image":"<img src='/assets/img/applicationPages/marine/marine.jpg' alt='Background' class='hero__image' />",
 
-    "application.marine.section-1.name": "Description",
-    "application.marine.section-1.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.marine.section-1.image":"<img src='https://source.unsplash.com/random/?freeze' alt='Image section'/>",
+    "application.marine.section-1.name":" ",
+    "application.marine.section-1.text": "Matrasur Composites has been serving the marine industries for more than 40 years, with all the technologies using epoxy, polyester, polyurethane polymers...",
 
-    "application.marine.section-2.name": "Recommended Procedures",
-    "application.marine.section-2.text":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-    "application.marine.section-2.image":"<img src='https://source.unsplash.com/random/?snow' alt='Image section'/>",
+    "application.marine.section-2.name":" ",
+    "application.marine.section-2.text": "Each device is designed to satisfy the highest dosing accuracy so that our machine remains one of the best in the world",
 
-    "application.marine.section-3.name.darker": "Procedures number 1",
-    "application.marine.section-3.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
-
-    "application.marine.section-4.name.darker": "Procedures number 2",
-    "application.marine.section-4.text.darker":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam! Officia consequatur accusantium quis exercitationem amet quidem, perspiciatis blanditiis alias!",
+    "application.marine.section-3.name":" ",
+    "application.marine.section-3.text": "<ul><li>Gelcoat spraying</li><li>Resin, resin and fiber spraying</li><li>Waterproofing coatings</li><li>Glues and adhesives</li><li>Injection and infusion of hull bridges and various parts</li></ul>",
 
     /**
      * Fin Marine
+     */
+
+
+    /**
+     * Début Militaire
+     */
+
+    "application.military.title": "Military Sector",
+    "application.military.subtitle": "Military applications regularly use the most modern materials for the most varied applications.",
+    "application.military.image":"<img src='/assets/img/applicationPages/military/background.jpg' alt='Background' class='hero__image'/>",
+
+    "application.military.section-1.name": " ",
+    "application.military.section-1.text":"<ul><li>Ballistic protection</li><li>Marine and underwater structures</li><li>Engineering works</li><li>Logistics and packaging with high protection and value</li><li>Special vehicles</li><li>Military aeronautics</li><li>Propelled weapons and launchers</li></ul>",
+
+    "application.military.section-2.name.darker": "All these areas require precision and compliance with the processing specifications.",
+    "application.military.section-2.text.darker":"Matrasur Composites puts its experience and provides specific equipment for each of these applications: <br/><br/><br/><ul><li>Injection RTM, infusion of high-performance composites</li><li>Draping and stratification of large naval structures</li><li>Waterproofing, jointing, bonding</li></ul>",
+
+    /**
+     * Fin Militaire
      */
 
     /**
@@ -1588,7 +1495,7 @@ export default {
     "other.formation.image":"<img src='https://source.unsplash.com/random/' alt='Photo de la doc' class='hero__image'/>",
     "other.formation.section-1.name": "Datadocké",
     "other.formation.section-1.text":"Matrasur Composites is referenced and certified by the Datadock platform. Datadock is a unique database referencing all training organizations.",
-    "other.formation.section-1.image":"<img src='/assets/img/formation/datadock.jpg' alt='Image section'/>",
+    "other.formation.section-1.photos.item-1":"<img src='/assets/img/formation/datadock.jpg' alt='Image section'/>",
     "other.formation.section-2.name": "Operator Training",
     "other.formation.section-2.text":"For trouble-free machine operation, ensuring maximum efficiency and long equipment life.",
     "other.formation.section-3.name": "Maintenance training",
@@ -1605,7 +1512,7 @@ export default {
      * début documentation
      */
     "other.documentation.title": "Need information ?",
-    "other.documentation.subtitle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "other.documentation.subtitle":" ",
     "other.documentation.image":"<img src='/assets/img/documentation/documentation.jpg' alt='Documentation'/>",
 
     "other.documentation.section-1.title": "About the company",
@@ -1725,13 +1632,10 @@ export default {
     "other.support.image":"<img src='https://source.unsplash.com/random/?support' alt='Matrasur Composites Technical support'/>",
     "other.support.section-1.name": "A hotline",
     "other.support.section-1.text":"A hotline available during our opening hours with specialists who diagnose, solve problems and give technical advise for quick assistance needs.",
-    "other.support.section-1.image":"<img src='https://source.unsplash.com/random/?phone' alt='A hotline'/>",
     "other.support.section-2.name": "Qualified Field Engineers and Technicians",
     "other.support.section-2.text":"Qualified field engineers and technicians are at your disposal for on site or in-house repair and maintenance operations.",
-    "other.support.section-2.image":"<img src='https://source.unsplash.com/random/?technical' alt='Qualified Field Engineers and Technicians'/>",
     "other.support.section-3.name": "A Large Stock of Spare Parts",
     "other.support.section-3.text":"A large stock of spare parts are available for immeadiate repair and maintenance needs.",
-    "other.support.section-3.image":"<img src='https://source.unsplash.com/random/?parts' alt='A Large Stock of Spare Parts' />",
 
     /**
      * fin support client
@@ -1753,18 +1657,6 @@ export default {
     "other.mclean.section-3.text.darker":"<ul><li>To reduce shipping costs and storage space, M Clean is supplied in its concentrated form.</li><li>1 L of concentrated M Clean allows to obtain 21 L of cleaning mixture. Thus, with a 200L drum you can make 4 200 L of cleaning mixture.</li><li>To be effective, M Clean needs to be mixed with hot water in a cleaning station (available capacities: 50 L or 150 L) equipped with a temperature regulation system.</li><li>When cleaning your rollers, the resin separates from the cleaning agent and sinks to the bottom of the cleaning station. All solid residues gather together and can then be removed easily.</li><li>The cleaning station is secured and remains ready to be used at all times since the cleaning agent does not evaporate and remains active for a long period of time.</li></ul>",
     /**
      * fin mclean
-     */
-
-    /**
-     * début contact international
-     * PAGE SPÉCIALE
-     */
-    "other.international.title": "Our contacts around the world",
-    "other.international.subtitle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    "other.international.image":"<img src='https://source.unsplash.com/random/?contacts' alt='International'/>",
-    /**
-     * fin contact international
-     * PAGE SPÉCIALE
      */
 
     /**
