@@ -121,10 +121,10 @@ export default {
     "home.grid-1.text":"S’appuyant sur son bureau d’études, Matrasur Composites offre une capacité d’ingénierie mécanique, automatisme et robotique, ce qui lui permet une couverture de projet très large.",
     "home.grid-1.image":"<img src='/assets/img/grilles/bureau_etude_matrasur.jpg' alt='bureau d'études'/>",
     "home.grid-2.text":"Nos solutions sont testées et approuvées par notre équipe de techniciens qualifiés afin de garantir la mise à disposition d’un système complet.",
-    "home.grid-2.image":"<img src='https://source.unsplash.com/random/' alt='Image 2'/>",
+    "home.grid-2.image":"<img src='/assets/img/grilles/ibazur.jpg' alt='Ibazur'/>",
 
     "home.grid-3.text":"Votre besoin est spécifique ? Matrasur Composites est capable de vous fournir une solution sur-mesure.",
-    "home.grid-3.image":"<img src='https://source.unsplash.com/random/' alt='Image 3'/>",
+    "home.grid-3.image":"<img src='/assets/img/grilles/rtv.jpg' alt='RTV'/>",
 
     /**
      * fin home
@@ -1062,11 +1062,11 @@ export default {
     "home.section-2.text":"Matrasur Composites is a distributor, systems integrator and manufacturer for equipment in a variety of application processes including spray-up (polyester & PU resins, gelcoat, epoxy) , injection and cast (RTM, infusion, polyconcrete) and robotic solutions for part spray-up, trimming, finishing. Backed up by its own Design Office and Engineers, Matrasur Composites offers different levels of technology : manual equipment, semi automated or fully automated systems.",
 
     "home.grid-1.text":"Matrasur Composites offers a mechanical engineering, automation and robotics capacity, which allows a very broad project coverage.",
-    "home.grid-1.image":"<img src='https://source.unsplash.com/random/' alt='Image 1'/>",
+    "home.grid-1.image":"<img src='/assets/img/grilles/bureau_etude_matrasur.jpg' alt='bureau d'études'/>",
     "home.grid-2.text":"Our solutions are tested and approved by our team of qualified technicians to ensure a complete system is available.",
-    "home.grid-2.image":"<img src='https://source.unsplash.com/random/' alt='Image 2'/>",
+    "home.grid-2.image":"<img src='/assets/img/grilles/ibazur.jpg' alt='Ibazur'/>",
     "home.grid-3.text":"Your need is specific? Matrasur Composites is able to provide you with a tailor-made solution.",
-    "home.grid-3.image":"<img src='https://source.unsplash.com/random/' alt='Image 3'/>",
+    "home.grid-3.image":"<img src='/assets/img/grilles/rtv.jpg' alt='RTV'/>",
     /**
      * fin home
      */
