@@ -1,6 +1,5 @@
-$bg__images: "../img/cardsbanner/card-1.jpg",
-  "../img/cardsbanner/card-2.jpg", "../img/cardsbanner/card-3.jpg",
-  "../img/cardsbanner/card-4.jpg";
+$bg__images: "../img/cardsbanner/card-1.jpg", "../img/cardsbanner/card-2.jpg",
+  "../img/cardsbanner/card-3.jpg", "../img/cardsbanner/card-4.jpg";
 
 .cardsbanner {
   position: relative;
@@ -25,7 +24,7 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
       flex-direction: column;
       justify-content: center;
       width: 25vw;
-      min-height: 50vh;
+      height: 50vh;
       flex-grow: 1;
       overflow: hidden;
       border: none;
@@ -64,7 +63,7 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
         background: $blue;
         border-radius: 2rem;
         font-size: 16px;
-        transition: background-color .5s ease-in-out;
+        transition: background-color 0.5s ease-in-out;
         &:hover {
           background-color: $black--light;
         }
@@ -80,15 +79,12 @@ $bg__images: "../img/cardsbanner/card-1.jpg",
           min-height: 60vh;
           border-radius: 0.5rem;
           transform: translateY(-5vh);
-          background: linear-gradient(
-            to bottom,
-            $blue,
-            $black
-          ) !important;
+          background: linear-gradient(to bottom, $blue, $black) !important;
           transition-duration: 0.2s;
           transition-timing-function: ease-out;
 
-          @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          @media screen and (-ms-high-contrast: active),
+            (-ms-high-contrast: none) {
             transition-duration: 0;
           }
 

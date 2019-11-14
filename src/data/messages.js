@@ -187,6 +187,31 @@ export default {
      * Fin Automobile
      */
 
+    // début Cards	
+
+    "home.card-1.title": "Le procédé de projection",
+    "home.card-1.text": "La projection de materiaux composites est une technique fréquemment utilisée …",
+    "home.card-1.button": "+ d'informations",
+    "home.card-1.link": "/processes/projection",
+
+    "home.card-2.title": "Résines Polyester & Résines Acryliques",
+    "home.card-2.text": "Ces deux matières premières sont …",
+    "home.card-2.button": "+ d'informations",
+    "home.card-2.link": "/materials/polyester-acrylic",
+
+    "home.card-3.title": "Pièces détachées",
+    "home.card-3.text": "Le service Pièces Détachées vous permet de bénéficier de nombreux avantages, comme par exemple la garantie constructeur, une logisitque rapide et un large stock de pièces.",
+    "home.card-3.button": "+ d'informations",
+    "home.card-3.link": "/other/spareparts",
+
+    "home.card-4.title": "Documentation",
+    "home.card-4.text": "Retrouvez l'ensemble des brochures de la société ainsi que la documentation des machines.",
+    "home.card-4.button": "+ d'informations",
+    "home.card-4.link": "/other/documentation",
+
+    // fin Cards	
+
+
     /**
      * Début Construction
      */
@@ -1148,6 +1173,30 @@ export default {
     /**
      * Fin Automobile
      */
+
+     // début Cards	
+
+    "home.card-1.title": "Projection process",
+    "home.card-1.text": "The projection of composite materials is a technique frequently used...",
+    "home.card-1.button": "+ informations",
+    "home.card-1.link": "/processes/projection",
+
+    "home.card-2.title": "Polyester & Acrylic Resins",
+    "home.card-2.text": "These two raw materials are …",
+    "home.card-2.button": "+ informations",
+    "home.card-2.link": "/processes/projection",
+
+    "home.card-3.title": "Spareparts",
+    "home.card-3.text": "The Spare Parts service allows you to benefit from many advantages, such as the manufacturer's warranty, fast logistics and a large stock of parts.",
+    "home.card-3.button": "+ informations",
+    "home.card-3.link": "/other/spareparts",
+
+    "home.card-4.title": "Documentation",
+    "home.card-4.text": "Find all company brochures and machine documentation.",
+    "home.card-4.button": "+ informations",
+    "home.card-4.link": "/other/documentation",
+
+    // fin Cards
 
     /**
      * Début Construction

@@ -1623,7 +1623,7 @@ button, html [type="button"], [type="reset"], [type="submit"] {
       flex-direction: column;
       justify-content: center;
       width: 25vw;
-      min-height: 50vh;
+      height: 50vh;
       flex-grow: 1;
       overflow: hidden;
       border: none;
@@ -1656,7 +1656,7 @@ button, html [type="button"], [type="reset"], [type="submit"] {
         background: #006EB9;
         border-radius: 2rem;
         font-size: 16px;
-        transition: background-color .5s ease-in-out; }
+        transition: background-color 0.5s ease-in-out; }
         .cardsbanner .banner .card__button:hover {
           background-color: #777777; }
       @media screen and (max-width: 992px) {
